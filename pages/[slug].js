@@ -8,7 +8,6 @@ export default function Post({ page, blocks }) {
   if (!page || !blocks) {
     return <div />
   }
-
   return (
     <BlogLayout data={page} content={blocks}>
       <span className="text-sm text-gray-700">

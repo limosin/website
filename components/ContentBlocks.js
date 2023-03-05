@@ -1,130 +1,103 @@
+import { Bookmark } from '@/components/notionblocks/Bookmark'
+import { Heading, SpanText, Text } from '@/components/notionblocks/CommonBlocks'
+import { Code } from '@/components/notionblocks/Code'
+import { BulletedList, NumberedList } from '@/components/notionblocks/Lists'
+
 export const RenderBlocks = ({ blocks }) => {
-  return blocks.map((block) => {
-    const { type, id } = block
-    const value = block[type]
-
-    switch (type) {
-      case 'divider':
-        return <hr className="w-full border" key={id} />
-
-      case 'paragraph':
-        return <Text text={value.rich_text} id={id} key={id} />
-
-      case 'heading_1':
-        return <Heading text={value.rich_text} id={id} level={type} key={id} />
-
-      case 'heading_2':
-        return <Heading text={value.rich_text} id={id} level={type} key={id} />
-
-      case 'heading_3':
-        return <Heading text={value.rich_text} id={id} level={type} key={id} />
-
-      case 'quote':
-        return (
-          <blockquote key={id} className="border-l-2 border-l-black pl-4">
-            <SpanText id={id} text={value.rich_text} />
-          </blockquote>
-        )
-
-      case 'bulleted_list_item':
-      case 'numbered_list_item':
-        return <ListItem key={id} value={value} id={id} />
-
-      case 'to_do':
-        return <ToDo key={id} value={value} />
-
-      case 'toggle':
-        return <Toggle key={id} value={value} />
-
-      case 'image': {
-        const imageSrc = value.type === 'external' ? value.external.url : value.file.url
-        const caption = value.caption.length ? value.caption[0].plain_text : ''
-        return (
-          <figure key={id}>
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img alt={caption} src={imageSrc} />
-            {caption && <figcaption className="mt-2">{caption}</figcaption>}
-          </figure>
-        )
-      }
-
-      default:
-        return `Unsupported block (${type === 'unsupported' ? 'unsupported by Notion API' : type})`
-    }
-  })
-}
-
-const SpanText = ({ text, id }) => {
-  if (!text) return null
-
-  return text.map((value, i) => {
-    const {
-      annotations: { bold, code, color, italic, strikethrough, underline },
-      text,
-    } = value
-    return (
-      <span
-        key={id + i}
-        className={[
-          bold ? 'font-bold' : '',
-          code ? 'rounded-md bg-gray-100 p-1 font-mono text-sm' : '',
-          italic ? 'italic' : '',
-          strikethrough ? 'line-through' : '',
-          underline ? 'underline' : '',
-        ].join(' ')}
-        style={color !== 'default' ? { color } : {}}
-      >
-        {text.link ? (
-          <a href={text.link.url} className="underline">
-            {text.content}
-          </a>
-        ) : (
-          text.content
-        )}
-      </span>
-    )
-  })
-}
-
-const Text = ({ text, id }) => {
-  return (
-    <p className="mb-4 text-gray-700">
-      <SpanText text={text} id={id} />
-    </p>
-  )
-}
-
-const ListItem = ({ value, id }) => {
-  return (
-    <li>
-      <SpanText text={value.rich_text} id={id} />
-    </li>
-  )
-}
-
-const Heading = ({ text, level }) => {
-  switch (level) {
-    case 'heading_1':
-      return (
-        <h1 className="my-2 text-3xl font-bold tracking-tight text-black md:text-5xl">
-          <SpanText text={text} />
-        </h1>
-      )
-    case 'heading_2':
-      return (
-        <h2 className="my-2 text-2xl font-bold tracking-tight text-black md:text-3xl">
-          <SpanText text={text} />
-        </h2>
-      )
-    case 'heading_3':
-      return (
-        <h3 className="my-2 text-lg font-bold tracking-tight text-black md:text-xl">
-          <SpanText text={text} />
-        </h3>
-      )
-    default:
-      return null
+  const renderedBlocks = []
+  let i = 0
+  while (i < blocks.length) {
+    const [render, index] = RenderBlocksHelper(blocks, i)
+    i = index + 1
+    renderedBlocks.push(render)
   }
+  return renderedBlocks
+}
+
+function RenderBlocksHelper(blocks, index) {
+  const { type, id } = blocks[index]
+  let output
+  if (type === 'bulleted_list_item') {
+    const item = BulletedList(blocks, index, id)
+    output = item.output
+    index = item.index
+  }
+
+  if (type === 'numbered_list_item') {
+    const item = NumberedList(blocks, index, id)
+    output = item.output
+    index = item.index
+  }
+  if (output) {
+    return [output, index]
+  }
+  const value = blocks[index][type]
+  switch (type) {
+    case 'divider':
+      output = <hr className="my-3 w-full border md:my-5" key={id} />
+      break
+
+    case 'paragraph':
+      output = <Text text={value.rich_text} id={id} key={id} />
+      break
+
+    case 'heading_1':
+      output = <Heading text={value.rich_text} id={id} level={type} key={id} />
+      break
+
+    case 'heading_2':
+      output = <Heading text={value.rich_text} id={id} level={type} key={id} />
+      break
+
+    case 'heading_3':
+      output = <Heading text={value.rich_text} id={id} level={type} key={id} />
+      break
+
+    case 'quote':
+      output = (
+        <blockquote key={id} className="border-l-2 border-l-black pl-4">
+          <SpanText id={id} text={value.rich_text} />
+        </blockquote>
+      )
+      break
+
+    case 'to_do':
+      output = <ToDo key={id} value={value} />
+      break
+
+    case 'toggle':
+      output = <Toggle key={id} value={value} />
+      break
+
+    case 'image': {
+      const imageSrc = value.type === 'external' ? value.external.url : value.file.url
+      const caption = value.caption.length ? value.caption[0].plain_text : ''
+      output = (
+        <figure key={id} className="my-3 text-center">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img alt={caption} src={imageSrc} />
+          {caption && <figcaption className="mt-2 text-sm text-gray-600">{caption}</figcaption>}
+        </figure>
+      )
+      break
+    }
+
+    case 'callout':
+      output = <Callout key={id} value={value} />
+      break
+
+    case 'bookmark':
+      output = <Bookmark key={id} value={value} />
+      break
+
+    case 'code':
+      output = <Code key={id} value={value} />
+      break
+
+    default:
+      output = `Unsupported block (${type === 'unsupported' ? 'unsupported by Notion API' : type})`
+  }
+  return [output, index]
 }
 
 const ToDo = ({ id, value }) => {
@@ -148,5 +121,16 @@ const Toggle = ({ value }) => {
         }
       })}
     </details>
+  )
+}
+
+const Callout = ({ id, value }) => {
+  return (
+    <div className="my-2 flex flex-row rounded-md bg-gray-100 py-4 px-2">
+      {<div className="items-center justify-center px-2">{value.icon?.emoji}</div>}
+      <div className="pl-2">
+        <SpanText text={value.rich_text} id={id} />
+      </div>
+    </div>
   )
 }

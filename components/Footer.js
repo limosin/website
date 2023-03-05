@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { siteMetadata } from '@/lib/siteMetadata'
 
 const ExternalLink = ({ href, children }) => (
   <a
@@ -23,12 +24,10 @@ export default function Footer() {
           </Link>
         </div>
         <div className="flex flex-col items-center space-y-4">
-          <ExternalLink href="https://twitter.com/luciovilla">Contact</ExternalLink>
+          <ExternalLink href={siteMetadata.linkedin}>Contact</ExternalLink>
         </div>
         <div className="flex flex-col items-center space-y-4">
-          <ExternalLink href="https://github.com/luciovilla/notion-nextjs-blog">
-            Source Code
-          </ExternalLink>
+          <ExternalLink href={siteMetadata.github}>Source Code</ExternalLink>
         </div>
       </div>
     </footer>
