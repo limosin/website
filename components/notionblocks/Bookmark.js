@@ -7,14 +7,19 @@ export const Bookmark = ({ id, value }) => {
   const [previewTitle, setPreviewTitle] = useState('')
 
   useEffect(() => {
-    fetch(`https://cors-anywhere.herokuapp.com/${value.url}`)
+    fetch(`/api/cors?url=${encodeURIComponent(value.url)}`)
       .then((res) => res.text())
       .then((html) => {
         // Convert the html string to a document object
         const doc = new DOMParser().parseFromString(html, 'text/html')
-        const ogImageTag = extractImage(doc, value.url)
+
+        let ogImageTag = extractImage(doc, value.url)
         const ogDescriptionTag = extractDescription(doc)
         const ogTitleTag = extractTitle(doc)
+
+        if (!ogImageTag) {
+          ogImageTag = '/logo.png'
+        }
         setPreviewImage(ogImageTag)
         setPreviewDesp(ogDescriptionTag)
         setPreviewTitle(ogTitleTag)
@@ -24,7 +29,7 @@ export const Bookmark = ({ id, value }) => {
   const w = previewImage ? 'w-3/5' : 'w-full'
   // Render the bookmark value with the preview image
   return (
-    <a href={value.url} target="_blank" rel="noreferrer" className="my-3 md:block">
+    <a href={value.url} target="_blank" rel="noreferrer" className="my-3 w-full md:block" id={id}>
       <div className="flex h-40 justify-between rounded border border-solid border-gray-400">
         <div className={`flex flex-col justify-between p-3 hover:bg-gray-100 ${w}`}>
           <p className="text-base">{previewTitle}</p>

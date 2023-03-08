@@ -28,11 +28,9 @@ export const BulletedList = (blocks, index, parentId) => {
   }
   index--
   const output = (
-    <div className="list-outside list-decimal pl-5 leading-loose">
-      <ul className="list-outside list-disc leading-loose" key={parentId}>
-        {bulletedList}
-      </ul>
-    </div>
+    <ul className="list-outside list-decimal pl-5 leading-loose" key={parentId}>
+      {bulletedList}
+    </ul>
   )
   return {
     output,

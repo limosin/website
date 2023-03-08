@@ -61,8 +61,8 @@ export const SpanText = ({ text, id }) => {
 
 export const ListItem = ({ value, id, clazz = null }) => {
   return (
-    <li className={clazz}>
-      <SpanText text={value.rich_text} id={id} />
+    <li className={clazz} key={id}>
+      <SpanText text={value.rich_text} id={id + '_span'} />
     </li>
   )
 }
