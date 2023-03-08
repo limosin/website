@@ -21,9 +21,7 @@ function RenderBlocksHelper(blocks, index) {
     const item = BulletedList(blocks, index, id)
     output = item.output
     index = item.index
-  }
-
-  if (type === 'numbered_list_item') {
+  } else if (type === 'numbered_list_item') {
     const item = NumberedList(blocks, index, id)
     output = item.output
     index = item.index
