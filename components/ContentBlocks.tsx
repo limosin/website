@@ -1,7 +1,7 @@
-import { Bookmark } from '@/components/notionblocks/Bookmark'
-import { Heading, SpanText, Text } from '@/components/notionblocks/CommonBlocks'
-import { Code } from '@/components/notionblocks/Code'
-import { BulletedList, NumberedList } from '@/components/notionblocks/Lists'
+import { Bookmark } from "@/components/notionblocks/Bookmark"
+import { Heading, SpanText, Text } from "@/components/notionblocks/CommonBlocks"
+import { Code } from "@/components/notionblocks/Code"
+import { BulletedList, NumberedList } from "@/components/notionblocks/Lists"
 
 export const RenderBlocks = ({ blocks }) => {
   const renderedBlocks = []
@@ -11,17 +11,18 @@ export const RenderBlocks = ({ blocks }) => {
     i = index + 1
     renderedBlocks.push(render)
   }
-  return renderedBlocks
+  // convert renderedBlocks to a single React element
+  return <>{renderedBlocks}</>
 }
 
 function RenderBlocksHelper(blocks, index) {
   const { type, id } = blocks[index]
   let output
-  if (type === 'bulleted_list_item') {
+  if (type === "bulleted_list_item") {
     const item = BulletedList(blocks, index, id)
     output = item.output
     index = item.index
-  } else if (type === 'numbered_list_item') {
+  } else if (type === "numbered_list_item") {
     const item = NumberedList(blocks, index, id)
     output = item.output
     index = item.index
@@ -31,45 +32,45 @@ function RenderBlocksHelper(blocks, index) {
   }
   const value = blocks[index][type]
   switch (type) {
-    case 'divider':
+    case "divider":
       output = <hr className="my-3 w-full border md:my-5" key={id} />
       break
 
-    case 'paragraph':
-      output = <Text text={value.rich_text} id={id} key={id} />
+    case "paragraph":
+      output = <Text text={value.rich_text} id={id} key={index} />
       break
 
-    case 'heading_1':
-      output = <Heading text={value.rich_text} id={id} level={type} key={id} />
+    case "heading_1":
+      output = <Heading text={value.rich_text} id={id} level={type} key={index} />
       break
 
-    case 'heading_2':
-      output = <Heading text={value.rich_text} id={id} level={type} key={id} />
+    case "heading_2":
+      output = <Heading text={value.rich_text} id={id} level={type} key={index} />
       break
 
-    case 'heading_3':
-      output = <Heading text={value.rich_text} id={id} level={type} key={id} />
+    case "heading_3":
+      output = <Heading text={value.rich_text} id={id} level={type} key={index} />
       break
 
-    case 'quote':
+    case "quote":
       output = (
-        <blockquote key={id} className="border-l-2 border-l-black pl-4">
+        <blockquote key={index} className="border-l-2 border-l-black pl-4">
           <SpanText id={id} text={value.rich_text} />
         </blockquote>
       )
       break
 
-    case 'to_do':
-      output = <ToDo key={id} value={value} />
+    case "to_do":
+      output = <ToDo id={id} value={value} key={index} />
       break
 
-    case 'toggle':
+    case "toggle":
       output = <Toggle key={id} value={value} />
       break
 
-    case 'image': {
-      const imageSrc = value.type === 'external' ? value.external.url : value.file.url
-      const caption = value.caption.length ? value.caption[0].plain_text : ''
+    case "image": {
+      const imageSrc = value.type === "external" ? value.external.url : value.file.url
+      const caption = value.caption.length ? value.caption[0].plain_text : ""
       output = (
         <figure key={id} className="my-3 text-center">
           {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -80,20 +81,20 @@ function RenderBlocksHelper(blocks, index) {
       break
     }
 
-    case 'callout':
-      output = <Callout key={id} value={value} />
+    case "callout":
+      output = <Callout id={id} value={value} key={index} />
       break
 
-    case 'bookmark':
-      output = <Bookmark key={id} value={value} />
+    case "bookmark":
+      output = <Bookmark id={id} value={value} key={index} />
       break
 
-    case 'code':
+    case "code":
       output = <Code key={id} value={value} />
       break
 
     default:
-      output = `Unsupported block (${type === 'unsupported' ? 'unsupported by Notion API' : type})`
+      output = `Unsupported block (${type === "unsupported" ? "unsupported by Notion API" : type})`
   }
   return [output, index]
 }
@@ -102,8 +103,7 @@ const ToDo = ({ id, value }) => {
   return (
     <div>
       <label htmlFor={id}>
-        <input type="checkbox" id={id} defaultChecked={value.checked} />{' '}
-        <SpanText text={value.rich_text} />
+        <input type="checkbox" id={id} defaultChecked={value.checked} /> <SpanText text={value.rich_text} id={id} />
       </label>
     </div>
   )
@@ -114,7 +114,7 @@ const Toggle = ({ value }) => {
     <details>
       <summary className="cursor-pointer">{value.rich_text[0].text.content}</summary>
       {value.children?.map((block) => {
-        if (block.type === 'paragraph') {
+        if (block.type === "paragraph") {
           return <Text key={block.id} text={block.paragraph.rich_text} id={block.id} />
         }
       })}
@@ -125,7 +125,7 @@ const Toggle = ({ value }) => {
 const Callout = ({ id, value }) => {
   return (
     <div className="my-2 flex flex-row rounded-md bg-gray-100 py-4 px-2">
-      {<div className="items-center justify-center px-2">{value.icon?.emoji}</div>}
+      <div className="items-center justify-center px-2">{value.icon?.emoji}</div>
       <div className="pl-2">
         <SpanText text={value.rich_text} id={id} />
       </div>

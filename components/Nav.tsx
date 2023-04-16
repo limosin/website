@@ -1,13 +1,8 @@
-import Link from 'next/link'
-import { siteMetadata } from '@/lib/siteMetadata'
+import Link from "next/link"
+import { siteMetadata } from "@/lib/siteMetadata"
 
 const ExternalLink = ({ href, children }) => (
-  <a
-    className="p-1 text-gray-900 hover:underline sm:p-4"
-    target="_blank"
-    rel="noopener noreferrer"
-    href={href}
-  >
+  <a className="p-1 text-gray-900 hover:underline sm:p-4" target="_blank" rel="noopener noreferrer" href={href}>
     {children}
   </a>
 )
@@ -24,7 +19,7 @@ export default function Nav() {
           Home
         </Link>
         <ExternalLink href={siteMetadata.linkedin}>Contact</ExternalLink>
-        <ExternalLink href={siteMetadata.github}>Source Code</ExternalLink>
+        <ExternalLink href={siteMetadata.github}>GitHub</ExternalLink>
       </div>
     </nav>
   )

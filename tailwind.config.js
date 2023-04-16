@@ -6,5 +6,9 @@ module.exports = {
     './lib/**/*.{js,ts,tsx}',
   ],
   darkMode: 'class',
-  plugins: [require('@tailwindcss/forms'), require('@tailwindcss/typography')],
+  plugins: [
+    require('@tailwindcss/forms'),
+    require('@tailwindcss/typography'),
+    require('@tailwindcss/line-clamp'),
+  ],
 }

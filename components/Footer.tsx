@@ -1,13 +1,8 @@
-import Link from 'next/link'
-import { siteMetadata } from '@/lib/siteMetadata'
+import Link from "next/link"
+import { siteMetadata } from "@/lib/siteMetadata"
 
 const ExternalLink = ({ href, children }) => (
-  <a
-    className="text-gray-500 transition hover:text-gray-600"
-    target="_blank"
-    rel="noopener noreferrer"
-    href={href}
-  >
+  <a className="text-gray-500 transition hover:text-gray-600" target="_blank" rel="noopener noreferrer" href={href}>
     {children}
   </a>
 )
@@ -27,7 +22,7 @@ export default function Footer() {
           <ExternalLink href={siteMetadata.linkedin}>Contact</ExternalLink>
         </div>
         <div className="flex flex-col items-center space-y-4">
-          <ExternalLink href={siteMetadata.github}>Source Code</ExternalLink>
+          <ExternalLink href={siteMetadata.github}>GitHub</ExternalLink>
         </div>
       </div>
     </footer>

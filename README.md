@@ -11,7 +11,7 @@ This is an open-source starter blog template that is statically generated with N
 1. Clone this repo `git clone https://github.com/luciovilla/notion-nextjs-blog.git`
 2. Install its dependencies `npm install`
 3. Copy or rename the `.env.example` file to `.env.local`
-4. Personalize the page meta data in `Container.js`
+4. Personalize the page meta data in `Container.tsx`
 
 ## Creating Your Notion Pages Table
 
