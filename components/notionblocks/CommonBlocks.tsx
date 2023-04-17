@@ -1,21 +1,21 @@
-export const Heading = ({ text, level }) => {
+export const Heading = ({ text, level, id }) => {
   switch (level) {
-    case 'heading_1':
+    case "heading_1":
       return (
         <h1 className="my-2 text-3xl font-bold tracking-tight text-black md:text-5xl">
-          <SpanText text={text} />
+          <SpanText text={text} id={id} />
         </h1>
       )
-    case 'heading_2':
+    case "heading_2":
       return (
         <h2 className="my-2 text-2xl font-bold tracking-tight text-black md:text-3xl">
-          <SpanText text={text} />
+          <SpanText text={text} id={id} />
         </h2>
       )
-    case 'heading_3':
+    case "heading_3":
       return (
         <h3 className="my-2 text-lg font-bold tracking-tight text-black md:text-xl">
-          <SpanText text={text} />
+          <SpanText text={text} id={id} />
         </h3>
       )
     default:
@@ -36,16 +36,10 @@ export const SpanText = ({ text, id }) => {
     return (
       <span
         key={id + i}
-        className={[
-          bold ? 'font-bold' : '',
-          code ? 'rounded-md bg-gray-100 p-1 font-mono text-sm' : '',
-          italic ? 'italic' : '',
-          strikethrough ? 'line-through' : '',
-          underline ? 'underline' : '',
-        ]
-          .join(' ')
+        className={[bold ? "font-bold" : "", code ? "rounded-md bg-gray-100 p-1 font-mono text-sm" : "", italic ? "italic" : "", strikethrough ? "line-through" : "", underline ? "underline" : ""]
+          .join(" ")
           .trim()}
-        style={color !== 'default' ? { color } : {}}
+        style={color !== "default" ? { color } : {}}
       >
         {text.link ? (
           <a href={text.link.url} className="underline">
@@ -62,7 +56,7 @@ export const SpanText = ({ text, id }) => {
 export const ListItem = ({ value, id, clazz = null }) => {
   return (
     <li className={clazz} key={id}>
-      <SpanText text={value.rich_text} id={id + '_span'} />
+      <SpanText text={value.rich_text} id={id + "_span"} />
     </li>
   )
 }
