@@ -2,7 +2,7 @@ export const siteMetadata = {
   title: "Next.js Starter Blog",
   author: "Somil Singhai",
   headerTitle: "Somil's Blog",
-  description: "Let's learn something about Dev...",
+  description: "Learn something new...",
   language: "en-us",
   theme: "system", // system, dark or light
   siteUrl: "https://limosyn.com",
@@ -15,7 +15,7 @@ export const siteMetadata = {
   twitter: "https://twitter.com/limosyn_com",
   facebook: "https://facebook.com",
   youtube: "https://youtube.com",
-  linkedin: "https://www.linkedin.com",
+  linkedin: "https://www.linkedin.com/in/limosyn/",
   locale: "en-US",
   analytics: {
     // If you want to use an analytics provider you have to add it to the

@@ -32,12 +32,21 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
                   <img alt="" src={postImageUrl} />
                 </Link>
               )}
-              <Link href={`/${post.slug}`} className="w-full">
+              <div className="w-full">
                 <div className="w-full">
-                  <h3 className="w-full text-xl font-medium text-gray-900">{post.title}</h3>
-                  <p className="text-gray-700">{post.description}</p>
+                  <Link href={`/${post.slug}`}>
+                    <h3 className="w-full text-xl font-medium text-gray-900 line-clamp-1">{post.title}</h3>
+                  </Link>
+                  <p className="text-gray-700 line-clamp-2">{post.description}</p>
+                  <div className="mt-2 flex flex-wrap">
+                    {post.tags.map((tag) => (
+                      <div key={tag} className="mr-2 mb-2">
+                        <span className="rounded-lg bg-gray-100 px-2 py-1 text-xs font-medium text-gray-600">{tag}</span>
+                      </div>
+                    ))}
+                  </div>
                 </div>
-              </Link>
+              </div>
             </div>
           )
         })}
