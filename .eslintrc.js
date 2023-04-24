@@ -1,6 +1,6 @@
 module.exports = {
   root: true,
-  parser: '@typescript-eslint/parser',
+  parser: "@typescript-eslint/parser",
   env: {
     browser: true,
     amd: true,
@@ -8,21 +8,20 @@ module.exports = {
     es6: true,
   },
   extends: [
-    'eslint:recommended',
-    'plugin:@typescript-eslint/eslint-recommended',
-    'plugin:@typescript-eslint/recommended',
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
     "plugin:tailwindcss/recommended",
-    'plugin:jsx-a11y/recommended',
-    'plugin:prettier/recommended',
-    'next',
-    'next/core-web-vitals',
+    "plugin:jsx-a11y/recommended",
+    "plugin:prettier/recommended",
+    "next",
+    "next/core-web-vitals",
   ],
-  "plugins": ["tailwindcss", '@typescript-eslint'],
+  plugins: ["tailwindcss", "@typescript-eslint"],
   rules: {
-    'prettier/prettier': 'error',
-  }
+    "prettier/prettier": "error",
+  },
 }
-
 
 //module.exports = {
 //  root: true,

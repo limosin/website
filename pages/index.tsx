@@ -18,7 +18,7 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
           <h1 className="mx-auto mb-2 w-full max-w-xl text-3xl font-bold tracking-tight text-black md:text-center md:text-5xl">{siteMetadata.headerTitle}</h1>
           <p className="mx-auto mb-5 max-w-xl text-gray-700 md:text-center">{siteMetadata.description}</p>
         </div>
-        <h2 className="mt-8 mb-4 text-2xl font-bold tracking-tight text-black md:text-3xl">Blog Posts</h2>
+        <h2 className="mb-4 mt-8 text-2xl font-bold tracking-tight text-black md:text-3xl">Blog Posts</h2>
 
         {!posts.length && <p className="mb-4 text-gray-600">No posts found.</p>}
 
@@ -27,7 +27,7 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
           return (
             <div key={post.id} className="mb-8 sm:flex">
               {postImageUrl && (
-                <Link href={`/${post.slug}`} className="mb-10 block w-full sm:mr-5 sm:mb-0 sm:w-1/3">
+                <Link href={`/${post.slug}`} className="mb-10 block w-full sm:mb-0 sm:mr-5 sm:w-1/3">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img alt="" src={postImageUrl} />
                 </Link>
@@ -35,12 +35,12 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
               <div className="w-full">
                 <div className="w-full">
                   <Link href={`/${post.slug}`}>
-                    <h3 className="w-full text-xl font-medium text-gray-900 line-clamp-1">{post.title}</h3>
+                    <h3 className="line-clamp-1 w-full text-xl font-medium text-gray-900">{post.title}</h3>
                   </Link>
-                  <p className="text-gray-700 line-clamp-2">{post.description}</p>
+                  <p className="line-clamp-2 text-gray-700">{post.description}</p>
                   <div className="mt-2 flex flex-wrap">
                     {post.tags.map((tag) => (
-                      <div key={tag} className="mr-2 mb-2">
+                      <div key={tag} className="mb-2 mr-2">
                         <span className="rounded-lg bg-gray-100 px-2 py-1 text-xs font-medium text-gray-600">{tag}</span>
                       </div>
                     ))}

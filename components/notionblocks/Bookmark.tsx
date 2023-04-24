@@ -33,8 +33,8 @@ export const Bookmark = ({ id, value }) => {
       <div className="flex h-40 justify-between rounded border border-solid border-gray-400">
         <div className={`flex flex-col justify-between p-3 hover:bg-gray-100 ${w}`}>
           <p className="text-base">{previewTitle}</p>
-          <p className="overflow-hidden text-sm text-gray-500 line-clamp-3">{previewDesp}</p>
-          <p className="text-sm text-gray-500 line-clamp-1">{value.url}</p>
+          <p className="line-clamp-3 overflow-hidden text-sm text-gray-500">{previewDesp}</p>
+          <p className="line-clamp-1 text-sm text-gray-500">{value.url}</p>
         </div>
         {previewImage && (
           <div className="h-full w-2/5 rounded">

@@ -124,7 +124,7 @@ const Toggle = ({ value }) => {
 
 const Callout = ({ id, value }) => {
   return (
-    <div className="my-2 flex flex-row rounded-md bg-gray-100 py-4 px-2">
+    <div className="my-2 flex flex-row rounded-md bg-gray-100 px-2 py-4">
       <div className="items-center justify-center px-2">{value.icon?.emoji}</div>
       <div className="pl-2">
         <SpanText text={value.rich_text} id={id} />
