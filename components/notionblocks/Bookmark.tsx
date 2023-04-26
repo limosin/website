@@ -26,8 +26,12 @@ export const Bookmark = ({ id, value }) => {
       })
   }, [value.url])
 
-  const w = previewImage ? "w-3/5" : "w-full"
   // Render the bookmark value with the preview image
+  return <>{previewImage ? showBookmark(value, id, previewTitle, previewDesp, previewImage) : showBookmarkSkeleton(id)}</>
+}
+
+const showBookmark = (value, id, previewTitle, previewDesp, previewImage) => {
+  const w: string = previewImage ? "w-3/5" : "w-full"
   return (
     <a href={value.url} target="_blank" rel="noreferrer" className="my-3 w-full md:block" id={id}>
       <div className="flex h-40 justify-between rounded border border-solid border-gray-400">
@@ -43,6 +47,24 @@ export const Bookmark = ({ id, value }) => {
         )}
       </div>
     </a>
+  )
+}
+
+const showBookmarkSkeleton = (id) => {
+  return (
+    <div className="my-3 w-full md:block" id={id}>
+      <div className="flex h-40 justify-between rounded border border-solid border-gray-400">
+        <div className={`flex w-3/4 flex-col justify-between p-3 hover:bg-gray-100`}>
+          <p className="h-4 w-full rounded-md bg-gray-100 dark:bg-gray-700"></p>
+          <p className="h-4 w-full rounded-md bg-gray-100 dark:bg-gray-700"></p>
+          <p className="h-4 w-full rounded-md bg-gray-100 dark:bg-gray-700"></p>
+          <p className="h-4 w-full rounded-md bg-gray-100 dark:bg-gray-700"></p>
+        </div>
+        <div className="h-full w-2/5 rounded">
+          <div className="h-full w-full rounded-md bg-gray-200 dark:bg-gray-700"></div>
+        </div>
+      </div>
+    </div>
   )
 }
 

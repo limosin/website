@@ -2,7 +2,7 @@ import { Bookmark } from "@/components/notionblocks/Bookmark"
 import { Heading, SpanText, Text } from "@/components/notionblocks/CommonBlocks"
 import { Code } from "@/components/notionblocks/Code"
 import { BulletedList, NumberedList } from "@/components/notionblocks/Lists"
-import { BlockQuote } from "@/components/notionblocks/BlockQuote";
+import { BlockQuote } from "@/components/notionblocks/BlockQuote"
 
 export const RenderBlocks = ({ blocks }) => {
   const renderedBlocks = []
