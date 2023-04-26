@@ -2,6 +2,7 @@ import { Bookmark } from "@/components/notionblocks/Bookmark"
 import { Heading, SpanText, Text } from "@/components/notionblocks/CommonBlocks"
 import { Code } from "@/components/notionblocks/Code"
 import { BulletedList, NumberedList } from "@/components/notionblocks/Lists"
+import { BlockQuote } from "@/components/notionblocks/BlockQuote";
 
 export const RenderBlocks = ({ blocks }) => {
   const renderedBlocks = []
@@ -53,11 +54,12 @@ function RenderBlocksHelper(blocks, index) {
       break
 
     case "quote":
-      output = (
-        <blockquote key={index} className="border-l-2 border-l-black pl-4">
-          <SpanText id={id} text={value.rich_text} />
-        </blockquote>
-      )
+      output = <BlockQuote id={id} value={value} key={index} />
+      //   (
+      //   <blockquote key={index} className="my-2 border-l-2 border-l-black pl-4">
+      //     <SpanText id={id} text={value.rich_text} />
+      //   </blockquote>
+      // )
       break
 
     case "to_do":

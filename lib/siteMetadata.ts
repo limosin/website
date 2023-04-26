@@ -5,6 +5,7 @@ export const siteMetadata = {
   description: "Learn something new...",
   language: "en-us",
   theme: "system", // system, dark or light
+  siteHostname: "limosyn.com",
   siteUrl: "https://limosyn.com",
   siteRepo: "https://github.com/limosyn/website",
   siteLogo: "/static/images/logo.png",
