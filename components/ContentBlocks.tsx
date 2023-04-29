@@ -3,6 +3,7 @@ import { Heading, SpanText, Text } from "@/components/notionblocks/CommonBlocks"
 import { Code } from "@/components/notionblocks/Code"
 import { BulletedList, NumberedList } from "@/components/notionblocks/Lists"
 import { BlockQuote } from "@/components/notionblocks/BlockQuote"
+import { YouTube } from "@/components/notionblocks/Video"
 
 export const RenderBlocks = ({ blocks }) => {
   const renderedBlocks = []
@@ -77,6 +78,19 @@ function RenderBlocksHelper(blocks, index) {
         <figure key={id} className="my-3 text-center">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img alt={caption} src={imageSrc} />
+          {caption && <figcaption className="mt-2 text-sm text-gray-600">{caption}</figcaption>}
+        </figure>
+      )
+      break
+    }
+
+    case "video": {
+      const videoSrc = value.type === "external" ? value.external.url : value.file.url
+      const caption = value.caption.length ? value.caption[0].plain_text : ""
+      // render the video as iframe
+      output = (
+        <figure key={id} className="my-3 w-full text-center">
+          <YouTube url={videoSrc} />
           {caption && <figcaption className="mt-2 text-sm text-gray-600">{caption}</figcaption>}
         </figure>
       )

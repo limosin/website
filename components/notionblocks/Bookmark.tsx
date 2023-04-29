@@ -42,7 +42,7 @@ const showBookmark = (value, id, previewTitle, previewDesp, previewImage) => {
         </div>
         {previewImage && (
           <div className="h-full w-2/5 rounded">
-            <img src={previewImage} className="h-full w-full object-cover" />
+            <img src={previewImage} className="h-full w-full object-cover" alt="Bookmark" />
           </div>
         )}
       </div>
@@ -54,8 +54,8 @@ const showBookmarkSkeleton = (id) => {
   return (
     <div className="my-3 w-full md:block" id={id}>
       <div className="flex h-40 justify-between rounded border border-solid border-gray-400">
-        <div className={`flex w-3/4 flex-col justify-between p-3 hover:bg-gray-100`}>
-          <p className="h-4 w-full rounded-md bg-gray-100 dark:bg-gray-700"></p>
+        <div className={`flex w-3/4 animate-pulse flex-col justify-between p-3 hover:bg-gray-100`}>
+          <p className="h-4 w-3/4 rounded-md bg-gray-100 dark:bg-gray-700"></p>
           <p className="h-4 w-full rounded-md bg-gray-100 dark:bg-gray-700"></p>
           <p className="h-4 w-full rounded-md bg-gray-100 dark:bg-gray-700"></p>
           <p className="h-4 w-full rounded-md bg-gray-100 dark:bg-gray-700"></p>
