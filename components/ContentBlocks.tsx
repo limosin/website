@@ -4,6 +4,7 @@ import { Code } from "@/components/notionblocks/Code"
 import { BulletedList, NumberedList } from "@/components/notionblocks/Lists"
 import { BlockQuote } from "@/components/notionblocks/BlockQuote"
 import { YouTube } from "@/components/notionblocks/Video"
+import { Table } from "@/components/notionblocks/Table"
 
 export const RenderBlocks = ({ blocks }) => {
   const renderedBlocks = []
@@ -107,6 +108,10 @@ function RenderBlocksHelper(blocks, index) {
 
     case "code":
       output = <Code key={id} value={value} />
+      break
+
+    case "table":
+      output = <Table key={id} value={value} />
       break
 
     default:
