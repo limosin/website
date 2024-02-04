@@ -1,6 +1,6 @@
 import axios from "axios"
 
-module.exports = async (req, res) => {
+const cors = async (req, res) => {
   if (req.method === "GET") {
     const { url } = req.query
     const response = await axios.get(url, {
@@ -18,3 +18,5 @@ module.exports = async (req, res) => {
     res.status(405).send("Method not allowed")
   }
 }
+
+export default cors

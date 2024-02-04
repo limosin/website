@@ -1,3 +1,4 @@
+import React from "react"
 import { Bookmark } from "@/components/notionblocks/Bookmark"
 import { Heading, SpanText, Text } from "@/components/notionblocks/CommonBlocks"
 import { Code } from "@/components/notionblocks/Code"
@@ -121,11 +122,16 @@ function RenderBlocksHelper(blocks, index) {
 }
 
 const ToDo = ({ id, value }) => {
+  if (value == null) {
+    return <></>
+  }
   return (
     <div>
       <label htmlFor={id}>
-        <input type="checkbox" id={id} defaultChecked={value.checked} /> <SpanText text={value.rich_text} id={id} />
+        .
+        <SpanText text={value.rich_text} id={id} />
       </label>
+      <input type="checkbox" id={id} defaultChecked={value.checked} />
     </div>
   )
 }

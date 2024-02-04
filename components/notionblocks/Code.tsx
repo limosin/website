@@ -16,7 +16,7 @@ import "prismjs/components/prism-yaml.min.js"
 import "prismjs/components/prism-go.min.js"
 
 export const Code = ({ value }) => {
-  const language = value.language
+  const code_class = `language-${value.language}`
   const code = value.rich_text[0].plain_text
   const codeBlock = useRef(null)
 
@@ -28,7 +28,7 @@ export const Code = ({ value }) => {
 
   return (
     <pre className="w-full !text-sm">
-      <code ref={codeBlock} className={`language-${language}`}>
+      <code ref={codeBlock} className={code_class}>
         {code}
       </code>
     </pre>

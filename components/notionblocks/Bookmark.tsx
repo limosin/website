@@ -42,7 +42,7 @@ const showBookmark = (value, id, previewTitle, previewDesp, previewImage) => {
         </div>
         {previewImage && (
           <div className="h-full w-2/5 rounded">
-            <img src={previewImage} className="h-full w-full object-cover" alt="Bookmark" />
+            <img src={previewImage} className="size-full object-cover" alt="Bookmark" />
           </div>
         )}
       </div>
@@ -61,7 +61,7 @@ const showBookmarkSkeleton = (id) => {
           <p className="h-4 w-full rounded-md bg-gray-100 dark:bg-gray-700"></p>
         </div>
         <div className="h-full w-2/5 rounded">
-          <div className="h-full w-full rounded-md bg-gray-200 dark:bg-gray-700"></div>
+          <div className="size-full rounded-md bg-gray-200 dark:bg-gray-700"></div>
         </div>
       </div>
     </div>

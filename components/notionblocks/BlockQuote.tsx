@@ -6,7 +6,7 @@ export const BlockQuote = ({ value, id }) => {
       <div className="p-3">
         <blockquote className="relative">
           <svg
-            className="absolute left-0 top-0 h-16 w-16 -translate-x-6 -translate-y-8 text-gray-200 dark:text-gray-700"
+            className="absolute left-0 top-0 size-16 -translate-x-6 -translate-y-8 text-gray-200 dark:text-gray-700"
             width="16"
             height="16"
             viewBox="0 0 16 16"
