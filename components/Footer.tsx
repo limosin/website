@@ -25,6 +25,9 @@ export default function Footer() {
           <ExternalLink href={siteMetadata.github}>GitHub</ExternalLink>
         </div>
       </div>
+      <div className="flex w-full justify-center text-center text-sm text-gray-500">
+        © {new Date().getFullYear()} {siteMetadata.siteHostname}
+      </div>
     </footer>
   )
 }

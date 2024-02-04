@@ -1,7 +1,11 @@
+import React from "react"
 import { Bookmark } from "@/components/notionblocks/Bookmark"
 import { Heading, SpanText, Text } from "@/components/notionblocks/CommonBlocks"
 import { Code } from "@/components/notionblocks/Code"
 import { BulletedList, NumberedList } from "@/components/notionblocks/Lists"
+import { BlockQuote } from "@/components/notionblocks/BlockQuote"
+import { YouTube } from "@/components/notionblocks/Video"
+import { Table } from "@/components/notionblocks/Table"
 
 export const RenderBlocks = ({ blocks }) => {
   const renderedBlocks = []
@@ -53,11 +57,12 @@ function RenderBlocksHelper(blocks, index) {
       break
 
     case "quote":
-      output = (
-        <blockquote key={index} className="border-l-2 border-l-black pl-4">
-          <SpanText id={id} text={value.rich_text} />
-        </blockquote>
-      )
+      output = <BlockQuote id={id} value={value} key={index} />
+      //   (
+      //   <blockquote key={index} className="my-2 border-l-2 border-l-black pl-4">
+      //     <SpanText id={id} text={value.rich_text} />
+      //   </blockquote>
+      // )
       break
 
     case "to_do":
@@ -81,6 +86,19 @@ function RenderBlocksHelper(blocks, index) {
       break
     }
 
+    case "video": {
+      const videoSrc = value.type === "external" ? value.external.url : value.file.url
+      const caption = value.caption.length ? value.caption[0].plain_text : ""
+      // render the video as iframe
+      output = (
+        <figure key={id} className="my-3 w-full text-center">
+          <YouTube url={videoSrc} />
+          {caption && <figcaption className="mt-2 text-sm text-gray-600">{caption}</figcaption>}
+        </figure>
+      )
+      break
+    }
+
     case "callout":
       output = <Callout id={id} value={value} key={index} />
       break
@@ -93,6 +111,10 @@ function RenderBlocksHelper(blocks, index) {
       output = <Code key={id} value={value} />
       break
 
+    case "table":
+      output = <Table key={id} value={value} />
+      break
+
     default:
       output = `Unsupported block (${type === "unsupported" ? "unsupported by Notion API" : type})`
   }
@@ -100,11 +122,16 @@ function RenderBlocksHelper(blocks, index) {
 }
 
 const ToDo = ({ id, value }) => {
+  if (value == null) {
+    return <></>
+  }
   return (
     <div>
       <label htmlFor={id}>
-        <input type="checkbox" id={id} defaultChecked={value.checked} /> <SpanText text={value.rich_text} id={id} />
+        .
+        <SpanText text={value.rich_text} id={id} />
       </label>
+      <input type="checkbox" id={id} defaultChecked={value.checked} />
     </div>
   )
 }
@@ -124,7 +151,7 @@ const Toggle = ({ value }) => {
 
 const Callout = ({ id, value }) => {
   return (
-    <div className="my-2 flex flex-row rounded-md bg-gray-100 py-4 px-2">
+    <div className="my-2 flex flex-row rounded-md bg-gray-100 px-2 py-4">
       <div className="items-center justify-center px-2">{value.icon?.emoji}</div>
       <div className="pl-2">
         <SpanText text={value.rich_text} id={id} />

@@ -1,7 +1,7 @@
-import { Roboto } from "@next/font/google"
-import { Nunito } from "@next/font/google"
-import { Source_Code_Pro } from "@next/font/google"
-import { NextFont } from "@next/font"
+import { Roboto } from "next/font/google"
+import { Nunito } from "next/font/google"
+import { Source_Code_Pro } from "next/font/google"
+import { NextFont } from "next/dist/compiled/@next/font"
 
 export const roboto: NextFont = Roboto({
   subsets: ["latin"],
