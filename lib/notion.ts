@@ -6,7 +6,7 @@ const notion: Client = new Client({
 })
 
 export const getParsedBlogTableData = async (databaseId: string) => {
-  const notionData: Array<PageObjectResponse> = await getNotionData(databaseId)
+  const notionData: Array<PageObjectResponse> = await fetchDatabaseFromNotionUsingId(databaseId)
   return notionData.map((item: PageObjectResponse) => {
     const { id, cover, properties } = item
     const { title, date, description, tags, slug } = properties
@@ -22,7 +22,7 @@ export const getParsedBlogTableData = async (databaseId: string) => {
   })
 }
 
-export const getNotionData = async (databaseId: string): Promise<Array<PageObjectResponse>> => {
+export const fetchDatabaseFromNotionUsingId = async (databaseId: string): Promise<Array<PageObjectResponse>> => {
   console.log("**Notion API Called**")
   const response = await notion.databases.query({
     database_id: databaseId,
@@ -40,6 +40,35 @@ export const getNotionData = async (databaseId: string): Promise<Array<PageObjec
     ],
   })
   return response.results.filter((obj): obj is PageObjectResponse => (obj as PageObjectResponse).properties !== undefined)
+}
+
+export const fetchPageFromNotionDbUsingSlug = async (slug: string, databaseId: string): Promise<PageObjectResponse> => {
+  const response = await notion.databases.query({
+    database_id: databaseId,
+    filter: {
+      and: [
+        {
+          property: "stage",
+          select: {
+            equals: "Published",
+          },
+        },
+        {
+          property: "slug",
+          rich_text: {
+            equals: slug,
+          },
+        },
+      ],
+    },
+    sorts: [
+      {
+        property: "date",
+        direction: "descending",
+      },
+    ],
+  })
+  return response.results[0] as PageObjectResponse
 }
 
 export const getPage = async (pageId: string) => {
