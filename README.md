@@ -8,7 +8,7 @@ This is an open-source starter blog template that is statically generated with N
 
 ## Getting Started
 
-1. Clone this repo `git clone https://github.com/luciovilla/notion-nextjs-blog.git`
+1. Clone this repo `git clone https://github.com/luciovilla/notionx-nextjs-blog.git`
 2. Install its dependencies `npm install`
 3. Copy or rename the `.env.example` file to `.env.local`
 4. Personalize the page meta data in `Container.tsx`
@@ -25,11 +25,11 @@ This is an open-source starter blog template that is statically generated with N
 - `Published` (checkbox): this checks if a blog post should be displayed when deployed. 
 - `Cover Image` (files & media): optional - adds a cover image for a post on the frontpage and becomes the featured image on social (og:image, twitter card image).
 
-View this sample template table in [Notion](https://vast-rifle-eed.notion.site/8dde3326f8cb4cc68b47a96bea86e9be).
+View this sample template table in [Notion](https://vast-rifle-eed.notionx.site/8dde3326f8cb4cc68b47a96bea86e9be).
 
 ## Getting Database ID and Notion Token
 
-- Create a [Notion Integration](https://www.notion.so/my-integrations).
+- Create a [Notion Integration](https://www.notionx.so/my-integrations).
 - Copy and paste the Integration Token in the `.env.local` file: `NOTION_API_TOKEN=____`
 - On the Notion page, click the "Share" button in the top right and  share the database with the Notion Integration you just created
 - In a browser, go to the Notion page and grab the Database ID from the URL. Its the part of the URL after your workspace name and the slash and before the question mark. The ID is 32 characters long, containing numbers and letters.
@@ -49,10 +49,10 @@ Run `npm run dev`
 
 Deploy your own Notion blog with Vercel.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fluciovilla%2Fnotion-nextjs-blog&env=NOTION_API_TOKEN,NOTION_BLOG_DATABASE_ID&envDescription=Notion%20Integration%20token%20and%20Database%20ID%20required.&envLink=https%3A%2F%2Fblog.luciovilla.com%2Fnotion-blog-setup-instructions&project-name=notion-blog)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fluciovilla%2Fnotion-nextjs-blog&env=NOTION_API_TOKEN,NOTION_BLOG_DATABASE_ID&envDescription=Notion%20Integration%20token%20and%20Database%20ID%20required.&envLink=https%3A%2F%2Fblog.luciovilla.com%2Fnotion-blog-setup-instructions&project-name=notionx-blog)
 
 ## Credits
 Thankful for the following people as I was inspired by their code:
-- [samuelkraft](https://github.com/samuelkraft/notion-blog-nextjs)
-- [ijjk](https://github.com/ijjk/notion-blog)
+- [samuelkraft](https://github.com/samuelkraft/notionx-blog-nextjs)
+- [ijjk](https://github.com/ijjk/notionx-blog)
 - [leerob](https://github.com/leerob/leerob.io)

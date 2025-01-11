@@ -1,14 +1,12 @@
 import dynamic from "next/dynamic"
-import Head from "next/head"
-// import Image from 'next/image'
 import Link from "next/link"
 import { useRouter } from "next/router"
 import { type ExtendedRecordMap } from "notion-types"
-import { getPageTitle } from "notion-utils"
 import { NotionRenderer } from "react-notion-x"
 import TweetEmbed from "react-tweet-embed"
 
 import { Loading } from "./Loading"
+import { nunito } from "@/lib/fonts"
 
 // -----------------------------------------------------------------------------
 // dynamic imports for optional components
@@ -66,7 +64,7 @@ function Tweet({ id }: { id: string }) {
   return <TweetEmbed tweetId={id} />
 }
 
-export function NotionPage({ recordMap, previewImagesEnabled, rootPageId, rootDomain }: { recordMap: ExtendedRecordMap; previewImagesEnabled?: boolean; rootPageId?: string; rootDomain?: string }) {
+export function NotionPage({ post, recordMap, previewImagesEnabled, rootDomain }: { post: any; recordMap: ExtendedRecordMap; previewImagesEnabled?: boolean; rootDomain?: string }) {
   const router = useRouter()
 
   if (router.isFallback) {
@@ -77,8 +75,6 @@ export function NotionPage({ recordMap, previewImagesEnabled, rootPageId, rootDo
     return null
   }
 
-  const title = getPageTitle(recordMap)
-
   // useful for debugging from the dev console
   if (typeof window !== "undefined") {
     const keys = Object.keys(recordMap?.block || {})
@@ -88,59 +84,24 @@ export function NotionPage({ recordMap, previewImagesEnabled, rootPageId, rootDo
     g.block = block
   }
 
-  const socialDescription = "React Notion X Demo"
-  const socialImage = "https://react-notion-x-demo.transitivebullsh.it/social.jpg"
-
   return (
-    <>
-      <Head>
-        {socialDescription && (
-          <>
-            <meta name="description" content={socialDescription} />
-            <meta property="og:description" content={socialDescription} />
-            <meta name="twitter:description" content={socialDescription} />
-          </>
-        )}
-
-        {socialImage ? (
-          <>
-            <meta name="twitter:card" content="summary_large_image" />
-            <meta name="twitter:image" content={socialImage} />
-            <meta property="og:image" content={socialImage} />
-          </>
-        ) : (
-          <meta name="twitter:card" content="summary" />
-        )}
-
-        <title>{title}</title>
-        <meta property="og:title" content={title} />
-        <meta name="twitter:title" content={title} />
-        <meta name="twitter:creator" content="@transitive_bs" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <NotionRenderer
-        recordMap={recordMap}
-        fullPage={true}
-        darkMode={false}
-        rootDomain={rootDomain}
-        rootPageId={rootPageId}
-        previewImages={previewImagesEnabled}
-        components={{
-          // NOTE (transitive-bullshit 3/12/2023): I'm disabling next/image for this repo for now because the amount of traffic started costing me hundreds of dollars a month in Vercel image optimization costs. I'll probably re-enable it in the future if I can find a better solution.
-          // nextLegacyImage: Image,
-          nextLink: Link,
-          Code,
-          Collection,
-          Equation,
-          Pdf,
-          Modal,
-          Tweet,
-        }}
-
-        // NOTE: custom images will only take effect if previewImages is true and
-        // if the image has a valid preview image defined in recordMap.preview_images[src]
-      />
-    </>
+    <NotionRenderer
+      recordMap={recordMap}
+      fullPage={false}
+      darkMode={false}
+      rootDomain={rootDomain}
+      isShowingSearch={false}
+      previewImages={previewImagesEnabled}
+      pageHeader={<h1 className={`mb-10 text-3xl font-bold tracking-tight text-black md:text-5xl ${nunito.className}`}>{post.properties.title.title[0].plain_text}</h1>}
+      components={{
+        nextLink: Link,
+        Code,
+        Collection,
+        Equation,
+        Pdf,
+        Modal,
+        Tweet,
+      }}
+    />
   )
 }

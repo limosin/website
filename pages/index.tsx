@@ -27,14 +27,14 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
           return (
             <div key={post.id} className="mb-8 sm:flex">
               {postImageUrl && (
-                <Link href={`/posts/${post.id}`} className="mb-10 block w-full sm:mb-0 sm:mr-5 sm:w-1/3">
+                <Link href={`/posts/${post.slug}`} className="mb-10 block w-full sm:mb-0 sm:mr-5 sm:w-1/3">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img alt="" src={postImageUrl} />
                 </Link>
               )}
               <div className="w-full">
                 <div className="w-full">
-                  <Link href={`/posts/${post.id}`}>
+                  <Link href={`/posts/${post.slug}`}>
                     <h3 className="line-clamp-1 w-full text-xl font-medium text-gray-900">{post.title}</h3>
                   </Link>
                   <p className="line-clamp-2 text-gray-700">{post.description}</p>
