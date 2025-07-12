@@ -11,10 +11,10 @@ export const YouTube: FC<{ url: string }> = ({ url }) => {
   }
 
   return (
-    <div ref={targetRef} className="relative">
+    <div ref={targetRef} className="my-6 overflow-hidden rounded-lg border border-gray-200 shadow-sm">
       {!hasLoaded && isIntersecting && (
         <div
-          className="flex items-center justify-center bg-gray-900 cursor-pointer rounded-lg overflow-hidden"
+          className="flex cursor-pointer items-center justify-center bg-gray-900"
           style={{ aspectRatio: "16/9" }}
           onClick={handleLoadVideo}
           onKeyDown={(e) => e.key === "Enter" && handleLoadVideo()}
@@ -27,8 +27,8 @@ export const YouTube: FC<{ url: string }> = ({ url }) => {
                 <path d="M8 5v14l11-7z" />
               </svg>
             </div>
-            <p className="text-white text-lg font-medium">Load Video</p>
-            <p className="text-gray-300 text-sm">Click to load YouTube video</p>
+            <p className="text-lg font-medium text-white">Load Video</p>
+            <p className="text-sm text-gray-300">Click to load YouTube video</p>
           </div>
         </div>
       )}

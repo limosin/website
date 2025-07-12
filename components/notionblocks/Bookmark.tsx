@@ -34,16 +34,16 @@ export const Bookmark = ({ id, value }) => {
 const showBookmark = (value, id, previewTitle, previewDesp, previewImage) => {
   const w: string = previewImage ? "w-3/5" : "w-full"
   return (
-    <a href={value.url} target="_blank" rel="noreferrer" className="my-3 w-full md:block" id={id}>
-      <div className="flex h-40 justify-between rounded border border-solid border-gray-400">
-        <div className={`flex flex-col justify-between p-3 hover:bg-gray-100 ${w}`}>
-          <p className="text-base">{previewTitle}</p>
-          <p className="line-clamp-3 overflow-hidden text-sm text-gray-500">{previewDesp}</p>
-          <p className="line-clamp-1 text-sm text-gray-500">{value.url}</p>
+    <a href={value.url} target="_blank" rel="noreferrer" className="block w-full" id={id}>
+      <div className="flex h-40 overflow-hidden rounded-lg border border-gray-200 shadow-sm transition-shadow hover:shadow-md">
+        <div className={`flex flex-col justify-between p-4 transition-colors hover:bg-gray-50 ${w}`}>
+          <p className="line-clamp-2 text-base font-medium text-gray-900">{previewTitle}</p>
+          <p className="line-clamp-3 overflow-hidden text-sm leading-relaxed text-gray-600">{previewDesp}</p>
+          <p className="line-clamp-1 text-xs text-gray-500">{value.url}</p>
         </div>
         {previewImage && (
-          <div className="h-full w-2/5 rounded relative">
-            <OptimizedImage src={previewImage} alt="Bookmark preview" fill className="object-cover rounded" sizes="(max-width: 768px) 40vw, 200px" />
+          <div className="relative h-full w-2/5">
+            <OptimizedImage src={previewImage} alt="Bookmark preview" fill className="object-cover" sizes="(max-width: 768px) 40vw, 200px" />
           </div>
         )}
       </div>
@@ -53,16 +53,19 @@ const showBookmark = (value, id, previewTitle, previewDesp, previewImage) => {
 
 const showBookmarkSkeleton = (id) => {
   return (
-    <div className="my-3 w-full md:block" id={id}>
-      <div className="flex h-40 justify-between rounded border border-solid border-gray-400">
-        <div className={`flex w-3/4 animate-pulse flex-col justify-between p-3 hover:bg-gray-100`}>
-          <p className="h-4 w-3/4 rounded-md bg-gray-100 dark:bg-gray-700"></p>
-          <p className="h-4 w-full rounded-md bg-gray-100 dark:bg-gray-700"></p>
-          <p className="h-4 w-full rounded-md bg-gray-100 dark:bg-gray-700"></p>
-          <p className="h-4 w-full rounded-md bg-gray-100 dark:bg-gray-700"></p>
+    <div className="block w-full" id={id}>
+      <div className="flex h-40 overflow-hidden rounded-lg border border-gray-200">
+        <div className="flex w-3/5 animate-pulse flex-col justify-between p-4">
+          <div className="h-4 w-3/4 rounded-md bg-gray-200"></div>
+          <div className="space-y-2">
+            <div className="h-3 w-full rounded-md bg-gray-200"></div>
+            <div className="h-3 w-full rounded-md bg-gray-200"></div>
+            <div className="h-3 w-2/3 rounded-md bg-gray-200"></div>
+          </div>
+          <div className="h-3 w-1/2 rounded-md bg-gray-200"></div>
         </div>
-        <div className="h-full w-2/5 rounded">
-          <div className="size-full rounded-md bg-gray-200 dark:bg-gray-700"></div>
+        <div className="h-full w-2/5">
+          <div className="size-full bg-gray-200"></div>
         </div>
       </div>
     </div>

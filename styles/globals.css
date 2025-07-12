@@ -1,1 +1,51 @@
 @import "tailwindcss";
+
+/* Custom scrollbar styles for code blocks */
+.scrollbar-thin::-webkit-scrollbar {
+  height: 6px;
+  width: 6px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: rgb(31 41 55 / 0.5);
+  border-radius: 6px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: rgb(75 85 99);
+  border-radius: 6px;
+  transition: background-color 0.2s ease;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb:hover {
+  background: rgb(107 114 128);
+}
+
+/* Firefox scrollbar */
+.scrollbar-thin {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(75 85 99) rgb(31 41 55);
+}
+
+/* Enhanced code block animations */
+@keyframes glow {
+  0%, 100% {
+    box-shadow: 0 0 5px rgba(99, 102, 241, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(99, 102, 241, 0.4), 0 0 30px rgba(99, 102, 241, 0.1);
+  }
+}
+
+.code-block-glow:hover {
+  animation: glow 2s ease-in-out infinite;
+}
+
+/* Selection highlighting for code */
+code ::selection {
+  background: rgba(99, 102, 241, 0.3);
+}
+
+code::-moz-selection {
+  background: rgba(99, 102, 241, 0.3);
+}

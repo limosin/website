@@ -30,16 +30,18 @@ export const OptimizedImage = ({ src, alt, fallbackSrc = "/logo.png", ...props }
 
   // For untrusted domains, use regular img tag with lazy loading
   if (!isTrustedDomain(src) && !hasError) {
-    // eslint-disable-next-line @next/next/no-img-element
     return (
+      // eslint-disable-next-line @next/next/no-img-element
       <img
         src={src}
         alt={alt}
         loading="lazy"
         onError={handleError}
         style={{
-          maxWidth: "100%",
+          width: "100%",
           height: "auto",
+          maxWidth: "100%",
+          display: "block",
           ...props.style,
         }}
         {...(props as Record<string, unknown>)}
@@ -48,7 +50,20 @@ export const OptimizedImage = ({ src, alt, fallbackSrc = "/logo.png", ...props }
   }
 
   // For trusted domains or fallback, use Next.js Image
-  return <Image src={imgSrc} alt={alt} onError={handleError} {...props} />
+  return (
+    <Image
+      src={imgSrc}
+      alt={alt}
+      onError={handleError}
+      style={{
+        width: "100%",
+        height: "auto",
+        display: "block",
+        ...props.style,
+      }}
+      {...props}
+    />
+  )
 }
 
 export default OptimizedImage

@@ -40,7 +40,7 @@ function RenderBlocksHelper(blocks, index) {
   const value = blocks[index][type]
   switch (type) {
     case "divider":
-      output = <hr className="my-3 w-full border md:my-5" key={id} />
+      output = <hr className="my-8 border-gray-300" key={id} />
       break
 
     case "paragraph":
@@ -80,9 +80,19 @@ function RenderBlocksHelper(blocks, index) {
       const imageSrc = value.type === "external" ? value.external.url : value.file.url
       const caption = value.caption.length ? value.caption[0].plain_text : ""
       output = (
-        <figure key={id} className="my-3 text-center">
-          <OptimizedImage src={imageSrc} alt={caption || "Content image"} width={800} height={600} className="rounded-lg" sizes="(max-width: 768px) 100vw, 800px" />
-          {caption && <figcaption className="mt-2 text-sm text-gray-600">{caption}</figcaption>}
+        <figure key={id} className="my-8 w-full">
+          <div className="relative mx-auto w-full max-w-4xl overflow-hidden rounded-lg border border-gray-200 shadow-sm">
+            <OptimizedImage
+              src={imageSrc}
+              alt={caption || "Content image"}
+              width={1200}
+              height={800}
+              className="h-auto w-full object-contain"
+              sizes="(max-width: 640px) 100vw, (max-width: 768px) 100vw, (max-width: 1024px) 90vw, 800px"
+              priority={false}
+            />
+          </div>
+          {caption && <figcaption className="mx-auto mt-4 max-w-4xl text-center text-sm leading-relaxed text-gray-600">{caption}</figcaption>}
         </figure>
       )
       break
@@ -93,9 +103,11 @@ function RenderBlocksHelper(blocks, index) {
       const caption = value.caption.length ? value.caption[0].plain_text : ""
       // render the video as iframe
       output = (
-        <figure key={id} className="my-3 w-full text-center">
-          <YouTube url={videoSrc} />
-          {caption && <figcaption className="mt-2 text-sm text-gray-600">{caption}</figcaption>}
+        <figure key={id} className="my-8 w-full">
+          <div className="mx-auto max-w-4xl">
+            <YouTube url={videoSrc} />
+          </div>
+          {caption && <figcaption className="mx-auto mt-4 max-w-4xl text-center text-sm leading-relaxed text-gray-600">{caption}</figcaption>}
         </figure>
       )
       break
@@ -107,9 +119,13 @@ function RenderBlocksHelper(blocks, index) {
 
     case "bookmark":
       output = (
-        <Suspense fallback={<div className="animate-pulse bg-gray-200 h-40 rounded"></div>}>
-          <Bookmark id={id} value={value} key={index} />
-        </Suspense>
+        <div key={id} className="my-6 w-full">
+          <div className="mx-auto max-w-2xl">
+            <Suspense fallback={<div className="h-40 animate-pulse rounded-lg bg-gray-200"></div>}>
+              <Bookmark id={id} value={value} key={index} />
+            </Suspense>
+          </div>
+        </div>
       )
       break
 
@@ -119,9 +135,13 @@ function RenderBlocksHelper(blocks, index) {
 
     case "table":
       output = (
-        <Suspense fallback={<div className="animate-pulse bg-gray-200 h-32 rounded"></div>}>
-          <Table key={id} value={value} />
-        </Suspense>
+        <div key={id} className="my-6 w-full">
+          <div className="mx-auto max-w-4xl">
+            <Suspense fallback={<div className="h-32 animate-pulse rounded-lg bg-gray-200"></div>}>
+              <Table key={id} value={value} />
+            </Suspense>
+          </div>
+        </div>
       )
       break
 
@@ -136,34 +156,35 @@ const ToDo = ({ id, value }) => {
     return <></>
   }
   return (
-    <div>
-      <label htmlFor={id}>
-        .
+    <div className="my-3 flex items-center space-x-3">
+      <input type="checkbox" id={id} defaultChecked={value.checked} className="size-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500" />
+      <label htmlFor={id} className="text-gray-700">
         <SpanText text={value.rich_text} id={id} />
       </label>
-      <input type="checkbox" id={id} defaultChecked={value.checked} />
     </div>
   )
 }
 
 const Toggle = ({ value }) => {
   return (
-    <details>
-      <summary className="cursor-pointer">{value.rich_text[0].text.content}</summary>
-      {value.children?.map((block) => {
-        if (block.type === "paragraph") {
-          return <Text key={block.id} text={block.paragraph.rich_text} id={block.id} />
-        }
-      })}
+    <details className="my-4 rounded-lg border border-gray-200 bg-gray-50">
+      <summary className="cursor-pointer p-4 font-medium text-gray-900 hover:bg-gray-100">{value.rich_text[0].text.content}</summary>
+      <div className="border-t border-gray-200 p-4">
+        {value.children?.map((block) => {
+          if (block.type === "paragraph") {
+            return <Text key={block.id} text={block.paragraph.rich_text} id={block.id} />
+          }
+        })}
+      </div>
     </details>
   )
 }
 
 const Callout = ({ id, value }) => {
   return (
-    <div className="my-2 flex flex-row rounded-md bg-gray-100 px-2 py-4">
-      <div className="items-center justify-center px-2">{value.icon?.emoji}</div>
-      <div className="pl-2">
+    <div className="my-6 flex rounded-lg border border-gray-200 bg-blue-50 p-4">
+      <div className="mr-3 flex size-6 items-center justify-center text-xl">{value.icon?.emoji}</div>
+      <div className="flex-1 text-gray-800">
         <SpanText text={value.rich_text} id={id} />
       </div>
     </div>
