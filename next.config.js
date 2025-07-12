@@ -51,9 +51,17 @@ const securityHeaders = [
   },
 ]
 
-module.exports = {
+module.exports = withBundleAnalyzer({
   compiler: {
     // Enables the styled-components SWC transform
     styledComponents: true
-  }
-}
+  },
+  async headers() {
+    return [
+      {
+        source: '/(.*)',
+        headers: securityHeaders,
+      },
+    ]
+  },
+})

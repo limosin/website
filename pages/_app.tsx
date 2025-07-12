@@ -1,4 +1,4 @@
-import "tailwindcss/tailwind.css"
+import "../styles/globals.css"
 import { nunito } from "@/lib/fonts"
 
 function App({ Component, pageProps }) {
