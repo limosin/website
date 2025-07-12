@@ -33,6 +33,8 @@
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-html-parser": "^2.0.2",
+    "react-notion-x": "^7.2.5",
+    "react-tweet-embed": "^2.0.0",
     "reading-time": "1.5.0",
     "tailwindcss": "^4.1.11"
   },

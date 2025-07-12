@@ -20,6 +20,7 @@ module.exports = {
   plugins: ["tailwindcss", "@typescript-eslint"],
   rules: {
     "prettier/prettier": "error",
+    "@typescript-eslint/no-explicit-any": "off"
   },
 }
 

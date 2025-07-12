@@ -1,37 +1,31 @@
-import BlogLayout from "@/layouts/BlogLayout"
-import { getPage, getBlocks, getParsedBlogTableData } from "@/lib/notion"
-import { RenderBlocks } from "@/components/ContentBlocks"
-import { nunito } from "@/lib/fonts"
-import CalendarIcon from "public/resources/calendar.svg"
-import Image from "next/image"
+import { type ExtendedRecordMap } from "notion-types"
+
+import { NotionPage } from "@/components/NotionPage"
+import { previewImagesEnabled, rootDomain } from "config/config"
+import * as notion from "@/lib/notionx"
+import Container from "@/components/Container"
+import { fetchPageFromNotionDbUsingSlug, getParsedBlogTableData } from "@/lib/notion"
 
 const databaseId = process.env.NOTION_BLOG_DATABASE_ID
 
-export default function Post({ page, blocks }) {
-  if (!page || !blocks) {
-    return <div />
+export const getStaticProps = async (context) => {
+  const { slug } = context.params
+
+  const post = await fetchPageFromNotionDbUsingSlug(slug, databaseId)
+  const postId = post.id
+
+  const recordMap = await notion.getPage(postId)
+
+  return {
+    props: {
+      post,
+      recordMap,
+    },
+    revalidate: 10,
   }
-  return (
-    <BlogLayout data={page}>
-      <div className="my-2 inline-flex rounded border border-solid border-amber-400 bg-amber-50 p-1 px-2">
-        <Image src={CalendarIcon} alt="Date" width="20" className="mr-2"></Image>
-        <span className="my-1 pl-0.5 text-sm text-gray-700">
-          {new Date(page.created_time).toLocaleString("en-US", {
-            month: "short",
-            day: "2-digit",
-            year: "numeric",
-          })}
-        </span>
-      </div>
-
-      <h1 className={`mb-5 text-3xl font-bold tracking-tight text-black md:text-5xl ${nunito.className}`}>{page.properties.title.title[0].plain_text}</h1>
-
-      <RenderBlocks blocks={blocks} />
-    </BlogLayout>
-  )
 }
 
-export const getStaticPaths = async () => {
+export async function getStaticPaths() {
   const database = await getParsedBlogTableData(process.env.NOTION_BLOG_DATABASE_ID)
   return {
     paths: database.map((page) => ({
@@ -43,34 +37,19 @@ export const getStaticPaths = async () => {
   }
 }
 
-export const getStaticProps = async (context) => {
-  const { slug } = context.params
-  const database = await getParsedBlogTableData(databaseId)
-  const filter = database.filter((blog) => blog.slug === slug)
-  const page = await getPage(filter[0].id)
-  const blocks = await getBlocks(filter[0].id)
+export default function Page({ post, recordMap }: { post: any; recordMap: ExtendedRecordMap }) {
+  const postImage = post.properties.cover
+  const postImageUrl = postImage?.type === "file" ? postImage.file.url : postImage?.external.url
 
-  const childrenBlocks = await Promise.all(
-    blocks
-      .filter((block) => block.has_children)
-      .map(async (block) => {
-        return {
-          id: block.id,
-          children: await getBlocks(block.id),
-        }
-      })
+  return (
+    <Container
+      title={post.properties.title.title[0].plain_text}
+      description={post.properties.description.rich_text[0].plain_text}
+      date={new Date(post.properties.date.date.start)}
+      type="article"
+      image={postImageUrl}
+    >
+      <NotionPage post={post} recordMap={recordMap} rootDomain={rootDomain} previewImagesEnabled={previewImagesEnabled} />
+    </Container>
   )
-
-  const blocksWithChildren = blocks.map((block) => {
-    if (block.has_children) {
-      block[block.type].children = childrenBlocks.find((x) => x.id === block.id).children
-    }
-    return block
-  })
-  return {
-    props: {
-      page,
-      blocks: blocksWithChildren,
-    },
-  }
 }
