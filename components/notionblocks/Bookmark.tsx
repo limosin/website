@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+import OptimizedImage from "../OptimizedImage"
 
 export const Bookmark = ({ id, value }) => {
   // Fetch the bookmark preview image using the url meta
@@ -41,8 +42,8 @@ const showBookmark = (value, id, previewTitle, previewDesp, previewImage) => {
           <p className="line-clamp-1 text-sm text-gray-500">{value.url}</p>
         </div>
         {previewImage && (
-          <div className="h-full w-2/5 rounded">
-            <img src={previewImage} className="size-full object-cover" alt="Bookmark" />
+          <div className="h-full w-2/5 rounded relative">
+            <OptimizedImage src={previewImage} alt="Bookmark preview" fill className="object-cover rounded" sizes="(max-width: 768px) 40vw, 200px" />
           </div>
         )}
       </div>

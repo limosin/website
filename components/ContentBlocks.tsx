@@ -1,11 +1,14 @@
-import React from "react"
-import { Bookmark } from "@/components/notionblocks/Bookmark"
+import React, { lazy, Suspense } from "react"
+import OptimizedImage from "./OptimizedImage"
 import { Heading, SpanText, Text } from "@/components/notionblocks/CommonBlocks"
 import { Code } from "@/components/notionblocks/Code"
 import { BulletedList, NumberedList } from "@/components/notionblocks/Lists"
 import { BlockQuote } from "@/components/notionblocks/BlockQuote"
 import { YouTube } from "@/components/notionblocks/Video"
-import { Table } from "@/components/notionblocks/Table"
+
+// Lazy load heavy components
+const Bookmark = lazy(() => import("@/components/notionblocks/Bookmark").then((module) => ({ default: module.Bookmark })))
+const Table = lazy(() => import("@/components/notionblocks/Table").then((module) => ({ default: module.Table })))
 
 export const RenderBlocks = ({ blocks }) => {
   const renderedBlocks = []
@@ -78,8 +81,7 @@ function RenderBlocksHelper(blocks, index) {
       const caption = value.caption.length ? value.caption[0].plain_text : ""
       output = (
         <figure key={id} className="my-3 text-center">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img alt={caption} src={imageSrc} />
+          <OptimizedImage src={imageSrc} alt={caption || "Content image"} width={800} height={600} className="rounded-lg" sizes="(max-width: 768px) 100vw, 800px" />
           {caption && <figcaption className="mt-2 text-sm text-gray-600">{caption}</figcaption>}
         </figure>
       )
@@ -104,7 +106,11 @@ function RenderBlocksHelper(blocks, index) {
       break
 
     case "bookmark":
-      output = <Bookmark id={id} value={value} key={index} />
+      output = (
+        <Suspense fallback={<div className="animate-pulse bg-gray-200 h-40 rounded"></div>}>
+          <Bookmark id={id} value={value} key={index} />
+        </Suspense>
+      )
       break
 
     case "code":
@@ -112,7 +118,11 @@ function RenderBlocksHelper(blocks, index) {
       break
 
     case "table":
-      output = <Table key={id} value={value} />
+      output = (
+        <Suspense fallback={<div className="animate-pulse bg-gray-200 h-32 rounded"></div>}>
+          <Table key={id} value={value} />
+        </Suspense>
+      )
       break
 
     default:

@@ -1,13 +1,18 @@
 import { InferGetStaticPropsType } from "next"
 import Container from "@/components/Container"
 import Link from "next/link"
+import OptimizedImage from "@/components/OptimizedImage"
 import { getParsedBlogTableData } from "@/lib/notion"
 import { siteMetadata } from "@/lib/siteMetadata"
 
 export const getStaticProps = async () => {
   const posts = await getParsedBlogTableData(process.env.NOTION_BLOG_DATABASE_ID)
 
-  return { props: { posts: posts } }
+  return {
+    props: { posts: posts },
+    // Revalidate every hour in production
+    revalidate: process.env.NODE_ENV === "production" ? 3600 : 1,
+  }
 }
 
 export default function Home({ posts }: InferGetStaticPropsType<typeof getStaticProps>) {
@@ -28,8 +33,15 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
             <div key={post.id} className="mb-8 sm:flex">
               {postImageUrl && (
                 <Link href={`/posts/${post.slug}`} className="mb-10 block w-full sm:mb-0 sm:mr-5 sm:w-1/3">
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img alt="" src={postImageUrl} />
+                  <OptimizedImage
+                    src={postImageUrl}
+                    alt={post.title || "Blog post cover"}
+                    width={300}
+                    height={200}
+                    className="rounded-lg object-cover"
+                    sizes="(max-width: 640px) 100vw, 33vw"
+                    priority={posts.indexOf(post) < 2} // Prioritize first 2 images
+                  />
                 </Link>
               )}
               <div className="w-full">

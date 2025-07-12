@@ -39,7 +39,7 @@ export const getStaticPaths = async () => {
         slug: page.slug,
       },
     })),
-    fallback: false,
+    fallback: "blocking", // Enable ISR for new posts
   }
 }
 
@@ -72,5 +72,7 @@ export const getStaticProps = async (context) => {
       page,
       blocks: blocksWithChildren,
     },
+    // Revalidate every 6 hours in production
+    revalidate: process.env.NODE_ENV === "production" ? 21600 : 1,
   }
 }
