@@ -19,7 +19,11 @@
     "start": "next start",
     "lint": "next lint",
     "analyze": "ANALYZE=true yarn build",
-    "lighthouse": "lhci autorun"
+    "lighthouse": "lhci autorun",
+    "cache:stats": "node scripts/cache-manager.js stats",
+    "cache:clear": "node scripts/cache-manager.js clear",
+    "cache:clear-expired": "node scripts/cache-manager.js clear-expired",
+    "cache:warm": "node scripts/cache-manager.js warm"
   },
   "dependencies": {
     "@next/bundle-analyzer": "^15.3.5",

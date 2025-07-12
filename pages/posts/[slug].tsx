@@ -1,5 +1,5 @@
 import BlogLayout from "@/layouts/BlogLayout"
-import { getPage, getBlocks, getParsedBlogTableData } from "@/lib/notion"
+import { getNotionPageWithBlocks, getNotionBlockChildren, getAllPublishedBlogPosts } from "@/lib/notion"
 import { RenderBlocks } from "@/components/ContentBlocks"
 import { nunito } from "@/lib/fonts"
 import CalendarIcon from "public/resources/calendar.svg"
@@ -32,7 +32,7 @@ export default function Post({ page, blocks }) {
 }
 
 export const getStaticPaths = async () => {
-  const database = await getParsedBlogTableData(process.env.NOTION_BLOG_DATABASE_ID)
+  const database = await getAllPublishedBlogPosts(process.env.NOTION_BLOG_DATABASE_ID)
   return {
     paths: database.map((page) => ({
       params: {
@@ -45,10 +45,15 @@ export const getStaticPaths = async () => {
 
 export const getStaticProps = async (context) => {
   const { slug } = context.params
-  const database = await getParsedBlogTableData(databaseId)
+  const database = await getAllPublishedBlogPosts(databaseId)
   const filter = database.filter((blog) => blog.slug === slug)
-  const page = await getPage(filter[0].id)
-  const blocks = await getBlocks(filter[0].id)
+  if (filter.length === 0) {
+    return {
+      notFound: true,
+    }
+  }
+  // Use the combined function to fetch both page and blocks in one go
+  const { page, blocks } = await getNotionPageWithBlocks(filter[0].id)
 
   const childrenBlocks = await Promise.all(
     blocks
@@ -56,7 +61,7 @@ export const getStaticProps = async (context) => {
       .map(async (block) => {
         return {
           id: block.id,
-          children: await getBlocks(block.id),
+          children: await getNotionBlockChildren(block.id), // Use getNotionBlockChildren for nested blocks
         }
       })
   )

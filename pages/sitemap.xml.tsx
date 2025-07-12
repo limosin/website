@@ -1,5 +1,5 @@
 import { GetServerSideProps } from "next"
-import { getParsedBlogTableData } from "@/lib/notion"
+import { getAllPublishedBlogPosts } from "@/lib/notion"
 import { siteMetadata } from "@/lib/siteMetadata"
 
 const Sitemap = () => {
@@ -8,7 +8,7 @@ const Sitemap = () => {
 }
 
 export const getServerSideProps: GetServerSideProps = async ({ res }) => {
-  const posts = await getParsedBlogTableData(process.env.NOTION_BLOG_DATABASE_ID)
+  const posts = await getAllPublishedBlogPosts(process.env.NOTION_BLOG_DATABASE_ID)
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>

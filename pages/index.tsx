@@ -2,11 +2,11 @@ import { InferGetStaticPropsType } from "next"
 import Container from "@/components/Container"
 import Link from "next/link"
 import OptimizedImage from "@/components/OptimizedImage"
-import { getParsedBlogTableData } from "@/lib/notion"
+import { getAllPublishedBlogPosts } from "@/lib/notion"
 import { siteMetadata } from "@/lib/siteMetadata"
 
 export const getStaticProps = async () => {
-  const posts = await getParsedBlogTableData(process.env.NOTION_BLOG_DATABASE_ID)
+  const posts = await getAllPublishedBlogPosts(process.env.NOTION_BLOG_DATABASE_ID)
 
   return {
     props: { posts: posts },
