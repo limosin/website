@@ -1,5 +1,5 @@
 import "../styles/globals.css"
-import { nunito } from "@/lib/fonts"
+import { inter } from "@/lib/fonts"
 import { AppProps } from "next/app"
 import Head from "next/head"
 import PerformanceMonitor from "@/components/PerformanceMonitor"
@@ -20,7 +20,7 @@ function App({ Component, pageProps }: AppProps) {
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
       </Head>
       <PerformanceMonitor />
-      <main className={nunito.className}>
+      <main className={`${inter.className} font-sans`}>
         <Component {...pageProps} />
       </main>
     </>

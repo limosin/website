@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from "react"
 import "prismjs/themes/prism-tomorrow.css"
+import { jetbrainsMono } from "@/lib/fonts"
 
 export const Code = ({ value }) => {
   const language = value.language || "text"
@@ -153,21 +154,21 @@ export const Code = ({ value }) => {
 
           {/* Language label with icon */}
           {language && language !== "text" && (
-            <div className="relative border-b border-gray-700/50 bg-gradient-to-r from-gray-800 to-gray-750 px-6 py-2">
+            <div className="relative border-b border-gray-700/50 bg-gradient-to-r from-gray-800 to-gray-750 px-3 md:px-6 py-2">
               <div className="flex items-center justify-between">
-                <div className="flex items-center space-x-3">
+                <div className="flex items-center space-x-2 md:space-x-3">
                   <div className="flex space-x-1">
-                    <div className="h-3 w-3 rounded-full bg-red-500"></div>
-                    <div className="h-3 w-3 rounded-full bg-yellow-500"></div>
-                    <div className="h-3 w-3 rounded-full bg-green-500"></div>
+                    <div className="h-2.5 w-2.5 md:h-3 md:w-3 rounded-full bg-red-500"></div>
+                    <div className="h-2.5 w-2.5 md:h-3 md:w-3 rounded-full bg-yellow-500"></div>
+                    <div className="h-2.5 w-2.5 md:h-3 md:w-3 rounded-full bg-green-500"></div>
                   </div>
-                  <span className="text-sm font-semibold text-gray-300 uppercase tracking-wider">{language}</span>
+                  <span className="text-xs md:text-sm font-semibold text-gray-300 uppercase tracking-wider">{language}</span>
                 </div>
 
                 {/* Copy button */}
                 <button
                   onClick={handleCopy}
-                  className="group/copy flex items-center space-x-2 rounded-lg bg-gray-700/50 px-3 py-2 text-xs text-gray-300 transition-all duration-200 hover:bg-gray-600/70 hover:text-white hover:scale-105"
+                  className="group/copy flex items-center space-x-1 md:space-x-2 rounded-lg bg-gray-700/50 px-2 md:px-3 py-1 md:py-2 text-xs text-gray-300 transition-all duration-200 hover:bg-gray-600/70 hover:text-white hover:scale-105"
                   title={copied ? "Copied!" : "Copy code"}
                 >
                   <svg
@@ -205,19 +206,18 @@ export const Code = ({ value }) => {
           <div className="relative">
             {/* Subtle glow effect */}
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-blue-900/3 to-purple-900/5 pointer-events-none"></div>
-            
+
             {/* Additional inner glow */}
             <div className="absolute inset-0 bg-gradient-to-r from-transparent via-blue-500/2 to-transparent pointer-events-none"></div>
 
-            <pre className="relative overflow-x-auto p-6 text-sm leading-7 scrollbar-thin scrollbar-track-gray-800 scrollbar-thumb-gray-600 hover:scrollbar-thumb-gray-500 bg-transparent">
+            <pre className="relative overflow-x-auto p-3 md:p-6 text-xs md:text-sm leading-6 md:leading-7 scrollbar-thin scrollbar-track-gray-800 scrollbar-thumb-gray-600 hover:scrollbar-thumb-gray-500 bg-transparent">
               <code
                 ref={codeBlock}
-                className={`${code_class} block whitespace-pre text-gray-100 bg-transparent`}
+                className={`${code_class} block whitespace-pre text-gray-100 bg-transparent font-mono ${jetbrainsMono.className}`}
                 style={{
                   background: "transparent !important",
-                  fontFamily: 'ui-monospace, SFMono-Regular, "SF Mono", Monaco, Menlo, Consolas, "Liberation Mono", "Courier New", monospace',
-                  fontSize: "0.9rem",
-                  lineHeight: "1.75",
+                  fontSize: "0.8rem",
+                  lineHeight: "1.6",
                 }}
               >
                 {code}
@@ -311,13 +311,15 @@ export const Code = ({ value }) => {
         }
 
         .code-block-glow::before {
-          content: '';
+          content: "";
           position: absolute;
           inset: -1px;
           padding: 1px;
           background: linear-gradient(45deg, rgba(139, 92, 246, 0.05), rgba(59, 130, 246, 0.05), rgba(16, 185, 129, 0.05));
           border-radius: inherit;
-          mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+          mask:
+            linear-gradient(#fff 0 0) content-box,
+            linear-gradient(#fff 0 0);
           mask-composite: xor;
           opacity: 0;
           transition: opacity 0.5s ease;

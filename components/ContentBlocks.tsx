@@ -104,7 +104,7 @@ function RenderBlocksHelper(blocks, index) {
     case "bookmark":
       output = (
         <div key={id} className="my-6 w-full">
-          <div className="mx-auto max-w-2xl">
+          <div className="mx-auto max-w-3xl">
             <Suspense fallback={<div className="h-40 animate-pulse rounded-lg bg-gray-200"></div>}>
               <Bookmark id={id} value={value} key={index} />
             </Suspense>
