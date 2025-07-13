@@ -1,9 +1,13 @@
 import * as fs from "fs/promises"
 import * as path from "path"
+import { BlockObjectResponse } from "@notionhq/client/build/src/api-endpoints"
 
 // Cache configuration
 export const CACHE_DIR = path.join(process.cwd(), ".notion-cache")
+export const PAGES_CACHE_DIR = path.join(CACHE_DIR, "pages")
+export const BLOCKS_CACHE_DIR = path.join(CACHE_DIR, "blocks")
 export const CACHE_INDEX_FILE = path.join(CACHE_DIR, "index.json")
+export const BLOCKS_INDEX_FILE = path.join(CACHE_DIR, "blocks-index.json")
 export const CACHE_TTL_MS = 24 * 60 * 60 * 1000 // 24 hours
 
 export interface CacheIndex {
@@ -14,12 +18,29 @@ export interface CacheIndex {
   }
 }
 
+export interface BlocksCacheIndex {
+  [blockId: string]: {
+    cachedAt: number
+    size?: number
+    parentId?: string // Track which page/block this belongs to
+  }
+}
+
 export interface CacheStats {
-  totalFiles: number
-  totalSize: number
-  oldestCacheTime: number
-  newestCacheTime: number
-  expiredFiles: number
+  pages: {
+    totalFiles: number
+    totalSize: number
+    oldestCacheTime: number
+    newestCacheTime: number
+    expiredFiles: number
+  }
+  blocks: {
+    totalFiles: number
+    totalSize: number
+    oldestCacheTime: number
+    newestCacheTime: number
+    expiredFiles: number
+  }
 }
 
 /**
@@ -30,6 +51,18 @@ export const initializeCache = async (): Promise<void> => {
     await fs.access(CACHE_DIR)
   } catch {
     await fs.mkdir(CACHE_DIR, { recursive: true })
+  }
+
+  try {
+    await fs.access(PAGES_CACHE_DIR)
+  } catch {
+    await fs.mkdir(PAGES_CACHE_DIR, { recursive: true })
+  }
+
+  try {
+    await fs.access(BLOCKS_CACHE_DIR)
+  } catch {
+    await fs.mkdir(BLOCKS_CACHE_DIR, { recursive: true })
   }
 }
 
@@ -53,105 +86,188 @@ export const saveCacheIndex = async (index: CacheIndex): Promise<void> => {
 }
 
 /**
+ * Load blocks cache index from disk
+ */
+export const loadBlocksCacheIndex = async (): Promise<BlocksCacheIndex> => {
+  try {
+    const indexData = await fs.readFile(BLOCKS_INDEX_FILE, "utf-8")
+    return JSON.parse(indexData)
+  } catch {
+    return {}
+  }
+}
+
+/**
+ * Save blocks cache index to disk
+ */
+export const saveBlocksCacheIndex = async (index: BlocksCacheIndex): Promise<void> => {
+  await fs.writeFile(BLOCKS_INDEX_FILE, JSON.stringify(index, null, 2))
+}
+
+/**
  * Get cache statistics
  */
 export const getCacheStats = async (): Promise<CacheStats> => {
-  const index = await loadCacheIndex()
-  const entries = Object.values(index)
+  const pagesIndex = await loadCacheIndex()
+  const blocksIndex = await loadBlocksCacheIndex()
+  const pagesEntries = Object.values(pagesIndex)
+  const blocksEntries = Object.values(blocksIndex)
   const now = Date.now()
 
-  if (entries.length === 0) {
+  const getStatsForEntries = (entries: Array<{ cachedAt: number; size?: number }>) => {
+    if (entries.length === 0) {
+      return {
+        totalFiles: 0,
+        totalSize: 0,
+        oldestCacheTime: 0,
+        newestCacheTime: 0,
+        expiredFiles: 0,
+      }
+    }
+
     return {
-      totalFiles: 0,
-      totalSize: 0,
-      oldestCacheTime: 0,
-      newestCacheTime: 0,
-      expiredFiles: 0,
+      totalFiles: entries.length,
+      totalSize: entries.reduce((sum, entry) => sum + (entry.size || 0), 0),
+      oldestCacheTime: Math.min(...entries.map((e) => e.cachedAt)),
+      newestCacheTime: Math.max(...entries.map((e) => e.cachedAt)),
+      expiredFiles: entries.filter((e) => now - e.cachedAt > CACHE_TTL_MS).length,
     }
   }
 
   return {
-    totalFiles: entries.length,
-    totalSize: entries.reduce((sum, entry) => sum + (entry.size || 0), 0),
-    oldestCacheTime: Math.min(...entries.map((e) => e.cachedAt)),
-    newestCacheTime: Math.max(...entries.map((e) => e.cachedAt)),
-    expiredFiles: entries.filter((e) => now - e.cachedAt > CACHE_TTL_MS).length,
+    pages: getStatsForEntries(pagesEntries),
+    blocks: getStatsForEntries(blocksEntries),
   }
 }
 
 /**
- * Clear expired cache entries
+ * Clear expired cache entries for both pages and blocks
  */
-export const clearExpiredCache = async (): Promise<number> => {
-  const index = await loadCacheIndex()
+export const clearExpiredCache = async (): Promise<{ pages: number; blocks: number }> => {
+  const pagesIndex = await loadCacheIndex()
+  const blocksIndex = await loadBlocksCacheIndex()
   const now = Date.now()
-  let clearedCount = 0
+  let pagesClearedCount = 0
+  let blocksClearedCount = 0
 
-  const validEntries: CacheIndex = {}
-
-  for (const [pageId, entry] of Object.entries(index)) {
+  // Clear expired pages
+  const validPagesEntries: CacheIndex = {}
+  for (const [pageId, entry] of Object.entries(pagesIndex)) {
     if (now - entry.cachedAt > CACHE_TTL_MS) {
-      // Remove expired cache file
       try {
-        const cacheFile = path.join(CACHE_DIR, `${pageId}.json`)
+        const cacheFile = path.join(PAGES_CACHE_DIR, `${pageId}.json`)
         await fs.unlink(cacheFile)
-        clearedCount++
+        pagesClearedCount++
       } catch {
         // File might already be deleted
       }
     } else {
-      validEntries[pageId] = entry
+      validPagesEntries[pageId] = entry
     }
   }
 
-  await saveCacheIndex(validEntries)
-  return clearedCount
+  // Clear expired blocks
+  const validBlocksEntries: BlocksCacheIndex = {}
+  for (const [blockId, entry] of Object.entries(blocksIndex)) {
+    if (now - entry.cachedAt > CACHE_TTL_MS) {
+      try {
+        const cacheFile = path.join(BLOCKS_CACHE_DIR, `${blockId}.json`)
+        await fs.unlink(cacheFile)
+        blocksClearedCount++
+      } catch {
+        // File might already be deleted
+      }
+    } else {
+      validBlocksEntries[blockId] = entry
+    }
+  }
+
+  await saveCacheIndex(validPagesEntries)
+  await saveBlocksCacheIndex(validBlocksEntries)
+
+  return { pages: pagesClearedCount, blocks: blocksClearedCount }
 }
 
 /**
- * Clear all cache entries
+ * Clear all cache entries for both pages and blocks
  */
-export const clearAllCache = async (): Promise<number> => {
-  const index = await loadCacheIndex()
-  let clearedCount = 0
+export const clearAllCache = async (): Promise<{ pages: number; blocks: number }> => {
+  const pagesIndex = await loadCacheIndex()
+  const blocksIndex = await loadBlocksCacheIndex()
+  let pagesClearedCount = 0
+  let blocksClearedCount = 0
 
-  for (const pageId of Object.keys(index)) {
+  // Clear all pages
+  for (const pageId of Object.keys(pagesIndex)) {
     try {
-      const cacheFile = path.join(CACHE_DIR, `${pageId}.json`)
+      const cacheFile = path.join(PAGES_CACHE_DIR, `${pageId}.json`)
       await fs.unlink(cacheFile)
-      clearedCount++
+      pagesClearedCount++
     } catch {
       // File might already be deleted
     }
   }
 
-  // Clear index
-  await saveCacheIndex({})
-
-  return clearedCount
-}
-
-/**
- * Clear cache for a specific page
- */
-export const clearPageCache = async (pageId: string): Promise<boolean> => {
-  const index = await loadCacheIndex()
-
-  if (index[pageId]) {
+  // Clear all blocks
+  for (const blockId of Object.keys(blocksIndex)) {
     try {
-      const cacheFile = path.join(CACHE_DIR, `${pageId}.json`)
+      const cacheFile = path.join(BLOCKS_CACHE_DIR, `${blockId}.json`)
       await fs.unlink(cacheFile)
-
-      delete index[pageId]
-      await saveCacheIndex(index)
-
-      return true
+      blocksClearedCount++
     } catch {
-      return false
+      // File might already be deleted
     }
   }
 
-  return false
+  // Clear both indexes
+  await saveCacheIndex({})
+  await saveBlocksCacheIndex({})
+
+  return { pages: pagesClearedCount, blocks: blocksClearedCount }
+}
+
+/**
+ * Clear cache for a specific page and its associated blocks
+ */
+export const clearPageCache = async (pageId: string): Promise<boolean> => {
+  const pagesIndex = await loadCacheIndex()
+  const blocksIndex = await loadBlocksCacheIndex()
+  let success = false
+
+  // Clear page cache
+  if (pagesIndex[pageId]) {
+    try {
+      const cacheFile = path.join(PAGES_CACHE_DIR, `${pageId}.json`)
+      await fs.unlink(cacheFile)
+
+      delete pagesIndex[pageId]
+      await saveCacheIndex(pagesIndex)
+      success = true
+    } catch {
+      // File might already be deleted
+    }
+  }
+
+  // Clear associated blocks cache
+  const blocksToDelete = Object.entries(blocksIndex)
+    .filter(([, entry]) => entry.parentId === pageId)
+    .map(([blockId]) => blockId)
+
+  for (const blockId of blocksToDelete) {
+    try {
+      const cacheFile = path.join(BLOCKS_CACHE_DIR, `${blockId}.json`)
+      await fs.unlink(cacheFile)
+      delete blocksIndex[blockId]
+    } catch {
+      // File might already be deleted
+    }
+  }
+
+  if (blocksToDelete.length > 0) {
+    await saveBlocksCacheIndex(blocksIndex)
+  }
+
+  return success
 }
 
 /**
@@ -200,4 +316,82 @@ export const warmCache = async (pageIds: string[], fetchPageData: (pageId: strin
   }
 
   console.log("**Cache warming completed**")
+}
+
+/**
+ * Get cached blocks data
+ */
+export const getCachedBlocksData = async (blockId: string): Promise<BlockObjectResponse[] | null> => {
+  try {
+    const cacheFile = path.join(BLOCKS_CACHE_DIR, `${blockId}.json`)
+    const cachedData = await fs.readFile(cacheFile, "utf-8")
+    return JSON.parse(cachedData)
+  } catch {
+    return null
+  }
+}
+
+/**
+ * Save blocks data to cache
+ */
+export const saveCachedBlocksData = async (blockId: string, blocks: BlockObjectResponse[], parentId?: string): Promise<void> => {
+  const cacheFile = path.join(BLOCKS_CACHE_DIR, `${blockId}.json`)
+  const dataString = JSON.stringify(blocks, null, 2)
+  await fs.writeFile(cacheFile, dataString)
+
+  // Update blocks index with file size and parent reference
+  const index = await loadBlocksCacheIndex()
+  index[blockId] = {
+    cachedAt: Date.now(),
+    size: Buffer.byteLength(dataString, "utf8"),
+    parentId,
+  }
+  await saveBlocksCacheIndex(index)
+}
+
+/**
+ * Check if blocks cache entry exists and is valid
+ */
+export const isBlocksCacheEntryValid = async (blockId: string): Promise<boolean> => {
+  const index = await loadBlocksCacheIndex()
+  const entry = index[blockId]
+
+  if (!entry) {
+    return false
+  }
+
+  const now = Date.now()
+  const isNotExpired = now - entry.cachedAt < CACHE_TTL_MS
+
+  // Check if cache file exists
+  try {
+    const cacheFile = path.join(BLOCKS_CACHE_DIR, `${blockId}.json`)
+    await fs.access(cacheFile)
+    return isNotExpired
+  } catch {
+    return false
+  }
+}
+
+/**
+ * Clear cache for specific blocks
+ */
+export const clearBlocksCache = async (blockId: string): Promise<boolean> => {
+  const index = await loadBlocksCacheIndex()
+
+  if (index[blockId]) {
+    try {
+      const cacheFile = path.join(BLOCKS_CACHE_DIR, `${blockId}.json`)
+      await fs.unlink(cacheFile)
+
+      delete index[blockId]
+      await saveBlocksCacheIndex(index)
+
+      return true
+    } catch {
+      return false
+    }
+  }
+
+  return false
 }

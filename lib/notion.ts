@@ -2,7 +2,7 @@ import { Client } from "@notionhq/client"
 import { PageObjectResponse, BlockObjectResponse } from "@notionhq/client/build/src/api-endpoints"
 import * as fs from "fs/promises"
 import * as path from "path"
-import { CACHE_DIR, initializeCache, loadCacheIndex, saveCacheIndex, isCacheEntryValid } from "./notionCache"
+import { PAGES_CACHE_DIR, initializeCache, loadCacheIndex, saveCacheIndex, isCacheEntryValid, getCachedBlocksData, saveCachedBlocksData, isBlocksCacheEntryValid } from "./notionCache"
 
 // Types for better code structure
 export interface BlogPost {
@@ -26,10 +26,15 @@ const notion: Client = new Client({
   auth: process.env.NOTION_API_TOKEN,
 })
 
+// In-memory cache for database queries (resets on app restart)
+let cachedBlogPosts: BlogPost[] | null = null
+let cacheTimestamp: number | null = null
+const MEMORY_CACHE_TTL_MS = 5 * 60 * 1000 // 5 minutes
+
 // Get cached page data
 const getCachedPageData = async (pageId: string): Promise<CachedPageData | null> => {
   try {
-    const cacheFile = path.join(CACHE_DIR, `${pageId}.json`)
+    const cacheFile = path.join(PAGES_CACHE_DIR, `${pageId}.json`)
     const cachedData = await fs.readFile(cacheFile, "utf-8")
     return JSON.parse(cachedData)
   } catch {
@@ -39,7 +44,7 @@ const getCachedPageData = async (pageId: string): Promise<CachedPageData | null>
 
 // Save page data to cache
 const saveCachedPageData = async (pageId: string, data: CachedPageData): Promise<void> => {
-  const cacheFile = path.join(CACHE_DIR, `${pageId}.json`)
+  const cacheFile = path.join(PAGES_CACHE_DIR, `${pageId}.json`)
   const dataString = JSON.stringify(data, null, 2)
   await fs.writeFile(cacheFile, dataString)
 
@@ -54,10 +59,18 @@ const saveCachedPageData = async (pageId: string, data: CachedPageData): Promise
 
 /**
  * Fetches and parses all published blog posts from the Notion database
+ * Uses in-memory caching to avoid redundant queries during the same session
  * @param databaseId - The Notion database ID containing blog posts
  * @returns Array of parsed blog post objects
  */
 export const getAllPublishedBlogPosts = async (databaseId: string): Promise<BlogPost[]> => {
+  // Check if we have valid cached data
+  const now = Date.now()
+  if (cachedBlogPosts && cacheTimestamp && now - cacheTimestamp < MEMORY_CACHE_TTL_MS) {
+    console.log("**Using in-memory cached blog posts**")
+    return cachedBlogPosts
+  }
+
   console.log("**Notion Database Query API Called**")
   const response = await notion.databases.query({
     database_id: databaseId,
@@ -75,7 +88,14 @@ export const getAllPublishedBlogPosts = async (databaseId: string): Promise<Blog
     ],
   })
   const publishedPages = response.results.filter((obj): obj is PageObjectResponse => (obj as PageObjectResponse).properties !== undefined)
-  return publishedPages.map(transformNotionPageToBlogPost)
+  const blogPosts = publishedPages.map(transformNotionPageToBlogPost)
+
+  // Cache the results in memory
+  cachedBlogPosts = blogPosts
+  cacheTimestamp = now
+  console.log(`**Cached ${blogPosts.length} blog posts in memory**`)
+
+  return blogPosts
 }
 
 /**
@@ -133,7 +153,7 @@ export const getNotionPageWithBlocks = async (pageId: string): Promise<{ page: P
 
   // Cache miss or stale data - fetch fresh blocks
   console.log(`**Cache miss for page ${pageId} - fetching fresh data**`)
-  const freshBlocks = await fetchAllBlocksFromPage(pageId)
+  const freshBlocks = await fetchAllBlocksFromPage(pageId, true, pageId)
 
   // Save to cache
   const cacheData: CachedPageData = {
@@ -156,21 +176,50 @@ export const getNotionPageWithBlocks = async (pageId: string): Promise<{ page: P
 }
 
 /**
- * Fetches blocks from a block ID (for nested blocks) without caching
+ * Fetches blocks from a block ID (for nested blocks) with caching
  * @param blockId - The Notion block ID
+ * @param parentId - The parent page/block ID for cache organization
  * @returns Array of block objects
  */
-export const getNotionBlockChildren = async (blockId: string): Promise<BlockObjectResponse[]> => {
-  console.log(`**Fetching children for block ${blockId}**`)
-  return await fetchAllBlocksFromPage(blockId)
+export const getNotionBlockChildren = async (blockId: string, parentId?: string): Promise<BlockObjectResponse[]> => {
+  // Check if we have valid cached blocks
+  const isValid = await isBlocksCacheEntryValid(blockId)
+  if (isValid) {
+    const cachedBlocks = await getCachedBlocksData(blockId)
+    if (cachedBlocks) {
+      return cachedBlocks
+    }
+  }
+
+  // Cache miss - fetch fresh blocks
+  console.log(`**Cache miss for blocks ${blockId} - fetching fresh data**`)
+  const freshBlocks = await fetchAllBlocksFromPage(blockId, true, parentId)
+
+  // Save to cache
+  await saveCachedBlocksData(blockId, freshBlocks, parentId)
+
+  return freshBlocks
 }
 
 /**
- * Fetches all blocks from a Notion page with pagination support
+ * Fetches all blocks from a Notion page with pagination support and caching
  * @param blockId - The Notion block/page ID
+ * @param useCache - Whether to use caching (default: true for pages, false for nested blocks)
+ * @param parentId - The parent page ID for cache organization
  * @returns Array of all blocks from the page
  */
-const fetchAllBlocksFromPage = async (blockId: string): Promise<BlockObjectResponse[]> => {
+const fetchAllBlocksFromPage = async (blockId: string, useCache: boolean = true, parentId?: string): Promise<BlockObjectResponse[]> => {
+  // Use cache for page-level blocks
+  if (useCache) {
+    const isValid = await isBlocksCacheEntryValid(blockId)
+    if (isValid) {
+      const cachedBlocks = await getCachedBlocksData(blockId)
+      if (cachedBlocks) {
+        return cachedBlocks
+      }
+    }
+  }
+
   console.log("**Notion Blocks API Called**")
   const blocks: BlockObjectResponse[] = []
   let cursor: string | undefined = undefined
@@ -190,5 +239,46 @@ const fetchAllBlocksFromPage = async (blockId: string): Promise<BlockObjectRespo
     cursor = next_cursor
   }
 
+  // Cache the results if caching is enabled
+  if (useCache) {
+    await saveCachedBlocksData(blockId, blocks, parentId)
+  }
+
   return blocks
+}
+
+/**
+ * Clears the in-memory cache for blog posts
+ * Useful for development or when you want to force a fresh fetch
+ */
+export const clearBlogPostsMemoryCache = (): void => {
+  cachedBlogPosts = null
+  cacheTimestamp = null
+  console.log("**In-memory blog posts cache cleared**")
+}
+
+/**
+ * Gets the status of the in-memory cache
+ * @returns Object with cache status information
+ */
+export const getBlogPostsCacheStatus = (): {
+  isCached: boolean
+  cacheAge?: number
+  cacheSize?: number
+  timeToExpiry?: number
+} => {
+  if (!cachedBlogPosts || !cacheTimestamp) {
+    return { isCached: false }
+  }
+
+  const now = Date.now()
+  const cacheAge = now - cacheTimestamp
+  const timeToExpiry = MEMORY_CACHE_TTL_MS - cacheAge
+
+  return {
+    isCached: true,
+    cacheAge,
+    cacheSize: cachedBlogPosts.length,
+    timeToExpiry: timeToExpiry > 0 ? timeToExpiry : 0,
+  }
 }

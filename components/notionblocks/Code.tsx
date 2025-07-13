@@ -145,9 +145,9 @@ export const Code = ({ value }) => {
   }
 
   return (
-    <div className="my-8 w-full">
+    <div className="my-6 w-full">
       <div className="mx-auto max-w-5xl">
-        <div className="group relative overflow-hidden rounded-xl border border-gray-200 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 shadow-2xl transition-all duration-300 hover:shadow-3xl hover:scale-[1.02] code-block-glow">
+        <div className="group relative overflow-hidden rounded-xl border border-gray-200 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 shadow-2xl transition-all duration-300 hover:shadow-3xl hover:scale-[1.01] code-block-glow">
           {/* Animated gradient border */}
           <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-purple-500 via-blue-500 to-teal-500 opacity-0 transition-opacity duration-300 group-hover:opacity-20 blur-sm"></div>
 

@@ -61,7 +61,7 @@ export const getStaticProps = async (context) => {
       .map(async (block) => {
         return {
           id: block.id,
-          children: await getNotionBlockChildren(block.id), // Use getNotionBlockChildren for nested blocks
+          children: await getNotionBlockChildren(block.id, filter[0].id), // Pass pageId as parentId for better cache organization
         }
       })
   )

@@ -7,10 +7,10 @@ const ContentSecurityPolicy = `
   script-src 'self' 'unsafe-eval' 'unsafe-inline' giscus.app;
   style-src 'self' 'unsafe-inline';
   img-src * blob: data:;
-  media-src 'none';
+  media-src * blob: data:;
   connect-src *;
   font-src 'self';
-  frame-src giscus.app www.youtube.com youtube.com
+  frame-src giscus.app www.youtube.com youtube.com player.vimeo.com
 `
 
 const securityHeaders = [

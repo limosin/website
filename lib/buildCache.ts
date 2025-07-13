@@ -27,8 +27,8 @@ export const warmBuildCache = async (options: BuildCacheOptions = {}): Promise<v
     // Clear expired cache first if requested
     if (clearExpired) {
       const clearedCount = await clearExpiredCache()
-      if (verbose && clearedCount > 0) {
-        console.log(`🧹 Cleared ${clearedCount} expired cache entries`)
+      if (verbose && (clearedCount.pages > 0 || clearedCount.blocks > 0)) {
+        console.log(`🧹 Cleared ${clearedCount.pages} expired page cache entries and ${clearedCount.blocks} expired block cache entries`)
       }
     }
 

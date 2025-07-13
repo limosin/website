@@ -1,10 +1,11 @@
 import React, { lazy, Suspense } from "react"
-import OptimizedImage from "./OptimizedImage"
 import { Heading, SpanText, Text } from "@/components/notionblocks/CommonBlocks"
 import { Code } from "@/components/notionblocks/Code"
 import { BulletedList, NumberedList } from "@/components/notionblocks/Lists"
 import { BlockQuote } from "@/components/notionblocks/BlockQuote"
-import { YouTube } from "@/components/notionblocks/Video"
+import { Video } from "@/components/notionblocks/Video"
+import { Callout } from "@/components/notionblocks/Callout"
+import { NotionImage } from "@/components/notionblocks/Image"
 
 // Lazy load heavy components
 const Bookmark = lazy(() => import("@/components/notionblocks/Bookmark").then((module) => ({ default: module.Bookmark })))
@@ -77,24 +78,7 @@ function RenderBlocksHelper(blocks, index) {
       break
 
     case "image": {
-      const imageSrc = value.type === "external" ? value.external.url : value.file.url
-      const caption = value.caption.length ? value.caption[0].plain_text : ""
-      output = (
-        <figure key={id} className="my-8 w-full">
-          <div className="relative mx-auto w-full max-w-4xl overflow-hidden rounded-lg border border-gray-200 shadow-sm">
-            <OptimizedImage
-              src={imageSrc}
-              alt={caption || "Content image"}
-              width={1200}
-              height={800}
-              className="h-auto w-full object-contain"
-              sizes="(max-width: 640px) 100vw, (max-width: 768px) 100vw, (max-width: 1024px) 90vw, 800px"
-              priority={false}
-            />
-          </div>
-          {caption && <figcaption className="mx-auto mt-4 max-w-4xl text-center text-sm leading-relaxed text-gray-600">{caption}</figcaption>}
-        </figure>
-      )
+      output = <NotionImage key={id} id={id} value={value} />
       break
     }
 
@@ -105,7 +89,7 @@ function RenderBlocksHelper(blocks, index) {
       output = (
         <figure key={id} className="my-8 w-full">
           <div className="mx-auto max-w-4xl">
-            <YouTube url={videoSrc} />
+            <Video url={videoSrc} />
           </div>
           {caption && <figcaption className="mx-auto mt-4 max-w-4xl text-center text-sm leading-relaxed text-gray-600">{caption}</figcaption>}
         </figure>
@@ -138,7 +122,7 @@ function RenderBlocksHelper(blocks, index) {
         <div key={id} className="my-6 w-full">
           <div className="mx-auto max-w-4xl">
             <Suspense fallback={<div className="h-32 animate-pulse rounded-lg bg-gray-200"></div>}>
-              <Table key={id} value={value} />
+              <Table id={id} value={value} />
             </Suspense>
           </div>
         </div>
@@ -177,16 +161,5 @@ const Toggle = ({ value }) => {
         })}
       </div>
     </details>
-  )
-}
-
-const Callout = ({ id, value }) => {
-  return (
-    <div className="my-6 flex rounded-lg border border-gray-200 bg-blue-50 p-4">
-      <div className="mr-3 flex size-6 items-center justify-center text-xl">{value.icon?.emoji}</div>
-      <div className="flex-1 text-gray-800">
-        <SpanText text={value.rich_text} id={id} />
-      </div>
-    </div>
   )
 }
