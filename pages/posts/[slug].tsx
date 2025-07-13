@@ -1,7 +1,7 @@
 import BlogLayout from "@/layouts/BlogLayout"
-import { getPage, getBlocks, getParsedBlogTableData } from "@/lib/notion"
+import { getNotionPageWithBlocks, getNotionBlockChildren, getAllPublishedBlogPosts } from "@/lib/notion"
 import { RenderBlocks } from "@/components/ContentBlocks"
-import { nunito } from "@/lib/fonts"
+import { inter } from "@/lib/fonts"
 import CalendarIcon from "public/resources/calendar.svg"
 import Image from "next/image"
 
@@ -14,7 +14,7 @@ export default function Post({ page, blocks }) {
   return (
     <BlogLayout data={page}>
       <div className="my-2 inline-flex rounded border border-solid border-amber-400 bg-amber-50 p-1 px-2">
-        <Image src={CalendarIcon} alt="Date" width="20" className="mr-2"></Image>
+        <Image src={CalendarIcon} alt="Date" width="20" height="20" className="mr-2"></Image>
         <span className="my-1 pl-0.5 text-sm text-gray-700">
           {new Date(page.created_time).toLocaleString("en-US", {
             month: "short",
@@ -24,7 +24,7 @@ export default function Post({ page, blocks }) {
         </span>
       </div>
 
-      <h1 className={`mb-5 text-3xl font-bold tracking-tight text-black md:text-5xl ${nunito.className}`}>{page.properties.title.title[0].plain_text}</h1>
+      <h1 className={`mb-5 text-2xl md:text-3xl lg:text-5xl font-bold tracking-tight text-black font-sans ${inter.className}`}>{page.properties.title.title[0].plain_text}</h1>
 
       <RenderBlocks blocks={blocks} />
     </BlogLayout>
@@ -32,23 +32,28 @@ export default function Post({ page, blocks }) {
 }
 
 export const getStaticPaths = async () => {
-  const database = await getParsedBlogTableData(process.env.NOTION_BLOG_DATABASE_ID)
+  const database = await getAllPublishedBlogPosts(process.env.NOTION_BLOG_DATABASE_ID)
   return {
     paths: database.map((page) => ({
       params: {
         slug: page.slug,
       },
     })),
-    fallback: false,
+    fallback: "blocking", // Enable ISR for new posts
   }
 }
 
 export const getStaticProps = async (context) => {
   const { slug } = context.params
-  const database = await getParsedBlogTableData(databaseId)
+  const database = await getAllPublishedBlogPosts(databaseId)
   const filter = database.filter((blog) => blog.slug === slug)
-  const page = await getPage(filter[0].id)
-  const blocks = await getBlocks(filter[0].id)
+  if (filter.length === 0) {
+    return {
+      notFound: true,
+    }
+  }
+  // Use the combined function to fetch both page and blocks in one go
+  const { page, blocks } = await getNotionPageWithBlocks(filter[0].id)
 
   const childrenBlocks = await Promise.all(
     blocks
@@ -56,7 +61,7 @@ export const getStaticProps = async (context) => {
       .map(async (block) => {
         return {
           id: block.id,
-          children: await getBlocks(block.id),
+          children: await getNotionBlockChildren(block.id, filter[0].id), // Pass pageId as parentId for better cache organization
         }
       })
   )
@@ -72,5 +77,7 @@ export const getStaticProps = async (context) => {
       page,
       blocks: blocksWithChildren,
     },
+    // Revalidate every 6 hours in production
+    revalidate: process.env.NODE_ENV === "production" ? 21600 : 1,
   }
 }

@@ -1,5 +1,5 @@
 import Container from "@/components/Container"
-import { roboto } from "@/lib/fonts"
+import { merriweather } from "@/lib/fonts"
 
 export default function BlogLayout({ children, data }) {
   const postImage = data.properties.cover
@@ -13,7 +13,7 @@ export default function BlogLayout({ children, data }) {
       type="article"
       image={postImageUrl}
     >
-      <article className={`mx-auto mb-16 flex w-full max-w-2xl flex-col items-start justify-center ${roboto.className}`}>{children}</article>
+      <article className={`mx-auto mb-16 flex w-full max-w-3xl px-4 md:px-0 flex-col items-start justify-center font-serif ${merriweather.className}`}>{children}</article>
     </Container>
   )
 }

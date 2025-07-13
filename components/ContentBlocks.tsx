@@ -1,11 +1,15 @@
-import React from "react"
-import { Bookmark } from "@/components/notionblocks/Bookmark"
+import React, { lazy, Suspense } from "react"
 import { Heading, SpanText, Text } from "@/components/notionblocks/CommonBlocks"
 import { Code } from "@/components/notionblocks/Code"
 import { BulletedList, NumberedList } from "@/components/notionblocks/Lists"
 import { BlockQuote } from "@/components/notionblocks/BlockQuote"
-import { YouTube } from "@/components/notionblocks/Video"
-import { Table } from "@/components/notionblocks/Table"
+import { Video } from "@/components/notionblocks/Video"
+import { Callout } from "@/components/notionblocks/Callout"
+import { NotionImage } from "@/components/notionblocks/Image"
+
+// Lazy load heavy components
+const Bookmark = lazy(() => import("@/components/notionblocks/Bookmark").then((module) => ({ default: module.Bookmark })))
+const Table = lazy(() => import("@/components/notionblocks/Table").then((module) => ({ default: module.Table })))
 
 export const RenderBlocks = ({ blocks }) => {
   const renderedBlocks = []
@@ -37,7 +41,7 @@ function RenderBlocksHelper(blocks, index) {
   const value = blocks[index][type]
   switch (type) {
     case "divider":
-      output = <hr className="my-3 w-full border md:my-5" key={id} />
+      output = <hr className="my-8 border-gray-300" key={id} />
       break
 
     case "paragraph":
@@ -74,15 +78,7 @@ function RenderBlocksHelper(blocks, index) {
       break
 
     case "image": {
-      const imageSrc = value.type === "external" ? value.external.url : value.file.url
-      const caption = value.caption.length ? value.caption[0].plain_text : ""
-      output = (
-        <figure key={id} className="my-3 text-center">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img alt={caption} src={imageSrc} />
-          {caption && <figcaption className="mt-2 text-sm text-gray-600">{caption}</figcaption>}
-        </figure>
-      )
+      output = <NotionImage key={id} id={id} value={value} />
       break
     }
 
@@ -91,9 +87,11 @@ function RenderBlocksHelper(blocks, index) {
       const caption = value.caption.length ? value.caption[0].plain_text : ""
       // render the video as iframe
       output = (
-        <figure key={id} className="my-3 w-full text-center">
-          <YouTube url={videoSrc} />
-          {caption && <figcaption className="mt-2 text-sm text-gray-600">{caption}</figcaption>}
+        <figure key={id} className="my-8 w-full">
+          <div className="mx-auto max-w-4xl">
+            <Video url={videoSrc} />
+          </div>
+          {caption && <figcaption className="mx-auto mt-4 max-w-4xl text-center text-sm leading-relaxed text-gray-600">{caption}</figcaption>}
         </figure>
       )
       break
@@ -104,7 +102,15 @@ function RenderBlocksHelper(blocks, index) {
       break
 
     case "bookmark":
-      output = <Bookmark id={id} value={value} key={index} />
+      output = (
+        <div key={id} className="my-6 w-full">
+          <div className="mx-auto max-w-3xl">
+            <Suspense fallback={<div className="h-40 animate-pulse rounded-lg bg-gray-200"></div>}>
+              <Bookmark id={id} value={value} key={index} />
+            </Suspense>
+          </div>
+        </div>
+      )
       break
 
     case "code":
@@ -112,7 +118,15 @@ function RenderBlocksHelper(blocks, index) {
       break
 
     case "table":
-      output = <Table key={id} value={value} />
+      output = (
+        <div key={id} className="my-6 w-full">
+          <div className="mx-auto max-w-4xl">
+            <Suspense fallback={<div className="h-32 animate-pulse rounded-lg bg-gray-200"></div>}>
+              <Table id={id} value={value} />
+            </Suspense>
+          </div>
+        </div>
+      )
       break
 
     default:
@@ -126,36 +140,26 @@ const ToDo = ({ id, value }) => {
     return <></>
   }
   return (
-    <div>
-      <label htmlFor={id}>
-        .
+    <div className="my-3 flex items-center space-x-3">
+      <input type="checkbox" id={id} defaultChecked={value.checked} className="size-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500" />
+      <label htmlFor={id} className="text-gray-700">
         <SpanText text={value.rich_text} id={id} />
       </label>
-      <input type="checkbox" id={id} defaultChecked={value.checked} />
     </div>
   )
 }
 
 const Toggle = ({ value }) => {
   return (
-    <details>
-      <summary className="cursor-pointer">{value.rich_text[0].text.content}</summary>
-      {value.children?.map((block) => {
-        if (block.type === "paragraph") {
-          return <Text key={block.id} text={block.paragraph.rich_text} id={block.id} />
-        }
-      })}
-    </details>
-  )
-}
-
-const Callout = ({ id, value }) => {
-  return (
-    <div className="my-2 flex flex-row rounded-md bg-gray-100 px-2 py-4">
-      <div className="items-center justify-center px-2">{value.icon?.emoji}</div>
-      <div className="pl-2">
-        <SpanText text={value.rich_text} id={id} />
+    <details className="my-4 rounded-lg border border-gray-200 bg-gray-50">
+      <summary className="cursor-pointer p-4 font-medium text-gray-900 hover:bg-gray-100">{value.rich_text[0].text.content}</summary>
+      <div className="border-t border-gray-200 p-4">
+        {value.children?.map((block) => {
+          if (block.type === "paragraph") {
+            return <Text key={block.id} text={block.paragraph.rich_text} id={block.id} />
+          }
+        })}
       </div>
-    </div>
+    </details>
   )
 }

@@ -1,1 +1,165 @@
 @import "tailwindcss";
+
+/* Mobile-first responsive typography */
+html {
+  font-size: 14px; /* Base font size for mobile */
+}
+
+@media (min-width: 640px) {
+  html {
+    font-size: 15px; /* Slightly larger for tablets */
+  }
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px; /* Standard desktop size */
+  }
+}
+
+/* Typography improvements for readability */
+body {
+  font-feature-settings: "rlig" 1, "calt" 1;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.6;
+}
+
+/* Mobile-friendly paragraph spacing */
+p {
+  margin-bottom: 1rem;
+  line-height: 1.7;
+}
+
+@media (min-width: 768px) {
+  p {
+    line-height: 1.8;
+    margin-bottom: 1.25rem;
+  }
+}
+
+/* Better line heights for reading */
+.prose p {
+  line-height: 1.7;
+}
+
+@media (min-width: 768px) {
+  .prose p {
+    line-height: 1.8;
+  }
+}
+
+.prose h1, .prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
+  line-height: 1.2;
+  letter-spacing: -0.025em;
+  margin-top: 1.5em;
+  margin-bottom: 0.75em;
+}
+
+@media (max-width: 640px) {
+  .prose h1, .prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
+    margin-top: 1.25em;
+    margin-bottom: 0.5em;
+  }
+}
+
+/* Mobile-specific improvements */
+@media (max-width: 640px) {
+  /* Reduce margins and padding for mobile */
+  .prose {
+    font-size: 0.9rem;
+    line-height: 1.7;
+  }
+  
+  /* Smaller inline code */
+  .prose code {
+    font-size: 0.8rem;
+    padding: 0.125rem 0.25rem;
+  }
+  
+  /* More compact lists */
+  .prose ul, .prose ol {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .prose li {
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+  }
+  
+  /* Adjust blockquote spacing */
+  .prose blockquote {
+    margin: 1rem 0;
+    padding-left: 1rem;
+    font-size: 0.9rem;
+  }
+  
+  /* Smaller table text */
+  .prose table {
+    font-size: 0.8rem;
+  }
+  
+  /* Better image scaling */
+  .prose img {
+    margin: 1rem auto;
+  }
+}
+
+/* Tablet adjustments */
+@media (min-width: 641px) and (max-width: 768px) {
+  .prose {
+    font-size: 0.95rem;
+  }
+}
+
+/* Custom scrollbar styles for code blocks */
+.scrollbar-thin::-webkit-scrollbar {
+  height: 6px;
+  width: 6px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: rgb(31 41 55 / 0.5);
+  border-radius: 6px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: rgb(75 85 99);
+  border-radius: 6px;
+  transition: background-color 0.2s ease;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb:hover {
+  background: rgb(107 114 128);
+}
+
+/* Firefox scrollbar */
+.scrollbar-thin {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(75 85 99) rgb(31 41 55);
+}
+
+/* Enhanced code block animations */
+@keyframes glow {
+  0%, 100% {
+    box-shadow: 0 0 5px rgba(99, 102, 241, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(99, 102, 241, 0.4), 0 0 30px rgba(99, 102, 241, 0.1);
+  }
+}
+
+.code-block-glow:hover {
+  animation: glow 2s ease-in-out infinite;
+}
+
+/* Selection highlighting for code */
+code ::selection {
+  background: rgba(99, 102, 241, 0.3);
+}
+
+code::-moz-selection {
+  background: rgba(99, 102, 241, 0.3);
+}
