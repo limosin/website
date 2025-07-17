@@ -93,9 +93,7 @@ export default function Container(props) {
         />
       </Head>
       <Nav />
-      <main id="skip">
-        {children}
-      </main>
+      <main id="skip">{children}</main>
       <Footer />
     </>
   )
