@@ -132,7 +132,7 @@ export const Code = ({ value }) => {
   }, [language])
 
   useEffect(() => {
-    if (codeBlock.current && Prism && !isLoading) {
+    if (codeBlock.current && Prism && !isLoading && language !== undefined && language.length > 0) {
       // Clear any existing highlighting
       codeBlock.current.classList.remove("language-" + language)
       codeBlock.current.classList.add("language-" + language)
