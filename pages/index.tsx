@@ -19,7 +19,7 @@ export const getStaticProps = async () => {
 export default function Home({ posts }: InferGetStaticPropsType<typeof getStaticProps>) {
   return (
     <Container>
-      <div className="mx-auto mb-16 max-w-3xl">
+      <div className="mx-auto mb-16 px-4 max-w-3xl">
         <div className="mb-16">
           <h1
             className={`mx-auto mb-2 w-full max-w-xl text-2xl font-bold tracking-tight text-black dark:text-white md:text-center md:text-5xl lg:text-6xl font-sans transition-colors ${inter.className}`}

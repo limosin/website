@@ -93,7 +93,7 @@ export default function Container(props) {
         />
       </Head>
       <Nav />
-      <main id="skip" className="px-0 md:px-4">
+      <main id="skip">
         {children}
       </main>
       <Footer />
