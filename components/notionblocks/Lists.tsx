@@ -9,7 +9,7 @@ export const NumberedList = (blocks, index, parentId) => {
   }
   index--
   const output = (
-    <ol className="my-4 list-outside list-decimal space-y-1 pl-6 leading-relaxed" key={parentId}>
+    <ol className="my-4 list-outside list-decimal space-y-1 pl-6 leading-relaxed text-gray-900 dark:text-gray-100 transition-colors" key={parentId}>
       {numberedList}
     </ol>
   )
@@ -28,7 +28,7 @@ export const BulletedList = (blocks, index, parentId) => {
   }
   index--
   const output = (
-    <ul className="my-4 list-outside list-disc space-y-1 pl-6 leading-relaxed" key={parentId}>
+    <ul className="my-4 list-outside list-disc space-y-1 pl-6 leading-relaxed text-gray-900 dark:text-gray-100 transition-colors" key={parentId}>
       {bulletedList}
     </ul>
   )

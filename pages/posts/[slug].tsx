@@ -2,8 +2,6 @@ import BlogLayout from "@/layouts/BlogLayout"
 import { getNotionPageWithBlocks, getNotionBlockChildren, getAllPublishedBlogPosts } from "@/lib/notion"
 import { RenderBlocks } from "@/components/ContentBlocks"
 import { inter } from "@/lib/fonts"
-import CalendarIcon from "public/resources/calendar.svg"
-import Image from "next/image"
 
 const databaseId = process.env.NOTION_BLOG_DATABASE_ID
 
@@ -13,9 +11,8 @@ export default function Post({ page, blocks }) {
   }
   return (
     <BlogLayout data={page}>
-      <div className="my-2 inline-flex rounded border border-solid border-amber-400 bg-amber-50 p-1 px-2">
-        <Image src={CalendarIcon} alt="Date" width="20" height="20" className="mr-2"></Image>
-        <span className="my-1 pl-0.5 text-sm text-gray-700">
+      <div className="my-2 inline-flex rounded p-1 px-2">
+        <span className="my-1 pl-0.5 text-sm text-gray-400 dark:text-amber-200 transition-colors">
           {new Date(page.created_time).toLocaleString("en-US", {
             month: "short",
             day: "2-digit",
@@ -24,7 +21,9 @@ export default function Post({ page, blocks }) {
         </span>
       </div>
 
-      <h1 className={`mb-5 text-2xl md:text-3xl lg:text-5xl font-bold tracking-tight text-black font-sans ${inter.className}`}>{page.properties.title.title[0].plain_text}</h1>
+      <h1 className={`mb-5 text-2xl md:text-3xl lg:text-5xl font-bold tracking-tight text-black dark:text-white font-sans transition-colors ${inter.className}`}>
+        {page.properties.title.title[0].plain_text}
+      </h1>
 
       <RenderBlocks blocks={blocks} />
     </BlogLayout>

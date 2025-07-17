@@ -3,10 +3,11 @@ import { inter } from "@/lib/fonts"
 import { AppProps } from "next/app"
 import Head from "next/head"
 import PerformanceMonitor from "@/components/PerformanceMonitor"
+import { ThemeProvider } from "@/components/ThemeProvider"
 
 function App({ Component, pageProps }: AppProps) {
   return (
-    <>
+    <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange={false}>
       <Head>
         {/* Preconnect to external domains for better performance */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -20,10 +21,12 @@ function App({ Component, pageProps }: AppProps) {
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
       </Head>
       <PerformanceMonitor />
-      <main className={`${inter.className} font-sans`}>
-        <Component {...pageProps} />
-      </main>
-    </>
+      <div className="min-h-screen bg-white dark:bg-gray-900 transition-colors">
+        <main className={`${inter.className} font-sans`}>
+          <Component {...pageProps} />
+        </main>
+      </div>
+    </ThemeProvider>
   )
 }
 

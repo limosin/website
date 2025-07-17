@@ -41,7 +41,7 @@ function RenderBlocksHelper(blocks, index) {
   const value = blocks[index][type]
   switch (type) {
     case "divider":
-      output = <hr className="my-8 border-gray-300" key={id} />
+      output = <hr className="my-8 border-gray-300 dark:border-gray-600" key={id} />
       break
 
     case "paragraph":
@@ -91,7 +91,7 @@ function RenderBlocksHelper(blocks, index) {
           <div className="mx-auto max-w-4xl">
             <Video url={videoSrc} />
           </div>
-          {caption && <figcaption className="mx-auto mt-4 max-w-4xl text-center text-sm leading-relaxed text-gray-600">{caption}</figcaption>}
+          {caption && <figcaption className="mx-auto mt-4 max-w-4xl text-center text-sm leading-relaxed text-gray-600 dark:text-gray-400">{caption}</figcaption>}
         </figure>
       )
       break
@@ -105,7 +105,7 @@ function RenderBlocksHelper(blocks, index) {
       output = (
         <div key={id} className="my-6 w-full">
           <div className="mx-auto max-w-3xl">
-            <Suspense fallback={<div className="h-40 animate-pulse rounded-lg bg-gray-200"></div>}>
+            <Suspense fallback={<div className="h-40 animate-pulse rounded-lg bg-gray-200 dark:bg-gray-700"></div>}>
               <Bookmark id={id} value={value} key={index} />
             </Suspense>
           </div>
@@ -121,7 +121,7 @@ function RenderBlocksHelper(blocks, index) {
       output = (
         <div key={id} className="my-6 w-full">
           <div className="mx-auto max-w-4xl">
-            <Suspense fallback={<div className="h-32 animate-pulse rounded-lg bg-gray-200"></div>}>
+            <Suspense fallback={<div className="h-32 animate-pulse rounded-lg bg-gray-200 dark:bg-gray-700"></div>}>
               <Table id={id} value={value} />
             </Suspense>
           </div>
@@ -141,8 +141,8 @@ const ToDo = ({ id, value }) => {
   }
   return (
     <div className="my-3 flex items-center space-x-3">
-      <input type="checkbox" id={id} defaultChecked={value.checked} className="size-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500" />
-      <label htmlFor={id} className="text-gray-700">
+      <input type="checkbox" id={id} defaultChecked={value.checked} className="size-4 rounded border-gray-300 dark:border-gray-600 text-blue-600 focus:ring-blue-500 dark:bg-gray-700" />
+      <label htmlFor={id} className="text-gray-700 dark:text-gray-300">
         <SpanText text={value.rich_text} id={id} />
       </label>
     </div>
@@ -151,9 +151,9 @@ const ToDo = ({ id, value }) => {
 
 const Toggle = ({ value }) => {
   return (
-    <details className="my-4 rounded-lg border border-gray-200 bg-gray-50">
-      <summary className="cursor-pointer p-4 font-medium text-gray-900 hover:bg-gray-100">{value.rich_text[0].text.content}</summary>
-      <div className="border-t border-gray-200 p-4">
+    <details className="my-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-800">
+      <summary className="cursor-pointer p-4 font-medium text-gray-900 dark:text-gray-100 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors">{value.rich_text[0].text.content}</summary>
+      <div className="border-t border-gray-200 dark:border-gray-700 p-4">
         {value.children?.map((block) => {
           if (block.type === "paragraph") {
             return <Text key={block.id} text={block.paragraph.rich_text} id={block.id} />
