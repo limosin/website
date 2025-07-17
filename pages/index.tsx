@@ -21,14 +21,16 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
     <Container>
       <div className="mx-auto mb-16 max-w-3xl">
         <div className="mb-16">
-          <h1 className={`mx-auto mb-2 w-full max-w-xl text-2xl font-bold tracking-tight text-black md:text-center md:text-5xl lg:text-6xl font-sans ${inter.className}`}>
+          <h1
+            className={`mx-auto mb-2 w-full max-w-xl text-2xl font-bold tracking-tight text-black dark:text-white md:text-center md:text-5xl lg:text-6xl font-sans transition-colors ${inter.className}`}
+          >
             {siteMetadata.headerTitle}
           </h1>
-          <p className="mx-auto mb-5 max-w-xl text-gray-700 md:text-center text-base md:text-lg leading-6 md:leading-7">{siteMetadata.description}</p>
+          <p className="mx-auto mb-5 max-w-xl text-gray-700 dark:text-gray-300 md:text-center text-base md:text-lg leading-6 md:leading-7 transition-colors">{siteMetadata.description}</p>
         </div>
-        <h2 className={`mb-4 mt-8 text-xl font-bold tracking-tight text-black md:text-3xl font-sans ${inter.className}`}>Blog Posts</h2>
+        <h2 className={`mb-4 mt-8 text-xl font-bold tracking-tight text-black dark:text-white md:text-3xl font-sans transition-colors ${inter.className}`}>Blog Posts</h2>
 
-        {!posts.length && <p className="mb-4 text-gray-600">No posts found.</p>}
+        {!posts.length && <p className="mb-4 text-gray-600 dark:text-gray-400 transition-colors">No posts found.</p>}
 
         {posts.map((post) => {
           const postImageUrl = post.cover
@@ -50,13 +52,17 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
               <div className="w-full">
                 <div className="w-full">
                   <Link href={`/posts/${post.slug}`}>
-                    <h3 className={`line-clamp-1 w-full text-lg md:text-xl font-medium text-gray-900 font-sans ${inter.className}`}>{post.title}</h3>
+                    <h3
+                      className={`line-clamp-1 w-full text-lg md:text-xl font-medium text-gray-900 dark:text-gray-100 font-sans transition-colors hover:text-teal-600 dark:hover:text-teal-400 ${inter.className}`}
+                    >
+                      {post.title}
+                    </h3>
                   </Link>
-                  <p className="line-clamp-2 text-gray-700 leading-6 mt-2 text-sm md:text-base">{post.description}</p>
+                  <p className="line-clamp-2 text-gray-700 dark:text-gray-300 leading-6 mt-2 text-sm md:text-base transition-colors">{post.description}</p>
                   <div className="mt-3 flex flex-wrap">
                     {post.tags.map((tag) => (
                       <div key={tag} className="mb-2 mr-2">
-                        <span className="rounded-lg bg-gray-100 px-2 py-1 text-xs font-medium text-gray-600">{tag}</span>
+                        <span className="rounded-lg bg-gray-100 dark:bg-gray-800 px-2 py-1 text-xs font-medium text-gray-600 dark:text-gray-300 transition-colors">{tag}</span>
                       </div>
                     ))}
                   </div>

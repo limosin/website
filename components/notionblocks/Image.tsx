@@ -45,8 +45,8 @@ export const NotionImage: React.FC<NotionImageProps> = ({ id, value }) => {
   if (!imageSrc) {
     return (
       <div className="my-4 w-full">
-        <div className="mx-auto max-w-4xl rounded-lg border border-gray-200 bg-gray-100 p-8 text-center">
-          <p className="text-gray-500">Image not available</p>
+        <div className="mx-auto max-w-4xl rounded-lg border border-gray-200 dark:border-gray-700 bg-gray-100 dark:bg-gray-800 p-8 text-center transition-colors">
+          <p className="text-gray-500 dark:text-gray-400 transition-colors">Image not available</p>
         </div>
       </div>
     )
@@ -55,10 +55,10 @@ export const NotionImage: React.FC<NotionImageProps> = ({ id, value }) => {
   return (
     <>
       <figure key={id} className="my-4 w-full">
-        <div className="relative mx-auto w-full max-w-4xl overflow-hidden rounded-lg border border-gray-200 shadow-sm">
+        <div className="relative mx-auto w-full max-w-4xl overflow-hidden rounded-lg border border-gray-200 dark:border-gray-700 shadow-sm dark:shadow-gray-900/20 transition-colors">
           <button
             type="button"
-            className="group w-full cursor-zoom-in transition-all duration-200 hover:scale-[1.02] hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+            className="group w-full cursor-zoom-in transition-all duration-200 hover:scale-[1.02] hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-blue-500 dark:focus:ring-blue-400 focus:ring-offset-2 dark:focus:ring-offset-gray-800"
             onClick={handleImageClick}
             aria-label={`Zoom image${caption ? `: ${caption}` : ""}`}
           >
@@ -67,14 +67,14 @@ export const NotionImage: React.FC<NotionImageProps> = ({ id, value }) => {
               alt={caption || "Content image"}
               width={1200}
               height={800}
-              className="h-auto w-full object-contain transition-all duration-200 group-hover:brightness-110"
+              className="h-auto w-full object-contain transition-all duration-200 group-hover:brightness-110 dark:group-hover:brightness-125"
               sizes="(max-width: 640px) 100vw, (max-width: 768px) 100vw, (max-width: 1024px) 90vw, 800px"
               priority={false}
             />
             {/* Zoom indicator overlay */}
-            <div className="absolute inset-0 flex items-center justify-center bg-black/0 transition-all duration-200 group-hover:bg-black/10">
-              <div className="rounded-full bg-white/80 p-2 opacity-0 transition-all duration-200 group-hover:opacity-100 group-hover:scale-110 backdrop-blur-sm">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-gray-800">
+            <div className="absolute inset-0 flex items-center justify-center bg-black/0 transition-all duration-200 group-hover:bg-black/10 dark:group-hover:bg-black/20">
+              <div className="rounded-full bg-white/80 dark:bg-gray-800/80 p-2 opacity-0 transition-all duration-200 group-hover:opacity-100 group-hover:scale-110 backdrop-blur-sm">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-gray-800 dark:text-gray-200">
                   <circle cx="11" cy="11" r="8"></circle>
                   <path d="m21 21-4.35-4.35"></path>
                   <line x1="11" y1="8" x2="11" y2="14"></line>
@@ -84,7 +84,7 @@ export const NotionImage: React.FC<NotionImageProps> = ({ id, value }) => {
             </div>
           </button>
         </div>
-        {caption && <figcaption className="mx-auto mt-4 max-w-4xl text-center text-sm leading-relaxed text-gray-600">{caption}</figcaption>}
+        {caption && <figcaption className="mx-auto mt-4 max-w-4xl text-center text-sm leading-relaxed text-gray-600 dark:text-gray-400 transition-colors">{caption}</figcaption>}
       </figure>
 
       {zoomedImage && <ImageZoomModal src={zoomedImage.src} alt={zoomedImage.alt} onClose={() => setZoomedImage(null)} />}

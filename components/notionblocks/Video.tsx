@@ -30,7 +30,7 @@ export const YouTube: FC<{ url: string }> = ({ url }) => {
   return (
     <div
       ref={targetRef}
-      className="group relative overflow-hidden rounded-xl border border-gray-200 bg-gradient-to-br from-gray-900 to-gray-800 shadow-2xl transition-all duration-300 hover:shadow-3xl hover:scale-[1.02]"
+      className="group relative overflow-hidden rounded-xl border border-gray-200 dark:border-gray-700 bg-gradient-to-br from-gray-900 to-gray-800 dark:from-gray-950 dark:to-gray-900 shadow-2xl dark:shadow-gray-900/50 transition-all duration-300 hover:shadow-3xl hover:scale-[1.02]"
     >
       {!hasLoaded && isIntersecting && (
         <div
@@ -83,7 +83,7 @@ export const Vimeo: FC<{ url: string }> = ({ url }) => {
   return (
     <div
       ref={targetRef}
-      className="group relative overflow-hidden rounded-xl border border-gray-200 bg-gradient-to-br from-gray-900 to-gray-800 shadow-2xl transition-all duration-300 hover:shadow-3xl hover:scale-[1.02]"
+      className="group relative overflow-hidden rounded-xl border border-gray-200 dark:border-gray-700 bg-gradient-to-br from-gray-900 to-gray-800 dark:from-gray-950 dark:to-gray-900 shadow-2xl dark:shadow-gray-900/50 transition-all duration-300 hover:shadow-3xl hover:scale-[1.02]"
     >
       {!hasLoaded && isIntersecting && (
         <div
@@ -153,11 +153,11 @@ export const DirectVideo: FC<{ url: string }> = ({ url }) => {
 
   if (hasError) {
     return (
-      <div className="group relative overflow-hidden rounded-xl border border-red-200 bg-gradient-to-br from-red-50 to-red-100 shadow-xl">
+      <div className="group relative overflow-hidden rounded-xl border border-red-200 dark:border-red-800 bg-gradient-to-br from-red-50 to-red-100 dark:from-red-900/20 dark:to-red-800/20 shadow-xl dark:shadow-gray-900/50 transition-colors">
         <div className="flex items-center justify-center p-8" style={{ aspectRatio: "16/9" }}>
           <div className="text-center">
             <div className="mb-4">
-              <svg width="80" height="80" viewBox="0 0 24 24" fill="none" className="text-red-500">
+              <svg width="80" height="80" viewBox="0 0 24 24" fill="none" className="text-red-500 dark:text-red-400">
                 <path
                   stroke="currentColor"
                   strokeWidth="2"
@@ -167,8 +167,8 @@ export const DirectVideo: FC<{ url: string }> = ({ url }) => {
                 />
               </svg>
             </div>
-            <p className="text-lg font-bold text-red-600">Video Error</p>
-            <p className="text-sm text-red-500">Unable to load video from this source</p>
+            <p className="text-lg font-bold text-red-600 dark:text-red-400 transition-colors">Video Error</p>
+            <p className="text-sm text-red-500 dark:text-red-300 transition-colors">Unable to load video from this source</p>
           </div>
         </div>
       </div>
@@ -178,7 +178,7 @@ export const DirectVideo: FC<{ url: string }> = ({ url }) => {
   return (
     <div
       ref={targetRef}
-      className="group relative overflow-hidden rounded-xl border border-gray-200 bg-gradient-to-br from-gray-900 to-gray-800 shadow-2xl transition-all duration-300 hover:shadow-3xl hover:scale-[1.02]"
+      className="group relative overflow-hidden rounded-xl border border-gray-200 dark:border-gray-700 bg-gradient-to-br from-gray-900 to-gray-800 dark:from-gray-950 dark:to-gray-900 shadow-2xl dark:shadow-gray-900/50 transition-all duration-300 hover:shadow-3xl hover:scale-[1.02]"
     >
       {!hasLoaded && isIntersecting && (
         <div
