@@ -1,8 +1,8 @@
 export const siteMetadata = {
   title: "Next.js Starter Blog",
   author: "Somil Singhai",
-  headerTitle: "Somil's Blog",
-  description: "Learn something new...",
+  headerTitle: "Building bits, bytes, and better worlds.",
+  description: "A digital garden exploring software engineering, system design, and the art of code.",
   language: "en-us",
   theme: "system", // system, dark or light
   siteHostname: "limosyn.com",
