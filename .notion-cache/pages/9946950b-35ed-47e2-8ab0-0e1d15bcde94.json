@@ -1,0 +1,4056 @@
+{
+  "page": {
+    "object": "page",
+    "id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94",
+    "created_time": "2022-01-12T15:53:00.000Z",
+    "last_edited_time": "2025-01-11T13:42:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "cover": {
+      "type": "external",
+      "external": {
+        "url": "https://res.cloudinary.com/dft5dlcya/image/upload/v1676801044/limosyn.com/blog/images/9946950b-35ed-47e2-8ab0-0e1d15bcde94/osveoo5mltboknmomvyu.jpg"
+      }
+    },
+    "icon": {
+      "type": "external",
+      "external": {
+        "url": "https://res.cloudinary.com/dft5dlcya/image/upload/v1736602815/limosyn.com/blog/svgs/blogging_sqjiu4.png"
+      }
+    },
+    "parent": {
+      "type": "database_id",
+      "database_id": "a07d5f44-fc6a-4251-88a9-b2c21743a868"
+    },
+    "archived": false,
+    "in_trash": false,
+    "is_locked": false,
+    "properties": {
+      "pTags": {
+        "id": "%3AbqM",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "7c8674ef-4266-4f1f-84db-8932c423b52e"
+          },
+          {
+            "id": "17475183-c2bf-4e94-8e1c-2b4adfaefc65"
+          }
+        ],
+        "has_more": false
+      },
+      "published": {
+        "id": "%3E%60Ov",
+        "type": "checkbox",
+        "checkbox": true
+      },
+      "tags": {
+        "id": "GE%3CU",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "DevOps, System-Design, Kubernetes"
+        }
+      },
+      "description": {
+        "id": "L%5D%3AA",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Storing sensitive information in a microservice containerized architecture is a challenging task. Let's discuss some of the practices and ways how you can do so",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Storing sensitive information in a microservice containerized architecture is a challenging task. Let's discuss some of the practices and ways how you can do so",
+            "href": null
+          }
+        ]
+      },
+      "date": {
+        "id": "NW%7Cq",
+        "type": "date",
+        "date": {
+          "start": "2022-01-01",
+          "end": null,
+          "time_zone": null
+        }
+      },
+      "type": {
+        "id": "OtM%60",
+        "type": "select",
+        "select": {
+          "id": "742cd4b7-4726-4ba9-ac72-6f14d35bfd8d",
+          "name": "Article",
+          "color": "blue"
+        }
+      },
+      "sTags": {
+        "id": "UmF%3F",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "0c237a3f-7bbc-4174-a0cb-3f3e25ed8676"
+          }
+        ],
+        "has_more": false
+      },
+      "link": {
+        "id": "%5Ds%3CH",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "https://www.limosyn.com/posts/kubernetes-secrets-best-practices"
+        }
+      },
+      "stage": {
+        "id": "fqs%40",
+        "type": "select",
+        "select": {
+          "id": "258ea408-d15a-42ee-9219-5534dde4176c",
+          "name": "Published",
+          "color": "green"
+        }
+      },
+      "created": {
+        "id": "k_jR",
+        "type": "created_time",
+        "created_time": "2022-01-12T15:53:00.000Z"
+      },
+      "slug": {
+        "id": "pTHT",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "kubernetes-secrets-best-practices",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "kubernetes-secrets-best-practices",
+            "href": null
+          }
+        ]
+      },
+      "title": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Kubernetes Secrets Best Practices",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Kubernetes Secrets Best Practices",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Kubernetes-Secrets-Best-Practices-9946950b35ed47e28ab00e1d15bcde94",
+    "public_url": null,
+    "request_id": "a73fb9a4-bd69-42b2-9497-2a6d5d9aeb81"
+  },
+  "blocks": [
+    {
+      "object": "block",
+      "id": "358eece9-a1c1-49ba-9489-cf0f734d7952",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:50:00.000Z",
+      "last_edited_time": "2022-10-18T16:50:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "callout",
+      "callout": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "DevOps Engineers and Kubernetes Administrators who are looking for Secure patterns to store Application's sensitive data in a cluster. Also great for people just looking for a Daily dose of Tech…",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "DevOps Engineers and Kubernetes Administrators who are looking for Secure patterns to store Application's sensitive data in a cluster. Also great for people just looking for a Daily dose of Tech…",
+            "href": null
+          }
+        ],
+        "icon": {
+          "type": "emoji",
+          "emoji": "🚧"
+        },
+        "color": "gray_background"
+      }
+    },
+    {
+      "object": "block",
+      "id": "a42a658f-c9fd-4ec4-bf02-dd65af74592f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:50:00.000Z",
+      "last_edited_time": "2022-10-18T16:50:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Every day more and more companies are moving their applications from Monoliths to Microservices. In many scenarios, it is required to decouple sensitive information or credentials from the application itself - essentially passing credentials during \"runtime\". It could be things like -",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Every day more and more companies are moving their applications from Monoliths to Microservices. In many scenarios, it is required to decouple sensitive information or credentials from the application itself - essentially passing credentials during \"runtime\". It could be things like -",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "72b4e482-5f2f-4a2d-bb7e-47209c48bd60",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:50:00.000Z",
+      "last_edited_time": "2022-10-18T16:50:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Database user and passwords.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Database user and passwords.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "123e5eb5-2c82-42e5-b4cd-0432aea85ad5",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:50:00.000Z",
+      "last_edited_time": "2022-10-18T16:50:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "SSH/API Keys and tokens to access external services",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "SSH/API Keys and tokens to access external services",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "0aeb3b61-a2fd-485f-a771-1dd4a1a831fd",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:50:00.000Z",
+      "last_edited_time": "2022-10-18T16:50:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "TLS/SSL Certificates for secure communication.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "TLS/SSL Certificates for secure communication.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "75d6d87b-f157-4cbc-8b08-5b904347ee03",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:50:00.000Z",
+      "last_edited_time": "2022-10-18T16:50:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Auxillary services credentials such as RabbitMQ, Redis, etc.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Auxillary services credentials such as RabbitMQ, Redis, etc.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "321890c8-ef1f-48ca-b840-0290ab8cb295",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:50:00.000Z",
+      "last_edited_time": "2022-10-18T16:50:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "In the rest of the post, let's refer to all the above as \"Secrets\". ?",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "In the rest of the post, let's refer to all the above as \"Secrets\". ?",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "a8ebed08-f351-44dc-bda6-54c1ee6654af",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:50:00.000Z",
+      "last_edited_time": "2022-10-18T16:50:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Kubernetes \"In-build\" Secrets Support",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Kubernetes \"In-build\" Secrets Support",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "160f1fb0-43a1-4211-9a4b-64af7c79abc0",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:50:00.000Z",
+      "last_edited_time": "2022-10-18T16:50:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Storing as Environment Variables(Skippable)",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Storing as Environment Variables(Skippable)",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "22bd88d9-5186-4f40-84df-7a08820b1a02",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:50:00.000Z",
+      "last_edited_time": "2022-10-18T16:50:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "In Kubernetes, a very crude way to perform this is by providing this information as Environment Variables. Example -",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "In Kubernetes, a very crude way to perform this is by providing this information as Environment Variables. Example -",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "56d9e5f7-2aab-4962-8d2a-e9cacabeac96",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:50:00.000Z",
+      "last_edited_time": "2022-10-18T16:50:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "env:\n- name: database__client\n  value: mysql\n- name: database__connection__user\n  value: root\n- name: database__connection__password\n  value: password\n- name: database__connection__host\n  value: limosyn-com-mysql\n- name: database__connection__database\n  value: mysql",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "env:\n- name: database__client\n  value: mysql\n- name: database__connection__user\n  value: root\n- name: database__connection__password\n  value: password\n- name: database__connection__host\n  value: limosyn-com-mysql\n- name: database__connection__database\n  value: mysql",
+            "href": null
+          }
+        ],
+        "language": "yaml"
+      }
+    },
+    {
+      "object": "block",
+      "id": "41ea802a-e730-49b9-b106-5f5e56bdd39c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:50:00.000Z",
+      "last_edited_time": "2022-10-18T16:50:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "However, this raises various security concerns, such as -",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "However, this raises various security concerns, such as -",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1bbb90e9-fa79-4642-aeea-80c6b7dd9958",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:50:00.000Z",
+      "last_edited_time": "2022-10-18T16:50:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "These passwords will be stored in Plaintext hence they'll be visible to anyone with cluster access.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "These passwords will be stored in Plaintext hence they'll be visible to anyone with cluster access.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "e29ab71b-3fb5-48d8-90c1-3e0a6517f089",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:50:00.000Z",
+      "last_edited_time": "2022-10-18T16:50:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "These have a nasty habit of getting recorded in Source Control like ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "These have a nasty habit of getting recorded in Source Control like ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "git",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "git",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ".",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ".",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "a4a3c3bf-880f-4b24-b729-5ff6fe07b37c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:50:00.000Z",
+      "last_edited_time": "2022-10-18T16:50:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "No Rotation Policy / Auto-Resets for passwords.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "No Rotation Policy / Auto-Resets for passwords.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "d659cec7-1b05-45c0-a290-697d77dfadde",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:50:00.000Z",
+      "last_edited_time": "2022-10-18T16:50:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "A Single change will have to be duplicated in all the applications which are using these credentials.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "A Single change will have to be duplicated in all the applications which are using these credentials.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "45a57667-a478-4b8d-b769-791f45848e83",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:50:00.000Z",
+      "last_edited_time": "2022-10-18T16:50:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Storing via Opaque Secrets API (Skippable)",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Storing via Opaque Secrets API (Skippable)",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "150adefe-682d-4041-b913-96d4edd3ff4b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:50:00.000Z",
+      "last_edited_time": "2022-10-18T16:52:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bookmark",
+      "bookmark": {
+        "caption": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Refer to this detailed documentation for using this type of secret",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Refer to this detailed documentation for using this type of secret",
+            "href": null
+          }
+        ],
+        "url": "https://kubernetes.io/docs/concepts/configuration/secret/"
+      }
+    },
+    {
+      "object": "block",
+      "id": "7eb91c9f-123c-4d9f-80ec-5bbc827fd4de",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:50:00.000Z",
+      "last_edited_time": "2022-10-18T16:50:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Kubernetes also supports storing SIs as Base64 values. These are a step-up from storing as Plain text but still suffer from a multitude of flaws. They are just configMaps specifically to store secrets. From Kubernetes Official website -",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Kubernetes also supports storing SIs as Base64 values. These are a step-up from storing as Plain text but still suffer from a multitude of flaws. They are just configMaps specifically to store secrets. From Kubernetes Official website -",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "15e497f9-5c87-4c03-beca-638d4dadf6c9",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:50:00.000Z",
+      "last_edited_time": "2022-10-18T16:50:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "callout",
+      "callout": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Kubernetes Secrets are, by default, stored unencrypted in the API server's underlying data store (etcd). Anyone with API access can retrieve or modify a Secret, and so can anyone with access to etcd. Additionally, anyone who is authorized to create a Pod in a namespace can use that access to read any Secret in that namespace; this includes indirect access such as the ability to create a Deployment.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Kubernetes Secrets are, by default, stored unencrypted in the API server's underlying data store (etcd). Anyone with API access can retrieve or modify a Secret, and so can anyone with access to etcd. Additionally, anyone who is authorized to create a Pod in a namespace can use that access to read any Secret in that namespace; this includes indirect access such as the ability to create a Deployment.",
+            "href": null
+          }
+        ],
+        "icon": {
+          "type": "emoji",
+          "emoji": "⚠️"
+        },
+        "color": "gray_background"
+      }
+    },
+    {
+      "object": "block",
+      "id": "080d0056-93b7-4139-9281-2194bcdfe28a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:50:00.000Z",
+      "last_edited_time": "2022-10-18T16:50:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "quote",
+      "quote": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Base64 encoding is not an encryption method and is considered the same as plain text.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Base64 encoding is not an encryption method and is considered the same as plain text.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2d1940b5-387e-4536-9b47-3faf59135b02",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:50:00.000Z",
+      "last_edited_time": "2022-10-18T16:52:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bookmark",
+      "bookmark": {
+        "caption": [
+          {
+            "type": "text",
+            "text": {
+              "content": "You must be connected to the cluster before executing these commands",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "You must be connected to the cluster before executing these commands",
+            "href": null
+          }
+        ],
+        "url": "https://blog.aquasec.com/managing-kubernetes-secrets"
+      }
+    },
+    {
+      "object": "block",
+      "id": "b22e1dab-a204-4424-b913-0b61b5c1fe00",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:51:00.000Z",
+      "last_edited_time": "2022-10-18T16:51:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Creating a Kubernetes Secret",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Creating a Kubernetes Secret",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "333b6e60-3881-4983-b623-e0c5000c0fc0",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:51:00.000Z",
+      "last_edited_time": "2022-10-18T16:51:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "VIA kubectl CLI",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "VIA kubectl CLI",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "927db7d5-2717-4563-8323-659fa4cbd627",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:51:00.000Z",
+      "last_edited_time": "2022-10-18T16:52:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [
+          {
+            "type": "text",
+            "text": {
+              "content": "You must be connected to the cluster before executing these commands",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "You must be connected to the cluster before executing these commands",
+            "href": null
+          }
+        ],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "# Syntax\nkubectl create secret generic NAME [--type=string] [--from-file=[key=]source]\n[--from-literal=key1=value1] [--dry-run=server|client|none] [options]\n\n\n# Example Usage\nkubectl create secret generic SecretName --from-literal=key1=value --from-literal=key2=value2You must be connected to the cluster before executing these commands",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "# Syntax\nkubectl create secret generic NAME [--type=string] [--from-file=[key=]source]\n[--from-literal=key1=value1] [--dry-run=server|client|none] [options]\n\n\n# Example Usage\nkubectl create secret generic SecretName --from-literal=key1=value --from-literal=key2=value2You must be connected to the cluster before executing these commands",
+            "href": null
+          }
+        ],
+        "language": "yaml"
+      }
+    },
+    {
+      "object": "block",
+      "id": "9770fbc5-75eb-4f29-b8a0-5ef842d3a016",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:51:00.000Z",
+      "last_edited_time": "2022-10-18T16:51:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "VIA Declarative Way",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "VIA Declarative Way",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "3b2000ea-8892-4a20-8e38-2a0ac584ba1f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:51:00.000Z",
+      "last_edited_time": "2022-10-18T16:51:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "You can create a file - ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "You can create a file - ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "secret.yaml",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "secret.yaml",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " containing the secrets then execute - ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " containing the secrets then execute - ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "kubectl apply -f secret.yaml",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "kubectl apply -f secret.yaml",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ".",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ".",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "8111c1b0-3e61-411c-872e-a154b767aaac",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:51:00.000Z",
+      "last_edited_time": "2022-10-18T16:51:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Example secret.yaml",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Example secret.yaml",
+            "href": null
+          }
+        ],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "apiVersion: v1\nkind: Secret\nmetadata:\n  name: secretName\ndata:\n  key1: value1\n  key2: value2\nimmutable: true",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "apiVersion: v1\nkind: Secret\nmetadata:\n  name: secretName\ndata:\n  key1: value1\n  key2: value2\nimmutable: true",
+            "href": null
+          }
+        ],
+        "language": "yaml"
+      }
+    },
+    {
+      "object": "block",
+      "id": "fa46703a-a29d-427e-98e8-0f28105976bd",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:51:00.000Z",
+      "last_edited_time": "2022-10-18T16:51:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "A good practice, in this case, is to add a ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "A good practice, in this case, is to add a ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "immutable: true",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "immutable: true",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " field that prevents someone from accidental updates that could cause application outages. Also, this removes load on Kube-apiserver by closing watches for secrets marked immutable.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " field that prevents someone from accidental updates that could cause application outages. Also, this removes load on Kube-apiserver by closing watches for secrets marked immutable.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "db406bbe-bb46-4b7a-9acb-f26b5223e865",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:51:00.000Z",
+      "last_edited_time": "2022-10-18T16:51:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Consuming a Kubernetes Secret",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Consuming a Kubernetes Secret",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "60969adf-300d-446d-aec6-0a6d3e9a2322",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:51:00.000Z",
+      "last_edited_time": "2022-10-18T16:51:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "By Mounting them as a Volume",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "By Mounting them as a Volume",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "30fef68d-3525-4573-9bf1-5ffc55bbdbe8",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:51:00.000Z",
+      "last_edited_time": "2022-10-18T16:52:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "...\nspec:\n  volumes:\n  - name: secret-volume\n    secret:\n      secretName: key-secret\n  containers:\n  - name: test-container\n    image: busybox:latest\n    volumeMounts:\n    - name: secret-volume\n      readOnly: true\n      mountPath: \"/etc/secret-volume\"\n...",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "...\nspec:\n  volumes:\n  - name: secret-volume\n    secret:\n      secretName: key-secret\n  containers:\n  - name: test-container\n    image: busybox:latest\n    volumeMounts:\n    - name: secret-volume\n      readOnly: true\n      mountPath: \"/etc/secret-volume\"\n...",
+            "href": null
+          }
+        ],
+        "language": "yaml"
+      }
+    },
+    {
+      "object": "block",
+      "id": "609ba371-4b47-4f4c-877b-693c0eb66b6f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:51:00.000Z",
+      "last_edited_time": "2022-10-18T16:51:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "By loading them as Environment Variables",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "By loading them as Environment Variables",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "e5d61f83-2583-4b1f-a0a3-52a666377b27",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:51:00.000Z",
+      "last_edited_time": "2022-10-18T16:52:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "...\ncontainers:\n- name: mycontainer\n  image: redis\n  env:\n  - name: SECRET_USERNAME\n    valueFrom:\n      secretKeyRef:\n        name: mysecret\n        key: username\n  - name: SECRET_PASSWORD\n    valueFrom:\n      secretKeyRef:\n        name: mysecret\n        key: password\n...",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "...\ncontainers:\n- name: mycontainer\n  image: redis\n  env:\n  - name: SECRET_USERNAME\n    valueFrom:\n      secretKeyRef:\n        name: mysecret\n        key: username\n  - name: SECRET_PASSWORD\n    valueFrom:\n      secretKeyRef:\n        name: mysecret\n        key: password\n...",
+            "href": null
+          }
+        ],
+        "language": "yaml"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1f35a196-3fd4-4764-9b15-08dd829f69e9",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:52:00.000Z",
+      "last_edited_time": "2022-10-18T16:52:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bookmark",
+      "bookmark": {
+        "caption": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Great article to read if you are using Kubernetes Native Secrets",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Great article to read if you are using Kubernetes Native Secrets",
+            "href": null
+          }
+        ],
+        "url": "https://medium.com/avmconsulting-blog/secrets-management-in-kubernetes-378cbf8171d0"
+      }
+    },
+    {
+      "object": "block",
+      "id": "514c2da7-ab5d-406d-aee3-5c8b25cc6538",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:53:00.000Z",
+      "last_edited_time": "2022-10-18T16:53:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Secrets Management Best Practices",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Secrets Management Best Practices",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1ebbca26-1faf-4150-9b77-07d44a9e664a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:53:00.000Z",
+      "last_edited_time": "2022-10-18T16:53:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Not exactly an exhaustive list, but below are some patterns that you should remember while selecting your secret management -",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Not exactly an exhaustive list, but below are some patterns that you should remember while selecting your secret management -",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "707283e1-1d42-4072-a927-5be30ff67a8e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:53:00.000Z",
+      "last_edited_time": "2022-10-18T16:53:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "A clear secrets access policy - you should have a well-defined policy as to which containers and people are going to have access to the secrets.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "A clear secrets access policy - you should have a well-defined policy as to which containers and people are going to have access to the secrets.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "7ef10e54-5f59-4d00-9662-b5ced276a228",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:53:00.000Z",
+      "last_edited_time": "2022-10-18T16:53:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Having a centralized secrets store makes it easier to maintain, audit, and access control the full Kubernetes security landscape.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Having a centralized secrets store makes it easier to maintain, audit, and access control the full Kubernetes security landscape.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "70b7bc05-be10-4888-9aad-73e29c29bf0c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:53:00.000Z",
+      "last_edited_time": "2022-10-18T16:53:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "In case of breaches, it should help in identifying bad actors.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "In case of breaches, it should help in identifying bad actors.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "d43c7863-fc5c-4c93-922a-22b7b32cb71a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:53:00.000Z",
+      "last_edited_time": "2022-10-18T16:53:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Should support ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Should support ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "RBAC",
+              "link": {
+                "url": "https://en.wikipedia.org/wiki/Role-based_access_control"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "RBAC",
+            "href": "https://en.wikipedia.org/wiki/Role-based_access_control"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " - Role-based access control.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " - Role-based access control.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "26f1e0aa-0807-442f-9fa0-168bdbb2cfa0",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:53:00.000Z",
+      "last_edited_time": "2022-10-18T16:53:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "At last but not the least - support rotation and changing of secrets.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "At last but not the least - support rotation and changing of secrets.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2cc44d0a-8348-48b0-ba73-94a6e7b2b16d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:53:00.000Z",
+      "last_edited_time": "2022-10-18T16:53:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "In the rest of this post, I'll discuss the various third-party tools that more or less fulfill the above salient features.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "In the rest of this post, I'll discuss the various third-party tools that more or less fulfill the above salient features.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "bff89924-191b-4c11-ace5-e9b1d2d0569b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:53:00.000Z",
+      "last_edited_time": "2022-10-18T16:53:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Third-Party Secret Management tools",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Third-Party Secret Management tools",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "97b4f259-61a5-4f0e-aebc-c742bfd92604",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:53:00.000Z",
+      "last_edited_time": "2022-10-18T16:53:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "There are both paid as well free tools to manage your secrets keeping in mind the above discussed best practices.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "There are both paid as well free tools to manage your secrets keeping in mind the above discussed best practices.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "9b5f98d6-2a41-4ede-a9fc-89026cbbce7f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:53:00.000Z",
+      "last_edited_time": "2022-10-18T16:53:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Cloud Provider tools",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Cloud Provider tools",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "24e89359-99e8-46ac-a73c-715be627d755",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:53:00.000Z",
+      "last_edited_time": "2022-10-18T16:53:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "These management systems are provided by various cloud providers. The choice depends on the Cloud you are using as they don't support interplatform applications.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "These management systems are provided by various cloud providers. The choice depends on the Cloud you are using as they don't support interplatform applications.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "7b565f1e-3cb9-400c-9812-687055c6bcdd",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:53:00.000Z",
+      "last_edited_time": "2022-10-18T16:53:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "These Cloud Native Systems check most of our Best Practices requirements and provide great performance. But they are paid and you get vendor locked.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "These Cloud Native Systems check most of our Best Practices requirements and provide great performance. But they are paid and you get vendor locked.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "fc3e147f-2ae2-45b1-bd33-c253f4ac104d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:53:00.000Z",
+      "last_edited_time": "2022-10-18T16:53:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Cloud KMS ",
+              "link": {
+                "url": "http://cloud.google.com/kms/"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Cloud KMS ",
+            "href": "http://cloud.google.com/kms/"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "Offered by Google Cloud Platform",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Offered by Google Cloud Platform",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "a4b5e400-7fe1-4b87-a473-3ea123d0dfad",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:53:00.000Z",
+      "last_edited_time": "2022-10-18T16:53:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Azure Key Vault",
+              "link": {
+                "url": "https://azure.microsoft.com/en-in/services/key-vault/"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Azure Key Vault",
+            "href": "https://azure.microsoft.com/en-in/services/key-vault/"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " - Offered by Azure Cloud Services",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " - Offered by Azure Cloud Services",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "8fd3741a-8b81-4ad1-9cb0-dd872224f11f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:53:00.000Z",
+      "last_edited_time": "2022-10-18T16:53:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "AWS Secret Manager",
+              "link": {
+                "url": "https://aws.amazon.com/secrets-manager/"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "AWS Secret Manager",
+            "href": "https://aws.amazon.com/secrets-manager/"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " - Offered by Amazon Web Services",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " - Offered by Amazon Web Services",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "39920312-8d03-4716-a39e-1bf8a7bd10f7",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:53:00.000Z",
+      "last_edited_time": "2022-10-18T16:53:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "OpenSource tools",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "OpenSource tools",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "54bf6309-f93d-48a4-9f77-79e90e646f71",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:53:00.000Z",
+      "last_edited_time": "2022-10-18T16:53:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "HashiCorp Vault",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "HashiCorp Vault",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "87ca41f5-0d50-4cff-ad7f-e63f51b5b420",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:53:00.000Z",
+      "last_edited_time": "2022-10-18T16:53:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "So far the ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "So far the ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "best",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "best",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " option in my opinion. It is the most widely used, popular, and feature-rich open-source secrets manager. It offers more fine-grained control than the cloud Provider tools and is completely FREE!",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " option in my opinion. It is the most widely used, popular, and feature-rich open-source secrets manager. It offers more fine-grained control than the cloud Provider tools and is completely FREE!",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "b7b98d2f-1898-41f2-a9a3-68338a501290",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:53:00.000Z",
+      "last_edited_time": "2022-10-18T16:53:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Some advantages offered by HashiCorp Vault -",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Some advantages offered by HashiCorp Vault -",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "48095faa-6ba9-4997-9882-619a9dc1141b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:53:00.000Z",
+      "last_edited_time": "2022-10-18T16:53:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "It is cloud-agnostic and can be deployed on any cloud platform. It works perfectly with EKS, GKE, and on-prem clusters.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "It is cloud-agnostic and can be deployed on any cloud platform. It works perfectly with EKS, GKE, and on-prem clusters.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "5753a89f-6f38-4564-a6e1-d118025773d4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:53:00.000Z",
+      "last_edited_time": "2022-10-18T16:53:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "It supports dynamically generated users and passwords for databases. This shields your organization from leaked credentials.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "It supports dynamically generated users and passwords for databases. This shields your organization from leaked credentials.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "8472c5cc-afee-4b90-911b-98a4fdfe41f3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:53:00.000Z",
+      "last_edited_time": "2022-10-18T16:53:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Has multiple interfacing mediums - API, UI, and CLI.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Has multiple interfacing mediums - API, UI, and CLI.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1f1dddf3-c537-4e6b-90f9-12f428ff77c7",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:53:00.000Z",
+      "last_edited_time": "2022-10-18T16:53:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "It can be used to encrypt application data and generate PKI Certificates",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "It can be used to encrypt application data and generate PKI Certificates",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "3716eb08-39f8-4567-b1aa-4f837128e4d4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:53:00.000Z",
+      "last_edited_time": "2022-10-18T16:53:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The main downside is that it's harder to set up and configure. However, this can be alleviated using the built-in automation via ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The main downside is that it's harder to set up and configure. However, this can be alleviated using the built-in automation via ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "vault",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "vault",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " CLI and various open-source helm scripts. Also, secrets are stored in a File System like structure which is not always intuitive.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " CLI and various open-source helm scripts. Also, secrets are stored in a File System like structure which is not always intuitive.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "7bc29475-0300-42a8-9c67-f8bcb559aa15",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:53:00.000Z",
+      "last_edited_time": "2022-10-18T16:53:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "You can find the official ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "You can find the official ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "Vault Image",
+              "link": {
+                "url": "https://hub.docker.com/_/vault"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Vault Image",
+            "href": "https://hub.docker.com/_/vault"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " on Dockerhub.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " on Dockerhub.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "d643da98-0160-4d4d-84a3-ac0e1996bc34",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:53:00.000Z",
+      "last_edited_time": "2022-10-18T16:53:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Sealed Secrets",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Sealed Secrets",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "d9aa4d34-8202-4f00-b8bc-9abd50bc88ca",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:53:00.000Z",
+      "last_edited_time": "2022-10-18T16:53:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Bitnami's Secrets Controller",
+              "link": {
+                "url": "https://github.com/bitnami-labs/sealed-secrets"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Bitnami's Secrets Controller",
+            "href": "https://github.com/bitnami-labs/sealed-secrets"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " is an excellent tool to store secrets safely in public or private Git repositories. The sealed secrets can be decrypted only by the controller running in your cluster and no one else can access the secret, not even the author!",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " is an excellent tool to store secrets safely in public or private Git repositories. The sealed secrets can be decrypted only by the controller running in your cluster and no one else can access the secret, not even the author!",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "5cf39c65-a770-4c46-9f12-ac8e9fc98a8c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:53:00.000Z",
+      "last_edited_time": "2022-10-18T16:53:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "This can be used to create secure ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "This can be used to create secure ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "GitOps",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "GitOps",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " based workflows.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " based workflows.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "fcf8a836-eb83-42c1-bc92-77e91a29d0e2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:53:00.000Z",
+      "last_edited_time": "2022-10-18T16:53:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bookmark",
+      "bookmark": {
+        "caption": [],
+        "url": "https://fluxcd.io/docs/guides/sealed-secrets/"
+      }
+    },
+    {
+      "object": "block",
+      "id": "76b458b6-29cb-4522-8e8b-626221356ad2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:53:00.000Z",
+      "last_edited_time": "2022-10-18T16:53:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Sealed Secrets is comprised of two components:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Sealed Secrets is comprised of two components:",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "27b3e19b-33fa-4a28-8be5-025f556741da",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:53:00.000Z",
+      "last_edited_time": "2022-10-18T16:53:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "A cluster-side Kubernetes controller/operator",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "A cluster-side Kubernetes controller/operator",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "fd0f0243-217e-4a7a-883a-e3bb38893085",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:53:00.000Z",
+      "last_edited_time": "2022-10-18T16:53:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "A client-side utility called ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "A client-side utility called ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "kubeseal",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "kubeseal",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "868034e8-8f22-47fd-86f9-81da424afb2b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:53:00.000Z",
+      "last_edited_time": "2022-10-18T16:53:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "kubeseal",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "kubeseal",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " uses asymmetric cryptography to achieve encryption. Only the controller has the private key for decryption.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " uses asymmetric cryptography to achieve encryption. Only the controller has the private key for decryption.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "54667a9b-4c6a-4a96-8314-fe080bd42a2c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:53:00.000Z",
+      "last_edited_time": "2022-10-18T16:53:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bookmark",
+      "bookmark": {
+        "caption": [
+          {
+            "type": "text",
+            "text": {
+              "content": "A great article on setting up Sealed Secrets for your cluster",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "A great article on setting up Sealed Secrets for your cluster",
+            "href": null
+          }
+        ],
+        "url": "https://betterprogramming.pub/encrypting-kubernetes-secrets-with-sealed-secrets-fe363149a211"
+      }
+    },
+    {
+      "object": "block",
+      "id": "e0dfea76-765d-4e61-8e19-2d49882e88d6",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:53:00.000Z",
+      "last_edited_time": "2022-10-18T16:53:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Finishing Up...",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Finishing Up...",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "6ff5e300-22cd-46da-982c-0189e0817efd",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:53:00.000Z",
+      "last_edited_time": "2022-10-18T16:53:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "So in this post, we discussed the requirements of a  good Secret Management System(",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "So in this post, we discussed the requirements of a  good Secret Management System(",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "SMS",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "SMS",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "). The Native Secrets API provided by Kubernetes is great for College projects but definitely should be avoided by companies.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "). The Native Secrets API provided by Kubernetes is great for College projects but definitely should be avoided by companies.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "fbd39734-7fad-4166-b030-03003d320584",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:53:00.000Z",
+      "last_edited_time": "2022-10-18T16:53:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "If you have a small to medium-scale application and already have your technology stack deployed on any of the cloud platforms, it makes sense to use the SMSs provided by them.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "If you have a small to medium-scale application and already have your technology stack deployed on any of the cloud platforms, it makes sense to use the SMSs provided by them.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "6e1899d4-6797-4411-a17a-6ab7e9560620",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:53:00.000Z",
+      "last_edited_time": "2022-10-18T16:53:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "However, if you have an on-prem deployment or do not wish to get vendor locked, you can self deploy any of the open-source SMSs.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "However, if you have an on-prem deployment or do not wish to get vendor locked, you can self deploy any of the open-source SMSs.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2430d28a-96e8-4230-81f1-61be0b4590f8",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:53:00.000Z",
+      "last_edited_time": "2022-10-18T16:53:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "If you need version control and wish to maintain all configurations in a single place, go with Bitnami's sealed secrets. If not, go with HashiCorp Vault.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "If you need version control and wish to maintain all configurations in a single place, go with Bitnami's sealed secrets. If not, go with HashiCorp Vault.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "4d7d59dd-f04c-4a1a-8280-76be95807c34",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:53:00.000Z",
+      "last_edited_time": "2022-10-18T16:53:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "That's it for this post... Good Bye! Adios ✌?",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "That's it for this post... Good Bye! Adios ✌?",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "355f4ac5-1bfe-4e14-900e-c09a2ef839c1",
+      "parent": {
+        "type": "page_id",
+        "page_id": "9946950b-35ed-47e2-8ab0-0e1d15bcde94"
+      },
+      "created_time": "2022-10-18T16:53:00.000Z",
+      "last_edited_time": "2022-10-18T16:53:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    }
+  ],
+  "lastModified": "2025-01-11T13:42:00.000Z",
+  "cachedAt": 1765630617721
+}

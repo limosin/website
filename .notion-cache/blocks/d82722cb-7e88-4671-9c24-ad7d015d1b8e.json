@@ -1,0 +1,65 @@
+[
+  {
+    "object": "block",
+    "id": "fe497d7c-0407-4ea7-89fd-ec4413b53642",
+    "parent": {
+      "type": "block_id",
+      "block_id": "d82722cb-7e88-4671-9c24-ad7d015d1b8e"
+    },
+    "created_time": "2022-10-16T17:44:00.000Z",
+    "last_edited_time": "2022-10-16T17:45:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The spotlight effect refers to a person’s tendency to assume their mistakes and perceived personal flaws stand out clearly to others as if illuminated by a spotlight. Though in reality, everyone is busy solving their own problems. What's the last funny and embarrassing mistake you remember someone making? I can bet you have a hard time remembering.\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The spotlight effect refers to a person’s tendency to assume their mistakes and perceived personal flaws stand out clearly to others as if illuminated by a spotlight. Though in reality, everyone is busy solving their own problems. What's the last funny and embarrassing mistake you remember someone making? I can bet you have a hard time remembering.\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Read more about it here",
+            "link": {
+              "url": "https://www.verywellmind.com/what-is-the-spotlight-effect-3024470"
+            }
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Read more about it here",
+          "href": "https://www.verywellmind.com/what-is-the-spotlight-effect-3024470"
+        }
+      ],
+      "color": "default"
+    }
+  }
+]

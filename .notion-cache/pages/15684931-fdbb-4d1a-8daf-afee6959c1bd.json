@@ -1,0 +1,2522 @@
+{
+  "page": {
+    "object": "page",
+    "id": "15684931-fdbb-4d1a-8daf-afee6959c1bd",
+    "created_time": "2022-10-18T16:54:00.000Z",
+    "last_edited_time": "2025-01-11T13:41:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "cover": {
+      "type": "external",
+      "external": {
+        "url": "https://res.cloudinary.com/dft5dlcya/image/upload/v1676800991/limosyn.com/blog/images/15684931-fdbb-4d1a-8daf-afee6959c1bd/tjh9qtk5eyqlgwvwmwrb.jpg"
+      }
+    },
+    "icon": {
+      "type": "external",
+      "external": {
+        "url": "https://res.cloudinary.com/dft5dlcya/image/upload/v1736602815/limosyn.com/blog/svgs/blogging_sqjiu4.png"
+      }
+    },
+    "parent": {
+      "type": "database_id",
+      "database_id": "a07d5f44-fc6a-4251-88a9-b2c21743a868"
+    },
+    "archived": false,
+    "in_trash": false,
+    "is_locked": false,
+    "properties": {
+      "pTags": {
+        "id": "%3AbqM",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "b05c9a2d-be98-4d9e-bc4b-2abcd52bc79e"
+          },
+          {
+            "id": "b0b28777-1e49-4f75-b031-6f094ba87c1e"
+          }
+        ],
+        "has_more": false
+      },
+      "published": {
+        "id": "%3E%60Ov",
+        "type": "checkbox",
+        "checkbox": true
+      },
+      "tags": {
+        "id": "GE%3CU",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "Web Dev, Dev Tools, TailwindCSS"
+        }
+      },
+      "description": {
+        "id": "L%5D%3AA",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Let's discuss the new tailwind CSS v3 and all the new shenanigans it comes along with. And why you should abandon your current CSS processor and jump on Tailwind Bandwagon!",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Let's discuss the new tailwind CSS v3 and all the new shenanigans it comes along with. And why you should abandon your current CSS processor and jump on Tailwind Bandwagon!",
+            "href": null
+          }
+        ]
+      },
+      "date": {
+        "id": "NW%7Cq",
+        "type": "date",
+        "date": {
+          "start": "2022-01-15",
+          "end": null,
+          "time_zone": null
+        }
+      },
+      "type": {
+        "id": "OtM%60",
+        "type": "select",
+        "select": {
+          "id": "25b5617b-7f7a-4586-8d8d-bc044e889cdc",
+          "name": "Shorts",
+          "color": "red"
+        }
+      },
+      "sTags": {
+        "id": "UmF%3F",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "6178a70b-2936-4497-a325-ebf59d5a9a56"
+          }
+        ],
+        "has_more": false
+      },
+      "link": {
+        "id": "%5Ds%3CH",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "https://www.limosyn.com/posts/tailwindcss-v3-whats-fresh"
+        }
+      },
+      "stage": {
+        "id": "fqs%40",
+        "type": "select",
+        "select": {
+          "id": "258ea408-d15a-42ee-9219-5534dde4176c",
+          "name": "Published",
+          "color": "green"
+        }
+      },
+      "created": {
+        "id": "k_jR",
+        "type": "created_time",
+        "created_time": "2022-10-18T16:54:00.000Z"
+      },
+      "slug": {
+        "id": "pTHT",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "tailwindcss-v3-whats-fresh",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "tailwindcss-v3-whats-fresh",
+            "href": null
+          }
+        ]
+      },
+      "title": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Tailwind CSS 3 - What's Fresh?!",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Tailwind CSS 3 - What's Fresh?!",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Tailwind-CSS-3-What-s-Fresh-15684931fdbb4d1a8dafafee6959c1bd",
+    "public_url": null,
+    "request_id": "7b1cceb2-7f04-4509-8ad8-3a4052667dd6"
+  },
+  "blocks": [
+    {
+      "object": "block",
+      "id": "607fd1b3-956f-44bb-acbf-27116cb669ab",
+      "parent": {
+        "type": "page_id",
+        "page_id": "15684931-fdbb-4d1a-8daf-afee6959c1bd"
+      },
+      "created_time": "2022-10-18T16:57:00.000Z",
+      "last_edited_time": "2022-10-18T16:57:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "callout",
+      "callout": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "People who already use Tailwind and are looking to upgrade to the latest version 3 as well as readers who are open to switching their current CSS processor to Tailwind CSS.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "People who already use Tailwind and are looking to upgrade to the latest version 3 as well as readers who are open to switching their current CSS processor to Tailwind CSS.",
+            "href": null
+          }
+        ],
+        "icon": {
+          "type": "emoji",
+          "emoji": "🚧"
+        },
+        "color": "gray_background"
+      }
+    },
+    {
+      "object": "block",
+      "id": "960ac601-a3db-486d-9979-72db1d71ae31",
+      "parent": {
+        "type": "page_id",
+        "page_id": "15684931-fdbb-4d1a-8daf-afee6959c1bd"
+      },
+      "created_time": "2022-10-18T16:57:00.000Z",
+      "last_edited_time": "2022-10-18T16:57:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "I'm an avid user of Tailwind CSS. This blog has been made with Tailwind.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "I'm an avid user of Tailwind CSS. This blog has been made with Tailwind.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "17cbba4e-5f48-46fc-8315-753c370edce3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "15684931-fdbb-4d1a-8daf-afee6959c1bd"
+      },
+      "created_time": "2022-10-18T16:57:00.000Z",
+      "last_edited_time": "2022-10-18T16:57:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Some of the reasons I prefer it over conventional CSS and related preprocessors(like SASS, PCSS, etc.) are -",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Some of the reasons I prefer it over conventional CSS and related preprocessors(like SASS, PCSS, etc.) are -",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "64f7ca47-dd66-4335-835d-c0b5b9dc751a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "15684931-fdbb-4d1a-8daf-afee6959c1bd"
+      },
+      "created_time": "2022-10-18T16:57:00.000Z",
+      "last_edited_time": "2022-10-18T16:57:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "It is easier to maintain coherence across your website UI as you only have a limited number of predefined classes.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "It is easier to maintain coherence across your website UI as you only have a limited number of predefined classes.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "9284e30f-60ab-42c2-bc26-04b4a8138228",
+      "parent": {
+        "type": "page_id",
+        "page_id": "15684931-fdbb-4d1a-8daf-afee6959c1bd"
+      },
+      "created_time": "2022-10-18T16:57:00.000Z",
+      "last_edited_time": "2022-10-18T16:57:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Switching between the HTML element and its corresponding CSS is a pain.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Switching between the HTML element and its corresponding CSS is a pain.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "6cfbbb59-e6db-4f56-90bf-6b9780dbfeac",
+      "parent": {
+        "type": "page_id",
+        "page_id": "15684931-fdbb-4d1a-8daf-afee6959c1bd"
+      },
+      "created_time": "2022-10-18T16:57:00.000Z",
+      "last_edited_time": "2022-10-18T16:57:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Ability to add new features by using plugins.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Ability to add new features by using plugins.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "31a3cfbc-072e-46fd-806f-0a2114980dd4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "15684931-fdbb-4d1a-8daf-afee6959c1bd"
+      },
+      "created_time": "2022-10-18T16:57:00.000Z",
+      "last_edited_time": "2022-10-18T16:57:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Unnoticeable to no performance tradeoffs.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Unnoticeable to no performance tradeoffs.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "15796ea2-d3f2-4d03-a58a-b6f73219695e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "15684931-fdbb-4d1a-8daf-afee6959c1bd"
+      },
+      "created_time": "2022-10-18T16:57:00.000Z",
+      "last_edited_time": "2022-10-18T16:57:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Great documentation and Community!",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Great documentation and Community!",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "41879a2c-a4e4-4808-8d5d-6f19c208ece0",
+      "parent": {
+        "type": "page_id",
+        "page_id": "15684931-fdbb-4d1a-8daf-afee6959c1bd"
+      },
+      "created_time": "2022-10-18T16:57:00.000Z",
+      "last_edited_time": "2022-10-18T16:57:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "It's more fun than writing conventional CSS! And that's what matters the most. ?",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "It's more fun than writing conventional CSS! And that's what matters the most. ?",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "8c637b13-d225-4fc6-ac85-0361f5f27186",
+      "parent": {
+        "type": "page_id",
+        "page_id": "15684931-fdbb-4d1a-8daf-afee6959c1bd"
+      },
+      "created_time": "2022-10-18T16:57:00.000Z",
+      "last_edited_time": "2022-10-18T16:57:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Tailwind CSS v3.0 has been recently released bringing incredible performance gains, workflow improvements, and a vast number of new features.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Tailwind CSS v3.0 has been recently released bringing incredible performance gains, workflow improvements, and a vast number of new features.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "991737e2-a165-44bc-920d-a03909279192",
+      "parent": {
+        "type": "page_id",
+        "page_id": "15684931-fdbb-4d1a-8daf-afee6959c1bd"
+      },
+      "created_time": "2022-10-18T16:57:00.000Z",
+      "last_edited_time": "2022-10-18T16:57:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "video",
+      "video": {
+        "caption": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Official release video",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Official release video",
+            "href": null
+          }
+        ],
+        "type": "external",
+        "external": {
+          "url": "https://youtu.be/TmWIrBPE6Bc"
+        }
+      }
+    },
+    {
+      "object": "block",
+      "id": "489ed4ee-00b0-4089-a522-0f6ce4cf0bd2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "15684931-fdbb-4d1a-8daf-afee6959c1bd"
+      },
+      "created_time": "2022-10-18T16:57:00.000Z",
+      "last_edited_time": "2022-10-18T16:57:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bookmark",
+      "bookmark": {
+        "caption": [
+          {
+            "type": "text",
+            "text": {
+              "content": "How to install Tailwind for your current project",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "How to install Tailwind for your current project",
+            "href": null
+          }
+        ],
+        "url": "https://tailwindcss.com/docs/installation"
+      }
+    },
+    {
+      "object": "block",
+      "id": "655e367e-b82a-4caf-b4f6-4eab9013d590",
+      "parent": {
+        "type": "page_id",
+        "page_id": "15684931-fdbb-4d1a-8daf-afee6959c1bd"
+      },
+      "created_time": "2022-10-18T16:58:00.000Z",
+      "last_edited_time": "2022-10-18T16:58:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Just in Time (JIT) - All the Time",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Just in Time (JIT) - All the Time",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "77d608dc-398d-4942-947e-578d2df50998",
+      "parent": {
+        "type": "page_id",
+        "page_id": "15684931-fdbb-4d1a-8daf-afee6959c1bd"
+      },
+      "created_time": "2022-10-18T16:58:00.000Z",
+      "last_edited_time": "2022-10-18T16:58:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "It's the feature garnering the most amount of spotlight. JIT has been in public beta for months and is now finally battle-ready.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "It's the feature garnering the most amount of spotlight. JIT has been in public beta for months and is now finally battle-ready.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "15827fc3-0c4d-4105-893b-dc3f1b4ac575",
+      "parent": {
+        "type": "page_id",
+        "page_id": "15684931-fdbb-4d1a-8daf-afee6959c1bd"
+      },
+      "created_time": "2022-10-18T16:58:00.000Z",
+      "last_edited_time": "2022-10-18T16:58:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Historically, all the classes in Tailwind had to be predefined which were then loaded onto the browser, and only then the developer was able to use them. This increased build and reload times during development as the massive CSS had to be loaded onto the browser.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Historically, all the classes in Tailwind had to be predefined which were then loaded onto the browser, and only then the developer was able to use them. This increased build and reload times during development as the massive CSS had to be loaded onto the browser.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "da51f6ba-840a-4373-b6f8-4ae0ee6c0f4c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "15684931-fdbb-4d1a-8daf-afee6959c1bd"
+      },
+      "created_time": "2022-10-18T16:58:00.000Z",
+      "last_edited_time": "2022-10-18T16:58:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [
+          {
+            "type": "text",
+            "text": {
+              "content": "You can also include the tailwind CDN via the script tag",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "You can also include the tailwind CDN via the script tag",
+            "href": null
+          }
+        ],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": " <!DOCTYPE html>\n  <html lang=\"en\">\n    <head>\n      <meta charset=\"utf-8\">\n      <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n      <title>Example</title>\n+     <script src=\"https://cdn.tailwindcss.com/\"></script>\n    </head>\n    <body>\n      <!-- -->\n    </body>\n  </html>",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " <!DOCTYPE html>\n  <html lang=\"en\">\n    <head>\n      <meta charset=\"utf-8\">\n      <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n      <title>Example</title>\n+     <script src=\"https://cdn.tailwindcss.com/\"></script>\n    </head>\n    <body>\n      <!-- -->\n    </body>\n  </html>",
+            "href": null
+          }
+        ],
+        "language": "html"
+      }
+    },
+    {
+      "object": "block",
+      "id": "5c21ed91-c4e3-422d-b267-7ab084ade137",
+      "parent": {
+        "type": "page_id",
+        "page_id": "15684931-fdbb-4d1a-8daf-afee6959c1bd"
+      },
+      "created_time": "2022-10-18T16:58:00.000Z",
+      "last_edited_time": "2022-10-18T16:58:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "callout",
+      "callout": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "You can even add various tailwind plugins such as typography, aspect-ratio, line-clamp, etc by adding them to the cdn url ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "You can even add various tailwind plugins such as typography, aspect-ratio, line-clamp, etc by adding them to the cdn url ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "https://cdn.tailwindcss.com/?plugins=forms,typography,aspect-ratio,line-clamp",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "https://cdn.tailwindcss.com/?plugins=forms,typography,aspect-ratio,line-clamp",
+            "href": null
+          }
+        ],
+        "icon": {
+          "type": "emoji",
+          "emoji": "💡"
+        },
+        "color": "gray_background"
+      }
+    },
+    {
+      "object": "block",
+      "id": "aa884fbe-3d70-4cc0-8af3-4f0f600f2bed",
+      "parent": {
+        "type": "page_id",
+        "page_id": "15684931-fdbb-4d1a-8daf-afee6959c1bd"
+      },
+      "created_time": "2022-10-18T16:58:00.000Z",
+      "last_edited_time": "2022-10-18T16:58:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "JIT compiles all of your CSS ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "JIT compiles all of your CSS ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "on-demand",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "on-demand",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " as you author your template files, instead of generating your entire stylesheet upfront. This enables Tailwind v3 to have extensive features which were not possible in previous versions. Some of these we'll discuss below.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " as you author your template files, instead of generating your entire stylesheet upfront. This enables Tailwind v3 to have extensive features which were not possible in previous versions. Some of these we'll discuss below.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "db9ba4d4-1be0-4fd0-abd0-1aa02eaf1dcb",
+      "parent": {
+        "type": "page_id",
+        "page_id": "15684931-fdbb-4d1a-8daf-afee6959c1bd"
+      },
+      "created_time": "2022-10-18T16:58:00.000Z",
+      "last_edited_time": "2022-10-18T16:58:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "All Colors out of the box",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "All Colors out of the box",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "de9d90bc-9211-4865-a8c8-63ecfca5818f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "15684931-fdbb-4d1a-8daf-afee6959c1bd"
+      },
+      "created_time": "2022-10-18T16:58:00.000Z",
+      "last_edited_time": "2022-10-18T16:58:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Since Tailwind v3 can generate CSS on-demand, there's no longer a limit on the number of colors or their variants you can use.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Since Tailwind v3 can generate CSS on-demand, there's no longer a limit on the number of colors or their variants you can use.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "7391ce8f-65cd-4912-88cb-9dbcb8e84c6b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "15684931-fdbb-4d1a-8daf-afee6959c1bd"
+      },
+      "created_time": "2022-10-18T16:58:00.000Z",
+      "last_edited_time": "2022-10-18T16:58:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The JIT Engine also enables arbitrary values out of the box. What are those? Specific arbitrary values that are outside the design system.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The JIT Engine also enables arbitrary values out of the box. What are those? Specific arbitrary values that are outside the design system.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "80165d04-81df-4ab7-b006-1d72f7a4d939",
+      "parent": {
+        "type": "page_id",
+        "page_id": "15684931-fdbb-4d1a-8daf-afee6959c1bd"
+      },
+      "created_time": "2022-10-18T16:58:00.000Z",
+      "last_edited_time": "2022-10-18T16:58:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Basically, you don't need to be choosy! Everything is available!",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Basically, you don't need to be choosy! Everything is available!",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "d189329e-8549-47b7-b497-378287efabb0",
+      "parent": {
+        "type": "page_id",
+        "page_id": "15684931-fdbb-4d1a-8daf-afee6959c1bd"
+      },
+      "created_time": "2022-10-18T16:58:00.000Z",
+      "last_edited_time": "2022-10-18T16:58:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "New Scroll Snap API",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "New Scroll Snap API",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "5f527453-778c-4b4d-ad65-20d242da427d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "15684931-fdbb-4d1a-8daf-afee6959c1bd"
+      },
+      "created_time": "2022-10-18T16:58:00.000Z",
+      "last_edited_time": "2022-10-18T16:58:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Tailwind v3 now comes with an in-built Snap API for scrolling behavior.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Tailwind v3 now comes with an in-built Snap API for scrolling behavior.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "38632e4a-7e88-4062-8e74-e10ca989e581",
+      "parent": {
+        "type": "page_id",
+        "page_id": "15684931-fdbb-4d1a-8daf-afee6959c1bd"
+      },
+      "created_time": "2022-10-18T16:58:00.000Z",
+      "last_edited_time": "2022-10-18T16:58:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Check out the demo of Snap API in the below Playground -",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Check out the demo of Snap API in the below Playground -",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "51c5ba0d-8573-4b23-a53d-7297c201c6d6",
+      "parent": {
+        "type": "page_id",
+        "page_id": "15684931-fdbb-4d1a-8daf-afee6959c1bd"
+      },
+      "created_time": "2022-10-18T16:58:00.000Z",
+      "last_edited_time": "2022-10-18T16:58:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bookmark",
+      "bookmark": {
+        "caption": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Demo of Scroll Snap API",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Demo of Scroll Snap API",
+            "href": null
+          }
+        ],
+        "url": "https://play.tailwindcss.com/7sNcz1QNRE"
+      }
+    },
+    {
+      "object": "block",
+      "id": "16c6d604-5ff0-42af-891a-f5878b8e863f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "15684931-fdbb-4d1a-8daf-afee6959c1bd"
+      },
+      "created_time": "2022-10-18T16:59:00.000Z",
+      "last_edited_time": "2022-10-18T16:59:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Multi-Column Layout",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Multi-Column Layout",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "c3b574f3-90ba-4ea1-99ef-fa7069c71a60",
+      "parent": {
+        "type": "page_id",
+        "page_id": "15684931-fdbb-4d1a-8daf-afee6959c1bd"
+      },
+      "created_time": "2022-10-18T16:59:00.000Z",
+      "last_edited_time": "2022-10-18T16:59:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "This addition enables you to write text in a multi-column layout - kind of like a Newspaper. This is especially useful while designing your website's Footer. Ex:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "This addition enables you to write text in a multi-column layout - kind of like a Newspaper. This is especially useful while designing your website's Footer. Ex:",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "9c832544-1b22-43aa-80c7-2bbc30d02cc7",
+      "parent": {
+        "type": "page_id",
+        "page_id": "15684931-fdbb-4d1a-8daf-afee6959c1bd"
+      },
+      "created_time": "2022-10-18T17:01:00.000Z",
+      "last_edited_time": "2022-10-18T17:01:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "column_list",
+      "column_list": {}
+    },
+    {
+      "object": "block",
+      "id": "8bdfcf85-37f7-4bb4-87e0-f97305ae5e46",
+      "parent": {
+        "type": "page_id",
+        "page_id": "15684931-fdbb-4d1a-8daf-afee6959c1bd"
+      },
+      "created_time": "2022-10-18T16:59:00.000Z",
+      "last_edited_time": "2022-10-18T16:59:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Colored Box Shadows",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Colored Box Shadows",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "16675374-6244-46d0-a03c-f1fedecc0131",
+      "parent": {
+        "type": "page_id",
+        "page_id": "15684931-fdbb-4d1a-8daf-afee6959c1bd"
+      },
+      "created_time": "2022-10-18T16:59:00.000Z",
+      "last_edited_time": "2022-10-18T16:59:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "<button class=\"bg-cyan-500 shadow-lg shadow-cyan-500/50 ...\">Subscribe</button>\n<button class=\"bg-blue-500 shadow-lg shadow-blue-500/50 ...\">Subscribe</button>\n<button class=\"bg-indigo-500 shadow-lg shadow-indigo-500/50 ...\">Subscribe</button>",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "<button class=\"bg-cyan-500 shadow-lg shadow-cyan-500/50 ...\">Subscribe</button>\n<button class=\"bg-blue-500 shadow-lg shadow-blue-500/50 ...\">Subscribe</button>\n<button class=\"bg-indigo-500 shadow-lg shadow-indigo-500/50 ...\">Subscribe</button>",
+            "href": null
+          }
+        ],
+        "language": "html"
+      }
+    },
+    {
+      "object": "block",
+      "id": "861d32fc-cab9-4c35-be83-6d63cfd336d9",
+      "parent": {
+        "type": "page_id",
+        "page_id": "15684931-fdbb-4d1a-8daf-afee6959c1bd"
+      },
+      "created_time": "2022-10-18T16:59:00.000Z",
+      "last_edited_time": "2023-02-19T10:03:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "494b1805-8cfa-459c-b906-5ddb6f1f98c9"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "image",
+      "image": {
+        "caption": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Image from: ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Image from: ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "Tailwind website",
+              "link": {
+                "url": "https://tailwindcss.com/blog/tailwindcss-v3#colored-box-shadows"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Tailwind website",
+            "href": "https://tailwindcss.com/blog/tailwindcss-v3#colored-box-shadows"
+          }
+        ],
+        "type": "external",
+        "external": {
+          "url": "https://res.cloudinary.com/dft5dlcya/image/upload/v1676800999/limosyn.com/blog/images/15684931-fdbb-4d1a-8daf-afee6959c1bd/image_from__tailwind_website.png"
+        }
+      }
+    },
+    {
+      "object": "block",
+      "id": "421efd0e-01ea-42a9-bf44-3004a8436877",
+      "parent": {
+        "type": "page_id",
+        "page_id": "15684931-fdbb-4d1a-8daf-afee6959c1bd"
+      },
+      "created_time": "2022-10-18T16:59:00.000Z",
+      "last_edited_time": "2022-10-18T16:59:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "With the new version, Tailwind now supports colored shadows. Before this, we had to create custom shadows in the Tailwind config file. Now there are predefined shadows to use.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "With the new version, Tailwind now supports colored shadows. Before this, we had to create custom shadows in the Tailwind config file. Now there are predefined shadows to use.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "7a6f6eed-6082-4c76-bbe5-82fd6be8b39a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "15684931-fdbb-4d1a-8daf-afee6959c1bd"
+      },
+      "created_time": "2022-10-18T16:59:00.000Z",
+      "last_edited_time": "2022-10-18T16:59:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Others",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Others",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "110d58aa-5bca-4004-b323-509f65de6835",
+      "parent": {
+        "type": "page_id",
+        "page_id": "15684931-fdbb-4d1a-8daf-afee6959c1bd"
+      },
+      "created_time": "2022-10-18T16:59:00.000Z",
+      "last_edited_time": "2022-10-18T16:59:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Of course, the list doesn't end so soon. There are a few other features worthy of mentioning -",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Of course, the list doesn't end so soon. There are a few other features worthy of mentioning -",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "76c316f3-f1fe-4d82-8315-1c4ad91af65d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "15684931-fdbb-4d1a-8daf-afee6959c1bd"
+      },
+      "created_time": "2022-10-18T16:59:00.000Z",
+      "last_edited_time": "2022-10-18T16:59:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Native Form Control Styling",
+              "link": {
+                "url": "https://tailwindcss.com/blog/tailwindcss-v3#native-form-control-styling"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Native Form Control Styling",
+            "href": "https://tailwindcss.com/blog/tailwindcss-v3#native-form-control-styling"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "bfe92fcb-1958-4d96-851f-e6dcb2dd71c8",
+      "parent": {
+        "type": "page_id",
+        "page_id": "15684931-fdbb-4d1a-8daf-afee6959c1bd"
+      },
+      "created_time": "2022-10-18T16:59:00.000Z",
+      "last_edited_time": "2022-10-18T16:59:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Print Modifier",
+              "link": {
+                "url": "https://tailwindcss.com/blog/tailwindcss-v3#print-modifier"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Print Modifier",
+            "href": "https://tailwindcss.com/blog/tailwindcss-v3#print-modifier"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "6e4d806f-4779-4438-aa24-e78163acea7b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "15684931-fdbb-4d1a-8daf-afee6959c1bd"
+      },
+      "created_time": "2022-10-18T16:59:00.000Z",
+      "last_edited_time": "2022-10-18T16:59:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Modern Aspect Ration API",
+              "link": {
+                "url": "https://tailwindcss.com/blog/tailwindcss-v3#modern-aspect-ratio-api"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Modern Aspect Ration API",
+            "href": "https://tailwindcss.com/blog/tailwindcss-v3#modern-aspect-ratio-api"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1f046270-0719-4ab4-bfbd-353212f789c0",
+      "parent": {
+        "type": "page_id",
+        "page_id": "15684931-fdbb-4d1a-8daf-afee6959c1bd"
+      },
+      "created_time": "2022-10-18T16:59:00.000Z",
+      "last_edited_time": "2022-10-18T16:59:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Arbitrary Properties",
+              "link": {
+                "url": "https://tailwindcss.com/blog/tailwindcss-v3#arbitrary-properties"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Arbitrary Properties",
+            "href": "https://tailwindcss.com/blog/tailwindcss-v3#arbitrary-properties"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "88a60e2b-ba3b-4ea5-a239-cdf5fd57441e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "15684931-fdbb-4d1a-8daf-afee6959c1bd"
+      },
+      "created_time": "2022-10-18T16:59:00.000Z",
+      "last_edited_time": "2022-10-18T16:59:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Support for touch-action, will-change, flex-basis, text-indent, scroll-behavior, and more.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Support for touch-action, will-change, flex-basis, text-indent, scroll-behavior, and more.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "97f1bd24-4c18-4557-a87b-991fb8454607",
+      "parent": {
+        "type": "page_id",
+        "page_id": "15684931-fdbb-4d1a-8daf-afee6959c1bd"
+      },
+      "created_time": "2022-10-18T16:59:00.000Z",
+      "last_edited_time": "2022-10-18T16:59:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Final thoughts!",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Final thoughts!",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "de6ff201-f87c-4d60-b50a-b73bbcc3026e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "15684931-fdbb-4d1a-8daf-afee6959c1bd"
+      },
+      "created_time": "2022-10-18T16:59:00.000Z",
+      "last_edited_time": "2022-10-18T16:59:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "If you have been using Tailwind CSS v2.0, it's worth every penny to upgrade to the new version. There are very few breaking changes like -",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "If you have been using Tailwind CSS v2.0, it's worth every penny to upgrade to the new version. There are very few breaking changes like -",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "8c33ab58-66cb-41bb-9848-fdff4c082482",
+      "parent": {
+        "type": "page_id",
+        "page_id": "15684931-fdbb-4d1a-8daf-afee6959c1bd"
+      },
+      "created_time": "2022-10-18T16:59:00.000Z",
+      "last_edited_time": "2022-10-18T16:59:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Removed support for PostCSS v7.0 and below.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Removed support for PostCSS v7.0 and below.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "7d45ee57-d1c1-4ee5-9426-2af7ac76081e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "15684931-fdbb-4d1a-8daf-afee6959c1bd"
+      },
+      "created_time": "2022-10-18T16:59:00.000Z",
+      "last_edited_time": "2022-10-18T16:59:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Few classes have been renamed, like -",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Few classes have been renamed, like -",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "9b7e7970-1298-4604-b7d6-42289f7053c6",
+      "parent": {
+        "type": "page_id",
+        "page_id": "15684931-fdbb-4d1a-8daf-afee6959c1bd"
+      },
+      "created_time": "2022-10-18T16:59:00.000Z",
+      "last_edited_time": "2022-10-18T16:59:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "- <div class=\"overflow-clip\">\n+ <div class=\"text-clip\">\n\n- <div class=\"overflow-ellipsis\">\n+ <div class=\"text-ellipsis\">",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "- <div class=\"overflow-clip\">\n+ <div class=\"text-clip\">\n\n- <div class=\"overflow-ellipsis\">\n+ <div class=\"text-ellipsis\">",
+            "href": null
+          }
+        ],
+        "language": "html"
+      }
+    },
+    {
+      "object": "block",
+      "id": "feac5428-68c6-4ecc-9995-6900145d6899",
+      "parent": {
+        "type": "page_id",
+        "page_id": "15684931-fdbb-4d1a-8daf-afee6959c1bd"
+      },
+      "created_time": "2022-10-18T16:59:00.000Z",
+      "last_edited_time": "2022-10-18T16:59:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "3. ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "3. ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "purge",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "purge",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " has changed to ",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " has changed to ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "content",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "content",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "79393f5c-0fdc-434b-bf6e-b8c90d035067",
+      "parent": {
+        "type": "page_id",
+        "page_id": "15684931-fdbb-4d1a-8daf-afee6959c1bd"
+      },
+      "created_time": "2022-10-18T16:59:00.000Z",
+      "last_edited_time": "2022-10-18T16:59:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "- module.exports = {\n-   purge: [\"./src/**/*.{html,js}\"],\n-   theme: {\n-     extend: {},\n-   },\n-   plugins: [],\n- }\n\n+ module.exports = {\n+   content: [\"./src/**/*.{html,js}\"],\n+   theme: {\n+     extend: {},\n+   },\n+   plugins: [],\n+ }",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "- module.exports = {\n-   purge: [\"./src/**/*.{html,js}\"],\n-   theme: {\n-     extend: {},\n-   },\n-   plugins: [],\n- }\n\n+ module.exports = {\n+   content: [\"./src/**/*.{html,js}\"],\n+   theme: {\n+     extend: {},\n+   },\n+   plugins: [],\n+ }",
+            "href": null
+          }
+        ],
+        "language": "javascript"
+      }
+    },
+    {
+      "object": "block",
+      "id": "a494eec1-4783-4177-bf84-a2c12ea4b227",
+      "parent": {
+        "type": "page_id",
+        "page_id": "15684931-fdbb-4d1a-8daf-afee6959c1bd"
+      },
+      "created_time": "2022-10-18T16:59:00.000Z",
+      "last_edited_time": "2022-10-18T16:59:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "With the new JIT Engine, Tailwind is better than ever! You can play with the new release in the below official playground -",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "With the new JIT Engine, Tailwind is better than ever! You can play with the new release in the below official playground -",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "cb13f181-ed5d-40cb-ba1e-f9497bceede7",
+      "parent": {
+        "type": "page_id",
+        "page_id": "15684931-fdbb-4d1a-8daf-afee6959c1bd"
+      },
+      "created_time": "2022-10-18T17:00:00.000Z",
+      "last_edited_time": "2022-10-18T17:00:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bookmark",
+      "bookmark": {
+        "caption": [],
+        "url": "https://play.tailwindcss.com/"
+      }
+    },
+    {
+      "object": "block",
+      "id": "4af52390-b3fd-49ba-9e0b-0fe31a6a9251",
+      "parent": {
+        "type": "page_id",
+        "page_id": "15684931-fdbb-4d1a-8daf-afee6959c1bd"
+      },
+      "created_time": "2022-10-18T17:00:00.000Z",
+      "last_edited_time": "2022-10-18T17:00:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "So hurry up! and upgrade to the latest version!",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "So hurry up! and upgrade to the latest version!",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    }
+  ],
+  "lastModified": "2025-01-11T13:41:00.000Z",
+  "cachedAt": 1765630611245
+}

@@ -1,0 +1,510 @@
+[
+  {
+    "object": "block",
+    "id": "acbb74fc-e110-4860-8430-c03236ee1db6",
+    "parent": {
+      "type": "block_id",
+      "block_id": "503fa3d6-5a7b-48c8-8751-5663becfb7c1"
+    },
+    "created_time": "2022-10-16T17:47:00.000Z",
+    "last_edited_time": "2025-01-21T05:48:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "table_row",
+    "table_row": {
+      "cells": [
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "Title",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Title",
+            "href": null
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "Status",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Status",
+            "href": null
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "Link",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Link",
+            "href": null
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "object": "block",
+    "id": "4615b2fc-48c9-4b28-b77e-7c1acd3be3a7",
+    "parent": {
+      "type": "block_id",
+      "block_id": "503fa3d6-5a7b-48c8-8751-5663becfb7c1"
+    },
+    "created_time": "2022-10-16T17:47:00.000Z",
+    "last_edited_time": "2025-01-21T05:51:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "table_row",
+    "table_row": {
+      "cells": [
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "An Exhaustive Guide for your Personal Website's Tech Stack",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "An Exhaustive Guide for your Personal Website's Tech Stack",
+            "href": null
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "Completed",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "green_background"
+            },
+            "plain_text": "Completed",
+            "href": null
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "Read",
+              "link": {
+                "url": "https://www.limosyn.com/posts/exhaustive-guide-for-website-tech-stack"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Read",
+            "href": "https://www.limosyn.com/posts/exhaustive-guide-for-website-tech-stack"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "object": "block",
+    "id": "44c018f0-9ecb-445c-b18d-701d7e5499ea",
+    "parent": {
+      "type": "block_id",
+      "block_id": "503fa3d6-5a7b-48c8-8751-5663becfb7c1"
+    },
+    "created_time": "2022-10-16T17:47:00.000Z",
+    "last_edited_time": "2025-01-21T05:51:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "table_row",
+    "table_row": {
+      "cells": [
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "A NuxtJS Starter Project that you can actually use",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "A NuxtJS Starter Project that you can actually use",
+            "href": null
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "Completed",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "green_background"
+            },
+            "plain_text": "Completed",
+            "href": null
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "Read",
+              "link": {
+                "url": "https://www.limosyn.com/posts/setting-up-your-next-nuxtjs-project"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Read",
+            "href": "https://www.limosyn.com/posts/setting-up-your-next-nuxtjs-project"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "object": "block",
+    "id": "96e4113b-9a5d-4c11-ab7d-894572b0a65d",
+    "parent": {
+      "type": "block_id",
+      "block_id": "503fa3d6-5a7b-48c8-8751-5663becfb7c1"
+    },
+    "created_time": "2022-10-16T17:47:00.000Z",
+    "last_edited_time": "2025-01-21T05:51:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "table_row",
+    "table_row": {
+      "cells": [
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "Deploying a NuxtJS application to a Kubernetes Cluster in Cloud",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Deploying a NuxtJS application to a Kubernetes Cluster in Cloud",
+            "href": null
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "Completed",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "green_background"
+            },
+            "plain_text": "Completed",
+            "href": null
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "Read",
+              "link": {
+                "url": "https://www.limosyn.com/posts/deploying-a-nuxtjs-application-to-cloud"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Read",
+            "href": "https://www.limosyn.com/posts/deploying-a-nuxtjs-application-to-cloud"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "object": "block",
+    "id": "db8c125a-9c79-493b-9668-62dde4de0ba1",
+    "parent": {
+      "type": "block_id",
+      "block_id": "503fa3d6-5a7b-48c8-8751-5663becfb7c1"
+    },
+    "created_time": "2022-10-16T17:47:00.000Z",
+    "last_edited_time": "2025-01-21T05:51:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "table_row",
+    "table_row": {
+      "cells": [
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "Creating Navbar and Footer in NuxtJS with TailwindCSS",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Creating Navbar and Footer in NuxtJS with TailwindCSS",
+            "href": null
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "Completed",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "green_background"
+            },
+            "plain_text": "Completed",
+            "href": null
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "Read",
+              "link": {
+                "url": "https://www.limosyn.com/posts/creating-navbar-and-footer-in-nuxtjs-with-tailwindcss"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Read",
+            "href": "https://www.limosyn.com/posts/creating-navbar-and-footer-in-nuxtjs-with-tailwindcss"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "object": "block",
+    "id": "66601dfe-3ed2-48d5-ad3a-0f728b7f25ae",
+    "parent": {
+      "type": "block_id",
+      "block_id": "503fa3d6-5a7b-48c8-8751-5663becfb7c1"
+    },
+    "created_time": "2022-10-16T17:47:00.000Z",
+    "last_edited_time": "2025-01-21T05:51:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "table_row",
+    "table_row": {
+      "cells": [
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "NuxtJS state management with Vuex",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "NuxtJS state management with Vuex",
+            "href": null
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "Completed",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "green_background"
+            },
+            "plain_text": "Completed",
+            "href": null
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "Read",
+              "link": {
+                "url": "https://www.limosyn.com/posts/nuxtjs-state-management-with-vuex"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Read",
+            "href": "https://www.limosyn.com/posts/nuxtjs-state-management-with-vuex"
+          }
+        ]
+      ]
+    }
+  }
+]

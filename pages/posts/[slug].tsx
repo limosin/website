@@ -1,3 +1,4 @@
+import Link from "next/link"
 import BlogLayout from "@/layouts/BlogLayout"
 import { getNotionPageWithBlocks, getNotionBlockChildren, getAllPublishedBlogPosts } from "@/lib/notion"
 import { RenderBlocks } from "@/components/ContentBlocks"
@@ -9,23 +10,50 @@ export default function Post({ page, blocks }) {
   if (!page || !blocks) {
     return <div />
   }
+
+  const title = page.properties.title.title[0]?.plain_text || "Untitled"
+  const date = new Date(page.created_time).toLocaleDateString("en-US", {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  })
+  // Notion tags might be in a multiselect property called 'Tags' or similar
+  // Adjust based on your actual Notion schema if needed.
+  // Assuming 'tags' property name mapping from siteMetadata/Notion utils or direct property access
+  // The 'page' object is raw Notion response usually.
+  // Let's assume standard 'Tags' multiselect for now or try to find it safely.
+  const tags = page.properties.Tags?.multi_select || []
+
   return (
     <BlogLayout data={page}>
-      <div className="my-2 inline-flex rounded p-1 px-2">
-        <span className="my-1 pl-0.5 text-sm text-gray-400 dark:text-amber-200 transition-colors">
-          {new Date(page.created_time).toLocaleString("en-US", {
-            month: "short",
-            day: "2-digit",
-            year: "numeric",
-          })}
-        </span>
+      {/* Back Link */}
+      <div className="w-full max-w-3xl mx-auto mb-8">
+        <Link href="/" className={`text-sm text-gray-500 hover:text-teal-600 dark:text-gray-400 dark:hover:text-teal-400 transition-colors ${inter.className}`}>
+          ← Back to Blog
+        </Link>
       </div>
 
-      <h1 className={`mb-5 text-2xl md:text-3xl lg:text-5xl font-bold tracking-tight text-black dark:text-white font-sans transition-colors ${inter.className}`}>
-        {page.properties.title.title[0].plain_text}
-      </h1>
+      {/* Header */}
+      <div className="w-full max-w-3xl mx-auto text-center mb-12 border-b border-gray-200 dark:border-gray-800 pb-12">
+        <div className={`mb-4 text-sm font-medium text-gray-500 dark:text-gray-400 ${inter.className}`}>{date}</div>
 
-      <RenderBlocks blocks={blocks} />
+        <h1 className={`mb-6 text-3xl md:text-5xl font-bold tracking-tight text-gray-900 dark:text-gray-100 ${inter.className}`}>{title}</h1>
+
+        {tags.length > 0 && (
+          <div className="flex flex-wrap justify-center gap-2">
+            {tags.map((tag) => (
+              <span key={tag.id} className={`px-3 py-1 text-xs font-medium rounded-full bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 uppercase tracking-wider ${inter.className}`}>
+                {tag.name}
+              </span>
+            ))}
+          </div>
+        )}
+      </div>
+
+      {/* Content */}
+      <div className="w-full max-w-3xl mx-auto prose dark:prose-invert">
+        <RenderBlocks blocks={blocks} />
+      </div>
     </BlogLayout>
   )
 }

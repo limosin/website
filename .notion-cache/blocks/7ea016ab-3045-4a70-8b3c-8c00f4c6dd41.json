@@ -1,0 +1,897 @@
+[
+  {
+    "object": "block",
+    "id": "32a3051e-b001-405b-b435-a8288e5a9dc9",
+    "parent": {
+      "type": "block_id",
+      "block_id": "7ea016ab-3045-4a70-8b3c-8c00f4c6dd41"
+    },
+    "created_time": "2022-10-19T13:13:00.000Z",
+    "last_edited_time": "2022-10-19T13:13:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "table_row",
+    "table_row": {
+      "cells": [
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "NOS",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "NOS",
+            "href": null
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "IPV4",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "IPV4",
+            "href": null
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "IPV6",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "IPV6",
+            "href": null
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "object": "block",
+    "id": "06e9d28c-aef2-4765-93a0-72da4bb4ff70",
+    "parent": {
+      "type": "block_id",
+      "block_id": "7ea016ab-3045-4a70-8b3c-8c00f4c6dd41"
+    },
+    "created_time": "2022-10-19T13:13:00.000Z",
+    "last_edited_time": "2022-10-19T13:13:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "table_row",
+    "table_row": {
+      "cells": [
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "1)",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "1)",
+            "href": null
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "It stands for Internet Protocol version 4.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "It stands for Internet Protocol version 4.",
+            "href": null
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "It stands for Internet Protocol version 6.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "It stands for Internet Protocol version 6.",
+            "href": null
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "object": "block",
+    "id": "e548975f-3003-49b2-9e3a-ab9d7f60b826",
+    "parent": {
+      "type": "block_id",
+      "block_id": "7ea016ab-3045-4a70-8b3c-8c00f4c6dd41"
+    },
+    "created_time": "2022-10-19T13:13:00.000Z",
+    "last_edited_time": "2022-10-19T13:13:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "table_row",
+    "table_row": {
+      "cells": [
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "2)",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2)",
+            "href": null
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "It is having 32-bit addressing space which implies that 2^32 = 4.3 billion devices can be connected with it.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "It is having 32-bit addressing space which implies that 2^32 = 4.3 billion devices can be connected with it.",
+            "href": null
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "It is having a 128-bit addressing scheme which implies that it supports 2^128 devices which is itself a very huge number and can serve users in many more years to come.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "It is having a 128-bit addressing scheme which implies that it supports 2^128 devices which is itself a very huge number and can serve users in many more years to come.",
+            "href": null
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "object": "block",
+    "id": "091c0982-2079-460b-a420-5b56361e7512",
+    "parent": {
+      "type": "block_id",
+      "block_id": "7ea016ab-3045-4a70-8b3c-8c00f4c6dd41"
+    },
+    "created_time": "2022-10-19T13:13:00.000Z",
+    "last_edited_time": "2022-10-19T13:13:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "table_row",
+    "table_row": {
+      "cells": [
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "3)",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "3)",
+            "href": null
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "It is a numeric addressing method. For example, the IP address to allocated user will be like 192.10.128.240",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "It is a numeric addressing method. For example, the IP address to allocated user will be like 192.10.128.240",
+            "href": null
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "It is alphanumeric based addressing scheme and for example, the IP address of a host will be like 1280:0db2:26c4:0000:0000:7a2e:0450:8550",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "It is alphanumeric based addressing scheme and for example, the IP address of a host will be like 1280:0db2:26c4:0000:0000:7a2e:0450:8550",
+            "href": null
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "object": "block",
+    "id": "8810e250-54b3-4599-8b9e-f9a966befe23",
+    "parent": {
+      "type": "block_id",
+      "block_id": "7ea016ab-3045-4a70-8b3c-8c00f4c6dd41"
+    },
+    "created_time": "2022-10-19T13:13:00.000Z",
+    "last_edited_time": "2022-10-19T13:13:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "table_row",
+    "table_row": {
+      "cells": [
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "4)",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "4)",
+            "href": null
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "IPV4 supports manual and the DHCP configuration method and it doesn’t support the feature of auto configuration.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "IPV4 supports manual and the DHCP configuration method and it doesn’t support the feature of auto configuration.",
+            "href": null
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "The IPV6 has the feature of auto-configuration and the IPV6 hosts can itself configure themselves to the IPV6 network using ICMPv6 messages.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The IPV6 has the feature of auto-configuration and the IPV6 hosts can itself configure themselves to the IPV6 network using ICMPv6 messages.",
+            "href": null
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "object": "block",
+    "id": "5eb1b83e-beda-45fb-8ff8-164e9988927b",
+    "parent": {
+      "type": "block_id",
+      "block_id": "7ea016ab-3045-4a70-8b3c-8c00f4c6dd41"
+    },
+    "created_time": "2022-10-19T13:13:00.000Z",
+    "last_edited_time": "2022-10-19T13:13:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "table_row",
+    "table_row": {
+      "cells": [
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "5)",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "5)",
+            "href": null
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "It supports the broadcast addressing scheme as the data packet is sent to all the host devices available in the network.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "It supports the broadcast addressing scheme as the data packet is sent to all the host devices available in the network.",
+            "href": null
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "It supports multicast features as the single packet data can be sent to multiple destination hosts at a time.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "It supports multicast features as the single packet data can be sent to multiple destination hosts at a time.",
+            "href": null
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "object": "block",
+    "id": "e6c0b6df-4f06-481b-a2c8-279e739e4124",
+    "parent": {
+      "type": "block_id",
+      "block_id": "7ea016ab-3045-4a70-8b3c-8c00f4c6dd41"
+    },
+    "created_time": "2022-10-19T13:13:00.000Z",
+    "last_edited_time": "2022-10-19T13:13:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "table_row",
+    "table_row": {
+      "cells": [
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "6)",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "6)",
+            "href": null
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "The IPV4 doesn’t support any security protocols for the secure transmission of data between hosts.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The IPV4 doesn’t support any security protocols for the secure transmission of data between hosts.",
+            "href": null
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "All the sessions of IPV6 are first authenticated by using the various security protocols like IPSec etc. then the communication between the hosts on a secure network will initiate.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "All the sessions of IPV6 are first authenticated by using the various security protocols like IPSec etc. then the communication between the hosts on a secure network will initiate.",
+            "href": null
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "object": "block",
+    "id": "f6abf489-3d21-433e-be95-fb2135addd62",
+    "parent": {
+      "type": "block_id",
+      "block_id": "7ea016ab-3045-4a70-8b3c-8c00f4c6dd41"
+    },
+    "created_time": "2022-10-19T13:13:00.000Z",
+    "last_edited_time": "2022-10-19T13:13:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "table_row",
+    "table_row": {
+      "cells": [
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "7)",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "7)",
+            "href": null
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "The IPV4 header length is variable and thus routing process is bit complex as compared to IPV6.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The IPV4 header length is variable and thus routing process is bit complex as compared to IPV6.",
+            "href": null
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "The IPV6 header has a fixed header length of 40 bytes thus offers a simplified routing process.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The IPV6 header has a fixed header length of 40 bytes thus offers a simplified routing process.",
+            "href": null
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "object": "block",
+    "id": "ada1e2c9-0245-438a-bf38-51e4aa7c2d08",
+    "parent": {
+      "type": "block_id",
+      "block_id": "7ea016ab-3045-4a70-8b3c-8c00f4c6dd41"
+    },
+    "created_time": "2022-10-19T13:13:00.000Z",
+    "last_edited_time": "2022-10-19T13:13:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "table_row",
+    "table_row": {
+      "cells": [
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "8)",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "8)",
+            "href": null
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "The checksum error is detected and computed in IPV4.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The checksum error is detected and computed in IPV4.",
+            "href": null
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "The checksum error is not computed in IPV6.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The checksum error is not computed in IPV6.",
+            "href": null
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "object": "block",
+    "id": "64460dfb-ea60-405e-b3f9-910404f4c05e",
+    "parent": {
+      "type": "block_id",
+      "block_id": "7ea016ab-3045-4a70-8b3c-8c00f4c6dd41"
+    },
+    "created_time": "2022-10-19T13:13:00.000Z",
+    "last_edited_time": "2022-10-19T13:13:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "table_row",
+    "table_row": {
+      "cells": [
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "9)",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "9)",
+            "href": null
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "It doesn’t support any IP host mobility function.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "It doesn’t support any IP host mobility function.",
+            "href": null
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "It supports the IP host mobility feature which enables the moving node to temporarily change its location in a network with maintaining the ongoing connections at the same time.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "It supports the IP host mobility feature which enables the moving node to temporarily change its location in a network with maintaining the ongoing connections at the same time.",
+            "href": null
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "object": "block",
+    "id": "62393385-1917-4476-9e7e-ef184c368277",
+    "parent": {
+      "type": "block_id",
+      "block_id": "7ea016ab-3045-4a70-8b3c-8c00f4c6dd41"
+    },
+    "created_time": "2022-10-19T13:13:00.000Z",
+    "last_edited_time": "2022-10-19T13:13:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "table_row",
+    "table_row": {
+      "cells": [
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "10)",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "10)",
+            "href": null
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "The quality of service QoS feature is not very efficient.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The quality of service QoS feature is not very efficient.",
+            "href": null
+          }
+        ],
+        []
+      ]
+    }
+  }
+]

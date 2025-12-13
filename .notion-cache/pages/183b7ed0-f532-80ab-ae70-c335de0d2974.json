@@ -1,0 +1,2497 @@
+{
+  "page": {
+    "object": "page",
+    "id": "183b7ed0-f532-80ab-ae70-c335de0d2974",
+    "created_time": "2025-01-22T09:03:00.000Z",
+    "last_edited_time": "2025-07-12T10:39:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "cover": {
+      "type": "external",
+      "external": {
+        "url": "https://res.cloudinary.com/dft5dlcya/image/upload/v1740291048/limosyn.com/blog/images/builder-pattern/Gemini_Generated_Image_enb4xgenb4xgenb4_rqig0t.jpg"
+      }
+    },
+    "icon": {
+      "type": "external",
+      "external": {
+        "url": "https://res.cloudinary.com/dft5dlcya/image/upload/v1736602815/limosyn.com/blog/svgs/blogging_sqjiu4.png"
+      }
+    },
+    "parent": {
+      "type": "database_id",
+      "database_id": "a07d5f44-fc6a-4251-88a9-b2c21743a868"
+    },
+    "archived": false,
+    "in_trash": false,
+    "is_locked": false,
+    "properties": {
+      "pTags": {
+        "id": "%3AbqM",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "610d74c2-b3f1-4891-bd91-fd6af8a06f3c"
+          }
+        ],
+        "has_more": false
+      },
+      "published": {
+        "id": "%3E%60Ov",
+        "type": "checkbox",
+        "checkbox": true
+      },
+      "tags": {
+        "id": "GE%3CU",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "Software Dev, Design-Patterns"
+        }
+      },
+      "description": {
+        "id": "L%5D%3AA",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Builder pattern is extremely useful when you wish to incrementally build an object based on different criteria and you wish to keep your object highly configurable.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Builder pattern is extremely useful when you wish to incrementally build an object based on different criteria and you wish to keep your object highly configurable.",
+            "href": null
+          }
+        ]
+      },
+      "date": {
+        "id": "NW%7Cq",
+        "type": "date",
+        "date": {
+          "start": "2025-01-22",
+          "end": null,
+          "time_zone": null
+        }
+      },
+      "type": {
+        "id": "OtM%60",
+        "type": "select",
+        "select": {
+          "id": "25b5617b-7f7a-4586-8d8d-bc044e889cdc",
+          "name": "Shorts",
+          "color": "red"
+        }
+      },
+      "sTags": {
+        "id": "UmF%3F",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "cebb8313-61e7-48a3-ba70-aee65d929c08"
+          }
+        ],
+        "has_more": false
+      },
+      "link": {
+        "id": "%5Ds%3CH",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "https://www.limosyn.com/posts/builder-design-pattern"
+        }
+      },
+      "stage": {
+        "id": "fqs%40",
+        "type": "select",
+        "select": {
+          "id": "258ea408-d15a-42ee-9219-5534dde4176c",
+          "name": "Published",
+          "color": "green"
+        }
+      },
+      "created": {
+        "id": "k_jR",
+        "type": "created_time",
+        "created_time": "2025-01-22T09:03:00.000Z"
+      },
+      "slug": {
+        "id": "pTHT",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "builder-design-pattern",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "builder-design-pattern",
+            "href": null
+          }
+        ]
+      },
+      "title": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Builder Design Pattern",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Builder Design Pattern",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Builder-Design-Pattern-183b7ed0f53280abae70c335de0d2974",
+    "public_url": null,
+    "request_id": "f76f0019-d194-49d6-962b-80fecd628103"
+  },
+  "blocks": [
+    {
+      "object": "block",
+      "id": "183b7ed0-f532-804e-858a-c9aa075530bd",
+      "parent": {
+        "type": "page_id",
+        "page_id": "183b7ed0-f532-80ab-ae70-c335de0d2974"
+      },
+      "created_time": "2025-01-22T09:03:00.000Z",
+      "last_edited_time": "2025-01-22T09:03:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "callout",
+      "callout": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "This post is for anyone developing a codebase based on the Object-Oriented Paradigm. This post is Language agnostic and the learnings have an implementation across all OOP-based languages.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "This post is for anyone developing a codebase based on the Object-Oriented Paradigm. This post is Language agnostic and the learnings have an implementation across all OOP-based languages.",
+            "href": null
+          }
+        ],
+        "icon": {
+          "type": "emoji",
+          "emoji": "🚧"
+        },
+        "color": "gray_background"
+      }
+    },
+    {
+      "object": "block",
+      "id": "183b7ed0-f532-804e-8e61-c4a131eae1ea",
+      "parent": {
+        "type": "page_id",
+        "page_id": "183b7ed0-f532-80ab-ae70-c335de0d2974"
+      },
+      "created_time": "2025-01-22T09:03:00.000Z",
+      "last_edited_time": "2025-01-22T09:05:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "In the previous post of this Design series, we learned about the ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "In the previous post of this Design series, we learned about the ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "Factory Method Design Pattern",
+              "link": {
+                "url": "https://www.limosyn.com/posts/factory-design-pattern"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Factory Method Design Pattern",
+            "href": "https://www.limosyn.com/posts/factory-design-pattern"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " - What is it? How to use it? When to use it?",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " - What is it? How to use it? When to use it?",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "183b7ed0-f532-8044-927b-cb452634498f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "183b7ed0-f532-80ab-ae70-c335de0d2974"
+      },
+      "created_time": "2025-01-22T09:03:00.000Z",
+      "last_edited_time": "2025-02-02T12:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "In this post, let's look at another ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "In this post, let's look at another ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "Creational Design pattern",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "orange_background"
+            },
+            "plain_text": "Creational Design pattern",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " - Builder Design Pattern.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "orange_background"
+            },
+            "plain_text": " - Builder Design Pattern.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "183b7ed0-f532-8016-9e86-cef1fca1531d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "183b7ed0-f532-80ab-ae70-c335de0d2974"
+      },
+      "created_time": "2025-01-22T09:03:00.000Z",
+      "last_edited_time": "2025-02-22T11:50:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Introduction",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Introduction",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "183b7ed0-f532-80c9-a40c-f0e039fa54dc",
+      "parent": {
+        "type": "page_id",
+        "page_id": "183b7ed0-f532-80ab-ae70-c335de0d2974"
+      },
+      "created_time": "2025-01-22T10:39:00.000Z",
+      "last_edited_time": "2025-02-22T11:46:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Consider a scenario where you need to build a highly configurable, step by step initialized object. There are a lots of fields to be initialised and a plethora of flags to be set. You could:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Consider a scenario where you need to build a highly configurable, step by step initialized object. There are a lots of fields to be initialised and a plethora of flags to be set. You could:",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "183b7ed0-f532-8038-be9b-e60881ec610c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "183b7ed0-f532-80ab-ae70-c335de0d2974"
+      },
+      "created_time": "2025-01-22T10:43:00.000Z",
+      "last_edited_time": "2025-02-22T11:46:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Create a big ass constructor with all the parameters and flags.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Create a big ass constructor with all the parameters and flags.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "183b7ed0-f532-801c-a2d9-cd3b3308c3e4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "183b7ed0-f532-80ab-ae70-c335de0d2974"
+      },
+      "created_time": "2025-01-22T10:49:00.000Z",
+      "last_edited_time": "2025-01-22T10:57:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Set the values manually in your client code using setters.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Set the values manually in your client code using setters.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "183b7ed0-f532-8058-8a2f-cb8c2d7f9a9f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "183b7ed0-f532-80ab-ae70-c335de0d2974"
+      },
+      "created_time": "2025-01-22T10:58:00.000Z",
+      "last_edited_time": "2025-02-22T11:46:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The Builder pattern exists to solve the exact problem. It allows you to incrementally build an object by invoking certain functions on a Builder class which is then responsible for initialising the object.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The Builder pattern exists to solve the exact problem. It allows you to incrementally build an object by invoking certain functions on a Builder class which is then responsible for initialising the object.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "18eb7ed0-f532-80b4-b1a2-cdd72140d508",
+      "parent": {
+        "type": "page_id",
+        "page_id": "183b7ed0-f532-80ab-ae70-c335de0d2974"
+      },
+      "created_time": "2025-02-02T12:08:00.000Z",
+      "last_edited_time": "2025-02-22T14:44:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "18eb7ed0-f532-802d-bd5b-cd9b8e273c32",
+      "parent": {
+        "type": "page_id",
+        "page_id": "183b7ed0-f532-80ab-ae70-c335de0d2974"
+      },
+      "created_time": "2025-02-02T12:08:00.000Z",
+      "last_edited_time": "2025-02-22T14:45:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "quote",
+      "quote": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "When there is a requirement to create a highly customisable object whose behavior can be mutated based on a lot of conditions, it is advised to use a builder pattern.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "When there is a requirement to create a highly customisable object whose behavior can be mutated based on a lot of conditions, it is advised to use a builder pattern.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1a2b7ed0-f532-809e-a792-caa351e791cf",
+      "parent": {
+        "type": "page_id",
+        "page_id": "183b7ed0-f532-80ab-ae70-c335de0d2974"
+      },
+      "created_time": "2025-02-22T11:50:00.000Z",
+      "last_edited_time": "2025-02-22T11:50:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Code Smells",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Code Smells",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1a2b7ed0-f532-8039-89f2-dca7393e3f24",
+      "parent": {
+        "type": "page_id",
+        "page_id": "183b7ed0-f532-80ab-ae70-c335de0d2974"
+      },
+      "created_time": "2025-02-22T11:51:00.000Z",
+      "last_edited_time": "2025-02-22T11:51:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Telescoping Constructors",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Telescoping Constructors",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1a2b7ed0-f532-8023-b7a7-d3f0afb5222f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "183b7ed0-f532-80ab-ae70-c335de0d2974"
+      },
+      "created_time": "2025-02-22T11:51:00.000Z",
+      "last_edited_time": "2025-02-22T11:54:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "A class may start accumulating a host of initialisation parameters over time and it becomes harder to initialise over time. Any addition of a parameter has to be accompanied by modifying all the places where the class has been initialised.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "A class may start accumulating a host of initialisation parameters over time and it becomes harder to initialise over time. Any addition of a parameter has to be accompanied by modifying all the places where the class has been initialised.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1a2b7ed0-f532-807b-beb8-dc93b3d98c0a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "183b7ed0-f532-80ab-ae70-c335de0d2974"
+      },
+      "created_time": "2025-02-22T11:52:00.000Z",
+      "last_edited_time": "2025-02-22T11:53:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Optional Parameters",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Optional Parameters",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1a2b7ed0-f532-80e8-8124-cfa4cbc132e9",
+      "parent": {
+        "type": "page_id",
+        "page_id": "183b7ed0-f532-80ab-ae70-c335de0d2974"
+      },
+      "created_time": "2025-02-22T11:53:00.000Z",
+      "last_edited_time": "2025-02-22T11:54:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "An extension of Telescoping Constructor issue is Optional parameters. Setting optional parameters in Constructor becomes awkward and cumbersome.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "An extension of Telescoping Constructor issue is Optional parameters. Setting optional parameters in Constructor becomes awkward and cumbersome.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1a2b7ed0-f532-807e-bb26-fa76a3fa3f42",
+      "parent": {
+        "type": "page_id",
+        "page_id": "183b7ed0-f532-80ab-ae70-c335de0d2974"
+      },
+      "created_time": "2025-02-22T11:54:00.000Z",
+      "last_edited_time": "2025-02-22T11:54:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Complex Object Creation",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Complex Object Creation",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1a2b7ed0-f532-805e-9660-cd5ab4f759ed",
+      "parent": {
+        "type": "page_id",
+        "page_id": "183b7ed0-f532-80ab-ae70-c335de0d2974"
+      },
+      "created_time": "2025-02-22T11:54:00.000Z",
+      "last_edited_time": "2025-02-22T11:56:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Sometimes a small business logic is required while object creation. Instead of scattering the logic everywhere, the builder can encapsulate the same, allowing it to be reused in multiple places.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Sometimes a small business logic is required while object creation. Instead of scattering the logic everywhere, the builder can encapsulate the same, allowing it to be reused in multiple places.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1a2b7ed0-f532-80f8-bee4-ef9735a01f0d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "183b7ed0-f532-80ab-ae70-c335de0d2974"
+      },
+      "created_time": "2025-02-22T11:56:00.000Z",
+      "last_edited_time": "2025-02-22T11:57:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Repeat Object Creation with slight variations",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Repeat Object Creation with slight variations",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1a2b7ed0-f532-80de-9427-c388c646aa7a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "183b7ed0-f532-80ab-ae70-c335de0d2974"
+      },
+      "created_time": "2025-02-22T11:56:00.000Z",
+      "last_edited_time": "2025-02-22T11:59:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Sometimes you need to create objects with slight variations. Using traditional constructors increases code duplicity and reduces maintainability.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Sometimes you need to create objects with slight variations. Using traditional constructors increases code duplicity and reduces maintainability.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1a2b7ed0-f532-8071-bab9-d078c4da5e37",
+      "parent": {
+        "type": "page_id",
+        "page_id": "183b7ed0-f532-80ab-ae70-c335de0d2974"
+      },
+      "created_time": "2025-02-22T11:59:00.000Z",
+      "last_edited_time": "2025-02-22T11:59:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "callout",
+      "callout": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "In many scenarios, Builder pattern can be an alternate to creating child classes and derived classes.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "In many scenarios, Builder pattern can be an alternate to creating child classes and derived classes.",
+            "href": null
+          }
+        ],
+        "icon": {
+          "type": "emoji",
+          "emoji": "🔥"
+        },
+        "color": "gray_background"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1a2b7ed0-f532-80cb-a46b-ff8e58de6013",
+      "parent": {
+        "type": "page_id",
+        "page_id": "183b7ed0-f532-80ab-ae70-c335de0d2974"
+      },
+      "created_time": "2025-02-22T12:07:00.000Z",
+      "last_edited_time": "2025-02-22T12:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "image",
+      "image": {
+        "caption": [],
+        "type": "external",
+        "external": {
+          "url": "https://res.cloudinary.com/dft5dlcya/image/upload/v1740226035/limosyn.com/blog/images/builder-pattern/pizza_pjjn9d.png"
+        }
+      }
+    },
+    {
+      "object": "block",
+      "id": "1a2b7ed0-f532-8098-83d4-ed7a1086b41b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "183b7ed0-f532-80ab-ae70-c335de0d2974"
+      },
+      "created_time": "2025-02-22T12:09:00.000Z",
+      "last_edited_time": "2025-02-22T14:45:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Example",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Example",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "18eb7ed0-f532-80cd-889a-cf6cc1fe5d48",
+      "parent": {
+        "type": "page_id",
+        "page_id": "183b7ed0-f532-80ab-ae70-c335de0d2974"
+      },
+      "created_time": "2025-02-02T12:09:00.000Z",
+      "last_edited_time": "2025-02-22T11:46:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Suppose you need to initialise a Pizza object. The Pizza is highly customisable based on:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Suppose you need to initialise a Pizza object. The Pizza is highly customisable based on:",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "18eb7ed0-f532-8074-a150-e32e213eb142",
+      "parent": {
+        "type": "page_id",
+        "page_id": "183b7ed0-f532-80ab-ae70-c335de0d2974"
+      },
+      "created_time": "2025-02-02T12:14:00.000Z",
+      "last_edited_time": "2025-02-02T12:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Size of Crust.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Size of Crust.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "18eb7ed0-f532-809d-98ea-ef6a1cc2d38b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "183b7ed0-f532-80ab-ae70-c335de0d2974"
+      },
+      "created_time": "2025-02-02T12:14:00.000Z",
+      "last_edited_time": "2025-02-02T12:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Cheese types and fillings",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Cheese types and fillings",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "18eb7ed0-f532-8091-a017-e29b410fd6d7",
+      "parent": {
+        "type": "page_id",
+        "page_id": "183b7ed0-f532-80ab-ae70-c335de0d2974"
+      },
+      "created_time": "2025-02-02T12:14:00.000Z",
+      "last_edited_time": "2025-02-02T12:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Sauces",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Sauces",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "18eb7ed0-f532-80ca-98d9-da74232015fc",
+      "parent": {
+        "type": "page_id",
+        "page_id": "183b7ed0-f532-80ab-ae70-c335de0d2974"
+      },
+      "created_time": "2025-02-02T12:14:00.000Z",
+      "last_edited_time": "2025-02-02T12:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Toppings",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Toppings",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "18eb7ed0-f532-80bd-b628-cc27f7303ca4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "183b7ed0-f532-80ab-ae70-c335de0d2974"
+      },
+      "created_time": "2025-02-02T12:15:00.000Z",
+      "last_edited_time": "2025-02-22T12:10:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Without Builder:",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Without Builder:",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "18eb7ed0-f532-80ea-a5a3-e3f7831dd97e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "183b7ed0-f532-80ab-ae70-c335de0d2974"
+      },
+      "created_time": "2025-02-02T12:15:00.000Z",
+      "last_edited_time": "2025-02-02T12:15:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "// Telescoping constructors get messy!\nPizza pizza = new Pizza(\"Large\", \"Thin\", true, false, Arrays.asList(\"Cheese\", \"Pepperoni\"), \"Tomato\");",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "// Telescoping constructors get messy!\nPizza pizza = new Pizza(\"Large\", \"Thin\", true, false, Arrays.asList(\"Cheese\", \"Pepperoni\"), \"Tomato\");",
+            "href": null
+          }
+        ],
+        "language": "java"
+      }
+    },
+    {
+      "object": "block",
+      "id": "18eb7ed0-f532-803f-b267-e997634922dd",
+      "parent": {
+        "type": "page_id",
+        "page_id": "183b7ed0-f532-80ab-ae70-c335de0d2974"
+      },
+      "created_time": "2025-02-02T12:15:00.000Z",
+      "last_edited_time": "2025-02-02T12:15:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "With Builder:",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "With Builder:",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "18eb7ed0-f532-8027-b217-d48b64abe0ad",
+      "parent": {
+        "type": "page_id",
+        "page_id": "183b7ed0-f532-80ab-ae70-c335de0d2974"
+      },
+      "created_time": "2025-02-02T12:15:00.000Z",
+      "last_edited_time": "2025-02-02T12:15:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Pizza pizza = new PizzaBuilder()\n    .setSize(\"Large\")\n    .setCrust(\"Thin\")\n    .addTopping(\"Cheese\")\n    .addTopping(\"Pepperoni\")\n    .setSauce(\"Tomato\")\n    .build();",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Pizza pizza = new PizzaBuilder()\n    .setSize(\"Large\")\n    .setCrust(\"Thin\")\n    .addTopping(\"Cheese\")\n    .addTopping(\"Pepperoni\")\n    .setSauce(\"Tomato\")\n    .build();",
+            "href": null
+          }
+        ],
+        "language": "java"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1a2b7ed0-f532-80e8-865e-da2cbb677b73",
+      "parent": {
+        "type": "page_id",
+        "page_id": "183b7ed0-f532-80ab-ae70-c335de0d2974"
+      },
+      "created_time": "2025-02-22T11:49:00.000Z",
+      "last_edited_time": "2025-02-22T12:10:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Actual Builder Code",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Actual Builder Code",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1a2b7ed0-f532-80e5-9cd3-e210b0da16ae",
+      "parent": {
+        "type": "page_id",
+        "page_id": "183b7ed0-f532-80ab-ae70-c335de0d2974"
+      },
+      "created_time": "2025-02-22T12:10:00.000Z",
+      "last_edited_time": "2025-02-22T12:10:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "public class Pizza {\n\n    private String size;\n    private String crust;\n    private String sauce;\n    private List<String> toppings;\n\n    // Private constructor to enforce Builder usage\n    private Pizza(String size, String crust, String sauce, List<String> toppings) {\n        this.size = size;\n        this.crust = crust;\n        this.sauce = sauce;\n        this.toppings = toppings;\n    }\n\n    // Getters (for demonstration purposes)\n    public String getSize() {\n        return size;\n    }\n\n    public String getCrust() {\n        return crust;\n    }\n\n    public String getSauce() {\n        return sauce;\n    }\n\n    public List<String> getToppings() {\n        return toppings;\n    }\n\n    // Builder class\n    public static class PizzaBuilder {\n\n        private String size;\n        private String crust;\n        private String sauce;\n        private List<String> toppings = new ArrayList<>();\n\n        public PizzaBuilder setSize(String size) {\n            this.size = size;\n            return this; // Return the builder for chaining\n        }\n\n        public PizzaBuilder setCrust(String crust) {\n            this.crust = crust;\n            return this;\n        }\n\n        public PizzaBuilder setSauce(String sauce) {\n            this.sauce = sauce;\n            return this;\n        }\n\n        public PizzaBuilder addTopping(String topping) {\n            this.toppings.add(topping);\n            return this;\n        }\n\n        public Pizza build() {\n            return new Pizza(size, crust, sauce, new ArrayList<>(toppings)); // Create a new Pizza object\n        }\n    }\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "public class Pizza {\n\n    private String size;\n    private String crust;\n    private String sauce;\n    private List<String> toppings;\n\n    // Private constructor to enforce Builder usage\n    private Pizza(String size, String crust, String sauce, List<String> toppings) {\n        this.size = size;\n        this.crust = crust;\n        this.sauce = sauce;\n        this.toppings = toppings;\n    }\n\n    // Getters (for demonstration purposes)\n    public String getSize() {\n        return size;\n    }\n\n    public String getCrust() {\n        return crust;\n    }\n\n    public String getSauce() {\n        return sauce;\n    }\n\n    public List<String> getToppings() {\n        return toppings;\n    }\n\n    // Builder class\n    public static class PizzaBuilder {\n\n        private String size;\n        private String crust;\n        private String sauce;\n        private List<String> toppings = new ArrayList<>();\n\n        public PizzaBuilder setSize(String size) {\n            this.size = size;\n            return this; // Return the builder for chaining\n        }\n\n        public PizzaBuilder setCrust(String crust) {\n            this.crust = crust;\n            return this;\n        }\n\n        public PizzaBuilder setSauce(String sauce) {\n            this.sauce = sauce;\n            return this;\n        }\n\n        public PizzaBuilder addTopping(String topping) {\n            this.toppings.add(topping);\n            return this;\n        }\n\n        public Pizza build() {\n            return new Pizza(size, crust, sauce, new ArrayList<>(toppings)); // Create a new Pizza object\n        }\n    }\n}",
+            "href": null
+          }
+        ],
+        "language": "java"
+      }
+    },
+    {
+      "object": "block",
+      "id": "18eb7ed0-f532-8029-9452-c7eb87eabfdd",
+      "parent": {
+        "type": "page_id",
+        "page_id": "183b7ed0-f532-80ab-ae70-c335de0d2974"
+      },
+      "created_time": "2025-02-02T13:34:00.000Z",
+      "last_edited_time": "2025-02-22T14:45:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Director",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Director",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "18eb7ed0-f532-8077-a5bc-d1959928df91",
+      "parent": {
+        "type": "page_id",
+        "page_id": "183b7ed0-f532-80ab-ae70-c335de0d2974"
+      },
+      "created_time": "2025-02-02T13:38:00.000Z",
+      "last_edited_time": "2025-02-02T13:38:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "quote",
+      "quote": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The Recipe Provider",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The Recipe Provider",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "18eb7ed0-f532-80fc-86f0-d05e9d9f0588",
+      "parent": {
+        "type": "page_id",
+        "page_id": "183b7ed0-f532-80ab-ae70-c335de0d2974"
+      },
+      "created_time": "2025-02-02T13:34:00.000Z",
+      "last_edited_time": "2025-02-02T13:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "To put it simply, you can extract a set of calls to a separate Director class. The Director is then responsible to orchestrate the order and steps of the process. It decouples the client code from the construction details, allowing you to reuse the same construction process for a known configuration.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "To put it simply, you can extract a set of calls to a separate Director class. The Director is then responsible to orchestrate the order and steps of the process. It decouples the client code from the construction details, allowing you to reuse the same construction process for a known configuration.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "18eb7ed0-f532-800a-9f81-cd12b938c8e0",
+      "parent": {
+        "type": "page_id",
+        "page_id": "183b7ed0-f532-80ab-ae70-c335de0d2974"
+      },
+      "created_time": "2025-02-02T13:38:00.000Z",
+      "last_edited_time": "2025-02-02T13:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Builder Interface",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Builder Interface",
+            "href": null
+          }
+        ],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "public interface PizzaBuilder {\n    PizzaBuilder setSize(String size);\n    PizzaBuilder setCrust(String crust);\n    PizzaBuilder addTopping(String topping);\n    PizzaBuilder setSauce(String sauce);\n    Pizza build();\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "public interface PizzaBuilder {\n    PizzaBuilder setSize(String size);\n    PizzaBuilder setCrust(String crust);\n    PizzaBuilder addTopping(String topping);\n    PizzaBuilder setSauce(String sauce);\n    Pizza build();\n}",
+            "href": null
+          }
+        ],
+        "language": "java"
+      }
+    },
+    {
+      "object": "block",
+      "id": "18eb7ed0-f532-802f-824e-eb6b1c3958ee",
+      "parent": {
+        "type": "page_id",
+        "page_id": "183b7ed0-f532-80ab-ae70-c335de0d2974"
+      },
+      "created_time": "2025-02-02T13:37:00.000Z",
+      "last_edited_time": "2025-02-02T13:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Concrete Builder",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Concrete Builder",
+            "href": null
+          }
+        ],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "public class ConcretePizzaBuilder implements PizzaBuilder {\n    private Pizza pizza = new Pizza();\n\n    public PizzaBuilder setSize(String size) { pizza.setSize(size); return this; }\n    public PizzaBuilder setCrust(String crust) { pizza.setCrust(crust); return this; }\n    public PizzaBuilder addTopping(String topping) { pizza.addTopping(topping); return this; }\n    public PizzaBuilder setSauce(String sauce) { pizza.setSauce(sauce); return this; }\n    public Pizza build() { return pizza; }\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "public class ConcretePizzaBuilder implements PizzaBuilder {\n    private Pizza pizza = new Pizza();\n\n    public PizzaBuilder setSize(String size) { pizza.setSize(size); return this; }\n    public PizzaBuilder setCrust(String crust) { pizza.setCrust(crust); return this; }\n    public PizzaBuilder addTopping(String topping) { pizza.addTopping(topping); return this; }\n    public PizzaBuilder setSauce(String sauce) { pizza.setSauce(sauce); return this; }\n    public Pizza build() { return pizza; }\n}",
+            "href": null
+          }
+        ],
+        "language": "java"
+      }
+    },
+    {
+      "object": "block",
+      "id": "18eb7ed0-f532-80a4-993b-d1c9002974bc",
+      "parent": {
+        "type": "page_id",
+        "page_id": "183b7ed0-f532-80ab-ae70-c335de0d2974"
+      },
+      "created_time": "2025-02-02T13:38:00.000Z",
+      "last_edited_time": "2025-02-02T13:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Director",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Director",
+            "href": null
+          }
+        ],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "public class PizzaDirector {\n    private PizzaBuilder builder;\n\n    public PizzaDirector(PizzaBuilder builder) {\n        this.builder = builder;\n    }\n\n    // Predefined \"recipe\" for a Margherita Pizza\n    public Pizza constructMargherita() {\n        return builder.setSize(\"Medium\")\n                     .setCrust(\"Thin\")\n                     .addTopping(\"Cheese\")\n                     .addTopping(\"Basil\")\n                     .setSauce(\"Tomato\")\n                     .build();\n    }\n\n    // Predefined \"recipe\" for a Spicy Chicken Pizza\n    public Pizza constructSpicyChicken() {\n        return builder.setSize(\"Large\")\n                     .setCrust(\"Thick\")\n                     .addTopping(\"Chicken\")\n                     .addTopping(\"Jalapeños\")\n                     .setSauce(\"BBQ\")\n                     .build();\n    }\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "public class PizzaDirector {\n    private PizzaBuilder builder;\n\n    public PizzaDirector(PizzaBuilder builder) {\n        this.builder = builder;\n    }\n\n    // Predefined \"recipe\" for a Margherita Pizza\n    public Pizza constructMargherita() {\n        return builder.setSize(\"Medium\")\n                     .setCrust(\"Thin\")\n                     .addTopping(\"Cheese\")\n                     .addTopping(\"Basil\")\n                     .setSauce(\"Tomato\")\n                     .build();\n    }\n\n    // Predefined \"recipe\" for a Spicy Chicken Pizza\n    public Pizza constructSpicyChicken() {\n        return builder.setSize(\"Large\")\n                     .setCrust(\"Thick\")\n                     .addTopping(\"Chicken\")\n                     .addTopping(\"Jalapeños\")\n                     .setSauce(\"BBQ\")\n                     .build();\n    }\n}",
+            "href": null
+          }
+        ],
+        "language": "java"
+      }
+    },
+    {
+      "object": "block",
+      "id": "18eb7ed0-f532-80aa-86bb-f263f5c38b03",
+      "parent": {
+        "type": "page_id",
+        "page_id": "183b7ed0-f532-80ab-ae70-c335de0d2974"
+      },
+      "created_time": "2025-02-02T13:39:00.000Z",
+      "last_edited_time": "2025-02-02T13:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Client Code",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Client Code",
+            "href": null
+          }
+        ],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "public class Client {\n    public static void main(String[] args) {\n        PizzaBuilder builder = new ConcretePizzaBuilder();\n        PizzaDirector director = new PizzaDirector(builder);\n\n        // Build a predefined Margherita Pizza\n        Pizza margherita = director.constructMargherita();\n\n        // Build a predefined Spicy Chicken Pizza\n        Pizza spicyChicken = director.constructSpicyChicken();\n    }\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "public class Client {\n    public static void main(String[] args) {\n        PizzaBuilder builder = new ConcretePizzaBuilder();\n        PizzaDirector director = new PizzaDirector(builder);\n\n        // Build a predefined Margherita Pizza\n        Pizza margherita = director.constructMargherita();\n\n        // Build a predefined Spicy Chicken Pizza\n        Pizza spicyChicken = director.constructSpicyChicken();\n    }\n}",
+            "href": null
+          }
+        ],
+        "language": "java"
+      }
+    },
+    {
+      "object": "block",
+      "id": "18eb7ed0-f532-8087-ad38-e32250627f07",
+      "parent": {
+        "type": "page_id",
+        "page_id": "183b7ed0-f532-80ab-ae70-c335de0d2974"
+      },
+      "created_time": "2025-02-02T13:39:00.000Z",
+      "last_edited_time": "2025-02-22T14:45:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "🚫 When not to use a Director?",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "🚫 When not to use a Director?",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "18eb7ed0-f532-8023-a984-c8550a4d3afc",
+      "parent": {
+        "type": "page_id",
+        "page_id": "183b7ed0-f532-80ab-ae70-c335de0d2974"
+      },
+      "created_time": "2025-02-02T13:40:00.000Z",
+      "last_edited_time": "2025-02-02T13:40:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Ad-hoc Construction",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Ad-hoc Construction",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": If clients need full control over the building process (e.g., custom pizzas with arbitrary toppings), let them use the builder directly.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": If clients need full control over the building process (e.g., custom pizzas with arbitrary toppings), let them use the builder directly.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "18eb7ed0-f532-8007-b5ac-f8495a3b8a8f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "183b7ed0-f532-80ab-ae70-c335de0d2974"
+      },
+      "created_time": "2025-02-02T13:40:00.000Z",
+      "last_edited_time": "2025-02-02T13:40:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Simple Objects",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Simple Objects",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": If the object has few parameters, a director adds unnecessary complexity.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": If the object has few parameters, a director adds unnecessary complexity.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "18eb7ed0-f532-8070-9dd5-c29f8dc46262",
+      "parent": {
+        "type": "page_id",
+        "page_id": "183b7ed0-f532-80ab-ae70-c335de0d2974"
+      },
+      "created_time": "2025-02-02T13:40:00.000Z",
+      "last_edited_time": "2025-02-22T14:45:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_1",
+      "heading_1": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "⚖️ Pros & Cons of Builder Pattern",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "⚖️ Pros & Cons of Builder Pattern",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "22eb7ed0-f532-80b7-8560-e49daef320aa",
+      "parent": {
+        "type": "page_id",
+        "page_id": "183b7ed0-f532-80ab-ae70-c335de0d2974"
+      },
+      "created_time": "2025-07-12T10:39:00.000Z",
+      "last_edited_time": "2025-07-12T10:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "image",
+      "image": {
+        "caption": [],
+        "type": "external",
+        "external": {
+          "url": "https://res.cloudinary.com/dft5dlcya/image/upload/v1752316748/limosyn.com/blog/images/builder-pattern/builder-pattern-pros-cons_k4hg8y.png"
+        }
+      }
+    },
+    {
+      "object": "block",
+      "id": "1a2b7ed0-f532-8037-83d3-d92bcbbd4d69",
+      "parent": {
+        "type": "page_id",
+        "page_id": "183b7ed0-f532-80ab-ae70-c335de0d2974"
+      },
+      "created_time": "2025-02-22T14:44:00.000Z",
+      "last_edited_time": "2025-02-22T14:44:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_1",
+      "heading_1": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Conclusion",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Conclusion",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1a2b7ed0-f532-809b-a83e-fda01f29e28b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "183b7ed0-f532-80ab-ae70-c335de0d2974"
+      },
+      "created_time": "2025-02-22T14:47:00.000Z",
+      "last_edited_time": "2025-02-22T14:51:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "So, in this post, we discussed an overview of Builder Pattern and how it can be used to create complex objects iteratively and based on our requirements. The steps to building the objects can be further abstracted out into set procedures inside a Director to maintain consistency.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "So, in this post, we discussed an overview of Builder Pattern and how it can be used to create complex objects iteratively and based on our requirements. The steps to building the objects can be further abstracted out into set procedures inside a Director to maintain consistency.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1a2b7ed0-f532-8032-8b5a-c9480bc6e915",
+      "parent": {
+        "type": "page_id",
+        "page_id": "183b7ed0-f532-80ab-ae70-c335de0d2974"
+      },
+      "created_time": "2025-02-22T14:51:00.000Z",
+      "last_edited_time": "2025-02-22T14:52:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Builder Pattern is a wildly popular pattern used in public SDKs(Eg. Amazon AWS SDKs) which allows for custom initialisation of objects interacting with AWS resources in a variety of manner.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Builder Pattern is a wildly popular pattern used in public SDKs(Eg. Amazon AWS SDKs) which allows for custom initialisation of objects interacting with AWS resources in a variety of manner.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1a2b7ed0-f532-80b8-962e-ee2dbb6ce60f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "183b7ed0-f532-80ab-ae70-c335de0d2974"
+      },
+      "created_time": "2025-02-22T14:52:00.000Z",
+      "last_edited_time": "2025-02-22T14:53:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Until next time, ✌🏻…",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Until next time, ✌🏻…",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    }
+  ],
+  "lastModified": "2025-07-12T10:39:00.000Z",
+  "cachedAt": 1765631232606
+}

@@ -1,0 +1,2382 @@
+[
+  {
+    "object": "block",
+    "id": "ec572733-d7ff-4f71-b041-e0ec0e430448",
+    "parent": {
+      "type": "page_id",
+      "page_id": "567ff1bd-a921-4968-896a-3e1c6eb1eaa5"
+    },
+    "created_time": "2022-10-19T13:16:00.000Z",
+    "last_edited_time": "2022-10-19T13:16:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "callout",
+    "callout": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "This post is for anyone developing a codebase based on the Object-Oriented Paradigm. This post is Language agnostic and the learnings have an implementation across all OOP-based languages.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "This post is for anyone developing a codebase based on the Object-Oriented Paradigm. This post is Language agnostic and the learnings have an implementation across all OOP-based languages.",
+          "href": null
+        }
+      ],
+      "icon": {
+        "type": "emoji",
+        "emoji": "🚧"
+      },
+      "color": "gray_background"
+    }
+  },
+  {
+    "object": "block",
+    "id": "48a08726-1c1b-483c-9076-4308822c88bb",
+    "parent": {
+      "type": "page_id",
+      "page_id": "567ff1bd-a921-4968-896a-3e1c6eb1eaa5"
+    },
+    "created_time": "2022-10-19T13:17:00.000Z",
+    "last_edited_time": "2022-10-19T13:17:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Well, it's been a while since my last post! I have been exploring software design principles to improve my development skills.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Well, it's been a while since my last post! I have been exploring software design principles to improve my development skills.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "3f7707d6-d5ac-4f3e-9b2c-95d02a9733a2",
+    "parent": {
+      "type": "page_id",
+      "page_id": "567ff1bd-a921-4968-896a-3e1c6eb1eaa5"
+    },
+    "created_time": "2022-10-19T13:17:00.000Z",
+    "last_edited_time": "2022-10-19T13:17:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "These patterns help you create clean, extensible, and robust code, reducing the number of breaking changes in your releases and reducing the effort required for code maintainability.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "These patterns help you create clean, extensible, and robust code, reducing the number of breaking changes in your releases and reducing the effort required for code maintainability.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "e5ff469d-7ea4-402b-a8a2-fdae2874ee78",
+    "parent": {
+      "type": "page_id",
+      "page_id": "567ff1bd-a921-4968-896a-3e1c6eb1eaa5"
+    },
+    "created_time": "2022-10-19T13:17:00.000Z",
+    "last_edited_time": "2022-10-19T13:17:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Design patterns are broadly divided into below categories",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Design patterns are broadly divided into below categories",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "f7df88ad-86d9-4f12-b7f6-eeb270ac1c42",
+    "parent": {
+      "type": "page_id",
+      "page_id": "567ff1bd-a921-4968-896a-3e1c6eb1eaa5"
+    },
+    "created_time": "2022-10-19T13:17:00.000Z",
+    "last_edited_time": "2022-10-19T13:17:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Creational Patterns - ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Creational Patterns - ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "They are concerned with the way in which objects are created.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "They are concerned with the way in which objects are created.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "365d19f6-aee0-459b-b7b8-f4ad8fef9bfa",
+    "parent": {
+      "type": "page_id",
+      "page_id": "567ff1bd-a921-4968-896a-3e1c6eb1eaa5"
+    },
+    "created_time": "2022-10-19T13:17:00.000Z",
+    "last_edited_time": "2022-10-19T13:17:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Structural Patterns",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Structural Patterns",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " - They explain how to assemble objects and classes into larger structures while keeping these structures flexible and efficient.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " - They explain how to assemble objects and classes into larger structures while keeping these structures flexible and efficient.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "de75c60c-7e8c-4310-b50a-bf6e5a76ef72",
+    "parent": {
+      "type": "page_id",
+      "page_id": "567ff1bd-a921-4968-896a-3e1c6eb1eaa5"
+    },
+    "created_time": "2022-10-19T13:17:00.000Z",
+    "last_edited_time": "2023-04-17T05:45:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Behavioural Patterns",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Behavioural Patterns",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " - They are concerned with algorithms and the assignment of responsibilities between objects.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " - They are concerned with algorithms and the assignment of responsibilities between objects.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "e50e5c83-c321-4baa-8f07-4946185a6983",
+    "parent": {
+      "type": "page_id",
+      "page_id": "567ff1bd-a921-4968-896a-3e1c6eb1eaa5"
+    },
+    "created_time": "2022-10-19T13:17:00.000Z",
+    "last_edited_time": "2022-10-19T13:17:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "This is the first post in the Design pattern series and I'll keep posting new ones in the coming weeks.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "This is the first post in the Design pattern series and I'll keep posting new ones in the coming weeks.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "0b17ee0f-5484-4412-ab46-a5f750624899",
+    "parent": {
+      "type": "page_id",
+      "page_id": "567ff1bd-a921-4968-896a-3e1c6eb1eaa5"
+    },
+    "created_time": "2022-10-19T13:17:00.000Z",
+    "last_edited_time": "2023-04-17T05:46:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "For understanding purposes, many things are shared in the context of ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "For understanding purposes, many things are shared in the context of ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Java-Springboot",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Java-Springboot",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": ".",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": ".",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "00688d08-454d-4a2b-af14-ff0e4993ca8b",
+    "parent": {
+      "type": "page_id",
+      "page_id": "567ff1bd-a921-4968-896a-3e1c6eb1eaa5"
+    },
+    "created_time": "2022-10-19T13:17:00.000Z",
+    "last_edited_time": "2022-10-19T13:17:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_3",
+    "heading_3": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Problem Statement",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Problem Statement",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "13160bbc-ceb2-45b2-9b80-0e6d2b218848",
+    "parent": {
+      "type": "page_id",
+      "page_id": "567ff1bd-a921-4968-896a-3e1c6eb1eaa5"
+    },
+    "created_time": "2022-10-19T13:17:00.000Z",
+    "last_edited_time": "2022-10-19T13:17:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The Singleton design pattern is to -",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The Singleton design pattern is to -",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "3d7babc3-4f17-4451-8f18-f496dc253b93",
+    "parent": {
+      "type": "page_id",
+      "page_id": "567ff1bd-a921-4968-896a-3e1c6eb1eaa5"
+    },
+    "created_time": "2022-10-19T13:17:00.000Z",
+    "last_edited_time": "2022-10-19T13:17:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Have a single instance of a class in a JVM.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Have a single instance of a class in a JVM.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "837bfe22-5ae7-4346-9086-db5f95954a99",
+    "parent": {
+      "type": "page_id",
+      "page_id": "567ff1bd-a921-4968-896a-3e1c6eb1eaa5"
+    },
+    "created_time": "2022-10-19T13:17:00.000Z",
+    "last_edited_time": "2022-10-19T13:17:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Global Point of Access for the object.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Global Point of Access for the object.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "5b7a0a51-75de-423a-b6c2-d12522364c9c",
+    "parent": {
+      "type": "page_id",
+      "page_id": "567ff1bd-a921-4968-896a-3e1c6eb1eaa5"
+    },
+    "created_time": "2022-10-19T13:17:00.000Z",
+    "last_edited_time": "2022-10-19T13:17:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Create Heavy Weight/Super Classes.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Create Heavy Weight/Super Classes.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "cb43b311-52b6-4ff6-9dff-b96e0bdbd5dd",
+    "parent": {
+      "type": "page_id",
+      "page_id": "567ff1bd-a921-4968-896a-3e1c6eb1eaa5"
+    },
+    "created_time": "2022-10-19T13:17:00.000Z",
+    "last_edited_time": "2022-10-19T13:17:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "In Java Springboot,",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "In Java Springboot,",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "bf0bcb22-58a6-47ef-88bd-5b0c8468e687",
+    "parent": {
+      "type": "page_id",
+      "page_id": "567ff1bd-a921-4968-896a-3e1c6eb1eaa5"
+    },
+    "created_time": "2022-10-19T13:17:00.000Z",
+    "last_edited_time": "2022-10-19T13:17:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "To mark a class as Singleton, annotate the class with ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "To mark a class as Singleton, annotate the class with ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "@Singleton",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "@Singleton",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": ".",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": ".",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "df576691-5979-4f4c-9880-bae3a5b88f36",
+    "parent": {
+      "type": "page_id",
+      "page_id": "567ff1bd-a921-4968-896a-3e1c6eb1eaa5"
+    },
+    "created_time": "2022-10-19T13:17:00.000Z",
+    "last_edited_time": "2023-04-17T05:45:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Singleton instance is initialised lazily (created only when required). To force the creation of a singleton, annotate the class with ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Singleton instance is initialised lazily (created only when required). To force the creation of a singleton, annotate the class with ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "@startup",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "@startup",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": ".",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": ".",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "884bf2a0-1d15-4421-a2fe-c289933d7219",
+    "parent": {
+      "type": "page_id",
+      "page_id": "567ff1bd-a921-4968-896a-3e1c6eb1eaa5"
+    },
+    "created_time": "2022-10-19T13:17:00.000Z",
+    "last_edited_time": "2022-10-19T13:17:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The instance thus created is mostly used in ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The instance thus created is mostly used in ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "@PostConstruct",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "@PostConstruct",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " and ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " and ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "@PreDestroy",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "@PreDestroy",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": ".",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": ".",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "7c3da88a-5e51-4bbb-b39f-80f368c19384",
+    "parent": {
+      "type": "page_id",
+      "page_id": "567ff1bd-a921-4968-896a-3e1c6eb1eaa5"
+    },
+    "created_time": "2022-10-19T13:17:00.000Z",
+    "last_edited_time": "2022-10-19T13:17:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "When using Singleton, the following things should be taken in mind -",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "When using Singleton, the following things should be taken in mind -",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "899ac351-ba32-4d10-8875-658ef2d8c2d2",
+    "parent": {
+      "type": "page_id",
+      "page_id": "567ff1bd-a921-4968-896a-3e1c6eb1eaa5"
+    },
+    "created_time": "2022-10-19T13:17:00.000Z",
+    "last_edited_time": "2023-04-17T05:45:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_3",
+    "heading_3": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Multithreading",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Multithreading",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "bbff1879-104b-45bb-83b3-4cab51a77050",
+    "parent": {
+      "type": "page_id",
+      "page_id": "567ff1bd-a921-4968-896a-3e1c6eb1eaa5"
+    },
+    "created_time": "2022-10-19T13:17:00.000Z",
+    "last_edited_time": "2022-10-19T13:17:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Special care should be taken when a singleton has to be used in a multithreading application.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Special care should be taken when a singleton has to be used in a multithreading application.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "83d63706-baf0-43f4-bd49-6cc1744c5782",
+    "parent": {
+      "type": "page_id",
+      "page_id": "567ff1bd-a921-4968-896a-3e1c6eb1eaa5"
+    },
+    "created_time": "2022-10-19T13:17:00.000Z",
+    "last_edited_time": "2023-04-17T05:45:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_3",
+    "heading_3": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Serialization",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Serialization",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "5e7e4d93-86c6-47eb-b490-dd1c6d11a1d0",
+    "parent": {
+      "type": "page_id",
+      "page_id": "567ff1bd-a921-4968-896a-3e1c6eb1eaa5"
+    },
+    "created_time": "2022-10-19T13:17:00.000Z",
+    "last_edited_time": "2023-04-17T05:46:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "When Singletons are implementing a Serializable interface they have to implement the readResolve method in order to avoid having 2 different objects.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "When Singletons are implementing a Serializable interface they have to implement the readResolve method in order to avoid having 2 different objects.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "0f223df8-366a-4dd4-9f32-e899ce37cdff",
+    "parent": {
+      "type": "page_id",
+      "page_id": "567ff1bd-a921-4968-896a-3e1c6eb1eaa5"
+    },
+    "created_time": "2022-10-19T13:17:00.000Z",
+    "last_edited_time": "2023-04-17T05:45:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_3",
+    "heading_3": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Class Loaders",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Class Loaders",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "3e9df84b-8087-4ee9-815c-823db44cc623",
+    "parent": {
+      "type": "page_id",
+      "page_id": "567ff1bd-a921-4968-896a-3e1c6eb1eaa5"
+    },
+    "created_time": "2022-10-19T13:17:00.000Z",
+    "last_edited_time": "2022-10-19T13:17:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "If 2 different class loaders load the Singleton class we'll have 2 different classes, one for each class loader.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "If 2 different class loaders load the Singleton class we'll have 2 different classes, one for each class loader.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "fc62db5d-5586-4297-8496-4314da89bc1f",
+    "parent": {
+      "type": "page_id",
+      "page_id": "567ff1bd-a921-4968-896a-3e1c6eb1eaa5"
+    },
+    "created_time": "2022-10-19T13:17:00.000Z",
+    "last_edited_time": "2023-04-17T05:45:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_3",
+    "heading_3": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Global Access Point",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Global Access Point",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "cae6aba8-99ec-4aa5-aa93-e567dcd7abd2",
+    "parent": {
+      "type": "page_id",
+      "page_id": "567ff1bd-a921-4968-896a-3e1c6eb1eaa5"
+    },
+    "created_time": "2022-10-19T13:17:00.000Z",
+    "last_edited_time": "2022-10-19T13:17:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Represented by the class name - The singleton instance is obtained using the class name. The first view this is an easy way to access it, but it is not very flexible. If we need to replace the Singleton class, all the references in the code should be changed accordingly.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Represented by the class name - The singleton instance is obtained using the class name. The first view this is an easy way to access it, but it is not very flexible. If we need to replace the Singleton class, all the references in the code should be changed accordingly.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "40134a8a-020c-44a3-bccd-4355e65b62d7",
+    "parent": {
+      "type": "page_id",
+      "page_id": "567ff1bd-a921-4968-896a-3e1c6eb1eaa5"
+    },
+    "created_time": "2022-10-19T13:17:00.000Z",
+    "last_edited_time": "2022-10-19T13:17:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_3",
+    "heading_3": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "How to create Singleton Class?",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "How to create Singleton Class?",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "d61a4d37-a5ac-4af4-834d-3f2a7c49b7fb",
+    "parent": {
+      "type": "page_id",
+      "page_id": "567ff1bd-a921-4968-896a-3e1c6eb1eaa5"
+    },
+    "created_time": "2022-10-19T13:17:00.000Z",
+    "last_edited_time": "2022-10-19T13:17:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The following conditions need to be met -",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The following conditions need to be met -",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "42571499-0433-45ef-85b2-42d5f0c04a3d",
+    "parent": {
+      "type": "page_id",
+      "page_id": "567ff1bd-a921-4968-896a-3e1c6eb1eaa5"
+    },
+    "created_time": "2022-10-19T13:17:00.000Z",
+    "last_edited_time": "2022-10-19T13:17:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "All the attributes of the class need to be private and static.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "All the attributes of the class need to be private and static.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2e896077-a6dd-435f-ae87-389fff93ed03",
+    "parent": {
+      "type": "page_id",
+      "page_id": "567ff1bd-a921-4968-896a-3e1c6eb1eaa5"
+    },
+    "created_time": "2022-10-19T13:17:00.000Z",
+    "last_edited_time": "2022-10-19T13:17:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The constructor needs to be private",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The constructor needs to be private",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "dc669117-9dd5-422f-b8e2-014cb491e0e9",
+    "parent": {
+      "type": "page_id",
+      "page_id": "567ff1bd-a921-4968-896a-3e1c6eb1eaa5"
+    },
+    "created_time": "2022-10-19T13:17:00.000Z",
+    "last_edited_time": "2022-10-19T13:17:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "A ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "A ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "static synchronized",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "static synchronized",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " method for retrieving the instance",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " method for retrieving the instance",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "21106dc7-239d-4fe3-94b8-72ed4cce82e8",
+    "parent": {
+      "type": "page_id",
+      "page_id": "567ff1bd-a921-4968-896a-3e1c6eb1eaa5"
+    },
+    "created_time": "2022-10-19T13:17:00.000Z",
+    "last_edited_time": "2022-10-19T13:17:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Example Code -",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Example Code -",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2483c60e-38f1-453f-93a1-13c0ded43d09",
+    "parent": {
+      "type": "page_id",
+      "page_id": "567ff1bd-a921-4968-896a-3e1c6eb1eaa5"
+    },
+    "created_time": "2022-10-19T13:17:00.000Z",
+    "last_edited_time": "2024-06-22T06:56:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "code",
+    "code": {
+      "caption": [
+        {
+          "type": "text",
+          "text": {
+            "content": "instead of making the function synchronized, make the code segment synchronized",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "instead of making the function synchronized, make the code segment synchronized",
+          "href": null
+        }
+      ],
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "class Singleton\n{\n\tprivate *volatile* static Singleton instance;\n\n\tprivate Singleton()\n\t{\n\t\t// Instantiating code\n\t}\n\tpublic static Singleton getInstance()\n\t{\n\t\t*if (instance == null)*\n\t\t{\n\t\t\t*synchronized*(Singleton.class)*\n\t\t\t{\n\t\t\t\t*if (instance == null)* instance = new Singleton();\n\t\t\t}\n\t\t}\n\t\treturn instance;\n\t}\n\tpublic void doSomething()\n\t{\n\t\tSystem.out.println(\"doSomething(): Singleton does something!\");\n\t}\n}",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "class Singleton\n{\n\tprivate *volatile* static Singleton instance;\n\n\tprivate Singleton()\n\t{\n\t\t// Instantiating code\n\t}\n\tpublic static Singleton getInstance()\n\t{\n\t\t*if (instance == null)*\n\t\t{\n\t\t\t*synchronized*(Singleton.class)*\n\t\t\t{\n\t\t\t\t*if (instance == null)* instance = new Singleton();\n\t\t\t}\n\t\t}\n\t\treturn instance;\n\t}\n\tpublic void doSomething()\n\t{\n\t\tSystem.out.println(\"doSomething(): Singleton does something!\");\n\t}\n}",
+          "href": null
+        }
+      ],
+      "language": "java"
+    }
+  },
+  {
+    "object": "block",
+    "id": "cfb5aafd-93a0-4272-a8ea-84d61f24ab17",
+    "parent": {
+      "type": "page_id",
+      "page_id": "567ff1bd-a921-4968-896a-3e1c6eb1eaa5"
+    },
+    "created_time": "2022-10-19T13:17:00.000Z",
+    "last_edited_time": "2022-10-19T13:17:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_3",
+    "heading_3": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Uses of Singleton Classes",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Uses of Singleton Classes",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "aaf194a4-6be6-4462-b3de-d6c1918a7adc",
+    "parent": {
+      "type": "page_id",
+      "page_id": "567ff1bd-a921-4968-896a-3e1c6eb1eaa5"
+    },
+    "created_time": "2022-10-19T13:17:00.000Z",
+    "last_edited_time": "2022-10-19T13:17:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Logger Class",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Logger Class",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "80261afe-d5cc-40bc-ad7f-0554294878ba",
+    "parent": {
+      "type": "page_id",
+      "page_id": "567ff1bd-a921-4968-896a-3e1c6eb1eaa5"
+    },
+    "created_time": "2022-10-19T13:17:00.000Z",
+    "last_edited_time": "2022-10-19T13:17:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Configuration Class",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Configuration Class",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "f3de5161-f24c-4f4d-a6f4-920d0623a708",
+    "parent": {
+      "type": "page_id",
+      "page_id": "567ff1bd-a921-4968-896a-3e1c6eb1eaa5"
+    },
+    "created_time": "2022-10-19T13:17:00.000Z",
+    "last_edited_time": "2022-10-19T13:17:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Accessing resources in a shared mode like Databases, Message Queue Factories",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Accessing resources in a shared mode like Databases, Message Queue Factories",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "790deb6f-d93a-4a25-afa5-f8026651f3b8",
+    "parent": {
+      "type": "page_id",
+      "page_id": "567ff1bd-a921-4968-896a-3e1c6eb1eaa5"
+    },
+    "created_time": "2022-10-19T13:17:00.000Z",
+    "last_edited_time": "2022-10-19T13:17:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Factories implemented as Singleton.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Factories implemented as Singleton.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "8c8dd919-47f5-4b22-8544-8e0aedef2d8c",
+    "parent": {
+      "type": "page_id",
+      "page_id": "567ff1bd-a921-4968-896a-3e1c6eb1eaa5"
+    },
+    "created_time": "2022-10-19T13:17:00.000Z",
+    "last_edited_time": "2022-10-19T13:17:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_3",
+    "heading_3": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Conclusion",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Conclusion",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "7f57d3ea-1931-4996-88f9-4cd7fc523a1f",
+    "parent": {
+      "type": "page_id",
+      "page_id": "567ff1bd-a921-4968-896a-3e1c6eb1eaa5"
+    },
+    "created_time": "2022-10-19T13:17:00.000Z",
+    "last_edited_time": "2023-04-17T05:46:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The Singleton pattern is a useful design paradigm for centralising access points to certain types of resources providing you global access to the instance.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The Singleton pattern is a useful design paradigm for centralising access points to certain types of resources providing you global access to the instance.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "276603d1-606a-4ac5-932d-a79585ba75f9",
+    "parent": {
+      "type": "page_id",
+      "page_id": "567ff1bd-a921-4968-896a-3e1c6eb1eaa5"
+    },
+    "created_time": "2022-10-19T13:17:00.000Z",
+    "last_edited_time": "2022-10-19T13:17:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "This pattern however violates the Single Responsibility Principle since it solves two problems at the same time.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "This pattern however violates the Single Responsibility Principle since it solves two problems at the same time.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "426564a0-b780-47dd-af5f-ad17438dc9d4",
+    "parent": {
+      "type": "page_id",
+      "page_id": "567ff1bd-a921-4968-896a-3e1c6eb1eaa5"
+    },
+    "created_time": "2022-10-19T13:17:00.000Z",
+    "last_edited_time": "2022-10-19T13:17:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Overuse of Singletons can lead to \"God\" classes with a vast amount of code.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Overuse of Singletons can lead to \"God\" classes with a vast amount of code.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "422dca0e-27f3-4cea-b38f-b9d6b9d39eca",
+    "parent": {
+      "type": "page_id",
+      "page_id": "567ff1bd-a921-4968-896a-3e1c6eb1eaa5"
+    },
+    "created_time": "2022-10-19T13:17:00.000Z",
+    "last_edited_time": "2022-10-19T13:17:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "This pattern also needs special treatment in the case of a multi-threaded environment.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "This pattern also needs special treatment in the case of a multi-threaded environment.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "f147756d-e629-4e8c-9519-2958b04b1b96",
+    "parent": {
+      "type": "page_id",
+      "page_id": "567ff1bd-a921-4968-896a-3e1c6eb1eaa5"
+    },
+    "created_time": "2022-10-19T13:17:00.000Z",
+    "last_edited_time": "2022-10-19T13:17:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Also since the pattern uses a private Constructor, it is not easily mocked by testing frameworks that rely on inheritance to create mock objects.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Also since the pattern uses a private Constructor, it is not easily mocked by testing frameworks that rely on inheritance to create mock objects.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "888cfbeb-178e-4097-993f-5123f41fe893",
+    "parent": {
+      "type": "page_id",
+      "page_id": "567ff1bd-a921-4968-896a-3e1c6eb1eaa5"
+    },
+    "created_time": "2022-10-19T13:17:00.000Z",
+    "last_edited_time": "2022-10-19T13:17:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Still, Singleton is one of the most widely used and understood Design patterns.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Still, Singleton is one of the most widely used and understood Design patterns.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "48989596-d3aa-42e1-bd1b-bb58a56c086d",
+    "parent": {
+      "type": "page_id",
+      "page_id": "567ff1bd-a921-4968-896a-3e1c6eb1eaa5"
+    },
+    "created_time": "2022-10-19T13:17:00.000Z",
+    "last_edited_time": "2022-10-19T13:17:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "This is it for this post. Until next time...",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "This is it for this post. Until next time...",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "5ca3109b-d561-424a-a627-dc63e91b1d39",
+    "parent": {
+      "type": "page_id",
+      "page_id": "567ff1bd-a921-4968-896a-3e1c6eb1eaa5"
+    },
+    "created_time": "2022-10-19T13:17:00.000Z",
+    "last_edited_time": "2022-10-19T13:17:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [],
+      "color": "default"
+    }
+  }
+]

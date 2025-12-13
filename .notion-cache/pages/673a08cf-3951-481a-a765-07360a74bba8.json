@@ -1,0 +1,3586 @@
+{
+  "page": {
+    "object": "page",
+    "id": "673a08cf-3951-481a-a765-07360a74bba8",
+    "created_time": "2021-04-10T06:20:00.000Z",
+    "last_edited_time": "2025-01-11T13:42:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "cover": {
+      "type": "external",
+      "external": {
+        "url": "https://res.cloudinary.com/dft5dlcya/image/upload/v1676801246/limosyn.com/blog/images/673a08cf-3951-481a-a765-07360a74bba8/xu5hbdixtrih0sitb2zr.jpg"
+      }
+    },
+    "icon": {
+      "type": "external",
+      "external": {
+        "url": "https://res.cloudinary.com/dft5dlcya/image/upload/v1736602815/limosyn.com/blog/svgs/blogging_sqjiu4.png"
+      }
+    },
+    "parent": {
+      "type": "database_id",
+      "database_id": "a07d5f44-fc6a-4251-88a9-b2c21743a868"
+    },
+    "archived": false,
+    "in_trash": false,
+    "is_locked": false,
+    "properties": {
+      "pTags": {
+        "id": "%3AbqM",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "f754719f-d01e-44be-aa6d-55128730ed5d"
+          }
+        ],
+        "has_more": false
+      },
+      "published": {
+        "id": "%3E%60Ov",
+        "type": "checkbox",
+        "checkbox": true
+      },
+      "tags": {
+        "id": "GE%3CU",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "Insights, OS, Windows"
+        }
+      },
+      "description": {
+        "id": "L%5D%3AA",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Yeah, I know what I am saying. If someone would have told me this 2-3 years ago, I would have lambasted the sucker off his pants. But the more windows are adopting open source, the more I don't want to leave it.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Yeah, I know what I am saying. If someone would have told me this 2-3 years ago, I would have lambasted the sucker off his pants. But the more windows are adopting open source, the more I don't want to leave it.",
+            "href": null
+          }
+        ]
+      },
+      "date": {
+        "id": "NW%7Cq",
+        "type": "date",
+        "date": {
+          "start": "2021-05-23",
+          "end": null,
+          "time_zone": null
+        }
+      },
+      "type": {
+        "id": "OtM%60",
+        "type": "select",
+        "select": {
+          "id": "25b5617b-7f7a-4586-8d8d-bc044e889cdc",
+          "name": "Shorts",
+          "color": "red"
+        }
+      },
+      "sTags": {
+        "id": "UmF%3F",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "2ede4f37-d3d5-4879-98e0-b54fa975f36b"
+          },
+          {
+            "id": "e799ff62-f37b-483e-b1a8-dd8e281bbd3f"
+          }
+        ],
+        "has_more": false
+      },
+      "link": {
+        "id": "%5Ds%3CH",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "https://www.limosyn.com/posts/windows-wsl-makes-you-wanna-leave-macos"
+        }
+      },
+      "stage": {
+        "id": "fqs%40",
+        "type": "select",
+        "select": {
+          "id": "258ea408-d15a-42ee-9219-5534dde4176c",
+          "name": "Published",
+          "color": "green"
+        }
+      },
+      "created": {
+        "id": "k_jR",
+        "type": "created_time",
+        "created_time": "2021-04-10T06:20:00.000Z"
+      },
+      "slug": {
+        "id": "pTHT",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "windows-wsl-makes-you-wanna-leave-macos",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "windows-wsl-makes-you-wanna-leave-macos",
+            "href": null
+          }
+        ]
+      },
+      "title": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "WSL - Making Windows Harder to leave",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "WSL - Making Windows Harder to leave",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/WSL-Making-Windows-Harder-to-leave-673a08cf3951481aa76507360a74bba8",
+    "public_url": null,
+    "request_id": "8cc01874-8d8b-41f1-a1fa-f01ac61f0786"
+  },
+  "blocks": [
+    {
+      "object": "block",
+      "id": "a0165dfb-c863-4479-8a6f-445dceb69cf4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "673a08cf-3951-481a-a765-07360a74bba8"
+      },
+      "created_time": "2022-10-18T13:20:00.000Z",
+      "last_edited_time": "2022-10-18T13:22:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Yeah, I know what I am saying. If someone would have told me this 2 to 3 years ago, I would have lambasted the symbol of ignorance, off his pants. However since Windows has started embracing Open Source more and more, their developer offerings have been getting much better.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Yeah, I know what I am saying. If someone would have told me this 2 to 3 years ago, I would have lambasted the symbol of ignorance, off his pants. However since Windows has started embracing Open Source more and more, their developer offerings have been getting much better.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "e36aaa58-613d-4c6a-ad9d-0aca5eeb8a56",
+      "parent": {
+        "type": "page_id",
+        "page_id": "673a08cf-3951-481a-a765-07360a74bba8"
+      },
+      "created_time": "2022-10-18T13:22:00.000Z",
+      "last_edited_time": "2022-10-18T13:22:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "callout",
+      "callout": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Visual Studio Code, GitHub, Windows Subsystem for Linux(WSL) - are pretty popular and awesome offerings by Microsoft.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Visual Studio Code, GitHub, Windows Subsystem for Linux(WSL) - are pretty popular and awesome offerings by Microsoft.",
+            "href": null
+          }
+        ],
+        "icon": {
+          "type": "emoji",
+          "emoji": "💡"
+        },
+        "color": "gray_background"
+      }
+    },
+    {
+      "object": "block",
+      "id": "c466bbe8-36e4-4814-b7fa-685d96146cb5",
+      "parent": {
+        "type": "page_id",
+        "page_id": "673a08cf-3951-481a-a765-07360a74bba8"
+      },
+      "created_time": "2022-10-18T13:22:00.000Z",
+      "last_edited_time": "2022-10-18T13:22:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "There was a time when Microsoft was cut-throat against Open Source. Understandably so! as it directly challenged the paid offerings by Microsoft. But things have since changed and Microsoft has become one of the pioneers in Open Source.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "There was a time when Microsoft was cut-throat against Open Source. Understandably so! as it directly challenged the paid offerings by Microsoft. But things have since changed and Microsoft has become one of the pioneers in Open Source.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "f0869f2a-da12-4f19-89d0-829591c86843",
+      "parent": {
+        "type": "page_id",
+        "page_id": "673a08cf-3951-481a-a765-07360a74bba8"
+      },
+      "created_time": "2022-10-18T13:22:00.000Z",
+      "last_edited_time": "2022-10-18T13:22:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "One of the newest and astounding Open Source services is WSL - Windows System for Linux.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "One of the newest and astounding Open Source services is WSL - Windows System for Linux.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "a119dc78-6559-4ca4-b6ab-627b572942f5",
+      "parent": {
+        "type": "page_id",
+        "page_id": "673a08cf-3951-481a-a765-07360a74bba8"
+      },
+      "created_time": "2022-10-18T13:22:00.000Z",
+      "last_edited_time": "2022-10-18T13:22:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "What the heck is WSL?",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "What the heck is WSL?",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "787c4db2-225e-4ff9-81ef-33f59cb490ca",
+      "parent": {
+        "type": "page_id",
+        "page_id": "673a08cf-3951-481a-a765-07360a74bba8"
+      },
+      "created_time": "2022-10-18T13:22:00.000Z",
+      "last_edited_time": "2022-10-18T13:22:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "WSL",
+              "link": {
+                "url": "https://docs.microsoft.com/en-us/windows/wsl/about"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "WSL",
+            "href": "https://docs.microsoft.com/en-us/windows/wsl/about"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " itself is not open source. It ships along with Windows 10 and allows you to run many Linux-based Distros directly on a Windows machine without suffering from the overhead of a Virtual machine.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " itself is not open source. It ships along with Windows 10 and allows you to run many Linux-based Distros directly on a Windows machine without suffering from the overhead of a Virtual machine.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "a8bab050-4e9e-4403-bfec-f939a06eb87c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "673a08cf-3951-481a-a765-07360a74bba8"
+      },
+      "created_time": "2022-10-18T13:22:00.000Z",
+      "last_edited_time": "2022-10-18T13:22:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Gone are the days of dual-booting Windows!!?",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Gone are the days of dual-booting Windows!!?",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "5c740634-d5d4-444c-a25d-27cb3ceccbdf",
+      "parent": {
+        "type": "page_id",
+        "page_id": "673a08cf-3951-481a-a765-07360a74bba8"
+      },
+      "created_time": "2022-10-18T13:22:00.000Z",
+      "last_edited_time": "2022-10-18T13:22:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "callout",
+      "callout": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Windows has released a new version of WSL - WSL2 with improved performance and integration with Windows. It has better File System performance as well as adds full system call compatibility.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Windows has released a new version of WSL - WSL2 with improved performance and integration with Windows. It has better File System performance as well as adds full system call compatibility.",
+            "href": null
+          }
+        ],
+        "icon": {
+          "type": "emoji",
+          "emoji": "💡"
+        },
+        "color": "gray_background"
+      }
+    },
+    {
+      "object": "block",
+      "id": "0c5b17b9-d9ab-4149-9a08-c219245023a5",
+      "parent": {
+        "type": "page_id",
+        "page_id": "673a08cf-3951-481a-a765-07360a74bba8"
+      },
+      "created_time": "2022-10-18T13:23:00.000Z",
+      "last_edited_time": "2022-10-18T13:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Bang for the bucks",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Bang for the bucks",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "6125a928-2d80-4320-bc8a-237981056abe",
+      "parent": {
+        "type": "page_id",
+        "page_id": "673a08cf-3951-481a-a765-07360a74bba8"
+      },
+      "created_time": "2022-10-18T13:23:00.000Z",
+      "last_edited_time": "2022-10-18T13:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "WSL offers a great set of enticing features. Some of them include:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "WSL offers a great set of enticing features. Some of them include:",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "a7fe69a4-96da-43f7-b7f8-07097115e857",
+      "parent": {
+        "type": "page_id",
+        "page_id": "673a08cf-3951-481a-a765-07360a74bba8"
+      },
+      "created_time": "2022-10-18T13:23:00.000Z",
+      "last_edited_time": "2022-10-18T13:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Ability to run a wide range of distros - Kali, Ubuntu, Alpine, OpenSuse, etc. You can even have them installed simultaneously! Good luck installing them via VM on a single middle-spec machine.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Ability to run a wide range of distros - Kali, Ubuntu, Alpine, OpenSuse, etc. You can even have them installed simultaneously! Good luck installing them via VM on a single middle-spec machine.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "0cc80630-d362-47e3-ab61-cdb47abcaf39",
+      "parent": {
+        "type": "page_id",
+        "page_id": "673a08cf-3951-481a-a765-07360a74bba8"
+      },
+      "created_time": "2022-10-18T13:23:00.000Z",
+      "last_edited_time": "2022-10-18T13:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "You can open the distro file system in Windows Explorer and vice versa. It's like both of them are working simultaneously (and they are!)",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "You can open the distro file system in Windows Explorer and vice versa. It's like both of them are working simultaneously (and they are!)",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "13c85a9f-33f5-4cad-a306-2f6a24bd643d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "673a08cf-3951-481a-a765-07360a74bba8"
+      },
+      "created_time": "2022-10-18T13:23:00.000Z",
+      "last_edited_time": "2022-10-18T13:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Ability to forward ports - any application you run on localhost of a distro is automatically available on Windows localhost. So if you have a nodeJS application running on port 3000 inside the distro can be accessed on ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Ability to forward ports - any application you run on localhost of a distro is automatically available on Windows localhost. So if you have a nodeJS application running on port 3000 inside the distro can be accessed on ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "http://localhost:3000",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "http://localhost:3000",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " on a Windows.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " on a Windows.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2d2df0f9-35c4-4c9a-bbbd-734d52c9b213",
+      "parent": {
+        "type": "page_id",
+        "page_id": "673a08cf-3951-481a-a765-07360a74bba8"
+      },
+      "created_time": "2022-10-18T13:23:00.000Z",
+      "last_edited_time": "2022-10-18T13:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Awesome integration with VS Code! You can directly have your development workflow on Windows and have it interfaced with your distro.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Awesome integration with VS Code! You can directly have your development workflow on Windows and have it interfaced with your distro.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "ab745365-95fa-4b6f-a035-02d4954b45a5",
+      "parent": {
+        "type": "page_id",
+        "page_id": "673a08cf-3951-481a-a765-07360a74bba8"
+      },
+      "created_time": "2022-10-18T13:23:00.000Z",
+      "last_edited_time": "2022-10-18T13:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "How to get WSL on your machine?",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "How to get WSL on your machine?",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "d79f6423-ad29-4f92-9076-e30fe93ed560",
+      "parent": {
+        "type": "page_id",
+        "page_id": "673a08cf-3951-481a-a765-07360a74bba8"
+      },
+      "created_time": "2022-10-18T13:23:00.000Z",
+      "last_edited_time": "2022-10-18T13:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "To update to WSL 2, you must be running Windows 10.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "To update to WSL 2, you must be running Windows 10.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "5b754ab1-2aff-4b8b-bedb-c3cf984be3e4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "673a08cf-3951-481a-a765-07360a74bba8"
+      },
+      "created_time": "2022-10-18T13:23:00.000Z",
+      "last_edited_time": "2022-10-18T13:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "For x64 systems: ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "For x64 systems: ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "Version 1903",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Version 1903",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " or higher, with ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " or higher, with ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "Build 18362",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Build 18362",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " or higher.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " or higher.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "66c005bc-a75e-4fcd-9eb8-2fd0e389d0cd",
+      "parent": {
+        "type": "page_id",
+        "page_id": "673a08cf-3951-481a-a765-07360a74bba8"
+      },
+      "created_time": "2022-10-18T13:23:00.000Z",
+      "last_edited_time": "2022-10-18T13:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "For ARM64 systems: ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "For ARM64 systems: ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "Version 2004",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Version 2004",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " or higher, with ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " or higher, with ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "Build 19041",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Build 19041",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " or higher.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " or higher.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1871e5ee-330d-48c8-b068-2bf8d1c52c7d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "673a08cf-3951-481a-a765-07360a74bba8"
+      },
+      "created_time": "2022-10-18T13:23:00.000Z",
+      "last_edited_time": "2022-10-18T13:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Builds lower than 18362 do not support WSL 2. Use the ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Builds lower than 18362 do not support WSL 2. Use the ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "Windows Update Assistant",
+              "link": {
+                "url": "https://www.microsoft.com/software-download/windows10"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Windows Update Assistant",
+            "href": "https://www.microsoft.com/software-download/windows10"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " to update your version of Windows.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " to update your version of Windows.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "62212f22-6912-47cf-9a98-42a8607a4db0",
+      "parent": {
+        "type": "page_id",
+        "page_id": "673a08cf-3951-481a-a765-07360a74bba8"
+      },
+      "created_time": "2022-10-18T13:23:00.000Z",
+      "last_edited_time": "2022-10-18T13:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "You can follow the official guide for installation -",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "You can follow the official guide for installation -",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1b1942d6-7801-4009-8eb3-c2e46f653cca",
+      "parent": {
+        "type": "page_id",
+        "page_id": "673a08cf-3951-481a-a765-07360a74bba8"
+      },
+      "created_time": "2022-10-18T13:23:00.000Z",
+      "last_edited_time": "2022-10-18T13:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bookmark",
+      "bookmark": {
+        "caption": [],
+        "url": "https://docs.microsoft.com/en-us/windows/wsl/install-win10"
+      }
+    },
+    {
+      "object": "block",
+      "id": "fa9b5b6b-2f1b-4c8c-a5c7-c96b59aa3341",
+      "parent": {
+        "type": "page_id",
+        "page_id": "673a08cf-3951-481a-a765-07360a74bba8"
+      },
+      "created_time": "2022-10-18T13:23:00.000Z",
+      "last_edited_time": "2022-10-18T13:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "For the lackies, here's a short guide -",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "For the lackies, here's a short guide -",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "387f259a-0b2f-461c-8f37-df4066aacdb6",
+      "parent": {
+        "type": "page_id",
+        "page_id": "673a08cf-3951-481a-a765-07360a74bba8"
+      },
+      "created_time": "2022-10-18T13:23:00.000Z",
+      "last_edited_time": "2022-10-18T13:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Step 1 - Enable the Windows Subsystem for Linux and VMs.",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Step 1 - Enable the Windows Subsystem for Linux and VMs.",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "4c9de0f5-f557-427b-90fe-00f80b8ab1a8",
+      "parent": {
+        "type": "page_id",
+        "page_id": "673a08cf-3951-481a-a765-07360a74bba8"
+      },
+      "created_time": "2022-10-18T13:23:00.000Z",
+      "last_edited_time": "2022-10-18T13:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Option #1 - You can use the \"Turn Windows Features On/Off\" settings. Just search for the same in the Start menu. Check the options - ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Option #1 - You can use the \"Turn Windows Features On/Off\" settings. Just search for the same in the Start menu. Check the options - ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "Windows Subsystem for Linux",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "Windows Subsystem for Linux",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " and ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " and ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "Virtual Machine Platform",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "Virtual Machine Platform",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ".",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ".",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "c9334fc7-3268-4c6f-a8c8-e90f901be2b7",
+      "parent": {
+        "type": "page_id",
+        "page_id": "673a08cf-3951-481a-a765-07360a74bba8"
+      },
+      "created_time": "2022-10-18T13:23:00.000Z",
+      "last_edited_time": "2023-02-19T10:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "494b1805-8cfa-459c-b906-5ddb6f1f98c9"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "image",
+      "image": {
+        "caption": [],
+        "type": "external",
+        "external": {
+          "url": "https://res.cloudinary.com/dft5dlcya/image/upload/v1676801256/limosyn.com/blog/images/673a08cf-3951-481a-a765-07360a74bba8/gfm5ntbogay5r14zjv0y.png"
+        }
+      }
+    },
+    {
+      "object": "block",
+      "id": "7d5f79c6-e99a-4dfd-9a03-7439d2b0e64d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "673a08cf-3951-481a-a765-07360a74bba8"
+      },
+      "created_time": "2022-10-18T13:23:00.000Z",
+      "last_edited_time": "2022-10-18T13:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Option #2 - Open Windows Powershell as administrator and execute the following commands.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Option #2 - Open Windows Powershell as administrator and execute the following commands.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "8f67bed8-56c1-4fbb-be7a-ca89314cf2f2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "673a08cf-3951-481a-a765-07360a74bba8"
+      },
+      "created_time": "2022-10-18T13:23:00.000Z",
+      "last_edited_time": "2022-10-18T13:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart",
+            "href": null
+          }
+        ],
+        "language": "powershell"
+      }
+    },
+    {
+      "object": "block",
+      "id": "92ef78be-c5ec-437b-a8c5-5baeac3232aa",
+      "parent": {
+        "type": "page_id",
+        "page_id": "673a08cf-3951-481a-a765-07360a74bba8"
+      },
+      "created_time": "2022-10-18T13:23:00.000Z",
+      "last_edited_time": "2022-10-18T13:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart",
+            "href": null
+          }
+        ],
+        "language": "powershell"
+      }
+    },
+    {
+      "object": "block",
+      "id": "06a0827d-7889-4f34-ad42-b7c064d33878",
+      "parent": {
+        "type": "page_id",
+        "page_id": "673a08cf-3951-481a-a765-07360a74bba8"
+      },
+      "created_time": "2022-10-18T13:23:00.000Z",
+      "last_edited_time": "2022-10-18T13:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Restart your machine after following any of the above options.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Restart your machine after following any of the above options.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "f6509dde-814d-4ecd-9d64-436229e3176b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "673a08cf-3951-481a-a765-07360a74bba8"
+      },
+      "created_time": "2022-10-18T13:23:00.000Z",
+      "last_edited_time": "2022-10-18T13:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Step 2 - Set wsl2 as default.",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Step 2 - Set wsl2 as default.",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "f6bfbdbd-e2f0-4a2b-adcd-a0eb996b31d0",
+      "parent": {
+        "type": "page_id",
+        "page_id": "673a08cf-3951-481a-a765-07360a74bba8"
+      },
+      "created_time": "2022-10-18T13:23:00.000Z",
+      "last_edited_time": "2022-10-18T13:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Open PowerShell and run this command to set WSL 2 as the default version when installing a new Linux distribution:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Open PowerShell and run this command to set WSL 2 as the default version when installing a new Linux distribution:",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "5c1d97ff-03aa-427d-88d0-f05ef443f441",
+      "parent": {
+        "type": "page_id",
+        "page_id": "673a08cf-3951-481a-a765-07360a74bba8"
+      },
+      "created_time": "2022-10-18T13:23:00.000Z",
+      "last_edited_time": "2022-10-18T13:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "wsl --set-default-version 2\n",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "wsl --set-default-version 2\n",
+            "href": null
+          }
+        ],
+        "language": "powershell"
+      }
+    },
+    {
+      "object": "block",
+      "id": "43cacd29-7ede-4da2-9dc7-d7f060a8722b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "673a08cf-3951-481a-a765-07360a74bba8"
+      },
+      "created_time": "2022-10-18T13:23:00.000Z",
+      "last_edited_time": "2022-10-18T13:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "If the command fails, it most likely means that you don't have ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "If the command fails, it most likely means that you don't have ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "WSL-2",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "WSL-2",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " but the older ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " but the older ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "WSL-1",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "WSL-1",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " installed. Follow this step on the official guide to install the same.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " installed. Follow this step on the official guide to install the same.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "4a5d298e-3a63-4f57-ad93-8bf79c3e4fc4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "673a08cf-3951-481a-a765-07360a74bba8"
+      },
+      "created_time": "2022-10-18T13:23:00.000Z",
+      "last_edited_time": "2022-10-18T13:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bookmark",
+      "bookmark": {
+        "caption": [],
+        "url": "https://docs.microsoft.com/en-us/windows/wsl/install-win10#step-4---download-the-linux-kernel-update-package"
+      }
+    },
+    {
+      "object": "block",
+      "id": "7eb41f7e-3cbd-4822-a9be-291cc839eaef",
+      "parent": {
+        "type": "page_id",
+        "page_id": "673a08cf-3951-481a-a765-07360a74bba8"
+      },
+      "created_time": "2022-10-18T13:23:00.000Z",
+      "last_edited_time": "2022-10-18T13:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Step 3 - Install Linux Distro of your choice",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Step 3 - Install Linux Distro of your choice",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "e3256c87-4e28-49de-9af4-ccedf3d16239",
+      "parent": {
+        "type": "page_id",
+        "page_id": "673a08cf-3951-481a-a765-07360a74bba8"
+      },
+      "created_time": "2022-10-18T13:23:00.000Z",
+      "last_edited_time": "2022-10-18T13:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Open the ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Open the ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "Microsoft Store",
+              "link": {
+                "url": "https://aka.ms/wslstore"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Microsoft Store",
+            "href": "https://aka.ms/wslstore"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " and select your favorite Linux distribution.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " and select your favorite Linux distribution.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "aa233e1e-3d92-4519-ab7f-528cdcf74d7d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "673a08cf-3951-481a-a765-07360a74bba8"
+      },
+      "created_time": "2022-10-18T13:23:00.000Z",
+      "last_edited_time": "2023-02-19T10:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "494b1805-8cfa-459c-b906-5ddb6f1f98c9"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "image",
+      "image": {
+        "caption": [],
+        "type": "external",
+        "external": {
+          "url": "https://res.cloudinary.com/dft5dlcya/image/upload/v1676801262/limosyn.com/blog/images/673a08cf-3951-481a-a765-07360a74bba8/nzgc3leqhsl8hqyex2if.png"
+        }
+      }
+    },
+    {
+      "object": "block",
+      "id": "3b39b24c-d6a2-4855-9932-3e7acc93652f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "673a08cf-3951-481a-a765-07360a74bba8"
+      },
+      "created_time": "2022-10-18T13:23:00.000Z",
+      "last_edited_time": "2022-10-18T13:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The following links will open the Microsoft store page for each distribution:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The following links will open the Microsoft store page for each distribution:",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "ad3ed2af-78ff-454b-8341-2b9ba9fa42cc",
+      "parent": {
+        "type": "page_id",
+        "page_id": "673a08cf-3951-481a-a765-07360a74bba8"
+      },
+      "created_time": "2022-10-18T13:23:00.000Z",
+      "last_edited_time": "2022-10-18T13:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Ubuntu 16.04 LTS",
+              "link": {
+                "url": "https://www.microsoft.com/store/apps/9pjn388hp8c9"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Ubuntu 16.04 LTS",
+            "href": "https://www.microsoft.com/store/apps/9pjn388hp8c9"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2c3cfb00-ae2b-46d6-8b97-bfe426b87238",
+      "parent": {
+        "type": "page_id",
+        "page_id": "673a08cf-3951-481a-a765-07360a74bba8"
+      },
+      "created_time": "2022-10-18T13:23:00.000Z",
+      "last_edited_time": "2022-10-18T13:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Ubuntu 18.04 LTS",
+              "link": {
+                "url": "https://www.microsoft.com/store/apps/9N9TNGVNDL3Q"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Ubuntu 18.04 LTS",
+            "href": "https://www.microsoft.com/store/apps/9N9TNGVNDL3Q"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "73fd86bb-dd9b-479d-a025-f9af4c3099a3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "673a08cf-3951-481a-a765-07360a74bba8"
+      },
+      "created_time": "2022-10-18T13:23:00.000Z",
+      "last_edited_time": "2022-10-18T13:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Ubuntu 20.04 LTS",
+              "link": {
+                "url": "https://www.microsoft.com/store/apps/9n6svws3rx71"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Ubuntu 20.04 LTS",
+            "href": "https://www.microsoft.com/store/apps/9n6svws3rx71"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "02af29f1-a796-458d-b23f-00e6e469e7d0",
+      "parent": {
+        "type": "page_id",
+        "page_id": "673a08cf-3951-481a-a765-07360a74bba8"
+      },
+      "created_time": "2022-10-18T13:23:00.000Z",
+      "last_edited_time": "2022-10-18T13:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "openSUSE Leap 15.1",
+              "link": {
+                "url": "https://www.microsoft.com/store/apps/9NJFZK00FGKV"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "openSUSE Leap 15.1",
+            "href": "https://www.microsoft.com/store/apps/9NJFZK00FGKV"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "4e6a641e-7a03-4802-9b3c-bc6e794a9883",
+      "parent": {
+        "type": "page_id",
+        "page_id": "673a08cf-3951-481a-a765-07360a74bba8"
+      },
+      "created_time": "2022-10-18T13:23:00.000Z",
+      "last_edited_time": "2022-10-18T13:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "SUSE Linux Enterprise Server 12 SP5",
+              "link": {
+                "url": "https://www.microsoft.com/store/apps/9MZ3D1TRP8T1"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "SUSE Linux Enterprise Server 12 SP5",
+            "href": "https://www.microsoft.com/store/apps/9MZ3D1TRP8T1"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "4f332dee-d457-486f-856a-0a8756c2dfb1",
+      "parent": {
+        "type": "page_id",
+        "page_id": "673a08cf-3951-481a-a765-07360a74bba8"
+      },
+      "created_time": "2022-10-18T13:23:00.000Z",
+      "last_edited_time": "2022-10-18T13:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "SUSE Linux Enterprise Server 15 SP1",
+              "link": {
+                "url": "https://www.microsoft.com/store/apps/9PN498VPMF3Z"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "SUSE Linux Enterprise Server 15 SP1",
+            "href": "https://www.microsoft.com/store/apps/9PN498VPMF3Z"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "792343bf-4732-4fb0-9745-11b518537b0d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "673a08cf-3951-481a-a765-07360a74bba8"
+      },
+      "created_time": "2022-10-18T13:23:00.000Z",
+      "last_edited_time": "2022-10-18T13:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Kali Linux",
+              "link": {
+                "url": "https://www.microsoft.com/store/apps/9PKR34TNCV07"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Kali Linux",
+            "href": "https://www.microsoft.com/store/apps/9PKR34TNCV07"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "b610ef66-495d-4849-bef5-d3c60788a793",
+      "parent": {
+        "type": "page_id",
+        "page_id": "673a08cf-3951-481a-a765-07360a74bba8"
+      },
+      "created_time": "2022-10-18T13:23:00.000Z",
+      "last_edited_time": "2022-10-18T13:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Debian GNU/Linux",
+              "link": {
+                "url": "https://www.microsoft.com/store/apps/9MSVKQC78PK6"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Debian GNU/Linux",
+            "href": "https://www.microsoft.com/store/apps/9MSVKQC78PK6"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "7c60f951-154d-400e-bc62-ff8f8a8ef64c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "673a08cf-3951-481a-a765-07360a74bba8"
+      },
+      "created_time": "2022-10-18T13:23:00.000Z",
+      "last_edited_time": "2022-10-18T13:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Fedora Remix for WSL",
+              "link": {
+                "url": "https://www.microsoft.com/store/apps/9n6gdm4k2hnc"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Fedora Remix for WSL",
+            "href": "https://www.microsoft.com/store/apps/9n6gdm4k2hnc"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "dedc29f7-f304-48a3-bc44-6d0b7f24512a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "673a08cf-3951-481a-a765-07360a74bba8"
+      },
+      "created_time": "2022-10-18T13:23:00.000Z",
+      "last_edited_time": "2022-10-18T13:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Pengwin",
+              "link": {
+                "url": "https://www.microsoft.com/store/apps/9NV1GV1PXZ6P"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Pengwin",
+            "href": "https://www.microsoft.com/store/apps/9NV1GV1PXZ6P"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "c1e38bf7-28bf-4753-94ae-85a3bc1322b2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "673a08cf-3951-481a-a765-07360a74bba8"
+      },
+      "created_time": "2022-10-18T13:23:00.000Z",
+      "last_edited_time": "2022-10-18T13:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Pengwin Enterprise",
+              "link": {
+                "url": "https://www.microsoft.com/store/apps/9N8LP0X93VCP"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Pengwin Enterprise",
+            "href": "https://www.microsoft.com/store/apps/9N8LP0X93VCP"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1ce5576f-a90c-446c-bf2c-3d5d7c5ad6c5",
+      "parent": {
+        "type": "page_id",
+        "page_id": "673a08cf-3951-481a-a765-07360a74bba8"
+      },
+      "created_time": "2022-10-18T13:23:00.000Z",
+      "last_edited_time": "2022-10-18T13:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Alpine WSL",
+              "link": {
+                "url": "https://www.microsoft.com/store/apps/9p804crf0395"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Alpine WSL",
+            "href": "https://www.microsoft.com/store/apps/9p804crf0395"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "b3c00a72-7457-4dbe-b883-cbe928ea3670",
+      "parent": {
+        "type": "page_id",
+        "page_id": "673a08cf-3951-481a-a765-07360a74bba8"
+      },
+      "created_time": "2022-10-18T13:23:00.000Z",
+      "last_edited_time": "2022-10-18T13:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Troubleshooting",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Troubleshooting",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "c2039a39-218f-4922-9203-b8dcd1953aa8",
+      "parent": {
+        "type": "page_id",
+        "page_id": "673a08cf-3951-481a-a765-07360a74bba8"
+      },
+      "created_time": "2022-10-18T13:23:00.000Z",
+      "last_edited_time": "2022-10-18T13:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Although most of the scenarios are covered in the official documentation -",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Although most of the scenarios are covered in the official documentation -",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "9e2a4b59-c57a-41c0-91e4-4a82d1e15c3c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "673a08cf-3951-481a-a765-07360a74bba8"
+      },
+      "created_time": "2022-10-18T13:24:00.000Z",
+      "last_edited_time": "2022-10-18T13:24:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bookmark",
+      "bookmark": {
+        "caption": [],
+        "url": "https://docs.microsoft.com/en-us/windows/wsl/install-win10#troubleshooting-installation"
+      }
+    },
+    {
+      "object": "block",
+      "id": "ffd9e36b-f511-4c25-b931-9982817f6a9e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "673a08cf-3951-481a-a765-07360a74bba8"
+      },
+      "created_time": "2022-10-18T13:24:00.000Z",
+      "last_edited_time": "2022-10-18T13:24:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Here are some of the issues that I sometimes face -",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Here are some of the issues that I sometimes face -",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "b90c4ec1-aadb-4f25-9405-9351e8b6a325",
+      "parent": {
+        "type": "page_id",
+        "page_id": "673a08cf-3951-481a-a765-07360a74bba8"
+      },
+      "created_time": "2022-10-18T13:24:00.000Z",
+      "last_edited_time": "2022-10-18T13:24:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "# Port Forwarding does not work",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "# Port Forwarding does not work",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2cdbdc15-8c14-4ecf-b096-0165422836d1",
+      "parent": {
+        "type": "page_id",
+        "page_id": "673a08cf-3951-481a-a765-07360a74bba8"
+      },
+      "created_time": "2022-10-18T13:24:00.000Z",
+      "last_edited_time": "2022-10-18T13:24:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Plan A",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Plan A",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": Restart the ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": Restart the ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "LxssManager",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "LxssManager",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " service from the Services manager. To open this application, you can simply search ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " service from the Services manager. To open this application, you can simply search ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "services",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "services",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " in windows search.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " in windows search.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "355ebbef-94ea-49c0-a0d7-ce036ae2b03b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "673a08cf-3951-481a-a765-07360a74bba8"
+      },
+      "created_time": "2022-10-18T13:24:00.000Z",
+      "last_edited_time": "2023-02-19T10:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "494b1805-8cfa-459c-b906-5ddb6f1f98c9"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "image",
+      "image": {
+        "caption": [],
+        "type": "external",
+        "external": {
+          "url": "https://res.cloudinary.com/dft5dlcya/image/upload/v1676801269/limosyn.com/blog/images/673a08cf-3951-481a-a765-07360a74bba8/lfzuj7qexc0odlf0jgtk.png"
+        }
+      }
+    },
+    {
+      "object": "block",
+      "id": "638018cc-080c-4dcf-99e0-f1c12d67034b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "673a08cf-3951-481a-a765-07360a74bba8"
+      },
+      "created_time": "2022-10-18T13:24:00.000Z",
+      "last_edited_time": "2022-10-18T13:24:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Plan B",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Plan B",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": If the above does not solve the problem, you may need to reset your network. Again simply search ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": If the above does not solve the problem, you may need to reset your network. Again simply search ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "network reset",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "network reset",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "in Windows search bar.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "in Windows search bar.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "6d8a62a5-6546-437b-af9e-c41b9f5054ec",
+      "parent": {
+        "type": "page_id",
+        "page_id": "673a08cf-3951-481a-a765-07360a74bba8"
+      },
+      "created_time": "2022-10-18T13:24:00.000Z",
+      "last_edited_time": "2023-02-19T10:08:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "494b1805-8cfa-459c-b906-5ddb6f1f98c9"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "image",
+      "image": {
+        "caption": [
+          {
+            "type": "text",
+            "text": {
+              "content": "This usually resets your Network statistics but does not remove wifi passwords and all",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "This usually resets your Network statistics but does not remove wifi passwords and all",
+            "href": null
+          }
+        ],
+        "type": "external",
+        "external": {
+          "url": "https://res.cloudinary.com/dft5dlcya/image/upload/v1676801277/limosyn.com/blog/images/673a08cf-3951-481a-a765-07360a74bba8/this_usually_resets_your_network_statistics_but_does_not_remove_wifi_passwords_and_all.png"
+        }
+      }
+    },
+    {
+      "object": "block",
+      "id": "6d23ac44-61de-457d-a89f-737c7aec7cf5",
+      "parent": {
+        "type": "page_id",
+        "page_id": "673a08cf-3951-481a-a765-07360a74bba8"
+      },
+      "created_time": "2022-10-18T13:24:00.000Z",
+      "last_edited_time": "2022-10-18T13:24:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Restart your machine!",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Restart your machine!",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "784826e2-35b1-4de7-8e08-4817c97950c0",
+      "parent": {
+        "type": "page_id",
+        "page_id": "673a08cf-3951-481a-a765-07360a74bba8"
+      },
+      "created_time": "2022-10-18T13:24:00.000Z",
+      "last_edited_time": "2022-10-18T13:24:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "# Duplicate ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "# Duplicate ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "*.identifier",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "*.identifier",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " files being generated in your Distro FS",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " files being generated in your Distro FS",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "544c7e7d-4195-401b-9229-3aa195f293d0",
+      "parent": {
+        "type": "page_id",
+        "page_id": "673a08cf-3951-481a-a765-07360a74bba8"
+      },
+      "created_time": "2022-10-18T13:24:00.000Z",
+      "last_edited_time": "2022-10-18T13:24:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "These are harmless and it's safe to delete them.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "These are harmless and it's safe to delete them.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "368ebb05-9864-45d5-8aad-77e7d5559ab7",
+      "parent": {
+        "type": "page_id",
+        "page_id": "673a08cf-3951-481a-a765-07360a74bba8"
+      },
+      "created_time": "2022-10-18T13:24:00.000Z",
+      "last_edited_time": "2022-10-18T13:24:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "divider",
+      "divider": {}
+    },
+    {
+      "object": "block",
+      "id": "fc6c369c-b067-46d2-b6db-168e6e640c73",
+      "parent": {
+        "type": "page_id",
+        "page_id": "673a08cf-3951-481a-a765-07360a74bba8"
+      },
+      "created_time": "2022-10-18T13:24:00.000Z",
+      "last_edited_time": "2022-10-18T13:24:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "That's all! Those are the only issues I have faced with WSL. Not bad right!?",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "That's all! Those are the only issues I have faced with WSL. Not bad right!?",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "03a01669-d480-4649-80a9-ef2cf0f1217c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "673a08cf-3951-481a-a765-07360a74bba8"
+      },
+      "created_time": "2022-10-18T13:24:00.000Z",
+      "last_edited_time": "2022-10-18T13:24:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "So Finally!",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "So Finally!",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "76851d1e-6a81-46c3-a6b7-b867d4255314",
+      "parent": {
+        "type": "page_id",
+        "page_id": "673a08cf-3951-481a-a765-07360a74bba8"
+      },
+      "created_time": "2022-10-18T13:24:00.000Z",
+      "last_edited_time": "2022-10-18T13:24:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "I am no Windows fanboy, but Microsoft has been spinning up the Open Source game. Having said that! With the new Apple Silicon, it's hard to go for any Windows-based computer. But WSL is something that other OEM developers can include in their offerings.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "I am no Windows fanboy, but Microsoft has been spinning up the Open Source game. Having said that! With the new Apple Silicon, it's hard to go for any Windows-based computer. But WSL is something that other OEM developers can include in their offerings.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    }
+  ],
+  "lastModified": "2025-01-11T13:42:00.000Z",
+  "cachedAt": 1765630617067
+}

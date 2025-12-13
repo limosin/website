@@ -1,0 +1,3169 @@
+[
+  {
+    "object": "block",
+    "id": "2104dd99-c323-4375-b35a-771aa01ad516",
+    "parent": {
+      "type": "page_id",
+      "page_id": "0378ecb4-ed84-4567-af3e-4d86ee2991d4"
+    },
+    "created_time": "2022-10-18T13:34:00.000Z",
+    "last_edited_time": "2022-10-18T13:34:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "It doesn't matter if you are not responsible for deploying your applications to servers; you must understand how your code is deployed to write better, resilient code.\nToday there are numerous ways by which an application is deployed onto a development/production server. Having said that, containerization is by far the most common way. Now I won't reiterate why it is so prominent, but here's a brief article you can refer to for its salient features.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "It doesn't matter if you are not responsible for deploying your applications to servers; you must understand how your code is deployed to write better, resilient code.\nToday there are numerous ways by which an application is deployed onto a development/production server. Having said that, containerization is by far the most common way. Now I won't reiterate why it is so prominent, but here's a brief article you can refer to for its salient features.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "9c656844-4a32-45ac-ab63-3511a8153bbd",
+    "parent": {
+      "type": "page_id",
+      "page_id": "0378ecb4-ed84-4567-af3e-4d86ee2991d4"
+    },
+    "created_time": "2022-10-18T13:34:00.000Z",
+    "last_edited_time": "2022-10-18T13:34:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bookmark",
+    "bookmark": {
+      "caption": [],
+      "url": "https://www.capgemini.com/in-en/2019/11/the-top-benefits-of-containerization/"
+    }
+  },
+  {
+    "object": "block",
+    "id": "7731b754-c6b5-4d7b-836f-6a51afce74e9",
+    "parent": {
+      "type": "page_id",
+      "page_id": "0378ecb4-ed84-4567-af3e-4d86ee2991d4"
+    },
+    "created_time": "2022-10-18T13:34:00.000Z",
+    "last_edited_time": "2022-10-18T13:34:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "callout",
+    "callout": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Containerization is the process of packaging an application and its required libraries, frameworks, and configuration files together to run in various computing environments efficiently. In simpler terms, containerization is the encapsulation of an application and its required environment.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Containerization is the process of packaging an application and its required libraries, frameworks, and configuration files together to run in various computing environments efficiently. In simpler terms, containerization is the encapsulation of an application and its required environment.",
+          "href": null
+        }
+      ],
+      "icon": {
+        "type": "emoji",
+        "emoji": "💡"
+      },
+      "color": "gray_background"
+    }
+  },
+  {
+    "object": "block",
+    "id": "a9f51138-5346-4279-a603-db64989761b9",
+    "parent": {
+      "type": "page_id",
+      "page_id": "0378ecb4-ed84-4567-af3e-4d86ee2991d4"
+    },
+    "created_time": "2022-10-18T13:34:00.000Z",
+    "last_edited_time": "2022-10-18T13:34:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Hopefully, you have some background in docker/containers. If not, please do so!",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Hopefully, you have some background in docker/containers. If not, please do so!",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ebfedae-4f12-414b-a679-669ff779d1d7",
+    "parent": {
+      "type": "page_id",
+      "page_id": "0378ecb4-ed84-4567-af3e-4d86ee2991d4"
+    },
+    "created_time": "2022-10-18T13:34:00.000Z",
+    "last_edited_time": "2022-10-18T13:34:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_3",
+    "heading_3": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Ok! Now, what's Kubernetes?",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Ok! Now, what's Kubernetes?",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "ba87a0b0-4b08-47a6-b8de-b8844c0ef66d",
+    "parent": {
+      "type": "page_id",
+      "page_id": "0378ecb4-ed84-4567-af3e-4d86ee2991d4"
+    },
+    "created_time": "2022-10-18T13:34:00.000Z",
+    "last_edited_time": "2022-10-18T13:34:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Kubernetes is a container orchestration system.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Kubernetes is a container orchestration system.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "6489bb10-dc7f-44c9-9a54-4ed066108654",
+    "parent": {
+      "type": "page_id",
+      "page_id": "0378ecb4-ed84-4567-af3e-4d86ee2991d4"
+    },
+    "created_time": "2022-10-18T13:34:00.000Z",
+    "last_edited_time": "2022-10-18T13:34:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Containers are good! They take minutes to spin up and are ready to serve you those pictures of cats and dogs that you are craving. However, you still need to maintain them manually.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Containers are good! They take minutes to spin up and are ready to serve you those pictures of cats and dogs that you are craving. However, you still need to maintain them manually.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "9ab91ef2-ae39-4e50-9a84-78cae3cd0ff0",
+    "parent": {
+      "type": "page_id",
+      "page_id": "0378ecb4-ed84-4567-af3e-4d86ee2991d4"
+    },
+    "created_time": "2022-10-18T13:34:00.000Z",
+    "last_edited_time": "2022-10-18T13:34:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "What if a container goes down? Or there is a sudden influx of traffic!",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "What if a container goes down? Or there is a sudden influx of traffic!",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "7e6a3060-aa02-424b-a345-befd3ab3cfeb",
+    "parent": {
+      "type": "page_id",
+      "page_id": "0378ecb4-ed84-4567-af3e-4d86ee2991d4"
+    },
+    "created_time": "2022-10-18T13:34:00.000Z",
+    "last_edited_time": "2022-10-18T13:34:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "This is where Kubernetes steps in. There are alternatives too - like ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "This is where Kubernetes steps in. There are alternatives too - like ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Docker Swarm",
+            "link": {
+              "url": "https://docs.docker.com/engine/swarm/"
+            }
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Docker Swarm",
+          "href": "https://docs.docker.com/engine/swarm/"
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " and ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " and ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Nomad",
+            "link": {
+              "url": "https://www.nomadproject.io/"
+            }
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Nomad",
+          "href": "https://www.nomadproject.io/"
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": ". But Kubernetes is the de-facto orchestrator.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": ". But Kubernetes is the de-facto orchestrator.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "6e556c0f-4dc8-437e-aecd-13bce52b9ab8",
+    "parent": {
+      "type": "page_id",
+      "page_id": "0378ecb4-ed84-4567-af3e-4d86ee2991d4"
+    },
+    "created_time": "2022-10-18T13:34:00.000Z",
+    "last_edited_time": "2022-10-18T13:35:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "callout",
+    "callout": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "In this post, Kubernetes is encompassing the open-source as well as various third-party implementations - GKE(Google), EKS(AWS), AKS(Azure). There is not a huge difference between them and, most of the things mentioned in this post are applicable.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "In this post, Kubernetes is encompassing the open-source as well as various third-party implementations - GKE(Google), EKS(AWS), AKS(Azure). There is not a huge difference between them and, most of the things mentioned in this post are applicable.",
+          "href": null
+        }
+      ],
+      "icon": {
+        "type": "emoji",
+        "emoji": "⚠️"
+      },
+      "color": "gray_background"
+    }
+  },
+  {
+    "object": "block",
+    "id": "f80db146-26ef-4cc2-922d-41833498adfe",
+    "parent": {
+      "type": "page_id",
+      "page_id": "0378ecb4-ed84-4567-af3e-4d86ee2991d4"
+    },
+    "created_time": "2022-10-18T13:35:00.000Z",
+    "last_edited_time": "2022-10-18T13:35:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "A Non-exhaustive list of Kubernetes features:",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "A Non-exhaustive list of Kubernetes features:",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "22bbeb87-0131-4b77-a256-c4d30810aa26",
+    "parent": {
+      "type": "page_id",
+      "page_id": "0378ecb4-ed84-4567-af3e-4d86ee2991d4"
+    },
+    "created_time": "2022-10-18T13:35:00.000Z",
+    "last_edited_time": "2022-10-18T13:35:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Automated Scheduling",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Automated Scheduling",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "b23a1ca5-06bb-4c24-b9ad-ad39d12f8204",
+    "parent": {
+      "type": "page_id",
+      "page_id": "0378ecb4-ed84-4567-af3e-4d86ee2991d4"
+    },
+    "created_time": "2022-10-18T13:35:00.000Z",
+    "last_edited_time": "2022-10-18T13:35:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Self-Healing Capabilities",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Self-Healing Capabilities",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "86ec130b-7962-4082-b483-c8a3243871cb",
+    "parent": {
+      "type": "page_id",
+      "page_id": "0378ecb4-ed84-4567-af3e-4d86ee2991d4"
+    },
+    "created_time": "2022-10-18T13:35:00.000Z",
+    "last_edited_time": "2022-10-18T13:35:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Automated rollouts & rollback",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Automated rollouts & rollback",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "5ade3ccc-6568-44c5-9efc-362a37c9dc40",
+    "parent": {
+      "type": "page_id",
+      "page_id": "0378ecb4-ed84-4567-af3e-4d86ee2991d4"
+    },
+    "created_time": "2022-10-18T13:35:00.000Z",
+    "last_edited_time": "2022-10-18T13:35:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Horizontal Scaling & Load Balancing",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Horizontal Scaling & Load Balancing",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "559d9f76-b31a-4390-a778-783d7e9180c4",
+    "parent": {
+      "type": "page_id",
+      "page_id": "0378ecb4-ed84-4567-af3e-4d86ee2991d4"
+    },
+    "created_time": "2022-10-18T13:35:00.000Z",
+    "last_edited_time": "2022-10-18T13:35:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Offers environment consistency for development, testing, and production",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Offers environment consistency for development, testing, and production",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "f27b2694-386f-40c7-952a-7625252c72c9",
+    "parent": {
+      "type": "page_id",
+      "page_id": "0378ecb4-ed84-4567-af3e-4d86ee2991d4"
+    },
+    "created_time": "2022-10-18T13:35:00.000Z",
+    "last_edited_time": "2022-10-18T13:35:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Infrastructure is loosely coupled to each component can act as a separate unit",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Infrastructure is loosely coupled to each component can act as a separate unit",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "1626950c-eb46-4568-9376-6cf4c29a1596",
+    "parent": {
+      "type": "page_id",
+      "page_id": "0378ecb4-ed84-4567-af3e-4d86ee2991d4"
+    },
+    "created_time": "2022-10-18T13:35:00.000Z",
+    "last_edited_time": "2022-10-18T13:35:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Provides a higher density of resource utilization",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Provides a higher density of resource utilization",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "1b0113a4-22f2-4541-8c9f-c06ff4622cbc",
+    "parent": {
+      "type": "page_id",
+      "page_id": "0378ecb4-ed84-4567-af3e-4d86ee2991d4"
+    },
+    "created_time": "2022-10-18T13:35:00.000Z",
+    "last_edited_time": "2022-10-18T13:35:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Offers enterprise-ready features",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Offers enterprise-ready features",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "b3ce67c7-7b6b-4c76-9491-ade9e820eb98",
+    "parent": {
+      "type": "page_id",
+      "page_id": "0378ecb4-ed84-4567-af3e-4d86ee2991d4"
+    },
+    "created_time": "2022-10-18T13:35:00.000Z",
+    "last_edited_time": "2022-10-18T13:35:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Application-centric management",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Application-centric management",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "67e2ccb8-4a65-4882-b063-1209977f4edb",
+    "parent": {
+      "type": "page_id",
+      "page_id": "0378ecb4-ed84-4567-af3e-4d86ee2991d4"
+    },
+    "created_time": "2022-10-18T13:35:00.000Z",
+    "last_edited_time": "2022-10-18T13:35:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Auto-scalable infrastructure",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Auto-scalable infrastructure",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "f775c9e2-e2e3-4f75-ac61-34019329c59c",
+    "parent": {
+      "type": "page_id",
+      "page_id": "0378ecb4-ed84-4567-af3e-4d86ee2991d4"
+    },
+    "created_time": "2022-10-18T13:35:00.000Z",
+    "last_edited_time": "2022-10-18T13:35:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "You can create predictable infrastructure",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "You can create predictable infrastructure",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "3136627e-a0af-452b-b966-84dcbd97a9c2",
+    "parent": {
+      "type": "page_id",
+      "page_id": "0378ecb4-ed84-4567-af3e-4d86ee2991d4"
+    },
+    "created_time": "2022-10-18T13:35:00.000Z",
+    "last_edited_time": "2022-10-18T13:35:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Let's briefly discuss some of the concepts which should make you capable enough to deploy small-scale applications.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Let's briefly discuss some of the concepts which should make you capable enough to deploy small-scale applications.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "b6580f17-4bb2-472d-b9db-2245ecb14f0f",
+    "parent": {
+      "type": "page_id",
+      "page_id": "0378ecb4-ed84-4567-af3e-4d86ee2991d4"
+    },
+    "created_time": "2022-10-18T13:35:00.000Z",
+    "last_edited_time": "2022-10-18T13:35:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_2",
+    "heading_2": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Level 0 - Absolute basic terms",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Level 0 - Absolute basic terms",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "7f50a809-12ff-4bc0-800f-3481c5578e59",
+    "parent": {
+      "type": "page_id",
+      "page_id": "0378ecb4-ed84-4567-af3e-4d86ee2991d4"
+    },
+    "created_time": "2022-10-18T13:35:00.000Z",
+    "last_edited_time": "2023-02-19T10:03:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "494b1805-8cfa-459c-b906-5ddb6f1f98c9"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "image",
+    "image": {
+      "caption": [],
+      "type": "external",
+      "external": {
+        "url": "https://res.cloudinary.com/dft5dlcya/image/upload/v1676801015/limosyn.com/blog/images/0378ecb4-ed84-4567-af3e-4d86ee2991d4/ulp5vroamilqdtwlquhf.png"
+      }
+    }
+  },
+  {
+    "object": "block",
+    "id": "d79b7712-bfe8-4993-b593-9830e3e43e69",
+    "parent": {
+      "type": "page_id",
+      "page_id": "0378ecb4-ed84-4567-af3e-4d86ee2991d4"
+    },
+    "created_time": "2022-10-18T13:35:00.000Z",
+    "last_edited_time": "2022-10-18T13:35:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_3",
+    "heading_3": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Cluster",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Cluster",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "0afda041-80e6-4370-9295-441f8ed80916",
+    "parent": {
+      "type": "page_id",
+      "page_id": "0378ecb4-ed84-4567-af3e-4d86ee2991d4"
+    },
+    "created_time": "2022-10-18T13:35:00.000Z",
+    "last_edited_time": "2022-10-18T13:35:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "As the name suggests, a cluster is a collection of servers, aka nodes. A cluster could have as many nodes as you want. In the lamest of sense, a cluster can be considered a huge server that aggregates nodes' ram, CPU, disk, and devices into a usable pool.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "As the name suggests, a cluster is a collection of servers, aka nodes. A cluster could have as many nodes as you want. In the lamest of sense, a cluster can be considered a huge server that aggregates nodes' ram, CPU, disk, and devices into a usable pool.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "c7164b19-4aea-4d94-8da9-6eb16d37150e",
+    "parent": {
+      "type": "page_id",
+      "page_id": "0378ecb4-ed84-4567-af3e-4d86ee2991d4"
+    },
+    "created_time": "2022-10-18T13:35:00.000Z",
+    "last_edited_time": "2022-10-18T13:35:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_3",
+    "heading_3": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Master",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Master",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "df20e998-6306-4d5c-84d8-03eac6fbba0e",
+    "parent": {
+      "type": "page_id",
+      "page_id": "0378ecb4-ed84-4567-af3e-4d86ee2991d4"
+    },
+    "created_time": "2022-10-18T13:35:00.000Z",
+    "last_edited_time": "2022-10-18T13:35:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The master is a collection of components that makes up the control plane of Kubernetes. These components are used for all cluster decisions. It includes both scheduling and responding to cluster events. If you are not running your cluster in a multi-master configuration, your cluster can go down if your master crashed!",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The master is a collection of components that makes up the control plane of Kubernetes. These components are used for all cluster decisions. It includes both scheduling and responding to cluster events. If you are not running your cluster in a multi-master configuration, your cluster can go down if your master crashed!",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "70e49f8f-6a51-4287-8448-0b80b633b59d",
+    "parent": {
+      "type": "page_id",
+      "page_id": "0378ecb4-ed84-4567-af3e-4d86ee2991d4"
+    },
+    "created_time": "2022-10-18T13:35:00.000Z",
+    "last_edited_time": "2022-10-18T13:35:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_3",
+    "heading_3": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Node",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Node",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "04b0f037-3c60-4e8a-846d-3c03453c53ab",
+    "parent": {
+      "type": "page_id",
+      "page_id": "0378ecb4-ed84-4567-af3e-4d86ee2991d4"
+    },
+    "created_time": "2022-10-18T13:35:00.000Z",
+    "last_edited_time": "2022-10-18T13:35:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "It is a single host which is capable of running on a physical or virtual machine. A node runs both kube-proxy and kubelet, which are considered part of the cluster. A node could be a master node or a worker node. Multiple pods can run on a single Node.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "It is a single host which is capable of running on a physical or virtual machine. A node runs both kube-proxy and kubelet, which are considered part of the cluster. A node could be a master node or a worker node. Multiple pods can run on a single Node.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "77796e5f-0658-4550-ad12-099fe07e8a2f",
+    "parent": {
+      "type": "page_id",
+      "page_id": "0378ecb4-ed84-4567-af3e-4d86ee2991d4"
+    },
+    "created_time": "2022-10-18T13:35:00.000Z",
+    "last_edited_time": "2022-10-18T13:35:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_3",
+    "heading_3": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Namespace",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Namespace",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2297d23a-3164-4047-9586-c7550d3e7349",
+    "parent": {
+      "type": "page_id",
+      "page_id": "0378ecb4-ed84-4567-af3e-4d86ee2991d4"
+    },
+    "created_time": "2022-10-18T13:35:00.000Z",
+    "last_edited_time": "2022-10-18T13:35:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "It is a logical cluster or environment. It is a widely used method which is used for scoping access or dividing a cluster. You can divide the cluster among your projects using namespaces.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "It is a logical cluster or environment. It is a widely used method which is used for scoping access or dividing a cluster. You can divide the cluster among your projects using namespaces.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "82bc65b9-4485-4d1b-b6d0-6d2dd033cc5d",
+    "parent": {
+      "type": "page_id",
+      "page_id": "0378ecb4-ed84-4567-af3e-4d86ee2991d4"
+    },
+    "created_time": "2022-10-18T13:35:00.000Z",
+    "last_edited_time": "2022-10-18T13:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "callout",
+    "callout": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "To summarise, a ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "To summarise, a ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "cluster",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "cluster",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " aggregates ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " aggregates ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "node",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "node",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " resources such as RAM, CPU. These resources can then be strategically divided among ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " resources such as RAM, CPU. These resources can then be strategically divided among ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "namespaces",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "namespaces",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": ".All the cluster settings are configured at the cluster Control plane which is controlled by the master node. Application containers or ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": ".All the cluster settings are configured at the cluster Control plane which is controlled by the master node. Application containers or ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "pods",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "pods",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " are deployed on these nodes and are distributed based on resource optimisation.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " are deployed on these nodes and are distributed based on resource optimisation.",
+          "href": null
+        }
+      ],
+      "icon": {
+        "type": "emoji",
+        "emoji": "💡"
+      },
+      "color": "gray_background"
+    }
+  },
+  {
+    "object": "block",
+    "id": "7087fca3-ac23-4843-b1c3-e6e8980d9fdf",
+    "parent": {
+      "type": "page_id",
+      "page_id": "0378ecb4-ed84-4567-af3e-4d86ee2991d4"
+    },
+    "created_time": "2022-10-18T13:36:00.000Z",
+    "last_edited_time": "2022-10-18T13:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "divider",
+    "divider": {}
+  },
+  {
+    "object": "block",
+    "id": "363b9b90-23ca-49ea-8ce5-45f05ec5faa6",
+    "parent": {
+      "type": "page_id",
+      "page_id": "0378ecb4-ed84-4567-af3e-4d86ee2991d4"
+    },
+    "created_time": "2022-10-18T13:36:00.000Z",
+    "last_edited_time": "2022-10-18T13:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_2",
+    "heading_2": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Level 1 - Kubernetes Components",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Level 1 - Kubernetes Components",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "61780eca-f69e-496c-8497-dff476d3daee",
+    "parent": {
+      "type": "page_id",
+      "page_id": "0378ecb4-ed84-4567-af3e-4d86ee2991d4"
+    },
+    "created_time": "2022-10-18T13:36:00.000Z",
+    "last_edited_time": "2022-10-18T13:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_3",
+    "heading_3": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Deployments",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Deployments",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "e8aa3ec2-06fb-45d6-b071-5d30885f2be9",
+    "parent": {
+      "type": "page_id",
+      "page_id": "0378ecb4-ed84-4567-af3e-4d86ee2991d4"
+    },
+    "created_time": "2022-10-18T13:36:00.000Z",
+    "last_edited_time": "2023-02-19T10:03:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "494b1805-8cfa-459c-b906-5ddb6f1f98c9"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "image",
+    "image": {
+      "caption": [],
+      "type": "external",
+      "external": {
+        "url": "https://res.cloudinary.com/dft5dlcya/image/upload/v1676801022/limosyn.com/blog/images/0378ecb4-ed84-4567-af3e-4d86ee2991d4/p7sgl7gdcmyx7xq9hihi.png"
+      }
+    }
+  },
+  {
+    "object": "block",
+    "id": "f89c365b-346e-4820-bf67-beed1930b7f3",
+    "parent": {
+      "type": "page_id",
+      "page_id": "0378ecb4-ed84-4567-af3e-4d86ee2991d4"
+    },
+    "created_time": "2022-10-18T13:36:00.000Z",
+    "last_edited_time": "2022-10-18T13:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Deployments are where you define the containers for your applications. Think of them as managers responsible for managing your application pods. They are responsible for maintaining your pod count, replica sets, etc. You can pass environment variables required by your application, define health checks, etc., all in your deployment manifest files.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Deployments are where you define the containers for your applications. Think of them as managers responsible for managing your application pods. They are responsible for maintaining your pod count, replica sets, etc. You can pass environment variables required by your application, define health checks, etc., all in your deployment manifest files.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "bbcadbcd-3497-4eea-ad0d-1d3861a32946",
+    "parent": {
+      "type": "page_id",
+      "page_id": "0378ecb4-ed84-4567-af3e-4d86ee2991d4"
+    },
+    "created_time": "2022-10-18T13:36:00.000Z",
+    "last_edited_time": "2022-10-18T13:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_3",
+    "heading_3": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Pods",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Pods",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "8b2a1e6b-f120-441f-a806-7d07b9eb84a8",
+    "parent": {
+      "type": "page_id",
+      "page_id": "0378ecb4-ed84-4567-af3e-4d86ee2991d4"
+    },
+    "created_time": "2022-10-18T13:36:00.000Z",
+    "last_edited_time": "2022-10-18T13:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Pods are the smallest independent running executable units. It is a group of one or more containers with shared resources. A single node can run multiple deployments, and a single deployment can have multiple pods. Pods are ephemeral in nature, i.e., they lose their state/data on destruction. Hence all persistable data is stored on external \"Persistent Volumes.\"",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Pods are the smallest independent running executable units. It is a group of one or more containers with shared resources. A single node can run multiple deployments, and a single deployment can have multiple pods. Pods are ephemeral in nature, i.e., they lose their state/data on destruction. Hence all persistable data is stored on external \"Persistent Volumes.\"",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "c1e49039-f083-4ee6-8d65-ca0b73324a8b",
+    "parent": {
+      "type": "page_id",
+      "page_id": "0378ecb4-ed84-4567-af3e-4d86ee2991d4"
+    },
+    "created_time": "2022-10-18T13:36:00.000Z",
+    "last_edited_time": "2022-10-18T13:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_3",
+    "heading_3": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Services",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Services",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "f7f92a43-28ef-4029-8d09-fccdb890e9b2",
+    "parent": {
+      "type": "page_id",
+      "page_id": "0378ecb4-ed84-4567-af3e-4d86ee2991d4"
+    },
+    "created_time": "2022-10-18T13:36:00.000Z",
+    "last_edited_time": "2023-02-19T10:03:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "494b1805-8cfa-459c-b906-5ddb6f1f98c9"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "image",
+    "image": {
+      "caption": [],
+      "type": "external",
+      "external": {
+        "url": "https://res.cloudinary.com/dft5dlcya/image/upload/v1676801032/limosyn.com/blog/images/0378ecb4-ed84-4567-af3e-4d86ee2991d4/nnukocfuobzsd5m0t8f1.png"
+      }
+    }
+  },
+  {
+    "object": "block",
+    "id": "b1cf1827-01e8-4670-ad0f-c04606a2f471",
+    "parent": {
+      "type": "page_id",
+      "page_id": "0378ecb4-ed84-4567-af3e-4d86ee2991d4"
+    },
+    "created_time": "2022-10-18T13:36:00.000Z",
+    "last_edited_time": "2022-10-18T13:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_3",
+    "heading_3": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Ingress",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Ingress",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "f376f4a6-b582-4ff5-8e6d-9f08854a5f99",
+    "parent": {
+      "type": "page_id",
+      "page_id": "0378ecb4-ed84-4567-af3e-4d86ee2991d4"
+    },
+    "created_time": "2022-10-18T13:36:00.000Z",
+    "last_edited_time": "2022-10-18T13:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "An ingress is an object which controls external access to cluster resources. In many ways, it is analogous to a Load Balancer. ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "An ingress is an object which controls external access to cluster resources. In many ways, it is analogous to a Load Balancer. ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Ingress",
+            "link": {
+              "url": "https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.21/#ingress-v1-networking-k8s-io"
+            }
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Ingress",
+          "href": "https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.21/#ingress-v1-networking-k8s-io"
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " exposes HTTP and HTTPS routes from outside the cluster to ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " exposes HTTP and HTTPS routes from outside the cluster to ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "services",
+            "link": {
+              "url": "https://kubernetes.io/docs/concepts/services-networking/service/"
+            }
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "services",
+          "href": "https://kubernetes.io/docs/concepts/services-networking/service/"
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " within the cluster. Traffic routing is controlled by rules defined on the Ingress resource.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " within the cluster. Traffic routing is controlled by rules defined on the Ingress resource.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "975824ca-ba5f-4f82-a9fb-7adf4936d9da",
+    "parent": {
+      "type": "page_id",
+      "page_id": "0378ecb4-ed84-4567-af3e-4d86ee2991d4"
+    },
+    "created_time": "2022-10-18T13:36:00.000Z",
+    "last_edited_time": "2023-02-19T10:03:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "494b1805-8cfa-459c-b906-5ddb6f1f98c9"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "image",
+    "image": {
+      "caption": [],
+      "type": "external",
+      "external": {
+        "url": "https://res.cloudinary.com/dft5dlcya/image/upload/v1676801036/limosyn.com/blog/images/0378ecb4-ed84-4567-af3e-4d86ee2991d4/htu7xc2umo98ppszqu3q.png"
+      }
+    }
+  },
+  {
+    "object": "block",
+    "id": "3cc79237-71f2-48f0-94c8-18c64b5cdf57",
+    "parent": {
+      "type": "page_id",
+      "page_id": "0378ecb4-ed84-4567-af3e-4d86ee2991d4"
+    },
+    "created_time": "2022-10-18T13:37:00.000Z",
+    "last_edited_time": "2022-10-18T13:37:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_3",
+    "heading_3": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Config Maps",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Config Maps",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "1f4a6309-85b5-40fe-9dbe-6ef4afc0d17d",
+    "parent": {
+      "type": "page_id",
+      "page_id": "0378ecb4-ed84-4567-af3e-4d86ee2991d4"
+    },
+    "created_time": "2022-10-18T13:37:00.000Z",
+    "last_edited_time": "2022-10-18T13:37:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "A Config Map is used to store non-confidential data for your applications, such as environment variables. They provide a centralized location to manage your application configurations. Here's how you can access these in your manifest files.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "A Config Map is used to store non-confidential data for your applications, such as environment variables. They provide a centralized location to manage your application configurations. Here's how you can access these in your manifest files.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "1427880f-a16c-448a-85ba-973e3dcb2776",
+    "parent": {
+      "type": "page_id",
+      "page_id": "0378ecb4-ed84-4567-af3e-4d86ee2991d4"
+    },
+    "created_time": "2022-10-18T13:37:00.000Z",
+    "last_edited_time": "2022-10-18T13:37:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "code",
+    "code": {
+      "caption": [],
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "env:\n# Define the environment variable\n- name: PLAYER_INITIAL_LIVES \n    valueFrom:\n    configMapKeyRef:\n        name: game-demo                 # your configmap\n        key: player_initial_lives       # The key to fetch.\n- name: UI_PROPERTIES_FILE_NAME\n    valueFrom:\n    configMapKeyRef:\n        name: game-demo\n        key: ui_properties_file_name",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "env:\n# Define the environment variable\n- name: PLAYER_INITIAL_LIVES \n    valueFrom:\n    configMapKeyRef:\n        name: game-demo                 # your configmap\n        key: player_initial_lives       # The key to fetch.\n- name: UI_PROPERTIES_FILE_NAME\n    valueFrom:\n    configMapKeyRef:\n        name: game-demo\n        key: ui_properties_file_name",
+          "href": null
+        }
+      ],
+      "language": "yaml"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2213ebac-b8bb-473f-9f64-9ce535e3cab4",
+    "parent": {
+      "type": "page_id",
+      "page_id": "0378ecb4-ed84-4567-af3e-4d86ee2991d4"
+    },
+    "created_time": "2022-10-18T13:37:00.000Z",
+    "last_edited_time": "2022-10-18T13:37:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_3",
+    "heading_3": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Secrets",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Secrets",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "3ff9eb50-7578-4de8-b881-1aa1fd37c130",
+    "parent": {
+      "type": "page_id",
+      "page_id": "0378ecb4-ed84-4567-af3e-4d86ee2991d4"
+    },
+    "created_time": "2022-10-18T13:37:00.000Z",
+    "last_edited_time": "2022-10-18T13:37:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "As the name suggests, ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "As the name suggests, ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Secret",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "Secret",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " objects are used to store confidential configurations such as passwords of databases, API keys, OAuth tokens, ssh keys, etc. Similar to config Maps, they too can be accessed inside Deployments.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " objects are used to store confidential configurations such as passwords of databases, API keys, OAuth tokens, ssh keys, etc. Similar to config Maps, they too can be accessed inside Deployments.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "8f31ae16-254f-4a61-a382-0d14160ac3bc",
+    "parent": {
+      "type": "page_id",
+      "page_id": "0378ecb4-ed84-4567-af3e-4d86ee2991d4"
+    },
+    "created_time": "2022-10-18T13:37:00.000Z",
+    "last_edited_time": "2022-10-18T13:37:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "quote",
+    "quote": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "All secrets are stored as Base64 encoded values",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "All secrets are stored as Base64 encoded values",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "bce897ba-51af-4e04-aadb-a4ebdf255312",
+    "parent": {
+      "type": "page_id",
+      "page_id": "0378ecb4-ed84-4567-af3e-4d86ee2991d4"
+    },
+    "created_time": "2022-10-18T13:37:00.000Z",
+    "last_edited_time": "2022-10-18T13:37:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "callout",
+    "callout": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "To summarize, a ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "To summarize, a ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "deployment",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "deployment",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " generates a ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " generates a ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "replica-set",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "replica-set",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " which is responsible for creating container pods. A ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " which is responsible for creating container pods. A ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Service",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "Service",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " handles traffic flow into your Pods. An ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " handles traffic flow into your Pods. An ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Ingress",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "Ingress",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": ", on the other hand, handles traffic influx into your cluster.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": ", on the other hand, handles traffic influx into your cluster.",
+          "href": null
+        }
+      ],
+      "icon": {
+        "type": "emoji",
+        "emoji": "💡"
+      },
+      "color": "gray_background"
+    }
+  },
+  {
+    "object": "block",
+    "id": "837b9c56-abef-4ee6-9e79-0f1dcd5e7408",
+    "parent": {
+      "type": "page_id",
+      "page_id": "0378ecb4-ed84-4567-af3e-4d86ee2991d4"
+    },
+    "created_time": "2022-10-18T13:37:00.000Z",
+    "last_edited_time": "2022-10-18T13:38:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "divider",
+    "divider": {}
+  },
+  {
+    "object": "block",
+    "id": "d4c9459c-97db-4a62-9086-f097ac3a81ca",
+    "parent": {
+      "type": "page_id",
+      "page_id": "0378ecb4-ed84-4567-af3e-4d86ee2991d4"
+    },
+    "created_time": "2022-10-18T13:38:00.000Z",
+    "last_edited_time": "2022-10-18T13:38:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_2",
+    "heading_2": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Level 2 - Kubernetes Configuration YAMLs",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Level 2 - Kubernetes Configuration YAMLs",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "1d0de73b-e616-4115-9a28-41cc6104f7c2",
+    "parent": {
+      "type": "page_id",
+      "page_id": "0378ecb4-ed84-4567-af3e-4d86ee2991d4"
+    },
+    "created_time": "2022-10-18T13:38:00.000Z",
+    "last_edited_time": "2022-10-18T13:38:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Configurations are written in YAMLs/YMLs (Yet Another Markup Language) and allow us to develop our infrastructure as code.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Configurations are written in YAMLs/YMLs (Yet Another Markup Language) and allow us to develop our infrastructure as code.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "f428ab30-3f4d-4a9a-b566-10d02e23e5d8",
+    "parent": {
+      "type": "page_id",
+      "page_id": "0378ecb4-ed84-4567-af3e-4d86ee2991d4"
+    },
+    "created_time": "2022-10-18T13:38:00.000Z",
+    "last_edited_time": "2022-10-18T13:38:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Kubernetes provides us with a comprehensive suite of keys and definitions for our infrastructure needs. To apply this to our cluster, execute",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Kubernetes provides us with a comprehensive suite of keys and definitions for our infrastructure needs. To apply this to our cluster, execute",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "ad71c9b2-c8b5-4d71-8a6e-6f21c0ef27ef",
+    "parent": {
+      "type": "page_id",
+      "page_id": "0378ecb4-ed84-4567-af3e-4d86ee2991d4"
+    },
+    "created_time": "2022-10-18T13:38:00.000Z",
+    "last_edited_time": "2022-10-18T13:38:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "kubectl apply -f <yaml filename>",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "kubectl apply -f <yaml filename>",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Visit the following links to check out the most prominent Kubernetes resources.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Visit the following links to check out the most prominent Kubernetes resources.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "deaa7176-242c-449c-b42e-c7f005b981f1",
+    "parent": {
+      "type": "page_id",
+      "page_id": "0378ecb4-ed84-4567-af3e-4d86ee2991d4"
+    },
+    "created_time": "2022-10-18T13:38:00.000Z",
+    "last_edited_time": "2022-10-18T13:38:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bookmark",
+    "bookmark": {
+      "caption": [],
+      "url": "https://kubernetes.io/docs/concepts/workloads/controllers/deployment/"
+    }
+  },
+  {
+    "object": "block",
+    "id": "97209268-2358-4f61-b539-5485f736b12d",
+    "parent": {
+      "type": "page_id",
+      "page_id": "0378ecb4-ed84-4567-af3e-4d86ee2991d4"
+    },
+    "created_time": "2022-10-18T13:38:00.000Z",
+    "last_edited_time": "2022-10-18T13:38:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bookmark",
+    "bookmark": {
+      "caption": [],
+      "url": "https://kubernetes.io/docs/concepts/services-networking/service/"
+    }
+  },
+  {
+    "object": "block",
+    "id": "0ccebbe5-9cc4-495d-9194-cd50562b99d5",
+    "parent": {
+      "type": "page_id",
+      "page_id": "0378ecb4-ed84-4567-af3e-4d86ee2991d4"
+    },
+    "created_time": "2022-10-18T13:38:00.000Z",
+    "last_edited_time": "2022-10-18T13:38:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bookmark",
+    "bookmark": {
+      "caption": [],
+      "url": "https://kubernetes.io/docs/concepts/services-networking/ingress/"
+    }
+  },
+  {
+    "object": "block",
+    "id": "e5bcc82a-8fd9-4b3d-b56f-ac5ba97bc61c",
+    "parent": {
+      "type": "page_id",
+      "page_id": "0378ecb4-ed84-4567-af3e-4d86ee2991d4"
+    },
+    "created_time": "2022-10-18T13:38:00.000Z",
+    "last_edited_time": "2022-10-18T13:38:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bookmark",
+    "bookmark": {
+      "caption": [],
+      "url": "https://kubernetes.io/docs/concepts/storage/persistent-volumes/"
+    }
+  },
+  {
+    "object": "block",
+    "id": "0512b748-67f8-48b3-959c-97495408a0cb",
+    "parent": {
+      "type": "page_id",
+      "page_id": "0378ecb4-ed84-4567-af3e-4d86ee2991d4"
+    },
+    "created_time": "2022-10-18T13:38:00.000Z",
+    "last_edited_time": "2022-10-18T13:38:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_2",
+    "heading_2": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Conclusion",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Conclusion",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "22320c9a-a082-4b89-8401-7118736619ae",
+    "parent": {
+      "type": "page_id",
+      "page_id": "0378ecb4-ed84-4567-af3e-4d86ee2991d4"
+    },
+    "created_time": "2022-10-18T13:38:00.000Z",
+    "last_edited_time": "2022-10-18T13:38:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "I understand if you feel a bit confused. It's hard to cover such a vast topic in this small of a post. However, this post merely skims the surface, giving you enough Kubernetes knowledge to make conversations and write code keeping the deployment process in mind. And if you want to understand in-depth, you can visit the official documentation or check out my other Kubernetes-related posts.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "I understand if you feel a bit confused. It's hard to cover such a vast topic in this small of a post. However, this post merely skims the surface, giving you enough Kubernetes knowledge to make conversations and write code keeping the deployment process in mind. And if you want to understand in-depth, you can visit the official documentation or check out my other Kubernetes-related posts.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "bc3bf99a-bbe9-4c82-9319-b87ae7291d86",
+    "parent": {
+      "type": "page_id",
+      "page_id": "0378ecb4-ed84-4567-af3e-4d86ee2991d4"
+    },
+    "created_time": "2022-10-18T13:38:00.000Z",
+    "last_edited_time": "2023-03-05T17:33:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Until then, Goodbye!",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Until then, Goodbye!",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  }
+]

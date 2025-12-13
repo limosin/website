@@ -88,17 +88,21 @@ function RenderBlocksHelper(blocks, index) {
       // render the video as iframe
       output = (
         <figure key={id} className="my-8 w-full">
-          <div className="mx-auto max-w-4xl">
+          <div className="mx-auto max-w-3xl">
             <Video url={videoSrc} />
           </div>
-          {caption && <figcaption className="mx-auto mt-4 max-w-4xl text-center text-sm leading-relaxed text-gray-600 dark:text-gray-400">{caption}</figcaption>}
+          {caption && <figcaption className="mx-auto mt-4 max-w-3xl text-center text-sm leading-relaxed text-gray-600 dark:text-gray-400">{caption}</figcaption>}
         </figure>
       )
       break
     }
 
     case "callout":
-      output = <Callout id={id} value={value} key={index} />
+      output = (
+        <Callout id={id} value={value} key={index}>
+          {value.children && <RenderBlocks blocks={value.children} />}
+        </Callout>
+      )
       break
 
     case "bookmark":

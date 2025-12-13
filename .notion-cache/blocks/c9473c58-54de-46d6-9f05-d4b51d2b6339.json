@@ -1,0 +1,2117 @@
+[
+  {
+    "object": "block",
+    "id": "efb8ea22-8569-4d04-85bf-a1b51312c2cf",
+    "parent": {
+      "type": "page_id",
+      "page_id": "c9473c58-54de-46d6-9f05-d4b51d2b6339"
+    },
+    "created_time": "2022-10-19T13:27:00.000Z",
+    "last_edited_time": "2022-10-19T13:28:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "callout",
+    "callout": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "This post is for anyone developing a codebase based on the Object-Oriented Paradigm. This post is Language agnostic and the learnings have an implementation across all OOP-based languages.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "This post is for anyone developing a codebase based on the Object-Oriented Paradigm. This post is Language agnostic and the learnings have an implementation across all OOP-based languages.",
+          "href": null
+        }
+      ],
+      "icon": {
+        "type": "emoji",
+        "emoji": "🚧"
+      },
+      "color": "gray_background"
+    }
+  },
+  {
+    "object": "block",
+    "id": "22e852f3-61a5-442e-9a61-def5a4d31f78",
+    "parent": {
+      "type": "page_id",
+      "page_id": "c9473c58-54de-46d6-9f05-d4b51d2b6339"
+    },
+    "created_time": "2022-10-19T13:28:00.000Z",
+    "last_edited_time": "2022-10-19T13:28:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "In the previous post of this Design series, we learned about the ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "In the previous post of this Design series, we learned about the ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Singleton Design Pattern",
+            "link": {
+              "url": "https://limosyn.com/posts/singleton-design-pattern"
+            }
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Singleton Design Pattern",
+          "href": "https://limosyn.com/posts/singleton-design-pattern"
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " - What is it? How to use it? When to use it?",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " - What is it? How to use it? When to use it?",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "cd3e2342-8fb1-4718-996e-540916a53f32",
+    "parent": {
+      "type": "page_id",
+      "page_id": "c9473c58-54de-46d6-9f05-d4b51d2b6339"
+    },
+    "created_time": "2022-10-19T13:28:00.000Z",
+    "last_edited_time": "2022-10-19T13:28:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "In this post, let's look at another ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "In this post, let's look at another ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Creational Design pattern",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Creational Design pattern",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " - Factory Method Design Pattern.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " - Factory Method Design Pattern.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "11150cec-d1ef-4bb0-97b0-108b46296515",
+    "parent": {
+      "type": "page_id",
+      "page_id": "c9473c58-54de-46d6-9f05-d4b51d2b6339"
+    },
+    "created_time": "2022-10-19T13:28:00.000Z",
+    "last_edited_time": "2022-10-19T13:28:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_2",
+    "heading_2": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Introduction",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Introduction",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "158ddb31-99b4-4880-bca1-2ecb03ec8405",
+    "parent": {
+      "type": "page_id",
+      "page_id": "c9473c58-54de-46d6-9f05-d4b51d2b6339"
+    },
+    "created_time": "2022-10-19T13:28:00.000Z",
+    "last_edited_time": "2022-10-19T13:28:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_3",
+    "heading_3": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Problem Statement",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Problem Statement",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "b03f376a-2ba9-4da2-9a46-363a55e6dac1",
+    "parent": {
+      "type": "page_id",
+      "page_id": "c9473c58-54de-46d6-9f05-d4b51d2b6339"
+    },
+    "created_time": "2022-10-19T13:28:00.000Z",
+    "last_edited_time": "2022-10-19T13:28:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Before we look at the implementation of this pattern, first we need to understand the utility of this pattern and what kind of problem are we trying to solve?",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Before we look at the implementation of this pattern, first we need to understand the utility of this pattern and what kind of problem are we trying to solve?",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "403a25ee-52e4-471c-b25b-776b42433554",
+    "parent": {
+      "type": "page_id",
+      "page_id": "c9473c58-54de-46d6-9f05-d4b51d2b6339"
+    },
+    "created_time": "2022-10-19T13:28:00.000Z",
+    "last_edited_time": "2022-10-19T13:28:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Imagine you are owner of Tesla (Bye Elon!). When you cofounded the company, you decided to create only cars. Hence your code only has one ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Imagine you are owner of Tesla (Bye Elon!). When you cofounded the company, you decided to create only cars. Hence your code only has one ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Car",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "Car",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " class where you are maintaining all the attributes and methods.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " class where you are maintaining all the attributes and methods.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "69662d31-feaf-4658-85df-5fc2d3372fe3",
+    "parent": {
+      "type": "page_id",
+      "page_id": "c9473c58-54de-46d6-9f05-d4b51d2b6339"
+    },
+    "created_time": "2022-10-19T13:28:00.000Z",
+    "last_edited_time": "2022-10-19T13:28:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "However, one day you have decided to manufacture the Tesla Pickup Truck. Now what you will do? Create another ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "However, one day you have decided to manufacture the Tesla Pickup Truck. Now what you will do? Create another ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Truck",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "Truck",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " class and try to make it work along with the ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " class and try to make it work along with the ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Car",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "Car",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " class. But what if tomorrow, you wish to add a Tesla ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " class. But what if tomorrow, you wish to add a Tesla ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Bike",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "Bike",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " or a ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " or a ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Airplane",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "Airplane",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " and so on and so forth. Soon your code will become a pile of mess! which changes behaviour based on the vehicle type.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " and so on and so forth. Soon your code will become a pile of mess! which changes behaviour based on the vehicle type.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "3b2faa09-ae02-482b-a88a-d39d8502b605",
+    "parent": {
+      "type": "page_id",
+      "page_id": "c9473c58-54de-46d6-9f05-d4b51d2b6339"
+    },
+    "created_time": "2022-10-19T13:28:00.000Z",
+    "last_edited_time": "2022-10-19T13:28:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "This is where the Factory Method pattern comes into picture.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "This is where the Factory Method pattern comes into picture.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "7db6c1a3-95d4-4ede-b7ad-36121bb0d854",
+    "parent": {
+      "type": "page_id",
+      "page_id": "c9473c58-54de-46d6-9f05-d4b51d2b6339"
+    },
+    "created_time": "2022-10-19T13:28:00.000Z",
+    "last_edited_time": "2022-10-19T13:28:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "callout",
+    "callout": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Factory Method is a creational design pattern that provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Factory Method is a creational design pattern that provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created.",
+          "href": null
+        }
+      ],
+      "icon": {
+        "type": "emoji",
+        "emoji": "👉🏼"
+      },
+      "color": "gray_background"
+    }
+  },
+  {
+    "object": "block",
+    "id": "902687ad-24cb-4c84-8d79-1dde83191234",
+    "parent": {
+      "type": "page_id",
+      "page_id": "c9473c58-54de-46d6-9f05-d4b51d2b6339"
+    },
+    "created_time": "2022-10-19T13:28:00.000Z",
+    "last_edited_time": "2022-10-19T13:28:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_3",
+    "heading_3": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Factory Method Pattern to Rescue",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Factory Method Pattern to Rescue",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "742c1a67-cfbf-4aa8-8ece-1321f6463f72",
+    "parent": {
+      "type": "page_id",
+      "page_id": "c9473c58-54de-46d6-9f05-d4b51d2b6339"
+    },
+    "created_time": "2022-10-19T13:28:00.000Z",
+    "last_edited_time": "2022-10-19T13:28:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The Factory method pattern allows us to replace the direct class instantiation with a \"Factory\" which returns back us the object as per our needs. This objects are often know as \"products\" of the factory.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The Factory method pattern allows us to replace the direct class instantiation with a \"Factory\" which returns back us the object as per our needs. This objects are often know as \"products\" of the factory.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "63013eba-b7ed-4207-996e-d8e57162e680",
+    "parent": {
+      "type": "page_id",
+      "page_id": "c9473c58-54de-46d6-9f05-d4b51d2b6339"
+    },
+    "created_time": "2022-10-19T13:28:00.000Z",
+    "last_edited_time": "2022-10-19T13:28:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "callout",
+    "callout": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "One thing you need to understand is that all the subclasses can return same type of \"product\" only if the subclasses are extension of implementation of another class and interface respectively. Also the factory method should have its return type declared as this interface.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "One thing you need to understand is that all the subclasses can return same type of \"product\" only if the subclasses are extension of implementation of another class and interface respectively. Also the factory method should have its return type declared as this interface.",
+          "href": null
+        }
+      ],
+      "icon": {
+        "type": "emoji",
+        "emoji": "👉🏼"
+      },
+      "color": "gray_background"
+    }
+  },
+  {
+    "object": "block",
+    "id": "9ff8480a-f65c-4630-ba31-883d71a3db1e",
+    "parent": {
+      "type": "page_id",
+      "page_id": "c9473c58-54de-46d6-9f05-d4b51d2b6339"
+    },
+    "created_time": "2022-10-19T13:28:00.000Z",
+    "last_edited_time": "2025-01-11T13:27:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "image",
+    "image": {
+      "caption": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Example of Factory Design Pattern",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Example of Factory Design Pattern",
+          "href": null
+        }
+      ],
+      "type": "external",
+      "external": {
+        "url": "https://res.cloudinary.com/dft5dlcya/image/upload/v1676800936/limosyn.com/blog/images/c9473c58-54de-46d6-9f05-d4b51d2b6339/example_of_factory_design_pattern.png"
+      }
+    }
+  },
+  {
+    "object": "block",
+    "id": "ce2eecfe-eb9a-4d77-993f-6325a3ba17f2",
+    "parent": {
+      "type": "page_id",
+      "page_id": "c9473c58-54de-46d6-9f05-d4b51d2b6339"
+    },
+    "created_time": "2022-10-19T13:28:00.000Z",
+    "last_edited_time": "2022-10-19T13:28:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_3",
+    "heading_3": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Components of Factory Design Pattern",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Components of Factory Design Pattern",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "61b27e86-4b59-4e8b-bd47-b6d84fad2f6d",
+    "parent": {
+      "type": "page_id",
+      "page_id": "c9473c58-54de-46d6-9f05-d4b51d2b6339"
+    },
+    "created_time": "2022-10-19T13:28:00.000Z",
+    "last_edited_time": "2023-03-05T09:38:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Factory Interface - ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Factory Interface - ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Implemented by the different Product Factories.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Implemented by the different Product Factories.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "7031b4a5-83b3-47fc-9fb6-11f50ae02516",
+    "parent": {
+      "type": "page_id",
+      "page_id": "c9473c58-54de-46d6-9f05-d4b51d2b6339"
+    },
+    "created_time": "2022-10-19T13:28:00.000Z",
+    "last_edited_time": "2023-03-05T09:38:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Factory Concrete Classes -",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Factory Concrete Classes -",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Implement the Factory Interface and contain the respective Product Instantiation Logic based on certain conditions.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Implement the Factory Interface and contain the respective Product Instantiation Logic based on certain conditions.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "a0b4c0b4-e1ac-4b75-9733-5766caebdcb5",
+    "parent": {
+      "type": "page_id",
+      "page_id": "c9473c58-54de-46d6-9f05-d4b51d2b6339"
+    },
+    "created_time": "2022-10-19T13:28:00.000Z",
+    "last_edited_time": "2023-03-05T09:38:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Product Interface -",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Product Interface -",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Implemented by the product concrete classes.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Implemented by the product concrete classes.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "0e96e1dd-f74e-41a4-a9f1-102ed672a66f",
+    "parent": {
+      "type": "page_id",
+      "page_id": "c9473c58-54de-46d6-9f05-d4b51d2b6339"
+    },
+    "created_time": "2022-10-19T13:28:00.000Z",
+    "last_edited_time": "2023-03-05T14:42:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Product Concrete Classes -",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Product Concrete Classes -",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Concrete implementation of the product classes. These are used by the Concrete Factory Classes to return the respective product object.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Concrete implementation of the product classes. These are used by the Concrete Factory Classes to return the respective product object.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "518e662f-60a3-4dbd-a494-e6895420a654",
+    "parent": {
+      "type": "page_id",
+      "page_id": "c9473c58-54de-46d6-9f05-d4b51d2b6339"
+    },
+    "created_time": "2022-10-19T13:28:00.000Z",
+    "last_edited_time": "2022-10-19T13:28:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_2",
+    "heading_2": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Implementation",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Implementation",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "1bc68880-8f37-4252-994f-8b01497fdbf1",
+    "parent": {
+      "type": "page_id",
+      "page_id": "c9473c58-54de-46d6-9f05-d4b51d2b6339"
+    },
+    "created_time": "2022-10-19T13:29:00.000Z",
+    "last_edited_time": "2022-10-19T13:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bookmark",
+    "bookmark": {
+      "caption": [],
+      "url": "https://refactoring.guru/design-patterns/factory-method/java/example"
+    }
+  },
+  {
+    "object": "block",
+    "id": "1b7cb841-6e71-4d3b-9941-5eeb2c2e0fac",
+    "parent": {
+      "type": "page_id",
+      "page_id": "c9473c58-54de-46d6-9f05-d4b51d2b6339"
+    },
+    "created_time": "2022-10-19T13:29:00.000Z",
+    "last_edited_time": "2023-03-05T09:34:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Let's take the previous example to discuss the implementation -",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Let's take the previous example to discuss the implementation -",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "b7ee7e97-7b99-4372-ac8b-07850557d1b7",
+    "parent": {
+      "type": "page_id",
+      "page_id": "c9473c58-54de-46d6-9f05-d4b51d2b6339"
+    },
+    "created_time": "2022-10-19T13:29:00.000Z",
+    "last_edited_time": "2022-10-19T13:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_3",
+    "heading_3": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Product Interface - ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Product Interface - ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Vehicle.java",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "Vehicle.java",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "cf257879-9dad-40ff-aeff-edc7d0fdf0e8",
+    "parent": {
+      "type": "page_id",
+      "page_id": "c9473c58-54de-46d6-9f05-d4b51d2b6339"
+    },
+    "created_time": "2022-10-19T13:29:00.000Z",
+    "last_edited_time": "2022-10-19T13:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "code",
+    "code": {
+      "caption": [],
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "package factoryDesign;\n\npublic interface Vehicle {\n    void move();\n    void turn();\n}",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "package factoryDesign;\n\npublic interface Vehicle {\n    void move();\n    void turn();\n}",
+          "href": null
+        }
+      ],
+      "language": "java"
+    }
+  },
+  {
+    "object": "block",
+    "id": "f480c788-5dae-41be-a370-c17b5740e943",
+    "parent": {
+      "type": "page_id",
+      "page_id": "c9473c58-54de-46d6-9f05-d4b51d2b6339"
+    },
+    "created_time": "2022-10-19T13:29:00.000Z",
+    "last_edited_time": "2022-10-19T13:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_3",
+    "heading_3": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Product Concrete Classes",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Product Concrete Classes",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "b1e4b1c8-088d-48b6-8db9-dcaf267ab229",
+    "parent": {
+      "type": "page_id",
+      "page_id": "c9473c58-54de-46d6-9f05-d4b51d2b6339"
+    },
+    "created_time": "2022-10-19T13:29:00.000Z",
+    "last_edited_time": "2023-03-05T16:58:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Car.java",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "Car.java",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "c15b267b-897c-4c0d-9ce7-dcfb29b1e55a",
+    "parent": {
+      "type": "page_id",
+      "page_id": "c9473c58-54de-46d6-9f05-d4b51d2b6339"
+    },
+    "created_time": "2022-10-19T13:29:00.000Z",
+    "last_edited_time": "2022-10-19T13:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "code",
+    "code": {
+      "caption": [],
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "package factoryDesign;\n\npublic class Car implements Vehicle {\n\n    public Car() {\n    \tSystem.out.println(\"Hi! I am a car!\");\n    }\n\n    public void move() {\n        System.out.println(\"Car Moves\");\n    }\n\n    public void turn() {\n        System.out.println(\"Car Turns\");\n    }\n}",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "package factoryDesign;\n\npublic class Car implements Vehicle {\n\n    public Car() {\n    \tSystem.out.println(\"Hi! I am a car!\");\n    }\n\n    public void move() {\n        System.out.println(\"Car Moves\");\n    }\n\n    public void turn() {\n        System.out.println(\"Car Turns\");\n    }\n}",
+          "href": null
+        }
+      ],
+      "language": "java"
+    }
+  },
+  {
+    "object": "block",
+    "id": "8d66c2ed-2c80-49b3-8faa-f54a3f4d20ab",
+    "parent": {
+      "type": "page_id",
+      "page_id": "c9473c58-54de-46d6-9f05-d4b51d2b6339"
+    },
+    "created_time": "2022-10-19T13:29:00.000Z",
+    "last_edited_time": "2022-10-19T13:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Truck.java",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "Truck.java",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "05e2b79f-ef25-4a9b-a482-ce08675def5e",
+    "parent": {
+      "type": "page_id",
+      "page_id": "c9473c58-54de-46d6-9f05-d4b51d2b6339"
+    },
+    "created_time": "2022-10-19T13:29:00.000Z",
+    "last_edited_time": "2022-10-19T13:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "code",
+    "code": {
+      "caption": [],
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "package factoryDesign;\n\npublic class Truck implements Vehicle {\n\n    public Truck() {\n    \tSystem.out.println(\"Hi! I am a Truck!\");\n    }\n\n    public void move() {\n        System.out.println(\"Truck Moves\");\n    }\n\n    public void turn() {\n        System.out.println(\"Truck Turns\");\n    }\n}",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "package factoryDesign;\n\npublic class Truck implements Vehicle {\n\n    public Truck() {\n    \tSystem.out.println(\"Hi! I am a Truck!\");\n    }\n\n    public void move() {\n        System.out.println(\"Truck Moves\");\n    }\n\n    public void turn() {\n        System.out.println(\"Truck Turns\");\n    }\n}",
+          "href": null
+        }
+      ],
+      "language": "java"
+    }
+  },
+  {
+    "object": "block",
+    "id": "03ef7bbc-e462-4ff6-ace7-b6f6c70c298a",
+    "parent": {
+      "type": "page_id",
+      "page_id": "c9473c58-54de-46d6-9f05-d4b51d2b6339"
+    },
+    "created_time": "2022-10-19T13:29:00.000Z",
+    "last_edited_time": "2022-10-19T13:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_3",
+    "heading_3": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Factory Interface - ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Factory Interface - ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "VehicleFactory.java",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "VehicleFactory.java",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "e8dd5ba9-a46c-4f26-80cc-09f6a64dc025",
+    "parent": {
+      "type": "page_id",
+      "page_id": "c9473c58-54de-46d6-9f05-d4b51d2b6339"
+    },
+    "created_time": "2022-10-19T13:29:00.000Z",
+    "last_edited_time": "2022-10-19T13:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "code",
+    "code": {
+      "caption": [],
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "package factoryDesign;\n\nimport Vehicle;\n\npublic interface VehicleFactory {\n\tpublic Vehicle getVehicle(String vehType);\n}",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "package factoryDesign;\n\nimport Vehicle;\n\npublic interface VehicleFactory {\n\tpublic Vehicle getVehicle(String vehType);\n}",
+          "href": null
+        }
+      ],
+      "language": "java"
+    }
+  },
+  {
+    "object": "block",
+    "id": "b60a29b4-1f28-40ed-a8f0-da453a8a45f8",
+    "parent": {
+      "type": "page_id",
+      "page_id": "c9473c58-54de-46d6-9f05-d4b51d2b6339"
+    },
+    "created_time": "2022-10-19T13:29:00.000Z",
+    "last_edited_time": "2022-10-19T13:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_3",
+    "heading_3": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Factory Concrete Classes",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Factory Concrete Classes",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "6a6d7d7f-648f-4c26-bbc9-03948b5789c6",
+    "parent": {
+      "type": "page_id",
+      "page_id": "c9473c58-54de-46d6-9f05-d4b51d2b6339"
+    },
+    "created_time": "2022-10-19T13:29:00.000Z",
+    "last_edited_time": "2022-10-19T13:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "CarFactory.java",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "CarFactory.java",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "701caa0b-4ff2-4c93-86dc-6c6787c629cf",
+    "parent": {
+      "type": "page_id",
+      "page_id": "c9473c58-54de-46d6-9f05-d4b51d2b6339"
+    },
+    "created_time": "2022-10-19T13:29:00.000Z",
+    "last_edited_time": "2022-10-19T13:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "code",
+    "code": {
+      "caption": [],
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "package factoryDesign;\n\nimport Vehicle;\n\npublic class CarFactory implements VehicleFactory {\n\tpublic Vehicle getVehicle(String vehType) {\n\t\tVehicle vehicle = new Car();\n\t\treturn vehicle;\n\t}\n}",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "package factoryDesign;\n\nimport Vehicle;\n\npublic class CarFactory implements VehicleFactory {\n\tpublic Vehicle getVehicle(String vehType) {\n\t\tVehicle vehicle = new Car();\n\t\treturn vehicle;\n\t}\n}",
+          "href": null
+        }
+      ],
+      "language": "java"
+    }
+  },
+  {
+    "object": "block",
+    "id": "c2265661-c0fb-4ab9-8742-2a10402036bb",
+    "parent": {
+      "type": "page_id",
+      "page_id": "c9473c58-54de-46d6-9f05-d4b51d2b6339"
+    },
+    "created_time": "2022-10-19T13:29:00.000Z",
+    "last_edited_time": "2022-10-19T13:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "TruckFactory.java",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "TruckFactory.java",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "81083f90-8aba-46a3-8917-067fd84c51c4",
+    "parent": {
+      "type": "page_id",
+      "page_id": "c9473c58-54de-46d6-9f05-d4b51d2b6339"
+    },
+    "created_time": "2022-10-19T13:29:00.000Z",
+    "last_edited_time": "2022-10-19T13:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "code",
+    "code": {
+      "caption": [],
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "package factoryDesign;\n\nimport Vehicle;\n\npublic class TruckFactory implements VehicleFactory {\n\tpublic Vehicle getVehicle(String vehType) {\n\t\tVehicle vehicle = new Truck();\n\t\treturn vehicle;\n\t}\n}",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "package factoryDesign;\n\nimport Vehicle;\n\npublic class TruckFactory implements VehicleFactory {\n\tpublic Vehicle getVehicle(String vehType) {\n\t\tVehicle vehicle = new Truck();\n\t\treturn vehicle;\n\t}\n}",
+          "href": null
+        }
+      ],
+      "language": "java"
+    }
+  },
+  {
+    "object": "block",
+    "id": "1def67bb-9d09-462d-abd6-7a1ba72e3e78",
+    "parent": {
+      "type": "page_id",
+      "page_id": "c9473c58-54de-46d6-9f05-d4b51d2b6339"
+    },
+    "created_time": "2022-10-19T13:29:00.000Z",
+    "last_edited_time": "2022-10-19T13:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_2",
+    "heading_2": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Usability",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Usability",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "be4d51e5-1dbf-4fef-b2fe-ec96ef66d2a2",
+    "parent": {
+      "type": "page_id",
+      "page_id": "c9473c58-54de-46d6-9f05-d4b51d2b6339"
+    },
+    "created_time": "2022-10-19T13:29:00.000Z",
+    "last_edited_time": "2022-10-19T13:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Use the Factory Method when you don’t know beforehand the exact types and dependencies of the objects your code should work with.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Use the Factory Method when you don’t know beforehand the exact types and dependencies of the objects your code should work with.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "341554e7-6971-4e09-9ccb-e87044268828",
+    "parent": {
+      "type": "page_id",
+      "page_id": "c9473c58-54de-46d6-9f05-d4b51d2b6339"
+    },
+    "created_time": "2022-10-19T13:29:00.000Z",
+    "last_edited_time": "2022-10-19T13:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Use the Factory Method when you want to provide users of your library or framework with a way to extend its internal components.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Use the Factory Method when you want to provide users of your library or framework with a way to extend its internal components.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "80ea7cc6-b123-48ef-aae4-14045d48024f",
+    "parent": {
+      "type": "page_id",
+      "page_id": "c9473c58-54de-46d6-9f05-d4b51d2b6339"
+    },
+    "created_time": "2022-10-19T13:29:00.000Z",
+    "last_edited_time": "2022-10-19T13:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Use the Factory Method when you want to save system resources by reusing existing objects instead of rebuilding them each time.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Use the Factory Method when you want to save system resources by reusing existing objects instead of rebuilding them each time.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  }
+]

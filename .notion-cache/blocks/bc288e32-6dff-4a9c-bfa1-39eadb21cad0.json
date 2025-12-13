@@ -1,0 +1,5119 @@
+[
+  {
+    "object": "block",
+    "id": "4653dbb8-a191-4439-b39a-c8e20d1e1064",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:26:00.000Z",
+    "last_edited_time": "2022-10-18T14:27:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "callout",
+    "callout": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Readers who want to get adequate knowledge on Kubernetes for their application deployments, especially people looking for a guide to pass Kubernetes Application Developer Certification. This post does not cover cluster management concepts but can be used as a starting point for Certified Kubernetes Administrator (CKA) exam as well…",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Readers who want to get adequate knowledge on Kubernetes for their application deployments, especially people looking for a guide to pass Kubernetes Application Developer Certification. This post does not cover cluster management concepts but can be used as a starting point for Certified Kubernetes Administrator (CKA) exam as well…",
+          "href": null
+        }
+      ],
+      "icon": {
+        "type": "emoji",
+        "emoji": "🚧"
+      },
+      "color": "gray_background"
+    }
+  },
+  {
+    "object": "block",
+    "id": "8cb3c985-0428-4694-b7a8-27240bd625f5",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:27:00.000Z",
+    "last_edited_time": "2022-10-18T14:27:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "So recently, I achieved CKAD certification in which I scored 96 out of 100. Since then a number of people have inquired me about the various sources I used and even the exam itself. So I  thought of writing a post encapsulating everything I suppose is key to passing the exam.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "So recently, I achieved CKAD certification in which I scored 96 out of 100. Since then a number of people have inquired me about the various sources I used and even the exam itself. So I  thought of writing a post encapsulating everything I suppose is key to passing the exam.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "e9f274a0-2c91-4cf6-83bd-f55236caac4c",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:27:00.000Z",
+    "last_edited_time": "2022-10-18T14:27:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "In order to score well, not that it matters much, as qualifying marks are 66 out of 100; You need to focus on the following few broad categories -",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "In order to score well, not that it matters much, as qualifying marks are 66 out of 100; You need to focus on the following few broad categories -",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "284da2ea-68f9-4e85-8d2b-749c6a3f9eab",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:27:00.000Z",
+    "last_edited_time": "2022-10-18T14:27:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Containerization basics",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Containerization basics",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "08a97455-a0d2-44c8-921b-359caffde311",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:27:00.000Z",
+    "last_edited_time": "2022-10-18T14:27:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Linux terminal commands and utilities (VIM)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Linux terminal commands and utilities (VIM)",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "601bef42-2eaa-481f-b0c1-896e6946fc1b",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:27:00.000Z",
+    "last_edited_time": "2022-10-18T14:27:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Kubernetes Resources API",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Kubernetes Resources API",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "27f44e8b-a0b3-46e9-9d1e-106d190e8825",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:27:00.000Z",
+    "last_edited_time": "2022-10-18T14:27:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Let's look at each of them, one by one. I won't be discussing the individual concepts in detail, instead, I'll attach the sources where you can get more wholesome material on the topic. But first, let me tell you about the exam itself.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Let's look at each of them, one by one. I won't be discussing the individual concepts in detail, instead, I'll attach the sources where you can get more wholesome material on the topic. But first, let me tell you about the exam itself.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "3089ab8f-c811-467c-a9d6-1eab3445a677",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:27:00.000Z",
+    "last_edited_time": "2022-10-18T14:27:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_2",
+    "heading_2": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "About the CKAD Exam",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "About the CKAD Exam",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "6ea8dce4-08f6-41e5-9e0f-137b8ac11769",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:27:00.000Z",
+    "last_edited_time": "2022-10-18T14:27:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "CKAD is one of the three exams, pertaining to Kubernetes, sponsored by Linux Foundation. This particular certification tests one's ability to incorporate Kubernetes support in your application and not necessarily actual management of a Kubernetes cluster (we have CKA for that).",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "CKAD is one of the three exams, pertaining to Kubernetes, sponsored by Linux Foundation. This particular certification tests one's ability to incorporate Kubernetes support in your application and not necessarily actual management of a Kubernetes cluster (we have CKA for that).",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "5ac82263-4b51-42df-ae5d-031642dd5636",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:27:00.000Z",
+    "last_edited_time": "2022-10-18T14:27:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "This exam is completely practical and does not have any MCQs or subjective questions. We get a virtual machine terminal with 4 attached clusters and multiple namespaces. We then need to create/modify Kubernetes resources as directed in the questions. Speed plays a critical role as you need to solve 15-20 questions within 120 minutes.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "This exam is completely practical and does not have any MCQs or subjective questions. We get a virtual machine terminal with 4 attached clusters and multiple namespaces. We then need to create/modify Kubernetes resources as directed in the questions. Speed plays a critical role as you need to solve 15-20 questions within 120 minutes.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "05013018-c8e2-4b17-a3b6-21b4a93abfb4",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:27:00.000Z",
+    "last_edited_time": "2022-10-18T14:27:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "In order to apply for the certification, visit -",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "In order to apply for the certification, visit -",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "c58cee4d-6cb1-4af4-bd93-a404c22e3c10",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:27:00.000Z",
+    "last_edited_time": "2022-10-18T14:28:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bookmark",
+    "bookmark": {
+      "caption": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Register for CKAD on this link",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Register for CKAD on this link",
+          "href": null
+        }
+      ],
+      "url": "https://www.cncf.io/certification/ckad/"
+    }
+  },
+  {
+    "object": "block",
+    "id": "5205c55d-ab64-43fa-b188-c131c3a1df20",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:27:00.000Z",
+    "last_edited_time": "2022-10-18T14:27:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "callout",
+    "callout": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Keep in mind that you don't need to pay the whole registration fee. You can always find referral coupons on the internet. I was able to get a ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Keep in mind that you don't need to pay the whole registration fee. You can always find referral coupons on the internet. I was able to get a ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "20% discount",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "20% discount",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " on registration fee. You can find coupons in the below link...",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " on registration fee. You can find coupons in the below link...",
+          "href": null
+        }
+      ],
+      "icon": {
+        "type": "emoji",
+        "emoji": "🔥"
+      },
+      "color": "gray_background"
+    }
+  },
+  {
+    "object": "block",
+    "id": "23eaeda0-6e88-42f8-98a4-07534c9ca085",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:27:00.000Z",
+    "last_edited_time": "2022-10-18T14:27:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bookmark",
+    "bookmark": {
+      "caption": [],
+      "url": "https://ecoursedeals.com/ckad-certification-coupon/"
+    }
+  },
+  {
+    "object": "block",
+    "id": "636e5bf9-b3ee-4c76-89d6-608a9f000dd9",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:27:00.000Z",
+    "last_edited_time": "2022-10-18T14:27:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Once you register, you get -",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Once you register, you get -",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "8ccedec7-3852-4707-8224-ef3db04ae3ec",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:27:00.000Z",
+    "last_edited_time": "2022-10-18T14:27:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Access to Linux Foundation(LF) training portal(",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Access to Linux Foundation(LF) training portal(",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "link",
+            "link": {
+              "url": "https://trainingportal.linuxfoundation.org/learn/dashboard"
+            }
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "link",
+          "href": "https://trainingportal.linuxfoundation.org/learn/dashboard"
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": ")",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": ")",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "33747c3d-4ec1-4de7-a8b6-f03f20891460",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:27:00.000Z",
+    "last_edited_time": "2022-10-18T14:27:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Access to 2 ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Access to 2 ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "killer.sh",
+            "link": {
+              "url": "https://killer.sh/"
+            }
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "killer.sh",
+          "href": "https://killer.sh/"
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " practice tests (make sure to make the most of these⭐)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " practice tests (make sure to make the most of these⭐)",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "513d040d-7a74-4bc1-8c1c-f5861e23e9db",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:27:00.000Z",
+    "last_edited_time": "2022-10-18T14:27:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "2 attempts at CKAD exam",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "2 attempts at CKAD exam",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "3fd7db88-cc75-4bb1-90eb-570ed883e984",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:27:00.000Z",
+    "last_edited_time": "2022-10-18T14:27:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "If you fail to qualify on your first attempt, you get a free retake. Make sure to read all the ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "If you fail to qualify on your first attempt, you get a free retake. Make sure to read all the ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "terms and conditions",
+            "link": {
+              "url": "https://docs.linuxfoundation.org/tc-docs/certification/lf-candidate-handbook/exam-scoring-and-notification/exam-results-no-pass"
+            }
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "terms and conditions",
+          "href": "https://docs.linuxfoundation.org/tc-docs/certification/lf-candidate-handbook/exam-scoring-and-notification/exam-results-no-pass"
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " carefully.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " carefully.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "5231ef6b-6039-43c3-befd-80901c93cafb",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:27:00.000Z",
+    "last_edited_time": "2022-10-18T14:27:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "I would also suggest skimming through the CKAD candidate book. But this can be done at later stages of preparation -",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "I would also suggest skimming through the CKAD candidate book. But this can be done at later stages of preparation -",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "3391e47c-3c0f-4899-a7c0-cb64c697d498",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:27:00.000Z",
+    "last_edited_time": "2022-10-18T14:27:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bookmark",
+    "bookmark": {
+      "caption": [],
+      "url": "https://docs.linuxfoundation.org/tc-docs/certification/lf-candidate-handbook"
+    }
+  },
+  {
+    "object": "block",
+    "id": "c7770d7b-33ea-4a01-ac5c-399ede08c89c",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:28:00.000Z",
+    "last_edited_time": "2022-10-18T14:28:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Next, let's look at what you need to practice from containerization's point of view.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Next, let's look at what you need to practice from containerization's point of view.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "940d56d5-86d7-4ec9-981c-e3a3e6ffc8a5",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:28:00.000Z",
+    "last_edited_time": "2022-10-18T14:28:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_2",
+    "heading_2": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Containerization - Docker",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Containerization - Docker",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "0e04ddec-6e48-4862-9cf0-ce4d674a02ba",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:28:00.000Z",
+    "last_edited_time": "2022-10-18T14:28:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "quote",
+    "quote": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Containerization is defined as a form of operating system virtualization, through which applications are run in isolated user spaces called containers, all using the same shared operating system (OS).",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Containerization is defined as a form of operating system virtualization, through which applications are run in isolated user spaces called containers, all using the same shared operating system (OS).",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "3cbb3b7d-c374-4f10-9115-7b1037a133b5",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:28:00.000Z",
+    "last_edited_time": "2022-10-18T14:28:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Well, that's the google definition. Although I would suggest at least getting your containerization basic knowledge in check, in reality, not a whole lot is required if your aim is to only qualify for the exam. As a matter of fact, you only need to understand two things from docker -",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Well, that's the google definition. Although I would suggest at least getting your containerization basic knowledge in check, in reality, not a whole lot is required if your aim is to only qualify for the exam. As a matter of fact, you only need to understand two things from docker -",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "365574c0-8409-45f2-a61e-7c4aab01ed8e",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:28:00.000Z",
+    "last_edited_time": "2022-10-18T14:28:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Image names",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Image names",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "a961aa1b-192b-4d27-a48d-03acc6274d6b",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:28:00.000Z",
+    "last_edited_time": "2022-10-18T14:28:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Image tags",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Image tags",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "ff0cb2f4-526b-45bd-922b-ee8693cc4ec6",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:28:00.000Z",
+    "last_edited_time": "2022-10-18T14:28:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bookmark",
+    "bookmark": {
+      "caption": [
+        {
+          "type": "text",
+          "text": {
+            "content": "This post is sufficient to give you all the concepts you need for qualifying",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "This post is sufficient to give you all the concepts you need for qualifying",
+          "href": null
+        }
+      ],
+      "url": "https://vsupalov.com/6-docker-basics/"
+    }
+  },
+  {
+    "object": "block",
+    "id": "0239e319-1ced-464d-a896-467fc8b59a00",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:28:00.000Z",
+    "last_edited_time": "2022-10-18T14:28:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The only place where Docker images come into play(for this certification) is the ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The only place where Docker images come into play(for this certification) is the ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "image",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "image",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " field in Pods, Deployments, and Jobs.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " field in Pods, Deployments, and Jobs.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "eb18cab6-d65a-407e-9904-78e00e1658f2",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:28:00.000Z",
+    "last_edited_time": "2022-10-18T14:28:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Once you understand the above two concepts suitably, you can move to the next heading.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Once you understand the above two concepts suitably, you can move to the next heading.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "ecf824b6-3f1e-4c06-833e-ff94cb32dd70",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:28:00.000Z",
+    "last_edited_time": "2022-10-18T14:28:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_2",
+    "heading_2": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Linux Commands and VIM",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Linux Commands and VIM",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "21daefdd-5547-445b-b462-0f7d3cc5e300",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:28:00.000Z",
+    "last_edited_time": "2022-10-18T14:28:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_3",
+    "heading_3": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Commands",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Commands",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "25679067-838d-41c4-a5cf-b26866bd2fee",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:28:00.000Z",
+    "last_edited_time": "2022-10-18T14:28:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Speed is key...Get acquainted with Linux shell.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Speed is key...Get acquainted with Linux shell.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "6b4a4ca0-7e68-4f5c-b708-bfb3272e5620",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:28:00.000Z",
+    "last_edited_time": "2022-10-18T14:28:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bookmark",
+    "bookmark": {
+      "caption": [],
+      "url": "https://www.limosyn.com/posts/linux-commands-to-make-you-a-wizard"
+    }
+  },
+  {
+    "object": "block",
+    "id": "9cb53bb6-e4ba-4ead-b0f5-d6825a23bfab",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:29:00.000Z",
+    "last_edited_time": "2022-10-18T14:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "You'll mostly be using the below Linux commands -",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "You'll mostly be using the below Linux commands -",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "8e37ddf8-fdd3-49ae-9890-1d771e8e8dc9",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:29:00.000Z",
+    "last_edited_time": "2022-10-18T14:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "grep",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "grep",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "ea58fab2-d3be-4689-891b-8e217802315f",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:29:00.000Z",
+    "last_edited_time": "2022-10-18T14:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "cat",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "cat",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "bb90338e-36f6-4d07-84fe-7bcdd0eab4ac",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:29:00.000Z",
+    "last_edited_time": "2022-10-18T14:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "awk",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "awk",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "285b8832-1eb4-42e5-89ec-34b3c5f30362",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:29:00.000Z",
+    "last_edited_time": "2022-10-18T14:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "kubectl",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "kubectl",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "e36535a2-485c-4386-855e-b2515f7caa9a",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:29:00.000Z",
+    "last_edited_time": "2022-10-18T14:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_3",
+    "heading_3": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "VIM",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "VIM",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "cc1b1724-9fbf-4bbb-b4ab-0664952b25b9",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:29:00.000Z",
+    "last_edited_time": "2022-10-18T14:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Code editors such as VS Code and Atom have pampered us for easier User Interfaces. But they are not available in the CKAD environment. I suggest spending some time getting familiar with the VIM editor.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Code editors such as VS Code and Atom have pampered us for easier User Interfaces. But they are not available in the CKAD environment. I suggest spending some time getting familiar with the VIM editor.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "63a78202-8918-4cd4-a77b-96dbd58cceba",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:29:00.000Z",
+    "last_edited_time": "2022-10-18T14:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "quote",
+    "quote": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Yes, there will be a notepad, but it's not of much utility.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Yes, there will be a notepad, but it's not of much utility.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "3f82752d-f180-4ade-9a23-21eccf80aa19",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:29:00.000Z",
+    "last_edited_time": "2022-10-18T14:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Surprisingly not many people know how to copy-paste in VIM (myself guilty a while back). VIM has a host of bindings for various tasks. At least learn the following ones -",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Surprisingly not many people know how to copy-paste in VIM (myself guilty a while back). VIM has a host of bindings for various tasks. At least learn the following ones -",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "0e783539-a214-465d-aa49-4bc00d1ee911",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:29:00.000Z",
+    "last_edited_time": "2022-10-18T14:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Inserting text at a location",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Inserting text at a location",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "e16dcf87-84a9-4bd1-a53d-e3639248b487",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:29:00.000Z",
+    "last_edited_time": "2022-10-18T14:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Deleting a line",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Deleting a line",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "549a6ac2-f717-4c5a-a5eb-072821622584",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:29:00.000Z",
+    "last_edited_time": "2022-10-18T14:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Multi-line copy-pasting.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Multi-line copy-pasting.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "aba61de2-aa5a-4983-8246-3835f287f366",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:29:00.000Z",
+    "last_edited_time": "2022-10-18T14:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Multi-line deletion",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Multi-line deletion",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "37ded27e-a0b8-4617-822a-d3eded3f0704",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:29:00.000Z",
+    "last_edited_time": "2022-10-18T14:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Multi-line indentation shifting",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Multi-line indentation shifting",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "e57d3cb9-f501-4b4f-a5f3-fc670327bb12",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:29:00.000Z",
+    "last_edited_time": "2022-10-18T14:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Below is a great video for learning VIM basics. Learning VIM basics is critical for any DevOps work where you don't often get to use an Integrated text editor.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Below is a great video for learning VIM basics. Learning VIM basics is critical for any DevOps work where you don't often get to use an Integrated text editor.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "877b3587-989e-4029-a307-dfba4555ba10",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:29:00.000Z",
+    "last_edited_time": "2022-10-18T14:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "video",
+    "video": {
+      "caption": [],
+      "type": "external",
+      "external": {
+        "url": "https://youtu.be/IiwGbcd8S7I"
+      }
+    }
+  },
+  {
+    "object": "block",
+    "id": "eb8443e8-6f65-48bb-b8b3-ff0985a46468",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:29:00.000Z",
+    "last_edited_time": "2022-10-18T14:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_2",
+    "heading_2": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Kubernetes Concepts",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Kubernetes Concepts",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "f29351d5-cb78-499c-87fc-e247f615caed",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:29:00.000Z",
+    "last_edited_time": "2022-10-18T14:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Once you have the basics ready, we can move to the actual crux of the matter. For starters, you can read my below post -",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Once you have the basics ready, we can move to the actual crux of the matter. For starters, you can read my below post -",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "3b920bda-38cc-4bac-8bca-9b2cb362c965",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:29:00.000Z",
+    "last_edited_time": "2022-10-18T14:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bookmark",
+    "bookmark": {
+      "caption": [],
+      "url": "https://www.limosyn.com/posts/essential-kubernetes-that-you-should-know"
+    }
+  },
+  {
+    "object": "block",
+    "id": "8f7cb5f0-ea1a-4db7-9b81-461fe2608b07",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:29:00.000Z",
+    "last_edited_time": "2022-10-18T14:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Below is the syllabus for CKAD -",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Below is the syllabus for CKAD -",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "83e9049d-7e26-45d8-9c7d-dacbab81eac2",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:29:00.000Z",
+    "last_edited_time": "2025-01-21T05:41:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": true,
+    "archived": false,
+    "in_trash": false,
+    "type": "table",
+    "table": {
+      "table_width": 2,
+      "has_column_header": false,
+      "has_row_header": false
+    }
+  },
+  {
+    "object": "block",
+    "id": "44a8b52c-93f5-4fe8-924c-ff2082604c76",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:29:00.000Z",
+    "last_edited_time": "2022-10-18T14:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_3",
+    "heading_3": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Learning",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Learning",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "e19002ff-b5fc-431f-b5ab-a38ac189bc51",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:29:00.000Z",
+    "last_edited_time": "2022-10-18T14:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "For learning, I found the following sources to be of great help. Agreed that a lot of content in the sources is duplicate but hey! Nothing bad in reinforcing what you have already learned. A combination of the below resources and official documentation is suggested.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "For learning, I found the following sources to be of great help. Agreed that a lot of content in the sources is duplicate but hey! Nothing bad in reinforcing what you have already learned. A combination of the below resources and official documentation is suggested.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "d430c617-5213-4356-b420-c136e7cce3ca",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:29:00.000Z",
+    "last_edited_time": "2022-10-18T14:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Videos",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Videos",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "7ce595ed-f9f9-47ac-9d20-4f9017dd2869",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:29:00.000Z",
+    "last_edited_time": "2022-10-18T14:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bookmark",
+    "bookmark": {
+      "caption": [],
+      "url": "https://www.youtube.com/watch?v=TJSAcwUP0pE"
+    }
+  },
+  {
+    "object": "block",
+    "id": "37594f7c-615f-4567-95e2-a4ce27737c5b",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:29:00.000Z",
+    "last_edited_time": "2022-10-18T14:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Courses",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Courses",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "d1081ad4-a91f-4e3c-81e7-99e92c7baf75",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:29:00.000Z",
+    "last_edited_time": "2022-10-18T14:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Below are some of the courses you can refer to. Many companies provide corporate access to their employees for these platforms. That is one way to avert the cost.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Below are some of the courses you can refer to. Many companies provide corporate access to their employees for these platforms. That is one way to avert the cost.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "71def226-9e07-445d-8dcc-878ec2bea3c1",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:29:00.000Z",
+    "last_edited_time": "2022-10-18T14:30:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bookmark",
+    "bookmark": {
+      "caption": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Paid Course",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Paid Course",
+          "href": null
+        }
+      ],
+      "url": "https://www.udemy.com/course/certified-kubernetes-application-developer/?ranMID=39197&ranEAID=AfpokvaRFDA&ranSiteID=AfpokvaRFDA-s7baxfYKmt1twz2YgY_8rw&LSNPUBID=AfpokvaRFDA&utm_source=aff-campaign&utm_medium=udemyads"
+    }
+  },
+  {
+    "object": "block",
+    "id": "53d5754d-c50f-44cc-b26e-51494ca85c4c",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:30:00.000Z",
+    "last_edited_time": "2022-10-18T14:30:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bookmark",
+    "bookmark": {
+      "caption": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Paid Course",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Paid Course",
+          "href": null
+        }
+      ],
+      "url": "https://www.oreilly.com/learning-paths/learning-path-certified/9781492061021/"
+    }
+  },
+  {
+    "object": "block",
+    "id": "fbbbc76f-5586-457e-be5c-7e14f61bd097",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:30:00.000Z",
+    "last_edited_time": "2022-10-18T14:30:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bookmark",
+    "bookmark": {
+      "caption": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Paid Course",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Paid Course",
+          "href": null
+        }
+      ],
+      "url": "https://www.linkedin.com/learning/learning-kubernetes?trk=learning-topics_trending-courses_related-content-card&upsellOrderOrigin=default_guest_learning"
+    }
+  },
+  {
+    "object": "block",
+    "id": "21010926-4f46-45a0-9c07-9ac853ebe959",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:30:00.000Z",
+    "last_edited_time": "2022-10-18T14:30:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_3",
+    "heading_3": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Practicing",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Practicing",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "9db2b125-2353-4c11-bbf8-9701f284cb38",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:30:00.000Z",
+    "last_edited_time": "2022-10-18T14:30:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Practice Setups",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Practice Setups",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "bf89e476-a2a9-4edc-a41a-93b20c2cf534",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:30:00.000Z",
+    "last_edited_time": "2022-10-18T14:30:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Since this is a completely practical exam, getting your hands dirty is a must. You can use the below methods to set up a practice cluster",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Since this is a completely practical exam, getting your hands dirty is a must. You can use the below methods to set up a practice cluster",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "3ea72a7d-d926-4e1b-a460-dd1753603088",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:30:00.000Z",
+    "last_edited_time": "2022-10-18T14:30:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Katacoda",
+            "link": {
+              "url": "https://www.katacoda.com/courses/kubernetes/playground"
+            }
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Katacoda",
+          "href": "https://www.katacoda.com/courses/kubernetes/playground"
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " - Suggested ⭐",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " - Suggested ⭐",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "64fa6158-ffde-49be-b668-0a76924a4db5",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:30:00.000Z",
+    "last_edited_time": "2022-10-18T14:30:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Minikube",
+            "link": {
+              "url": "https://kubernetes.io/docs/tutorials/hello-minikube/"
+            }
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Minikube",
+          "href": "https://kubernetes.io/docs/tutorials/hello-minikube/"
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "f3d35944-51e0-4f69-a4ea-3e3b692d7194",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:30:00.000Z",
+    "last_edited_time": "2022-10-18T14:30:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "GKE Cluster",
+            "link": {
+              "url": "https://devopscube.com/setup-kubernetes-cluster-google-cloud/"
+            }
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "GKE Cluster",
+          "href": "https://devopscube.com/setup-kubernetes-cluster-google-cloud/"
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " using free Google Cloud Credits",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " using free Google Cloud Credits",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "7f559b06-c71b-44f4-ba4f-51fd6ea8fe09",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:30:00.000Z",
+    "last_edited_time": "2022-10-18T14:30:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "EKS Service on AWS",
+            "link": {
+              "url": "https://aws.amazon.com/eks/"
+            }
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "EKS Service on AWS",
+          "href": "https://aws.amazon.com/eks/"
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " using Free tier program",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " using Free tier program",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "a163008a-d91f-4565-bd06-444d116d0771",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:30:00.000Z",
+    "last_edited_time": "2022-10-18T14:30:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "AKS service on Azure",
+            "link": {
+              "url": "https://azure.microsoft.com/en-in/services/kubernetes-service/"
+            }
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "AKS service on Azure",
+          "href": "https://azure.microsoft.com/en-in/services/kubernetes-service/"
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " using free cloud credits",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " using free cloud credits",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "47603e08-6a05-42f6-8919-19be757ec1dc",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:30:00.000Z",
+    "last_edited_time": "2022-10-18T14:30:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Question Banks",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Question Banks",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "145c6cf2-1aeb-412a-9e3f-7f4c35cd224c",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:30:00.000Z",
+    "last_edited_time": "2022-10-18T14:30:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bookmark",
+    "bookmark": {
+      "caption": [],
+      "url": "https://dev.to/liptanbiswas/ckad-practice-questions-4mpn"
+    }
+  },
+  {
+    "object": "block",
+    "id": "5db397fb-dfb4-449f-87de-3e300c31a129",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:31:00.000Z",
+    "last_edited_time": "2022-10-18T14:31:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bookmark",
+    "bookmark": {
+      "caption": [],
+      "url": "https://github.com/bmuschko/ckad-crash-course/tree/master/exercises"
+    }
+  },
+  {
+    "object": "block",
+    "id": "13dca442-e896-4d02-a3c2-c555ca384f43",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:31:00.000Z",
+    "last_edited_time": "2022-10-18T14:31:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bookmark",
+    "bookmark": {
+      "caption": [],
+      "url": "https://killer.sh/dashboard"
+    }
+  },
+  {
+    "object": "block",
+    "id": "6d1e5dd7-2278-4225-a86e-9683ef96b6ce",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:31:00.000Z",
+    "last_edited_time": "2022-10-18T14:31:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_3",
+    "heading_3": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Referring",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Referring",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "a93afe08-3427-4c3c-82c8-9b83a5151577",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:31:00.000Z",
+    "last_edited_time": "2022-10-18T14:31:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "ab4ac79a-3e21-4028-8ea0-bdefd1d6d40c",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:31:00.000Z",
+    "last_edited_time": "2022-10-18T14:31:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "callout",
+    "callout": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Make bookmarks out of the below documentation links. Although you can open only a single tab, no one is stopping you from clicking bookmarks. This is generally faster than searching for a particular Kubernetes Resource.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Make bookmarks out of the below documentation links. Although you can open only a single tab, no one is stopping you from clicking bookmarks. This is generally faster than searching for a particular Kubernetes Resource.",
+          "href": null
+        }
+      ],
+      "icon": {
+        "type": "emoji",
+        "emoji": "🔥"
+      },
+      "color": "gray_background"
+    }
+  },
+  {
+    "object": "block",
+    "id": "83fe90d0-d664-42d2-b68b-3f05cab3cf6a",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:31:00.000Z",
+    "last_edited_time": "2022-10-18T14:31:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Ideally, you should be reading the whole ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Ideally, you should be reading the whole ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Kubernetes.io",
+            "link": {
+              "url": "https://kubernetes.io/docs/home/"
+            }
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Kubernetes.io",
+          "href": "https://kubernetes.io/docs/home/"
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " documentation. But for the most part, you'll only need to refer to the following pages -",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " documentation. But for the most part, you'll only need to refer to the following pages -",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "5e142a9b-e52a-488a-b157-6851e0b92ee5",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:31:00.000Z",
+    "last_edited_time": "2022-10-18T14:31:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Pods",
+            "link": {
+              "url": "https://www.google.com/url?client=internal-element-cse&cx=013288817511911618469%3Aelfqqbqldzg&q=https%3A%2F%2Fkubernetes.io%2Fdocs%2Fconcepts%2Fworkloads%2Fpods%2F&sa=U&ved=2ahUKEwjar5-jwM_zAhUG3jgGHXaWDkEQFnoECAgQAg&usg=AOvVaw3gV3UyI_V66L3YWAFVOzFR"
+            }
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Pods",
+          "href": "https://www.google.com/url?client=internal-element-cse&cx=013288817511911618469%3Aelfqqbqldzg&q=https%3A%2F%2Fkubernetes.io%2Fdocs%2Fconcepts%2Fworkloads%2Fpods%2F&sa=U&ved=2ahUKEwjar5-jwM_zAhUG3jgGHXaWDkEQFnoECAgQAg&usg=AOvVaw3gV3UyI_V66L3YWAFVOzFR"
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " and ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " and ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Jobs",
+            "link": {
+              "url": "https://kubernetes.io/docs/concepts/workloads/controllers/job/"
+            }
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Jobs",
+          "href": "https://kubernetes.io/docs/concepts/workloads/controllers/job/"
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "689876fe-b323-49c9-9538-3e7c289d0872",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:31:00.000Z",
+    "last_edited_time": "2022-10-18T14:31:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Deployments",
+            "link": {
+              "url": "https://kubernetes.io/docs/concepts/workloads/controllers/deployment/#creating-a-deployment"
+            }
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Deployments",
+          "href": "https://kubernetes.io/docs/concepts/workloads/controllers/deployment/#creating-a-deployment"
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "ed9f70ba-621d-4f1a-8d4a-bcdeecf9c2fa",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:31:00.000Z",
+    "last_edited_time": "2022-10-18T14:31:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "ConfigMaps",
+            "link": {
+              "url": "https://kubernetes.io/docs/concepts/workloads/controllers/deployment/#creating-a-deployment"
+            }
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "ConfigMaps",
+          "href": "https://kubernetes.io/docs/concepts/workloads/controllers/deployment/#creating-a-deployment"
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " and ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " and ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Secret Maps",
+            "link": {
+              "url": "https://kubernetes.io/docs/concepts/configuration/secret/"
+            }
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Secret Maps",
+          "href": "https://kubernetes.io/docs/concepts/configuration/secret/"
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "9847ca0a-4830-4d5f-a0af-c6ed2f5d0cc7",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:31:00.000Z",
+    "last_edited_time": "2022-10-18T14:31:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Persistent Volumes",
+            "link": {
+              "url": "https://kubernetes.io/docs/tasks/configure-pod-container/configure-persistent-volume-storage/#create-a-persistentvolume"
+            }
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Persistent Volumes",
+          "href": "https://kubernetes.io/docs/tasks/configure-pod-container/configure-persistent-volume-storage/#create-a-persistentvolume"
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " and ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " and ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Claims",
+            "link": {
+              "url": "https://kubernetes.io/docs/tasks/configure-pod-container/configure-persistent-volume-storage/#create-a-persistentvolumeclaim"
+            }
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Claims",
+          "href": "https://kubernetes.io/docs/tasks/configure-pod-container/configure-persistent-volume-storage/#create-a-persistentvolumeclaim"
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "4306e7ee-e216-498b-9fc1-a67bc8f443d5",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:31:00.000Z",
+    "last_edited_time": "2022-10-18T14:31:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Liveness and Readiness probes",
+            "link": {
+              "url": "https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/"
+            }
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Liveness and Readiness probes",
+          "href": "https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/"
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "dae1670a-4e5b-465c-a3cc-415db81f8c62",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:31:00.000Z",
+    "last_edited_time": "2022-10-18T14:31:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Security Context",
+            "link": {
+              "url": "https://kubernetes.io/docs/tasks/configure-pod-container/security-context/#set-the-security-context-for-a-pod"
+            }
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Security Context",
+          "href": "https://kubernetes.io/docs/tasks/configure-pod-container/security-context/#set-the-security-context-for-a-pod"
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "0f57ac49-c3d5-4d2e-80fb-b00bf1f22737",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:31:00.000Z",
+    "last_edited_time": "2022-10-18T14:31:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Network Policies",
+            "link": {
+              "url": "https://kubernetes.io/docs/concepts/services-networking/network-policies/#networkpolicy-resource"
+            }
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Network Policies",
+          "href": "https://kubernetes.io/docs/concepts/services-networking/network-policies/#networkpolicy-resource"
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "af90f7f5-b7e9-41e6-9501-9e05bce96426",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:31:00.000Z",
+    "last_edited_time": "2022-10-18T14:31:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "JSON Path",
+            "link": {
+              "url": "https://kubernetes.io/docs/reference/kubectl/jsonpath/"
+            }
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "JSON Path",
+          "href": "https://kubernetes.io/docs/reference/kubectl/jsonpath/"
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Support",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Support",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "a60fe519-7d46-4182-ab62-1504946656fe",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:31:00.000Z",
+    "last_edited_time": "2022-10-18T14:31:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_2",
+    "heading_2": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Some Tips and Tricks",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Some Tips and Tricks",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "56ba0a55-e2ee-4775-bdfc-4cd8d10dd552",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:31:00.000Z",
+    "last_edited_time": "2022-10-18T14:31:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Make sure to do the below configurations at the beginning-",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Make sure to do the below configurations at the beginning-",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "b6db3f5f-f72e-42e1-8b8e-bbbbb4eae191",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:31:00.000Z",
+    "last_edited_time": "2022-10-18T14:31:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_3",
+    "heading_3": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "VIM settings",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "VIM settings",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "cf606686-b487-4db8-9998-c221027126a6",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:31:00.000Z",
+    "last_edited_time": "2022-10-18T14:32:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "code",
+    "code": {
+      "caption": [],
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "# Create vim config file\nvim ~/.vimrc\n\n\n# Add below lines to the file\nset tabstop=2\nset expandtab\nset shiftwidth=2",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "# Create vim config file\nvim ~/.vimrc\n\n\n# Add below lines to the file\nset tabstop=2\nset expandtab\nset shiftwidth=2",
+          "href": null
+        }
+      ],
+      "language": "shell"
+    }
+  },
+  {
+    "object": "block",
+    "id": "db6b67d9-458d-4ff5-95da-8c9c22cc9208",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:31:00.000Z",
+    "last_edited_time": "2022-10-18T14:31:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_3",
+    "heading_3": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Aliases ⭐",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Aliases ⭐",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "adbd4630-6814-473f-883a-714cd833b689",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:31:00.000Z",
+    "last_edited_time": "2022-10-18T14:31:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "You can learn these but that's really not necessary as you'll get a hang of it after frequent use.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "You can learn these but that's really not necessary as you'll get a hang of it after frequent use.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "aa6efe45-f254-4a32-913e-de7eed84bae1",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:31:00.000Z",
+    "last_edited_time": "2022-10-18T14:32:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "code",
+    "code": {
+      "caption": [],
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "alias k=\"kubectl\"\nalias kns=\"kubeclt config set-context --current  --namespace\"\nalias kdp=\"kubectl describe pod\"\nalias kdd=\"kubectl describe deployment\"\nalias kdf=\"kubectl delete pod --force --grace-period=0\"\n\n# Below varialble to be used while generating yaml file\nexport do=\"--dry-run=client -o yaml\"",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "alias k=\"kubectl\"\nalias kns=\"kubeclt config set-context --current  --namespace\"\nalias kdp=\"kubectl describe pod\"\nalias kdd=\"kubectl describe deployment\"\nalias kdf=\"kubectl delete pod --force --grace-period=0\"\n\n# Below varialble to be used while generating yaml file\nexport do=\"--dry-run=client -o yaml\"",
+          "href": null
+        }
+      ],
+      "language": "shell"
+    }
+  },
+  {
+    "object": "block",
+    "id": "8ae4a0e9-cd0f-4d72-86ba-1d44381ff558",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:31:00.000Z",
+    "last_edited_time": "2022-10-18T14:31:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_2",
+    "heading_2": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "My Notes",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "My Notes",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "aa93932c-154d-4e40-b5dc-6b485e3aa00f",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:31:00.000Z",
+    "last_edited_time": "2022-10-18T14:31:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Ok, I'm not sure about this one, but here are all the notes I made during my preparation. These are raw and you may find it a bit arduous to understand.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Ok, I'm not sure about this one, but here are all the notes I made during my preparation. These are raw and you may find it a bit arduous to understand.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "ce47fade-3c67-4b8e-95fc-d7ebca125efc",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:31:00.000Z",
+    "last_edited_time": "2022-10-18T14:31:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_3",
+    "heading_3": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Notes made during learning",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Notes made during learning",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2c698acd-1f3c-43b5-94d2-2c0d065e92b2",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:31:00.000Z",
+    "last_edited_time": "2022-10-18T14:31:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "CKAD-Oreilly Video Notes",
+            "link": {
+              "url": "https://limosyn.notion.site/CKAD-Oreilly-Video-Notes-d30c24879054416caf58f6ec4bc5a48e"
+            }
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "CKAD-Oreilly Video Notes",
+          "href": "https://limosyn.notion.site/CKAD-Oreilly-Video-Notes-d30c24879054416caf58f6ec4bc5a48e"
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "3682f68a-9a4b-4127-aaa9-8a12c247fc02",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:31:00.000Z",
+    "last_edited_time": "2022-10-18T14:31:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "CKAD-Oreilly Book Notes",
+            "link": {
+              "url": "https://limosyn.notion.site/CKAD-Oreilly-Book-Notes-b358a42e42f84dd68a7e4682f24adb6d"
+            }
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "CKAD-Oreilly Book Notes",
+          "href": "https://limosyn.notion.site/CKAD-Oreilly-Book-Notes-b358a42e42f84dd68a7e4682f24adb6d"
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "dba77ab2-135d-4917-ab6e-cadc85066d06",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:31:00.000Z",
+    "last_edited_time": "2022-10-18T14:31:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "CKAD-LinkedIn Video Learning Notes",
+            "link": {
+              "url": "https://limosyn.notion.site/CKAD-LinkedIn-Video-Learning-Notes-fa64256b7136421aa982579d9dd24874"
+            }
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "CKAD-LinkedIn Video Learning Notes",
+          "href": "https://limosyn.notion.site/CKAD-LinkedIn-Video-Learning-Notes-fa64256b7136421aa982579d9dd24874"
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "4a8dcc67-653a-4644-b606-1b2de19a9f5d",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:31:00.000Z",
+    "last_edited_time": "2022-10-18T14:31:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_3",
+    "heading_3": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Notes made during practice",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Notes made during practice",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "6957a5f9-57ab-418e-b63a-2b72348a798b",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:31:00.000Z",
+    "last_edited_time": "2022-10-18T14:31:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "CKAD-Dev.to Practice Questions",
+            "link": {
+              "url": "https://limosyn.notion.site/CKAD-Dev-to-Practice-Questions-022349a53c1b4cfb8ab4429ce0dc34bc"
+            }
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "CKAD-Dev.to Practice Questions",
+          "href": "https://limosyn.notion.site/CKAD-Dev-to-Practice-Questions-022349a53c1b4cfb8ab4429ce0dc34bc"
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "bc6b3e59-86a4-4416-9ffe-95159c4a2136",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:31:00.000Z",
+    "last_edited_time": "2022-10-18T14:31:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "CKAD-Git-Problems Notes",
+            "link": {
+              "url": "https://limosyn.notion.site/CKAD-Git-Problems-Notes-1a4df493a5c24ce299a00b223ec270a1"
+            }
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "CKAD-Git-Problems Notes",
+          "href": "https://limosyn.notion.site/CKAD-Git-Problems-Notes-1a4df493a5c24ce299a00b223ec270a1"
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "4be76a55-ee1d-4e64-86cb-19105698e24f",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:31:00.000Z",
+    "last_edited_time": "2022-10-18T14:31:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Pardon me talking to myself. I have a habit of writing in 3rd person.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Pardon me talking to myself. I have a habit of writing in 3rd person.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "b187288f-c2eb-4273-80c0-f584fd1f0c63",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:31:00.000Z",
+    "last_edited_time": "2022-10-18T14:31:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_2",
+    "heading_2": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Finally",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Finally",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "e0c0d538-3bba-4729-ae4e-dbe0c5d15554",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:31:00.000Z",
+    "last_edited_time": "2022-10-18T14:31:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Preparing for the CKAD exam will propel your abilities as a DevOps Engineer. Kubernetes is a highly sought-out activity in the industry.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Preparing for the CKAD exam will propel your abilities as a DevOps Engineer. Kubernetes is a highly sought-out activity in the industry.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "718f8b1e-eea2-4674-800f-6bfcfdc98098",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:31:00.000Z",
+    "last_edited_time": "2022-10-18T14:31:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "You will learn about how various components of computing infrastructure come together to support a product. This will require fine-tuning resource requirements, managing network, and user accesses, etc.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "You will learn about how various components of computing infrastructure come together to support a product. This will require fine-tuning resource requirements, managing network, and user accesses, etc.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "112b151b-5e83-4f0f-962a-9efa45ea994b",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:31:00.000Z",
+    "last_edited_time": "2022-10-18T14:31:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Every company wants its product to be resilient. You can help them achieve that!",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Every company wants its product to be resilient. You can help them achieve that!",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "3b26345a-3b96-4724-a146-0e20012d1cb1",
+    "parent": {
+      "type": "page_id",
+      "page_id": "bc288e32-6dff-4a9c-bfa1-39eadb21cad0"
+    },
+    "created_time": "2022-10-18T14:31:00.000Z",
+    "last_edited_time": "2022-10-18T14:31:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Well then, until next time...",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Well then, until next time...",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  }
+]

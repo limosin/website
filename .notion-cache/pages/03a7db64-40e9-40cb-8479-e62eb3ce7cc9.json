@@ -1,0 +1,5227 @@
+{
+  "page": {
+    "object": "page",
+    "id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9",
+    "created_time": "2021-04-30T14:26:00.000Z",
+    "last_edited_time": "2025-01-11T18:31:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "cover": {
+      "type": "external",
+      "external": {
+        "url": "https://res.cloudinary.com/dft5dlcya/image/upload/v1676801191/limosyn.com/blog/images/03a7db64-40e9-40cb-8479-e62eb3ce7cc9/ykwxbpb2gpdxdcsepp2u.jpg"
+      }
+    },
+    "icon": {
+      "type": "external",
+      "external": {
+        "url": "https://res.cloudinary.com/dft5dlcya/image/upload/v1736602815/limosyn.com/blog/svgs/blogging_sqjiu4.png"
+      }
+    },
+    "parent": {
+      "type": "database_id",
+      "database_id": "a07d5f44-fc6a-4251-88a9-b2c21743a868"
+    },
+    "archived": false,
+    "in_trash": false,
+    "is_locked": false,
+    "properties": {
+      "pTags": {
+        "id": "%3AbqM",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "b05c9a2d-be98-4d9e-bc4b-2abcd52bc79e"
+          },
+          {
+            "id": "b0b28777-1e49-4f75-b031-6f094ba87c1e"
+          }
+        ],
+        "has_more": false
+      },
+      "published": {
+        "id": "%3E%60Ov",
+        "type": "checkbox",
+        "checkbox": true
+      },
+      "tags": {
+        "id": "GE%3CU",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "Web Dev, Dev Tools, Reviews"
+        }
+      },
+      "description": {
+        "id": "L%5D%3AA",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Discussing about the various technologies that can be used to make your website",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Discussing about the various technologies that can be used to make your website",
+            "href": null
+          }
+        ]
+      },
+      "date": {
+        "id": "NW%7Cq",
+        "type": "date",
+        "date": {
+          "start": "2021-04-29",
+          "end": null,
+          "time_zone": null
+        }
+      },
+      "type": {
+        "id": "OtM%60",
+        "type": "select",
+        "select": {
+          "id": "742cd4b7-4726-4ba9-ac72-6f14d35bfd8d",
+          "name": "Article",
+          "color": "blue"
+        }
+      },
+      "sTags": {
+        "id": "UmF%3F",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "918bc4cc-e343-4349-8f8c-6567f59abd21"
+          }
+        ],
+        "has_more": false
+      },
+      "link": {
+        "id": "%5Ds%3CH",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "https://www.limosyn.com/posts/exhaustive-guide-for-website-tech-stack"
+        }
+      },
+      "stage": {
+        "id": "fqs%40",
+        "type": "select",
+        "select": {
+          "id": "258ea408-d15a-42ee-9219-5534dde4176c",
+          "name": "Published",
+          "color": "green"
+        }
+      },
+      "created": {
+        "id": "k_jR",
+        "type": "created_time",
+        "created_time": "2021-04-30T14:26:00.000Z"
+      },
+      "slug": {
+        "id": "pTHT",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "exhaustive-guide-for-website-tech-stack",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "exhaustive-guide-for-website-tech-stack",
+            "href": null
+          }
+        ]
+      },
+      "title": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "An Exhaustive Guide for your Website's Tech Stack",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "An Exhaustive Guide for your Website's Tech Stack",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/An-Exhaustive-Guide-for-your-Website-s-Tech-Stack-03a7db6440e940cb8479e62eb3ce7cc9",
+    "public_url": null,
+    "request_id": "190ae704-cbc7-4221-9e4e-ed7de6cdb377"
+  },
+  "blocks": [
+    {
+      "object": "block",
+      "id": "4b0655c1-7b18-4847-a63d-8efa56ea29cf",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:50:00.000Z",
+      "last_edited_time": "2023-04-18T17:32:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Great! So the planets have finally aligned, and you have decided to build your website. Not bad! But now you are in a dilemma as to how you should make one? No worries! Been there, solved that!",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Great! So the planets have finally aligned, and you have decided to build your website. Not bad! But now you are in a dilemma as to how you should make one? No worries! Been there, solved that!",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "119d92da-8c71-4753-884d-4d27813dbfab",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:54:00.000Z",
+      "last_edited_time": "2022-10-16T17:54:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Before you Begin!",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Before you Begin!",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "f1faf404-0bdd-4887-bae4-01fef4361fa6",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:54:00.000Z",
+      "last_edited_time": "2022-10-16T17:54:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "It would help if you had a rough idea of the expectations and features that your website will deliver upon. Without the key requirements in place, you might likely need to change the technologies in between development, and that sucks?.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "It would help if you had a rough idea of the expectations and features that your website will deliver upon. Without the key requirements in place, you might likely need to change the technologies in between development, and that sucks?.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "955fb7a7-f1df-4dad-b26c-a0522aca7cad",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:54:00.000Z",
+      "last_edited_time": "2022-10-16T17:54:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "So first, get your head straight on at least the following aspects:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "So first, get your head straight on at least the following aspects:",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "e1dae62d-1d4e-4306-9a4a-3a32ea0f6930",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:54:00.000Z",
+      "last_edited_time": "2022-10-16T17:54:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Purpose",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Purpose",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": Perhaps the most important criteria. A tech stack of a blogging website differs greatly from - ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": Perhaps the most important criteria. A tech stack of a blogging website differs greatly from - ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "Oh! Here's me!",
+              "link": {
+                "url": "https://anmolsingh.me/"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Oh! Here's me!",
+            "href": "https://anmolsingh.me/"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " Site. Although you could materialize any idea in the form of a website, here, I'll mostly discuss the two most common - a Portfolio and a blogging site. Having said that, most of the concepts discussed here do overlap across various types of websites.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " Site. Although you could materialize any idea in the form of a website, here, I'll mostly discuss the two most common - a Portfolio and a blogging site. Having said that, most of the concepts discussed here do overlap across various types of websites.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "6fe22d60-03b5-4a5a-87f6-70b89d8ef797",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:54:00.000Z",
+      "last_edited_time": "2022-10-16T17:54:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Budget",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Budget",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": Yeah! Sometimes it does lighten your pockets?. The considerable sum goes to hosting. But there are some workarounds. You can use the free credits offered by cloud services such as GCP, AWS, etc. And you know! Create more accounts! But of course, I don't do that. Or do I??",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": Yeah! Sometimes it does lighten your pockets?. The considerable sum goes to hosting. But there are some workarounds. You can use the free credits offered by cloud services such as GCP, AWS, etc. And you know! Create more accounts! But of course, I don't do that. Or do I??",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "24a4ac72-e4db-4259-8312-2bde57f09bc2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:54:00.000Z",
+      "last_edited_time": "2022-10-16T17:54:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Time",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Time",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": So, how much time⌚ can you invest in this project? The more, the merrier?. Do note, however, that your initial goal should always be to put your work out as soon as possible in workable form(Please don't just print Hello World!).",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": So, how much time⌚ can you invest in this project? The more, the merrier?. Do note, however, that your initial goal should always be to put your work out as soon as possible in workable form(Please don't just print Hello World!).",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "b70eb1eb-3e7c-44e5-90a4-16dd56e57610",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:54:00.000Z",
+      "last_edited_time": "2022-10-16T17:54:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Audience",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Audience",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": You have to know your audience. A Code related blog is expected to be snappier than a travel blog, coz you know! We like things fast. In comparison, a blog for product reviews is better off having animations and other shenanigans.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": You have to know your audience. A Code related blog is expected to be snappier than a travel blog, coz you know! We like things fast. In comparison, a blog for product reviews is better off having animations and other shenanigans.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "ebfd691c-ddc0-48a3-920b-0b383520134f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:54:00.000Z",
+      "last_edited_time": "2022-10-16T17:54:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Below, I have tried to encompass the various scenarios that I encountered, and you might too when deciding your website's technology stack. For ease of understanding, I have divided everything into pretty headings and categories. ?",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Below, I have tried to encompass the various scenarios that I encountered, and you might too when deciding your website's technology stack. For ease of understanding, I have divided everything into pretty headings and categories. ?",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "ae1b21b9-fc38-4981-8796-6416fcf1e795",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:54:00.000Z",
+      "last_edited_time": "2022-10-16T17:54:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The Holy Duo",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The Holy Duo",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "bf71210b-e246-4f11-9eac-5f06ca5228f2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:54:00.000Z",
+      "last_edited_time": "2025-01-11T18:29:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "image",
+      "image": {
+        "caption": [],
+        "type": "external",
+        "external": {
+          "url": "https://res.cloudinary.com/dft5dlcya/image/upload/v1676801198/limosyn.com/blog/images/03a7db64-40e9-40cb-8479-e62eb3ce7cc9/eywcwxzq7oa2wpa44ju5.png"
+        }
+      }
+    },
+    {
+      "object": "block",
+      "id": "3accf660-7e29-497f-b93c-c2d3f38d5349",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:55:00.000Z",
+      "last_edited_time": "2022-10-16T17:55:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "I am sure most of you are aware of this, but to reiterate. The technology stack for any web project involves two main components:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "I am sure most of you are aware of this, but to reiterate. The technology stack for any web project involves two main components:",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "feae40ee-b378-43b6-8164-99d6af61a8ea",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:55:00.000Z",
+      "last_edited_time": "2022-10-16T17:55:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Frontend or Client Side",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Frontend or Client Side",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": For building the part that your Audience and customers see and interact with. First, there is ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": For building the part that your Audience and customers see and interact with. First, there is ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "HTML ",
+              "link": {
+                "url": "notion://www.notion.so/limosyn/w3schools.com/html/"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "HTML ",
+            "href": "notion://www.notion.so/limosyn/w3schools.com/html/"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "without which no website can exist. Then, CSS makes everything look prettier and cooler—javaScript servers as a scripting language for creating interactiveness.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "without which no website can exist. Then, CSS makes everything look prettier and cooler—javaScript servers as a scripting language for creating interactiveness.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "4851794a-d43b-4dce-b31c-916162f05ff2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:55:00.000Z",
+      "last_edited_time": "2022-10-16T17:55:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Backend or Server Side",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Backend or Server Side",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": This involves all the apps that the frontend connects to serve the users. For a blogging website, it would be an app serving the blog content to frontend. The backend domain has numerous options, a lot more than the frontend. But of course, it all depends on your requirements.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": This involves all the apps that the frontend connects to serve the users. For a blogging website, it would be an app serving the blog content to frontend. The backend domain has numerous options, a lot more than the frontend. But of course, it all depends on your requirements.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "a07990dd-ced6-4040-9a41-a2432eeec19c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:55:00.000Z",
+      "last_edited_time": "2022-10-16T17:55:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Your Technical Background",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Your Technical Background",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "a9827c36-2773-4af3-bbe7-3fc39417c9bb",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:55:00.000Z",
+      "last_edited_time": "2022-10-16T17:55:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "...in the context of Frontend and Backend Development.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "...in the context of Frontend and Backend Development.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "fcb84698-aa7a-411b-b2f0-ed115028c696",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:55:00.000Z",
+      "last_edited_time": "2022-10-16T17:55:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Go for the first method if you don't have much experience or are unwilling to gain any. Welcome the second method if you already have considerable apprehension or are willing to learn. Pardon my bias!?",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Go for the first method if you don't have much experience or are unwilling to gain any. Welcome the second method if you already have considerable apprehension or are willing to learn. Pardon my bias!?",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "f63946d9-01f1-4aef-b925-9d0e36db424a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:55:00.000Z",
+      "last_edited_time": "2022-10-16T17:55:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The first method - Go Easy way!",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The first method - Go Easy way!",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "c11fea96-ed87-4996-b02f-81dfd54608e5",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:55:00.000Z",
+      "last_edited_time": "2022-10-16T17:55:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "If you don't have a technical background, you could go for the numerous \"clicky-dropy\" services, aka ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "If you don't have a technical background, you could go for the numerous \"clicky-dropy\" services, aka ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "website Builders",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "website Builders",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ". To name a few :",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ". To name a few :",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "f8cce3b9-c7e8-4e39-899a-ae365774232e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:55:00.000Z",
+      "last_edited_time": "2022-10-16T17:55:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "WordPress.org",
+              "link": {
+                "url": "https://www.wpbeginner.com/beginners-guide/how-to-choose-the-best-website-builder/#bestwebsitebuilder"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "WordPress.org",
+            "href": "https://www.wpbeginner.com/beginners-guide/how-to-choose-the-best-website-builder/#bestwebsitebuilder"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "3d98b3f4-52fc-4d67-a343-ab7414ddf43f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:55:00.000Z",
+      "last_edited_time": "2022-10-16T17:55:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Wix",
+              "link": {
+                "url": "https://www.wpbeginner.com/beginners-guide/how-to-choose-the-best-website-builder/#wix"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Wix",
+            "href": "https://www.wpbeginner.com/beginners-guide/how-to-choose-the-best-website-builder/#wix"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "170dc458-a30f-4674-93c0-586908d0323c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:55:00.000Z",
+      "last_edited_time": "2022-10-16T17:55:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Gator by HostGator",
+              "link": {
+                "url": "https://www.wpbeginner.com/beginners-guide/how-to-choose-the-best-website-builder/#gatorbyhostgator"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Gator by HostGator",
+            "href": "https://www.wpbeginner.com/beginners-guide/how-to-choose-the-best-website-builder/#gatorbyhostgator"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "dfba0d60-4403-4143-9244-c7a199cf4ce5",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:55:00.000Z",
+      "last_edited_time": "2022-10-16T17:55:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Weebly",
+              "link": {
+                "url": "https://www.wpbeginner.com/beginners-guide/how-to-choose-the-best-website-builder/#weebly"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Weebly",
+            "href": "https://www.wpbeginner.com/beginners-guide/how-to-choose-the-best-website-builder/#weebly"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "440ac5b3-67a5-4b6a-bfc8-6f0013ae377f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:55:00.000Z",
+      "last_edited_time": "2022-10-16T17:55:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Squarespace",
+              "link": {
+                "url": "https://www.wpbeginner.com/beginners-guide/how-to-choose-the-best-website-builder/#squarespace"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Squarespace",
+            "href": "https://www.wpbeginner.com/beginners-guide/how-to-choose-the-best-website-builder/#squarespace"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2e21f5ce-1715-48a4-88cf-2021f8118860",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:55:00.000Z",
+      "last_edited_time": "2022-10-16T17:55:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Visit this ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Visit this ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "link for a more comprehensive review about these >>",
+              "link": {
+                "url": "https://www.websitetooltester.com/en/best-website-builder/"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "link for a more comprehensive review about these >>",
+            "href": "https://www.websitetooltester.com/en/best-website-builder/"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2bb2ff31-c083-4751-b8a0-57ea21fba195",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:55:00.000Z",
+      "last_edited_time": "2022-10-16T17:55:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "This will allow you to quickly set up your website/blog without getting your hands dirty. These services also have their guides to utilize their products which you can easily refer to. These services also provide an option to deploy your website to the internet - of course, after emptying your pockets a bit.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "This will allow you to quickly set up your website/blog without getting your hands dirty. These services also have their guides to utilize their products which you can easily refer to. These services also provide an option to deploy your website to the internet - of course, after emptying your pockets a bit.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "8cdd9c35-ff9f-4936-bb06-05b525a77cf8",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:55:00.000Z",
+      "last_edited_time": "2022-10-16T17:55:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Second method - Wanna be Maverick.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Second method - Wanna be Maverick.",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "e3edf0be-d13e-477e-92f4-b855e9a72bce",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:55:00.000Z",
+      "last_edited_time": "2022-10-16T17:55:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "If you have programming knowledge in some web technologies and have more time to spare, you can build your website from the ground up. This allows for more customization and flexibility. This article will mostly focus on this approach.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "If you have programming knowledge in some web technologies and have more time to spare, you can build your website from the ground up. This allows for more customization and flexibility. This article will mostly focus on this approach.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "b4fdd0eb-b5c8-4dd6-a3a0-4f3d951088e8",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:55:00.000Z",
+      "last_edited_time": "2022-10-16T17:55:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Building the Frontend",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Building the Frontend",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2725f51e-3eca-49b5-9428-064199393f45",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:55:00.000Z",
+      "last_edited_time": "2022-10-16T17:55:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "As discussed above, we have HTML, CSS, and JS at the lowest level of the pyramid. Each of them is critical for the proper functioning of our website.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "As discussed above, we have HTML, CSS, and JS at the lowest level of the pyramid. Each of them is critical for the proper functioning of our website.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2dd99102-f9eb-42cb-a21b-12e383867683",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:55:00.000Z",
+      "last_edited_time": "2022-10-16T17:55:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Styling",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Styling",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "7096177a-41fb-4813-b2a4-fb295d2ebc75",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:56:00.000Z",
+      "last_edited_time": "2025-01-11T18:29:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "image",
+      "image": {
+        "caption": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Stackoverflow with and without styling",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Stackoverflow with and without styling",
+            "href": null
+          }
+        ],
+        "type": "external",
+        "external": {
+          "url": "https://res.cloudinary.com/dft5dlcya/image/upload/v1676801205/limosyn.com/blog/images/03a7db64-40e9-40cb-8479-e62eb3ce7cc9/stackoverflow_with_and_without_styling.png"
+        }
+      }
+    },
+    {
+      "object": "block",
+      "id": "c8257480-f33f-44d9-a569-5645b082cfec",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:56:00.000Z",
+      "last_edited_time": "2022-10-16T17:56:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "All the styles are ultimately translated to CSS (Cascading Styling Sheets). Although CSS is itself popular with small projects, it quickly becomes cumbersome to maintain for large projects. There are a couple of good alternatives such as:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "All the styles are ultimately translated to CSS (Cascading Styling Sheets). Although CSS is itself popular with small projects, it quickly becomes cumbersome to maintain for large projects. There are a couple of good alternatives such as:",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "f079f66d-b3b8-48e3-8931-08c5be796db3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:56:00.000Z",
+      "last_edited_time": "2022-10-16T17:56:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "SASS",
+              "link": {
+                "url": "https://sass-lang.com/"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "SASS",
+            "href": "https://sass-lang.com/"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "7755328b-b744-4889-afe3-ba3974800d68",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:56:00.000Z",
+      "last_edited_time": "2022-10-16T17:56:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "LESS",
+              "link": {
+                "url": "https://lesscss.org/"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "LESS",
+            "href": "https://lesscss.org/"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "52afcc3f-991a-4f51-a7ff-2b5af5b52686",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:56:00.000Z",
+      "last_edited_time": "2022-10-16T17:56:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "PostCSS",
+              "link": {
+                "url": "https://postcss.org/"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "PostCSS",
+            "href": "https://postcss.org/"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "3dad7da8-6b3d-4fbc-82a3-4d020763d671",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:56:00.000Z",
+      "last_edited_time": "2022-10-16T17:56:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "NodeSASS",
+              "link": {
+                "url": "https://www.npmjs.com/package/node-css"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "NodeSASS",
+            "href": "https://www.npmjs.com/package/node-css"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "5060c2b8-5fe4-4d89-a326-4e96d7c60731",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:56:00.000Z",
+      "last_edited_time": "2022-10-16T17:56:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "These alternatives allow cool features such as nesting, mixins, variables, etc., which improves maintainability and allows faster prototyping.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "These alternatives allow cool features such as nesting, mixins, variables, etc., which improves maintainability and allows faster prototyping.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "98a998c6-44fb-435b-aba7-4f348497536e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:57:00.000Z",
+      "last_edited_time": "2022-10-16T17:57:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bookmark",
+      "bookmark": {
+        "caption": [],
+        "url": "https://dev.to/ogurinkaben/concept-of-nesting-in-variables-in-sass-3ee0"
+      }
+    },
+    {
+      "object": "block",
+      "id": "16ba472b-64b3-401f-9220-4d0d57cff507",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:57:00.000Z",
+      "last_edited_time": "2022-10-16T17:57:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "JavaScript Framework",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "JavaScript Framework",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "a21b0a37-6ec5-4e1d-a62b-a2c3fd198dbc",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:57:00.000Z",
+      "last_edited_time": "2022-10-16T17:57:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "quote",
+      "quote": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Not Required if creating a static website. You are better off with Just HTML and any CSS framework.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Not Required if creating a static website. You are better off with Just HTML and any CSS framework.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "d54d576b-a8c3-40e1-b975-d6d68b62a18f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:57:00.000Z",
+      "last_edited_time": "2022-10-16T17:57:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "If you need interactiveness in your website, you need to add JavaScript to your code. You can use plain JavaScript. However, it's better to use a framework as it provides several benefits:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "If you need interactiveness in your website, you need to add JavaScript to your code. You can use plain JavaScript. However, it's better to use a framework as it provides several benefits:",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "ad2e6bd8-76c1-474a-b8f3-e49f993dd582",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:57:00.000Z",
+      "last_edited_time": "2022-10-16T17:57:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The lesser upfront effort required to setup your project",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The lesser upfront effort required to setup your project",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "b947ec7b-0f8d-4829-a5b2-e1bf799043b2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:57:00.000Z",
+      "last_edited_time": "2022-10-16T17:57:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Scalability in terms of your project size",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Scalability in terms of your project size",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "33da747d-e966-4c80-97e3-df24e10ba26f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:57:00.000Z",
+      "last_edited_time": "2022-10-16T17:57:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Better inbuilt security, for example, against XSS attacks",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Better inbuilt security, for example, against XSS attacks",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "f083ceef-87ed-43fe-b840-983992c417f8",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:57:00.000Z",
+      "last_edited_time": "2022-10-16T17:57:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Support for numerous opensource libraries",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Support for numerous opensource libraries",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "09efcc18-b73e-4068-8ea6-a61fc86ed55f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:57:00.000Z",
+      "last_edited_time": "2022-10-16T17:57:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bookmark",
+      "bookmark": {
+        "caption": [],
+        "url": "https://gomakethings.com/why-do-people-choose-frameworks-over-vanilla-js/"
+      }
+    },
+    {
+      "object": "block",
+      "id": "f20f48e9-cd13-4766-a542-0bc551777943",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:57:00.000Z",
+      "last_edited_time": "2022-10-16T17:57:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Now which one to use? That's perhaps the toughest choice to make. There are many frameworks! Even frameworks are built upon frameworks. But the major ones are:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Now which one to use? That's perhaps the toughest choice to make. There are many frameworks! Even frameworks are built upon frameworks. But the major ones are:",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "ed4e381f-5f03-48b3-83fd-c9c13fb030b8",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:57:00.000Z",
+      "last_edited_time": "2022-10-16T17:57:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "JQuery",
+              "link": {
+                "url": "https://jquery.com/"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "JQuery",
+            "href": "https://jquery.com/"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "d5f53661-bb9a-4b11-87fb-29ae1475265d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:57:00.000Z",
+      "last_edited_time": "2022-10-16T17:57:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "ReactJSRe",
+              "link": {
+                "url": "https://reactjs.org/"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "ReactJSRe",
+            "href": "https://reactjs.org/"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "56e5010b-e586-4a69-8c16-92adbdc796b1",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:57:00.000Z",
+      "last_edited_time": "2022-10-16T17:57:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "VueJS",
+              "link": {
+                "url": "https://vuejs.org/"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "VueJS",
+            "href": "https://vuejs.org/"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "12e8777f-571e-462c-8d16-006ad859c279",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:57:00.000Z",
+      "last_edited_time": "2022-10-16T17:57:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "AngularJS",
+              "link": {
+                "url": "https://angularjs.org/"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "AngularJS",
+            "href": "https://angularjs.org/"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "e8aa56b8-219c-4fb1-8f7e-781c820fb262",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:58:00.000Z",
+      "last_edited_time": "2022-10-16T17:58:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bookmark",
+      "bookmark": {
+        "caption": [],
+        "url": "https://medium.com/techmagic/reactjs-vs-angular5-vs-vue-js-what-to-choose-in-2018-b91e028fa91d"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2610a696-6ba9-4242-b0f9-541ab50f36a1",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:58:00.000Z",
+      "last_edited_time": "2022-10-16T17:58:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "JQuery is pretty much a thing of the past. So you can ignore that.\nI went ahead with VueJS. It has a lower learning curve and comparable performance, if not greater, in various aspects. It's pretty much like writing HTML, CSS, and JavaScript on the same page.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "JQuery is pretty much a thing of the past. So you can ignore that.\nI went ahead with VueJS. It has a lower learning curve and comparable performance, if not greater, in various aspects. It's pretty much like writing HTML, CSS, and JavaScript on the same page.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "36728a4f-29ca-4efa-9034-392a61518b48",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:58:00.000Z",
+      "last_edited_time": "2022-10-16T17:58:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "callout",
+      "callout": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Although I initially started with VueJS, I later switched on to NuxtJS which is another framework, built upon VueJS! NuxtJS allows for server side rendering which helps in Search Engine Optimization(SEO) which is critical for a blog! It also has host of other features.\n",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Although I initially started with VueJS, I later switched on to NuxtJS which is another framework, built upon VueJS! NuxtJS allows for server side rendering which helps in Search Engine Optimization(SEO) which is critical for a blog! It also has host of other features.\n",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "Visit this link to know about NuxtJS",
+              "link": {
+                "url": "https://nuxtjs.org/"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Visit this link to know about NuxtJS",
+            "href": "https://nuxtjs.org/"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ".",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ".",
+            "href": null
+          }
+        ],
+        "icon": {
+          "type": "emoji",
+          "emoji": "ℹ️"
+        },
+        "color": "blue_background"
+      }
+    },
+    {
+      "object": "block",
+      "id": "ebaa9c3f-4bd7-4377-9294-2e63b5324c85",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:59:00.000Z",
+      "last_edited_time": "2025-01-11T18:29:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "image",
+      "image": {
+        "caption": [],
+        "type": "external",
+        "external": {
+          "url": "https://res.cloudinary.com/dft5dlcya/image/upload/v1676801213/limosyn.com/blog/images/03a7db64-40e9-40cb-8479-e62eb3ce7cc9/vwquiuxd3yfgsafryhnv.png"
+        }
+      }
+    },
+    {
+      "object": "block",
+      "id": "a106eda5-0385-4f61-8f26-676539e26aed",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:58:00.000Z",
+      "last_edited_time": "2022-10-16T17:59:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "ReactJS and Angular are also really famous frameworks. You can expect a higher chance of finding solutions compared to lesser-known frameworks. Also, they have better support for open-source libraries.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "ReactJS and Angular are also really famous frameworks. You can expect a higher chance of finding solutions compared to lesser-known frameworks. Also, they have better support for open-source libraries.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "e3df7385-53b9-4182-890a-136ac3345422",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:59:00.000Z",
+      "last_edited_time": "2022-10-16T17:59:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Building the Backend",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Building the Backend",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "71d1c94e-548e-47a0-8596-71a2ad3b887a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:59:00.000Z",
+      "last_edited_time": "2025-01-11T18:29:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "image",
+      "image": {
+        "caption": [],
+        "type": "external",
+        "external": {
+          "url": "https://res.cloudinary.com/dft5dlcya/image/upload/v1676801219/limosyn.com/blog/images/03a7db64-40e9-40cb-8479-e62eb3ce7cc9/uqedtjw7e3ehduc6v1b6.png"
+        }
+      }
+    },
+    {
+      "object": "block",
+      "id": "a374d42b-8f5d-4a0f-9afc-786a0b9d6251",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:59:00.000Z",
+      "last_edited_time": "2022-10-16T17:59:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Due to loose coupling and the advent of microservice architecture, you can make your backend using any technology as long as it's communicating with your frontend using Cross-platform communication protocols such as REST or GraphQL.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Due to loose coupling and the advent of microservice architecture, you can make your backend using any technology as long as it's communicating with your frontend using Cross-platform communication protocols such as REST or GraphQL.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "a45fb6ec-5f69-410b-8508-7920f009ece9",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:59:00.000Z",
+      "last_edited_time": "2022-10-16T17:59:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "quote",
+      "quote": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "You don't need a backend for a static website. So if your goal is just have a portfolio website, that could be done with statically served html and css files.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "You don't need a backend for a static website. So if your goal is just have a portfolio website, that could be done with statically served html and css files.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "0d14f8c5-f9ae-4a2f-b0e8-906966d8b3d3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:59:00.000Z",
+      "last_edited_time": "2022-10-16T17:59:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "If you are trying to create a blog, you'll need to store your posts and media items such as images, videos, etc., somewhere. You have a couple of options there:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "If you are trying to create a blog, you'll need to store your posts and media items such as images, videos, etc., somewhere. You have a couple of options there:",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "09e156bc-c047-4fad-9fd8-0a04644b615d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:59:00.000Z",
+      "last_edited_time": "2022-10-16T17:59:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "You could save the blog content in the form of Markdown files along with the blog codebase. Albeit you will have to manually store your media items in public storage like Amazon S3, google buckets, drives, etc.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "You could save the blog content in the form of Markdown files along with the blog codebase. Albeit you will have to manually store your media items in public storage like Amazon S3, google buckets, drives, etc.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "21c265bc-ea7e-4cae-8758-cefbc1dd3091",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:59:00.000Z",
+      "last_edited_time": "2022-10-16T17:59:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Have a dedicated ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Have a dedicated ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "CMS",
+              "link": {
+                "url": "https://kinsta.com/knowledgebase/content-management-system/"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "CMS",
+            "href": "https://kinsta.com/knowledgebase/content-management-system/"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "(Content Management System). CMS allows you to create posts as well as storage media. I won't suggest building one on your own from scratch. It would be just reinventing the wheel. You can use the publicly available ones. All you would need to do is fetch content from them using ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "(Content Management System). CMS allows you to create posts as well as storage media. I won't suggest building one on your own from scratch. It would be just reinventing the wheel. You can use the publicly available ones. All you would need to do is fetch content from them using ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "REST ",
+              "link": {
+                "url": "https://www.codecademy.com/articles/what-is-rest"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "REST ",
+            "href": "https://www.codecademy.com/articles/what-is-rest"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "or GraphQL.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "or GraphQL.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "f8dc1066-14c5-4a34-a650-72a5a31362e1",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:59:00.000Z",
+      "last_edited_time": "2022-10-16T17:59:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "I use ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "I use ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "Ghost",
+              "link": {
+                "url": "https://github.com/TryGhost/Ghost"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Ghost",
+            "href": "https://github.com/TryGhost/Ghost"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ". It has a great UI and is open source. Having said that, I don't directly use the service provided them. Instead, I have hosted my headless ghost instance on a subdomain. There are other options as well:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ". It has a great UI and is open source. Having said that, I don't directly use the service provided them. Instead, I have hosted my headless ghost instance on a subdomain. There are other options as well:",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "f97aa760-fdc0-459b-a3de-2dba2fd62041",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:59:00.000Z",
+      "last_edited_time": "2022-10-16T17:59:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Medium",
+              "link": {
+                "url": "https://medium.com/"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Medium",
+            "href": "https://medium.com/"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "b353b731-50d0-4e6e-9381-d422f0467b94",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:59:00.000Z",
+      "last_edited_time": "2022-10-16T17:59:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Contentful",
+              "link": {
+                "url": "https://www.contentful.com/"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Contentful",
+            "href": "https://www.contentful.com/"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "da59a7b9-513a-4995-bd48-773f65ab5062",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:59:00.000Z",
+      "last_edited_time": "2022-10-16T17:59:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "WordPress",
+              "link": {
+                "url": "https://wordpress.com/"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "WordPress",
+            "href": "https://wordpress.com/"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "7f85d20e-463d-410e-bbc2-8232c5864403",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:59:00.000Z",
+      "last_edited_time": "2022-10-16T17:59:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Squarespace",
+              "link": {
+                "url": "https://www.squarespace.com/"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Squarespace",
+            "href": "https://www.squarespace.com/"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "448664f1-db3f-44af-9a28-6245964ab306",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T17:59:00.000Z",
+      "last_edited_time": "2022-10-16T17:59:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "NuxtJS Content",
+              "link": {
+                "url": "https://content.nuxtjs.org/"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "NuxtJS Content",
+            "href": "https://content.nuxtjs.org/"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "687d8baa-646b-46e5-875c-f6302015b7c1",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T18:00:00.000Z",
+      "last_edited_time": "2022-10-16T18:00:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "callout",
+      "callout": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Do note that I am talking about the headless versions of the platforms and not using the native frontend/website builders provided by them.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Do note that I am talking about the headless versions of the platforms and not using the native frontend/website builders provided by them.",
+            "href": null
+          }
+        ],
+        "icon": {
+          "type": "emoji",
+          "emoji": "💡"
+        },
+        "color": "blue_background"
+      }
+    },
+    {
+      "object": "block",
+      "id": "4339514f-7107-439d-9525-5012063c715e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T18:00:00.000Z",
+      "last_edited_time": "2022-10-16T18:00:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bookmark",
+      "bookmark": {
+        "caption": [],
+        "url": "https://kinsta.com/blog/cms-software/"
+      }
+    },
+    {
+      "object": "block",
+      "id": "fec52fd5-afb3-4b85-afcd-6d7c21ce93ee",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T18:00:00.000Z",
+      "last_edited_time": "2022-10-16T18:00:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Auxillary Dependencies",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Auxillary Dependencies",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "d54520aa-ef68-4d03-889f-d10136be9fff",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T18:00:00.000Z",
+      "last_edited_time": "2022-10-16T18:00:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "These are the supporting roles in your \"movie\". They are not directly required but are good to have, and they will make your life easier.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "These are the supporting roles in your \"movie\". They are not directly required but are good to have, and they will make your life easier.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "8961e590-dc11-4587-9a01-5b4631a11d3f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T18:00:00.000Z",
+      "last_edited_time": "2022-10-16T18:00:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Version Control",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Version Control",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "4c9da122-2c53-4d70-ad47-098310380848",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T18:00:00.000Z",
+      "last_edited_time": "2023-02-19T10:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "494b1805-8cfa-459c-b906-5ddb6f1f98c9"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "image",
+      "image": {
+        "caption": [],
+        "type": "external",
+        "external": {
+          "url": "https://res.cloudinary.com/dft5dlcya/image/upload/v1676801224/limosyn.com/blog/images/03a7db64-40e9-40cb-8479-e62eb3ce7cc9/sdnuwbk9xuol0jtuwpsf.png"
+        }
+      }
+    },
+    {
+      "object": "block",
+      "id": "b8f67659-4c5e-4944-a805-04036691304f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T18:01:00.000Z",
+      "last_edited_time": "2022-10-16T18:01:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "I use ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "I use ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "GitHub",
+              "link": {
+                "url": "https://github.com/"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "GitHub",
+            "href": "https://github.com/"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ". There are others as well, like Bitbucket, Gitlab, etc. I suggest using GitHub for no particular reasons? Except that it's free and allows you to have a free CI/CD setup from your repository itself. Version control allows you to track your changes and, if required, allow you to revert to an older state if there are bugs in your current version.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ". There are others as well, like Bitbucket, Gitlab, etc. I suggest using GitHub for no particular reasons? Except that it's free and allows you to have a free CI/CD setup from your repository itself. Version control allows you to track your changes and, if required, allow you to revert to an older state if there are bugs in your current version.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "5f07acf9-f72f-4d40-b749-215bb2cb34c6",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T18:01:00.000Z",
+      "last_edited_time": "2022-10-16T18:01:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "A Cloud Service",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "A Cloud Service",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "62699d74-1930-4388-8c58-0775ebb13e3c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T18:01:00.000Z",
+      "last_edited_time": "2022-10-16T18:01:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "It's no longer a good option to host your website on that old spare home computer of yours. You are better off hosting in a public cloud offering. There are several options available - GCP, AWS, Azure, Alicloud, etc.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "It's no longer a good option to host your website on that old spare home computer of yours. You are better off hosting in a public cloud offering. There are several options available - GCP, AWS, Azure, Alicloud, etc.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "f4f531ff-41c0-4c16-a157-b05c7e14fc59",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T18:01:00.000Z",
+      "last_edited_time": "2022-10-16T18:01:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "For our small project, it doesn't matter which one you choose. I use Google Cloud Platform, mostly because I have more experience with it (nice work, GCP advertising, and promotions team!??). It costs me around $50-55 at present for the month-long hosting. You can reduce the cost substantially with some changes and sacrificing redundancy. D0 read my other article where I will ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "For our small project, it doesn't matter which one you choose. I use Google Cloud Platform, mostly because I have more experience with it (nice work, GCP advertising, and promotions team!??). It costs me around $50-55 at present for the month-long hosting. You can reduce the cost substantially with some changes and sacrificing redundancy. D0 read my other article where I will ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "deploy a barebones Nuxt App on Google Kubernetes Platform",
+              "link": {
+                "url": "https://www.limosyn.com/posts/deploying-a-nuxtjs-application-to-cloud"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "deploy a barebones Nuxt App on Google Kubernetes Platform",
+            "href": "https://www.limosyn.com/posts/deploying-a-nuxtjs-application-to-cloud"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ".",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ".",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "10737e86-7552-49cf-88d3-64455f369e44",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T18:01:00.000Z",
+      "last_edited_time": "2022-10-16T18:01:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "CI/CD",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "CI/CD",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "a4df5f71-2698-4b92-a900-081382bbb0c7",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T18:01:00.000Z",
+      "last_edited_time": "2022-10-16T18:01:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Continuous Integration and Continuous Deployment allow you to focus only on your application and not the productionising steps.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Continuous Integration and Continuous Deployment allow you to focus only on your application and not the productionising steps.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "e2860d09-0463-4ccd-b21a-c5b983fcd4ca",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T18:01:00.000Z",
+      "last_edited_time": "2022-10-16T18:01:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Believe me! It's a pain to have your application work flawlessly on your local machine, only for it to break when it has been deployed to the real world. I am sure most of you have already gone through this.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Believe me! It's a pain to have your application work flawlessly on your local machine, only for it to break when it has been deployed to the real world. I am sure most of you have already gone through this.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "f27ed9e4-0821-4721-965d-45b52d68bcda",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T18:01:00.000Z",
+      "last_edited_time": "2022-10-16T18:01:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Hence I decided to setup a CI/CD workflow for this website as well. Here's what I used:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Hence I decided to setup a CI/CD workflow for this website as well. Here's what I used:",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "c64646eb-afbc-43b9-bc1d-d485a656771a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T18:01:00.000Z",
+      "last_edited_time": "2022-10-16T18:01:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Docker ",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Docker ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "for .containerization",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "for .containerization",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "9efadf8e-6e5e-460b-b6ad-88512bd2c45b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T18:01:00.000Z",
+      "last_edited_time": "2022-10-16T18:01:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Google Kubernetes Engine",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Google Kubernetes Engine",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " - container orchestration and management",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " - container orchestration and management",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "c3143f20-8604-4916-858f-9b86c4b94fef",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T18:01:00.000Z",
+      "last_edited_time": "2022-10-16T18:01:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "GitHub actions",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "GitHub actions",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " - integrating my source code with GKE.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " - integrating my source code with GKE.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "d9b73865-c78f-4408-ab1c-5a9e28601a92",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T18:01:00.000Z",
+      "last_edited_time": "2022-10-16T18:01:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Domain and SSL Certificate",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Domain and SSL Certificate",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1d18398b-3225-44d8-bc8b-78b6739fed18",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T18:01:00.000Z",
+      "last_edited_time": "2023-02-19T10:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "494b1805-8cfa-459c-b906-5ddb6f1f98c9"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "image",
+      "image": {
+        "caption": [],
+        "type": "external",
+        "external": {
+          "url": "https://res.cloudinary.com/dft5dlcya/image/upload/v1676801231/limosyn.com/blog/images/03a7db64-40e9-40cb-8479-e62eb3ce7cc9/vdnfwja9dm1ztm8sdi4l.png"
+        }
+      }
+    },
+    {
+      "object": "block",
+      "id": "e99b8590-d672-4120-bc37-170333d47929",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T18:01:00.000Z",
+      "last_edited_time": "2022-10-16T18:01:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "You surely don't want your visitors to access your website using your server's IP Address like ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "You surely don't want your visitors to access your website using your server's IP Address like ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "http://132.23.32.34",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "http://132.23.32.34",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ". It would help if you had a catchy domain name like ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ". It would help if you had a catchy domain name like ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "limosyn.com",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "limosyn.com",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " in the case of this website. You can have any name you want, provided it hasn't been already taken (My dream is to get google.com ?). There are several domain registrars available. Some of the most popular ones are:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " in the case of this website. You can have any name you want, provided it hasn't been already taken (My dream is to get google.com ?). There are several domain registrars available. Some of the most popular ones are:",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "f628d711-962b-4c35-b2c4-cc7b8d93d424",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T18:01:00.000Z",
+      "last_edited_time": "2022-10-16T18:01:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "GoDaddy",
+              "link": {
+                "url": "https://www.godaddy.com/"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "GoDaddy",
+            "href": "https://www.godaddy.com/"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "af539187-0adc-4dd0-9ebc-f2b9aca7a63f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T18:01:00.000Z",
+      "last_edited_time": "2022-10-16T18:01:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Google Domains",
+              "link": {
+                "url": "https://domains.google.com/registrar"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Google Domains",
+            "href": "https://domains.google.com/registrar"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "36df7277-1d4b-44ff-b84e-5215d69c7f39",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T18:01:00.000Z",
+      "last_edited_time": "2022-10-16T18:01:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Bluehost",
+              "link": {
+                "url": "https://www.bluehost.com/"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Bluehost",
+            "href": "https://www.bluehost.com/"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2a0e6fb3-8ad3-413d-b37a-9e005d51d447",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T18:01:00.000Z",
+      "last_edited_time": "2022-10-16T18:01:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Namecheap",
+              "link": {
+                "url": "https://www.namecheap.com/"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Namecheap",
+            "href": "https://www.namecheap.com/"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1f99a3e7-9592-4299-8d5e-5a42e59f3bef",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T18:01:00.000Z",
+      "last_edited_time": "2022-10-16T18:01:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "For making your site trustworthy, you need an SSL certificate. There are several options available out there - both free and paid.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "For making your site trustworthy, you need an SSL certificate. There are several options available out there - both free and paid.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1eaeff13-5763-4cad-8495-a7a68ab6841b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T18:01:00.000Z",
+      "last_edited_time": "2022-10-16T18:01:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Google Managed Certificates - Paid",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Google Managed Certificates - Paid",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "39a23229-ae66-4f86-b1ce-e6995621ebd0",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T18:01:00.000Z",
+      "last_edited_time": "2022-10-16T18:01:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Let's Encrypt - Free",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Let's Encrypt - Free",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "d0e2c756-952b-4490-a586-79cf3715bd7f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T18:01:00.000Z",
+      "last_edited_time": "2022-10-16T18:01:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "All the above Domain services - Paid",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "All the above Domain services - Paid",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "178b7ed0-f532-80b5-b0bc-eac15ba6d460",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2025-01-11T18:31:00.000Z",
+      "last_edited_time": "2025-01-11T18:31:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "image",
+      "image": {
+        "caption": [],
+        "type": "external",
+        "external": {
+          "url": "https://res.cloudinary.com/dft5dlcya/image/upload/v1736620289/limosyn.com/blog/images/03a7db64-40e9-40cb-8479-e62eb3ce7cc9/ssl-encrypt_q7jgzy.png"
+        }
+      }
+    },
+    {
+      "object": "block",
+      "id": "166132e6-5805-4fd0-9485-7633557dc03a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T18:01:00.000Z",
+      "last_edited_time": "2022-10-16T18:01:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Summing Up",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Summing Up",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "ad77528d-e8a4-4fc2-9e3d-c12e3b51f9bc",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T18:01:00.000Z",
+      "last_edited_time": "2022-10-16T18:01:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The text on this page should be enough to get you started. But of course, you might need to do a bit more research to decide your final tech stack. Adopt loose coupling across your stack by incorporating OOP concepts and microservice architecture in your codebase and using cross-platform communication protocols to connect your various services.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The text on this page should be enough to get you started. But of course, you might need to do a bit more research to decide your final tech stack. Adopt loose coupling across your stack by incorporating OOP concepts and microservice architecture in your codebase and using cross-platform communication protocols to connect your various services.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "73e3f547-8d44-44e0-819b-0df976262436",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T18:01:00.000Z",
+      "last_edited_time": "2022-10-16T18:01:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "In the next article, let's create a ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "In the next article, let's create a ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "starter project for your website",
+              "link": {
+                "url": "https://www.limosyn.com/posts/setting-up-your-next-nuxtjs-project"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "starter project for your website",
+            "href": "https://www.limosyn.com/posts/setting-up-your-next-nuxtjs-project"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ".",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ".",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2f2ed602-b404-4c74-8d34-47e4413ddc8d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "03a7db64-40e9-40cb-8479-e62eb3ce7cc9"
+      },
+      "created_time": "2022-10-16T18:01:00.000Z",
+      "last_edited_time": "2023-04-26T17:47:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Until then! Adios!!",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Until then! Adios!!",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    }
+  ],
+  "lastModified": "2025-01-11T18:31:00.000Z",
+  "cachedAt": 1765630625519
+}
