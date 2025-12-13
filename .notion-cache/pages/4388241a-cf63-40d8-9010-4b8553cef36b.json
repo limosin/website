@@ -1,0 +1,1576 @@
+{
+  "page": {
+    "object": "page",
+    "id": "4388241a-cf63-40d8-9010-4b8553cef36b",
+    "created_time": "2021-04-24T16:20:00.000Z",
+    "last_edited_time": "2025-01-11T13:42:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "cover": {
+      "type": "external",
+      "external": {
+        "url": "https://res.cloudinary.com/dft5dlcya/image/upload/v1676801240/limosyn.com/blog/images/4388241a-cf63-40d8-9010-4b8553cef36b/vpilo1npej8hxbchgsei.jpg"
+      }
+    },
+    "icon": {
+      "type": "external",
+      "external": {
+        "url": "https://res.cloudinary.com/dft5dlcya/image/upload/v1736602815/limosyn.com/blog/svgs/blogging_sqjiu4.png"
+      }
+    },
+    "parent": {
+      "type": "database_id",
+      "database_id": "a07d5f44-fc6a-4251-88a9-b2c21743a868"
+    },
+    "archived": false,
+    "in_trash": false,
+    "is_locked": false,
+    "properties": {
+      "pTags": {
+        "id": "%3AbqM",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "b0b28777-1e49-4f75-b031-6f094ba87c1e"
+          }
+        ],
+        "has_more": false
+      },
+      "published": {
+        "id": "%3E%60Ov",
+        "type": "checkbox",
+        "checkbox": true
+      },
+      "tags": {
+        "id": "GE%3CU",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "Dev Tools, APIs, Testing"
+        }
+      },
+      "description": {
+        "id": "L%5D%3AA",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Let's discuss about the new API testing extension for VS Code. If your workflow involves basic API calls and you are forced to deal with overkill API testing apps such as Postman, this extension might be just for you",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Let's discuss about the new API testing extension for VS Code. If your workflow involves basic API calls and you are forced to deal with overkill API testing apps such as Postman, this extension might be just for you",
+            "href": null
+          }
+        ]
+      },
+      "date": {
+        "id": "NW%7Cq",
+        "type": "date",
+        "date": {
+          "start": "2021-06-15",
+          "end": null,
+          "time_zone": null
+        }
+      },
+      "type": {
+        "id": "OtM%60",
+        "type": "select",
+        "select": {
+          "id": "25b5617b-7f7a-4586-8d8d-bc044e889cdc",
+          "name": "Shorts",
+          "color": "red"
+        }
+      },
+      "sTags": {
+        "id": "UmF%3F",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "110d27d6-506f-4059-a036-3c479470d56a"
+          },
+          {
+            "id": "b38a65c6-c51d-45af-8bcd-7b1f6998835d"
+          }
+        ],
+        "has_more": false
+      },
+      "link": {
+        "id": "%5Ds%3CH",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "https://www.limosyn.com/posts/say-goodbye-to-postman-hi-thunderclient"
+        }
+      },
+      "stage": {
+        "id": "fqs%40",
+        "type": "select",
+        "select": {
+          "id": "258ea408-d15a-42ee-9219-5534dde4176c",
+          "name": "Published",
+          "color": "green"
+        }
+      },
+      "created": {
+        "id": "k_jR",
+        "type": "created_time",
+        "created_time": "2021-04-24T16:20:00.000Z"
+      },
+      "slug": {
+        "id": "pTHT",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "say-goodbye-to-postman-hi-thunderclient",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "say-goodbye-to-postman-hi-thunderclient",
+            "href": null
+          }
+        ]
+      },
+      "title": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Say Goodbye to Postman, Insomnia! Hi Thunder Client!",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Say Goodbye to Postman, Insomnia! Hi Thunder Client!",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Say-Goodbye-to-Postman-Insomnia-Hi-Thunder-Client-4388241acf6340d890104b8553cef36b",
+    "public_url": null,
+    "request_id": "4945945a-5b68-44e4-b3b7-a72dcdf530dc"
+  },
+  "blocks": [
+    {
+      "object": "block",
+      "id": "1a95f59f-f04f-4b54-b018-f21a8c6c57f4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "4388241a-cf63-40d8-9010-4b8553cef36b"
+      },
+      "created_time": "2022-10-18T13:28:00.000Z",
+      "last_edited_time": "2022-10-18T13:28:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "If you are a developer, chances are you have integrated/developed an API (Application Programming Interface) call in your application as it is the De Facto cross-platform communication protocol.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "If you are a developer, chances are you have integrated/developed an API (Application Programming Interface) call in your application as it is the De Facto cross-platform communication protocol.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "6f6fbf27-c39f-4eec-9265-67d9b93d4459",
+      "parent": {
+        "type": "page_id",
+        "page_id": "4388241a-cf63-40d8-9010-4b8553cef36b"
+      },
+      "created_time": "2022-10-18T13:28:00.000Z",
+      "last_edited_time": "2022-10-18T13:28:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "For testing out these APIs in our local machines, people use multiple applications such as Insomnia, Swagger, Postman, etc. For most of us, installing a whole new application just for making basic API calls is a hassle.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "For testing out these APIs in our local machines, people use multiple applications such as Insomnia, Swagger, Postman, etc. For most of us, installing a whole new application just for making basic API calls is a hassle.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "5d5ae5d1-2193-4949-a0ed-0e8bc9ef0c59",
+      "parent": {
+        "type": "page_id",
+        "page_id": "4388241a-cf63-40d8-9010-4b8553cef36b"
+      },
+      "created_time": "2022-10-18T13:28:00.000Z",
+      "last_edited_time": "2022-10-18T13:28:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Well.. no more! Welcome Thunder Client⚡",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Well.. no more! Welcome Thunder Client⚡",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "46171763-dc7e-4623-9f6c-8074ecb275be",
+      "parent": {
+        "type": "page_id",
+        "page_id": "4388241a-cf63-40d8-9010-4b8553cef36b"
+      },
+      "created_time": "2022-10-18T13:28:00.000Z",
+      "last_edited_time": "2022-10-18T13:28:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "What is Thunder Client?",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "What is Thunder Client?",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "3e713845-9dbc-47ed-b1ac-c29d51554083",
+      "parent": {
+        "type": "page_id",
+        "page_id": "4388241a-cf63-40d8-9010-4b8553cef36b"
+      },
+      "created_time": "2022-10-18T13:28:00.000Z",
+      "last_edited_time": "2022-10-18T13:28:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Thunder Client is a VS Code extension developed by ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Thunder Client is a VS Code extension developed by ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "Ranga Vadhineni",
+              "link": {
+                "url": "https://twitter.com/ranga_vadhineni"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Ranga Vadhineni",
+            "href": "https://twitter.com/ranga_vadhineni"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " that can be used to -",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " that can be used to -",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "aea7a505-863f-4687-bd26-1be7add53635",
+      "parent": {
+        "type": "page_id",
+        "page_id": "4388241a-cf63-40d8-9010-4b8553cef36b"
+      },
+      "created_time": "2022-10-18T13:28:00.000Z",
+      "last_edited_time": "2022-10-18T13:28:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Make Basic API calls",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Make Basic API calls",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " - By Basic, I mean simple REST calls (with authentication)to a URL along with a payload. Almost 99% of users are content with only this functionality.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " - By Basic, I mean simple REST calls (with authentication)to a URL along with a payload. Almost 99% of users are content with only this functionality.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "bf377be3-f2a7-4381-b282-e3cf95e843bc",
+      "parent": {
+        "type": "page_id",
+        "page_id": "4388241a-cf63-40d8-9010-4b8553cef36b"
+      },
+      "created_time": "2022-10-18T13:28:00.000Z",
+      "last_edited_time": "2022-10-18T13:28:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Check Response Stats",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Check Response Stats",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " - Thunder Client supports adding standard tests such as response code checker, response time, response type, etc. These features are priceless for quick prototyping.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " - Thunder Client supports adding standard tests such as response code checker, response time, response type, etc. These features are priceless for quick prototyping.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "e7bc957b-9da8-47ff-b947-9f14635708dd",
+      "parent": {
+        "type": "page_id",
+        "page_id": "4388241a-cf63-40d8-9010-4b8553cef36b"
+      },
+      "created_time": "2022-10-18T13:28:00.000Z",
+      "last_edited_time": "2022-10-18T13:30:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Sharing API Requests",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Sharing API Requests",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " - Like Postman and Insomnia, Thunder Client allows you to share created request collections with your team members.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " - Like Postman and Insomnia, Thunder Client allows you to share created request collections with your team members.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "addd0df4-9e37-4da2-8a8d-ae1326357a2f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "4388241a-cf63-40d8-9010-4b8553cef36b"
+      },
+      "created_time": "2022-10-18T13:30:00.000Z",
+      "last_edited_time": "2025-07-09T06:48:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "a4068c47-5552-4ad3-a1be-6f8115fdb73d"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "link_preview",
+      "link_preview": {
+        "url": "https://github.com/rangav/thunder-client-support"
+      }
+    },
+    {
+      "object": "block",
+      "id": "0c9197f3-9fcf-4b3a-a37e-ddab477b281b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "4388241a-cf63-40d8-9010-4b8553cef36b"
+      },
+      "created_time": "2022-10-18T13:31:00.000Z",
+      "last_edited_time": "2022-10-18T13:31:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Where can you get TC?",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Where can you get TC?",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "026aa7c0-7d12-4982-9d2a-ebfb571f3249",
+      "parent": {
+        "type": "page_id",
+        "page_id": "4388241a-cf63-40d8-9010-4b8553cef36b"
+      },
+      "created_time": "2022-10-18T13:31:00.000Z",
+      "last_edited_time": "2022-10-18T13:31:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Make sure you are using VS Code as your Code Editor, then download this extension from the Official Microsoft VS Code extension store -",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Make sure you are using VS Code as your Code Editor, then download this extension from the Official Microsoft VS Code extension store -",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "aefa9d91-056f-4c1a-ab03-704622aa61fc",
+      "parent": {
+        "type": "page_id",
+        "page_id": "4388241a-cf63-40d8-9010-4b8553cef36b"
+      },
+      "created_time": "2022-10-18T13:31:00.000Z",
+      "last_edited_time": "2022-10-18T13:31:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bookmark",
+      "bookmark": {
+        "caption": [],
+        "url": "https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client"
+      }
+    },
+    {
+      "object": "block",
+      "id": "ac6ecac0-9d9a-40f6-8e9a-306de8f5a764",
+      "parent": {
+        "type": "page_id",
+        "page_id": "4388241a-cf63-40d8-9010-4b8553cef36b"
+      },
+      "created_time": "2022-10-18T13:31:00.000Z",
+      "last_edited_time": "2022-10-18T13:31:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Here's a great video on Thunder Client set up and use.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Here's a great video on Thunder Client set up and use.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "9044ae0d-3184-4458-a119-4ae370ad2040",
+      "parent": {
+        "type": "page_id",
+        "page_id": "4388241a-cf63-40d8-9010-4b8553cef36b"
+      },
+      "created_time": "2022-10-18T13:31:00.000Z",
+      "last_edited_time": "2022-10-18T13:31:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "video",
+      "video": {
+        "caption": [],
+        "type": "external",
+        "external": {
+          "url": "https://youtu.be/NKZ0ahNbmak"
+        }
+      }
+    },
+    {
+      "object": "block",
+      "id": "16b5cdf5-8259-4da4-83c7-44a4733c926a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "4388241a-cf63-40d8-9010-4b8553cef36b"
+      },
+      "created_time": "2022-10-18T13:31:00.000Z",
+      "last_edited_time": "2022-10-18T13:31:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Features offered",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Features offered",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "c4a19df5-2b15-4fde-bc85-830f8beeeda7",
+      "parent": {
+        "type": "page_id",
+        "page_id": "4388241a-cf63-40d8-9010-4b8553cef36b"
+      },
+      "created_time": "2022-10-18T13:31:00.000Z",
+      "last_edited_time": "2022-10-18T13:31:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "According to the author, TC currently provides the following features -",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "According to the author, TC currently provides the following features -",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "e0b58564-cb0c-452f-891e-cc20092b08a9",
+      "parent": {
+        "type": "page_id",
+        "page_id": "4388241a-cf63-40d8-9010-4b8553cef36b"
+      },
+      "created_time": "2022-10-18T13:31:00.000Z",
+      "last_edited_time": "2022-10-18T13:31:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The Response data supports ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The Response data supports ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "syntax highlighting using ACE Editor,",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "syntax highlighting using ACE Editor,",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " which can handle large responses easily; you can also view responses in ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " which can handle large responses easily; you can also view responses in ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "Full Screen",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Full Screen",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "29ca7204-4b1c-446d-a685-5c6d22a0be36",
+      "parent": {
+        "type": "page_id",
+        "page_id": "4388241a-cf63-40d8-9010-4b8553cef36b"
+      },
+      "created_time": "2022-10-18T13:31:00.000Z",
+      "last_edited_time": "2022-10-18T13:31:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "History, Collections, and Environment",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "History, Collections, and Environment",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " Tabs in the Action Bar View for quick access.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " Tabs in the Action Bar View for quick access.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "66895b51-4292-4dea-bfb3-aa93fb088644",
+      "parent": {
+        "type": "page_id",
+        "page_id": "4388241a-cf63-40d8-9010-4b8553cef36b"
+      },
+      "created_time": "2022-10-18T13:31:00.000Z",
+      "last_edited_time": "2022-10-18T13:31:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Authentication:",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Authentication:",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " Basic Auth, Bearer Token, and OAuth 2.0 are supported.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " Basic Auth, Bearer Token, and OAuth 2.0 are supported.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1ab3061a-402f-4109-9e90-848e33936483",
+      "parent": {
+        "type": "page_id",
+        "page_id": "4388241a-cf63-40d8-9010-4b8553cef36b"
+      },
+      "created_time": "2022-10-18T13:31:00.000Z",
+      "last_edited_time": "2022-10-18T13:31:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Headers:",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Headers:",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " You can send HTTP headers to test API with ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " You can send HTTP headers to test API with ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "auto-complete",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "auto-complete",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " support.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " support.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "18c2b947-46f2-4b13-b168-0ab5d64351e4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "4388241a-cf63-40d8-9010-4b8553cef36b"
+      },
+      "created_time": "2022-10-18T13:31:00.000Z",
+      "last_edited_time": "2022-10-18T13:31:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Graphql:",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Graphql:",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " Send Graphql Query & Variables has syntax highlighting support.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " Send Graphql Query & Variables has syntax highlighting support.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "7d91dc78-ac43-40d8-89e1-5d40dd06446e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "4388241a-cf63-40d8-9010-4b8553cef36b"
+      },
+      "created_time": "2022-10-18T13:31:00.000Z",
+      "last_edited_time": "2022-10-18T13:31:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Environment Variables:",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Environment Variables:",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " Syntax highlighting support for environment variables use {variable} syntax in most fields",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " Syntax highlighting support for environment variables use {variable} syntax in most fields",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "08137023-8ee9-4507-87ef-0f039f93312c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "4388241a-cf63-40d8-9010-4b8553cef36b"
+      },
+      "created_time": "2022-10-18T13:31:00.000Z",
+      "last_edited_time": "2022-10-18T13:31:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Themes:",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Themes:",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " The extension also supports VS Code themes.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " The extension also supports VS Code themes.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "54211518-157e-4485-abf0-df2e7ec0b8e2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "4388241a-cf63-40d8-9010-4b8553cef36b"
+      },
+      "created_time": "2022-10-18T13:31:00.000Z",
+      "last_edited_time": "2022-10-18T13:31:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Request Runner",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Request Runner",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": Run a Collection of requests at once",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": Run a Collection of requests at once",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "7f46ccfc-f542-4b4d-b836-91ba58c38330",
+      "parent": {
+        "type": "page_id",
+        "page_id": "4388241a-cf63-40d8-9010-4b8553cef36b"
+      },
+      "created_time": "2022-10-18T13:31:00.000Z",
+      "last_edited_time": "2022-10-18T13:31:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Final Thoughts...",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Final Thoughts...",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2484e443-59a5-44ca-9136-213587d6d15f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "4388241a-cf63-40d8-9010-4b8553cef36b"
+      },
+      "created_time": "2022-10-18T13:31:00.000Z",
+      "last_edited_time": "2022-10-18T13:31:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Don't get me wrong.  I am in no way implying that you should stop using dedicated API testing software. For comprehensive testing suites and advanced scripting, you will still need to use Postman. But if you are looking for a lightweight solution, then Thunder Client seems like a good option. The extension's author is quite active and has since added many features to the extension.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Don't get me wrong.  I am in no way implying that you should stop using dedicated API testing software. For comprehensive testing suites and advanced scripting, you will still need to use Postman. But if you are looking for a lightweight solution, then Thunder Client seems like a good option. The extension's author is quite active and has since added many features to the extension.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    }
+  ],
+  "lastModified": "2025-01-11T13:42:00.000Z",
+  "cachedAt": 1765630617665
+}

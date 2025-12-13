@@ -1,0 +1,1541 @@
+{
+  "page": {
+    "object": "page",
+    "id": "488c47c4-9ca6-465a-a93b-d95fb7417a3c",
+    "created_time": "2021-07-04T04:58:00.000Z",
+    "last_edited_time": "2025-01-11T18:16:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "cover": {
+      "type": "external",
+      "external": {
+        "url": "https://res.cloudinary.com/dft5dlcya/image/upload/v1676801105/limosyn.com/blog/images/488c47c4-9ca6-465a-a93b-d95fb7417a3c/fkzs9yjl0kskd92tz37o.jpg"
+      }
+    },
+    "icon": {
+      "type": "external",
+      "external": {
+        "url": "https://res.cloudinary.com/dft5dlcya/image/upload/v1736602815/limosyn.com/blog/svgs/blogging_sqjiu4.png"
+      }
+    },
+    "parent": {
+      "type": "database_id",
+      "database_id": "a07d5f44-fc6a-4251-88a9-b2c21743a868"
+    },
+    "archived": false,
+    "in_trash": false,
+    "is_locked": false,
+    "properties": {
+      "pTags": {
+        "id": "%3AbqM",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "7c8674ef-4266-4f1f-84db-8932c423b52e"
+          }
+        ],
+        "has_more": false
+      },
+      "published": {
+        "id": "%3E%60Ov",
+        "type": "checkbox",
+        "checkbox": true
+      },
+      "tags": {
+        "id": "GE%3CU",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "DevOps, Docker, Linux"
+        }
+      },
+      "description": {
+        "id": "L%5D%3AA",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Docker is an awesome tool for deploying your application to a different platform. In this article, let us install the Docker Community Edition on our local machines for testing this deployment",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Docker is an awesome tool for deploying your application to a different platform. In this article, let us install the Docker Community Edition on our local machines for testing this deployment",
+            "href": null
+          }
+        ]
+      },
+      "date": {
+        "id": "NW%7Cq",
+        "type": "date",
+        "date": {
+          "start": "2021-03-21",
+          "end": null,
+          "time_zone": null
+        }
+      },
+      "type": {
+        "id": "OtM%60",
+        "type": "select",
+        "select": {
+          "id": "25b5617b-7f7a-4586-8d8d-bc044e889cdc",
+          "name": "Shorts",
+          "color": "red"
+        }
+      },
+      "sTags": {
+        "id": "UmF%3F",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "32da0a71-2874-40ce-95f1-98b429ce4ee7"
+          },
+          {
+            "id": "eac4ed5a-256d-4284-898d-1d8b36f65b8b"
+          }
+        ],
+        "has_more": false
+      },
+      "link": {
+        "id": "%5Ds%3CH",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "https://www.limosyn.com/posts/installing-docker-on-linux-systems"
+        }
+      },
+      "stage": {
+        "id": "fqs%40",
+        "type": "select",
+        "select": {
+          "id": "258ea408-d15a-42ee-9219-5534dde4176c",
+          "name": "Published",
+          "color": "green"
+        }
+      },
+      "created": {
+        "id": "k_jR",
+        "type": "created_time",
+        "created_time": "2021-07-04T04:58:00.000Z"
+      },
+      "slug": {
+        "id": "pTHT",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "installing-docker-on-linux-systems",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "installing-docker-on-linux-systems",
+            "href": null
+          }
+        ]
+      },
+      "title": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Installing Docker on Linux Systems (Ubuntu)",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Installing Docker on Linux Systems (Ubuntu)",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Installing-Docker-on-Linux-Systems-Ubuntu-488c47c49ca6465aa93bd95fb7417a3c",
+    "public_url": null,
+    "request_id": "0c1fad07-6fdc-4c9f-9215-f4df80acf4b5"
+  },
+  "blocks": [
+    {
+      "object": "block",
+      "id": "3ca246b1-4905-4dbd-9047-ecfe61ca6d75",
+      "parent": {
+        "type": "page_id",
+        "page_id": "488c47c4-9ca6-465a-a93b-d95fb7417a3c"
+      },
+      "created_time": "2022-10-16T16:53:00.000Z",
+      "last_edited_time": "2022-10-16T16:53:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bookmark",
+      "bookmark": {
+        "caption": [],
+        "url": "https://docs.docker.com/engine/install/ubuntu/"
+      }
+    },
+    {
+      "object": "block",
+      "id": "eb8f98bc-df92-4cfb-be77-e1dc70b09b3a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "488c47c4-9ca6-465a-a93b-d95fb7417a3c"
+      },
+      "created_time": "2022-10-16T16:51:00.000Z",
+      "last_edited_time": "2022-10-16T16:53:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "This guide is mainly to install Docker CE. Also in case you want to install multiple versions of Docker, better follow the official guide ⬆.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "This guide is mainly to install Docker CE. Also in case you want to install multiple versions of Docker, better follow the official guide ⬆.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "01ebad9e-a1b3-4b47-9a22-2c9c3bffcdb0",
+      "parent": {
+        "type": "page_id",
+        "page_id": "488c47c4-9ca6-465a-a93b-d95fb7417a3c"
+      },
+      "created_time": "2022-10-16T16:51:00.000Z",
+      "last_edited_time": "2022-10-16T16:51:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Uninstall the Old Version",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Uninstall the Old Version",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "d95ca1c6-a189-47e1-bc25-05aaa918394d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "488c47c4-9ca6-465a-a93b-d95fb7417a3c"
+      },
+      "created_time": "2022-10-16T16:51:00.000Z",
+      "last_edited_time": "2022-10-16T16:51:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Make sure you don't have any other version already installed on the machine.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Make sure you don't have any other version already installed on the machine.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "7d9a6250-a43b-4c65-893e-d0e5c6e68e2a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "488c47c4-9ca6-465a-a93b-d95fb7417a3c"
+      },
+      "created_time": "2022-10-16T16:53:00.000Z",
+      "last_edited_time": "2022-10-16T16:53:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "sudo apt-get remove docker docker-engine docker.io containerd runc",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "sudo apt-get remove docker docker-engine docker.io containerd runc",
+            "href": null
+          }
+        ],
+        "language": "shell"
+      }
+    },
+    {
+      "object": "block",
+      "id": "ad30c70d-3073-4e96-a008-d1649be33aee",
+      "parent": {
+        "type": "page_id",
+        "page_id": "488c47c4-9ca6-465a-a93b-d95fb7417a3c"
+      },
+      "created_time": "2022-10-16T16:51:00.000Z",
+      "last_edited_time": "2022-10-16T16:51:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Adding docker Official Repository to APT index",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Adding docker Official Repository to APT index",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "7166932a-ed94-4e64-b7d3-df4b4c906a58",
+      "parent": {
+        "type": "page_id",
+        "page_id": "488c47c4-9ca6-465a-a93b-d95fb7417a3c"
+      },
+      "created_time": "2022-10-16T16:51:00.000Z",
+      "last_edited_time": "2022-10-16T16:54:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "By default, ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "By default, ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "apt",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "apt",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " does not support Docker to be installed/updated since ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " does not support Docker to be installed/updated since ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "apt",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "apt",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " is not aware of the official Docker Repository. In order to add the same.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " is not aware of the official Docker Repository. In order to add the same.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "eb337473-f0f7-4101-813a-01e9ef92fd05",
+      "parent": {
+        "type": "page_id",
+        "page_id": "488c47c4-9ca6-465a-a93b-d95fb7417a3c"
+      },
+      "created_time": "2022-10-16T16:54:00.000Z",
+      "last_edited_time": "2025-01-11T18:15:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "First, Update ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "First, Update ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "apt",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "apt",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " package index.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " package index.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "f8bcc7a5-db50-477e-8af4-4e7561e5dfd0",
+      "parent": {
+        "type": "page_id",
+        "page_id": "488c47c4-9ca6-465a-a93b-d95fb7417a3c"
+      },
+      "created_time": "2022-10-16T16:54:00.000Z",
+      "last_edited_time": "2025-01-11T18:15:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "sudo apt-get update && sudo apt-get install apt-transport-https ca-certificates curl gnupg lsb-release",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "sudo apt-get update && sudo apt-get install apt-transport-https ca-certificates curl gnupg lsb-release",
+            "href": null
+          }
+        ],
+        "language": "shell"
+      }
+    },
+    {
+      "object": "block",
+      "id": "fc7cb2d7-9bd9-4883-8cd3-f92bf2200053",
+      "parent": {
+        "type": "page_id",
+        "page_id": "488c47c4-9ca6-465a-a93b-d95fb7417a3c"
+      },
+      "created_time": "2022-10-16T16:54:00.000Z",
+      "last_edited_time": "2025-01-11T18:15:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Add Docker’s official GPG key:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Add Docker’s official GPG key:",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "e45fd938-564b-4b8c-97b3-c2cbdb9dcfaa",
+      "parent": {
+        "type": "page_id",
+        "page_id": "488c47c4-9ca6-465a-a93b-d95fb7417a3c"
+      },
+      "created_time": "2022-10-16T16:54:00.000Z",
+      "last_edited_time": "2025-01-11T18:15:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg",
+            "href": null
+          }
+        ],
+        "language": "shell"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2a33254e-b474-4441-b0c3-cb9e1cb9b70d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "488c47c4-9ca6-465a-a93b-d95fb7417a3c"
+      },
+      "created_time": "2022-10-16T16:54:00.000Z",
+      "last_edited_time": "2025-01-11T18:15:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Set up a stable repository.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Set up a stable repository.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "4d302e89-6712-4944-9c14-52ce72b6e58d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "488c47c4-9ca6-465a-a93b-d95fb7417a3c"
+      },
+      "created_time": "2022-10-16T16:55:00.000Z",
+      "last_edited_time": "2025-01-11T18:15:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "echo \"deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu \\\n  $(lsb_release -cs) stable\" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "echo \"deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu \\\n  $(lsb_release -cs) stable\" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null",
+            "href": null
+          }
+        ],
+        "language": "shell"
+      }
+    },
+    {
+      "object": "block",
+      "id": "b1c4eebc-4389-4dbe-85a8-34331dc31520",
+      "parent": {
+        "type": "page_id",
+        "page_id": "488c47c4-9ca6-465a-a93b-d95fb7417a3c"
+      },
+      "created_time": "2022-10-16T16:51:00.000Z",
+      "last_edited_time": "2025-01-11T18:15:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Installing Docker-Engine",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Installing Docker-Engine",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "85c0b812-a7b4-4a72-b4c1-bb1be3c39683",
+      "parent": {
+        "type": "page_id",
+        "page_id": "488c47c4-9ca6-465a-a93b-d95fb7417a3c"
+      },
+      "created_time": "2022-10-16T16:55:00.000Z",
+      "last_edited_time": "2025-01-11T18:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Update ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Update ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "apt",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "apt",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " index to latest and install ?Docker Engine",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " index to latest and install ?Docker Engine",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "42e49805-765a-4f3e-bde7-e77846859848",
+      "parent": {
+        "type": "page_id",
+        "page_id": "488c47c4-9ca6-465a-a93b-d95fb7417a3c"
+      },
+      "created_time": "2022-10-16T16:55:00.000Z",
+      "last_edited_time": "2025-01-11T18:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "sudo apt-get update && sudo apt-get install docker-ce docker-ce-cli containerd.io",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "sudo apt-get update && sudo apt-get install docker-ce docker-ce-cli containerd.io",
+            "href": null
+          }
+        ],
+        "language": "shell"
+      }
+    },
+    {
+      "object": "block",
+      "id": "4d1d19ac-841f-4204-af4b-8290b027fbdf",
+      "parent": {
+        "type": "page_id",
+        "page_id": "488c47c4-9ca6-465a-a93b-d95fb7417a3c"
+      },
+      "created_time": "2022-10-16T16:55:00.000Z",
+      "last_edited_time": "2025-01-11T18:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "You should now have Docker installed in your machine.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "You should now have Docker installed in your machine.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "541ace6d-b0a6-4667-9a4f-af7f744ad4b6",
+      "parent": {
+        "type": "page_id",
+        "page_id": "488c47c4-9ca6-465a-a93b-d95fb7417a3c"
+      },
+      "created_time": "2022-10-16T16:51:00.000Z",
+      "last_edited_time": "2025-01-11T18:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "To check the same.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "To check the same.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "ebe51b7b-2686-4531-ba84-21dbd8a56085",
+      "parent": {
+        "type": "page_id",
+        "page_id": "488c47c4-9ca6-465a-a93b-d95fb7417a3c"
+      },
+      "created_time": "2022-10-16T16:55:00.000Z",
+      "last_edited_time": "2025-01-11T18:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "sudo docker run hello-world",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "sudo docker run hello-world",
+            "href": null
+          }
+        ],
+        "language": "shell"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2162d650-aa1b-4834-b5db-42c97a950b0d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "488c47c4-9ca6-465a-a93b-d95fb7417a3c"
+      },
+      "created_time": "2022-10-16T16:51:00.000Z",
+      "last_edited_time": "2022-10-16T16:51:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "You should now get a response like:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "You should now get a response like:",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "dcbec0d2-a1df-4276-a896-6ad5539956fc",
+      "parent": {
+        "type": "page_id",
+        "page_id": "488c47c4-9ca6-465a-a93b-d95fb7417a3c"
+      },
+      "created_time": "2022-10-16T16:56:00.000Z",
+      "last_edited_time": "2025-01-11T18:12:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "image",
+      "image": {
+        "caption": [],
+        "type": "external",
+        "external": {
+          "url": "https://res.cloudinary.com/dft5dlcya/image/upload/v1676801113/limosyn.com/blog/images/488c47c4-9ca6-465a-a93b-d95fb7417a3c/verydx3xkg8ciqnyfiky.png"
+        }
+      }
+    },
+    {
+      "object": "block",
+      "id": "24e43f99-7b03-4c25-b472-5538e05d0e60",
+      "parent": {
+        "type": "page_id",
+        "page_id": "488c47c4-9ca6-465a-a93b-d95fb7417a3c"
+      },
+      "created_time": "2022-10-16T16:51:00.000Z",
+      "last_edited_time": "2022-10-16T16:51:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "⭐ You might have observed that we used ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "⭐ You might have observed that we used ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "sudo",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "sudo",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " along with ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " along with ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "docker run",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "docker run",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " to deploy our image to container. This is because no user has been yet added to our Docker group.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " to deploy our image to container. This is because no user has been yet added to our Docker group.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "6d0ec21b-b9f1-4058-b8ad-82d738282b84",
+      "parent": {
+        "type": "page_id",
+        "page_id": "488c47c4-9ca6-465a-a93b-d95fb7417a3c"
+      },
+      "created_time": "2022-10-16T16:51:00.000Z",
+      "last_edited_time": "2022-10-16T16:51:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Add Current User to Docker Group",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Add Current User to Docker Group",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "da9fdbf4-d9ec-477b-9d68-b63c2e0ff0d1",
+      "parent": {
+        "type": "page_id",
+        "page_id": "488c47c4-9ca6-465a-a93b-d95fb7417a3c"
+      },
+      "created_time": "2022-10-16T16:51:00.000Z",
+      "last_edited_time": "2022-10-16T16:56:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Execute the below command to do so:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Execute the below command to do so:",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "162fe168-c3d6-4ff8-93a0-0eae1da1da8b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "488c47c4-9ca6-465a-a93b-d95fb7417a3c"
+      },
+      "created_time": "2022-10-16T16:56:00.000Z",
+      "last_edited_time": "2022-10-16T16:56:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "usermod -a -G docker $USER",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "usermod -a -G docker $USER",
+            "href": null
+          }
+        ],
+        "language": "shell"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1f99a755-c80c-4f2f-9036-068b89a53f5b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "488c47c4-9ca6-465a-a93b-d95fb7417a3c"
+      },
+      "created_time": "2022-10-16T16:51:00.000Z",
+      "last_edited_time": "2022-10-16T16:51:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "⚠ You need to restart the machine (log out & log back in) for the changes to take effect.",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "⚠ You need to restart the machine (log out & log back in) for the changes to take effect.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "8880b5fb-60bf-44a2-96c5-37a718de2ab4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "488c47c4-9ca6-465a-a93b-d95fb7417a3c"
+      },
+      "created_time": "2022-10-16T16:56:00.000Z",
+      "last_edited_time": "2022-10-16T16:56:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    }
+  ],
+  "lastModified": "2025-01-11T18:16:00.000Z",
+  "cachedAt": 1765630621524
+}

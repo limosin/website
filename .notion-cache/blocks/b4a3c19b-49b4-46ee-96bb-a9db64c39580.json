@@ -1,0 +1,578 @@
+[
+  {
+    "object": "block",
+    "id": "9abb5e3b-3f84-4903-88a8-399b741e8452",
+    "parent": {
+      "type": "block_id",
+      "block_id": "b4a3c19b-49b4-46ee-96bb-a9db64c39580"
+    },
+    "created_time": "2022-10-19T13:13:00.000Z",
+    "last_edited_time": "2022-10-19T13:13:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "table_row",
+    "table_row": {
+      "cells": [
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "CLASS",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "CLASS",
+            "href": null
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "IST OCTET DECIMAL RANGE",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "IST OCTET DECIMAL RANGE",
+            "href": null
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "NETWORK/HOST ID",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "NETWORK/HOST ID",
+            "href": null
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "DEFAULT SUBNET MASK",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "DEFAULT SUBNET MASK",
+            "href": null
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "object": "block",
+    "id": "49a43697-8438-4032-aab3-0cefa24015ae",
+    "parent": {
+      "type": "block_id",
+      "block_id": "b4a3c19b-49b4-46ee-96bb-a9db64c39580"
+    },
+    "created_time": "2022-10-19T13:13:00.000Z",
+    "last_edited_time": "2022-10-19T13:13:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "table_row",
+    "table_row": {
+      "cells": [
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "A",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "A",
+            "href": null
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "1 to 126",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "1 to 126",
+            "href": null
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "N.H.H.H",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "N.H.H.H",
+            "href": null
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "255.0.0.0",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "255.0.0.0",
+            "href": null
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "object": "block",
+    "id": "6321c6e4-ca2a-44c8-a6c0-7394ed71227a",
+    "parent": {
+      "type": "block_id",
+      "block_id": "b4a3c19b-49b4-46ee-96bb-a9db64c39580"
+    },
+    "created_time": "2022-10-19T13:13:00.000Z",
+    "last_edited_time": "2022-10-19T13:13:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "table_row",
+    "table_row": {
+      "cells": [
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "B",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "B",
+            "href": null
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "128 to 191",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "128 to 191",
+            "href": null
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "N.N.H.H",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "N.N.H.H",
+            "href": null
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "255.255.0.0",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "255.255.0.0",
+            "href": null
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "object": "block",
+    "id": "61608904-495a-4fc1-9fb1-a5f72107761f",
+    "parent": {
+      "type": "block_id",
+      "block_id": "b4a3c19b-49b4-46ee-96bb-a9db64c39580"
+    },
+    "created_time": "2022-10-19T13:13:00.000Z",
+    "last_edited_time": "2022-10-19T13:13:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "table_row",
+    "table_row": {
+      "cells": [
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "C",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "C",
+            "href": null
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "192 to 223",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "192 to 223",
+            "href": null
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "N.N.N.H",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "N.N.N.H",
+            "href": null
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "255.255.255.0",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "255.255.255.0",
+            "href": null
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "object": "block",
+    "id": "75d6a2d2-b5b4-4836-8101-aba69f5ede01",
+    "parent": {
+      "type": "block_id",
+      "block_id": "b4a3c19b-49b4-46ee-96bb-a9db64c39580"
+    },
+    "created_time": "2022-10-19T13:13:00.000Z",
+    "last_edited_time": "2022-10-19T13:13:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "table_row",
+    "table_row": {
+      "cells": [
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "D",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "D",
+            "href": null
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "224 to 239",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "224 to 239",
+            "href": null
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "Reserved for Multicasting",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Reserved for Multicasting",
+            "href": null
+          }
+        ],
+        []
+      ]
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ebd6b63-7195-43e2-83ce-b6a048190636",
+    "parent": {
+      "type": "block_id",
+      "block_id": "b4a3c19b-49b4-46ee-96bb-a9db64c39580"
+    },
+    "created_time": "2022-10-19T13:13:00.000Z",
+    "last_edited_time": "2022-10-19T13:13:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "table_row",
+    "table_row": {
+      "cells": [
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "E",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "E",
+            "href": null
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "240 to 254",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "240 to 254",
+            "href": null
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": {
+              "content": "Experimental",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Experimental",
+            "href": null
+          }
+        ],
+        []
+      ]
+    }
+  }
+]

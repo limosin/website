@@ -1,0 +1,6135 @@
+{
+  "page": {
+    "object": "page",
+    "id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7",
+    "created_time": "2022-10-18T17:03:00.000Z",
+    "last_edited_time": "2025-11-05T08:48:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "cover": {
+      "type": "external",
+      "external": {
+        "url": "https://res.cloudinary.com/dft5dlcya/image/upload/v1676800949/limosyn.com/blog/images/8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7/xllnfaxsrbt2knbjbqmc.jpg"
+      }
+    },
+    "icon": {
+      "type": "external",
+      "external": {
+        "url": "https://res.cloudinary.com/dft5dlcya/image/upload/v1736602815/limosyn.com/blog/svgs/blogging_sqjiu4.png"
+      }
+    },
+    "parent": {
+      "type": "database_id",
+      "database_id": "a07d5f44-fc6a-4251-88a9-b2c21743a868"
+    },
+    "archived": false,
+    "in_trash": false,
+    "is_locked": false,
+    "properties": {
+      "pTags": {
+        "id": "%3AbqM",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "610d74c2-b3f1-4891-bd91-fd6af8a06f3c"
+          },
+          {
+            "id": "8ba2b82a-3c75-4a71-bc7f-13f1bb9efec3"
+          }
+        ],
+        "has_more": false
+      },
+      "published": {
+        "id": "%3E%60Ov",
+        "type": "checkbox",
+        "checkbox": true
+      },
+      "tags": {
+        "id": "GE%3CU",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "Software Dev, CS Core, Networks"
+        }
+      },
+      "description": {
+        "id": "L%5D%3AA",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "In this post, let's discuss some basic concepts of Computer Networks that every Software Engineer from any domain should know.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "In this post, let's discuss some basic concepts of Computer Networks that every Software Engineer from any domain should know.",
+            "href": null
+          }
+        ]
+      },
+      "date": {
+        "id": "NW%7Cq",
+        "type": "date",
+        "date": {
+          "start": "2022-01-01",
+          "end": null,
+          "time_zone": null
+        }
+      },
+      "type": {
+        "id": "OtM%60",
+        "type": "select",
+        "select": {
+          "id": "742cd4b7-4726-4ba9-ac72-6f14d35bfd8d",
+          "name": "Article",
+          "color": "blue"
+        }
+      },
+      "sTags": {
+        "id": "UmF%3F",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "1500aba3-1e18-4723-952f-fc6a1244093d"
+          }
+        ],
+        "has_more": false
+      },
+      "link": {
+        "id": "%5Ds%3CH",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "https://www.limosyn.com/posts/computer-networks-beginners-guide"
+        }
+      },
+      "stage": {
+        "id": "fqs%40",
+        "type": "select",
+        "select": {
+          "id": "258ea408-d15a-42ee-9219-5534dde4176c",
+          "name": "Published",
+          "color": "green"
+        }
+      },
+      "created": {
+        "id": "k_jR",
+        "type": "created_time",
+        "created_time": "2022-10-18T17:03:00.000Z"
+      },
+      "slug": {
+        "id": "pTHT",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "computer-networks-beginners-guide",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "computer-networks-beginners-guide",
+            "href": null
+          }
+        ]
+      },
+      "title": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Computer Networks Basics - Beginner's Guide",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Computer Networks Basics - Beginner's Guide",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Computer-Networks-Basics-Beginner-s-Guide-8cc9fea6ebfc4d0e95c85d155e6741b7",
+    "public_url": null,
+    "request_id": "598e9fa3-4529-45e9-9cc7-3738fc2214a1"
+  },
+  "blocks": [
+    {
+      "object": "block",
+      "id": "19315bff-d38a-4fa7-a8da-f9725e2dd18d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:05:00.000Z",
+      "last_edited_time": "2022-10-18T17:05:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "callout",
+      "callout": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Readers who wish to gain some basic knowledge or are looking to brush up on their core concepts pertaining to Computer Networks, especially if you are going for a Job interview. The post will not cover topics in detail but will link to relevant sources for deeper understanding.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Readers who wish to gain some basic knowledge or are looking to brush up on their core concepts pertaining to Computer Networks, especially if you are going for a Job interview. The post will not cover topics in detail but will link to relevant sources for deeper understanding.",
+            "href": null
+          }
+        ],
+        "icon": {
+          "type": "emoji",
+          "emoji": "🚧"
+        },
+        "color": "gray_background"
+      }
+    },
+    {
+      "object": "block",
+      "id": "d187061f-76eb-4d4a-a364-a29ee32a0996",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:06:00.000Z",
+      "last_edited_time": "2022-10-18T17:06:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Introduction",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Introduction",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "3c69e503-91f2-4b21-bf4e-705cd4b494e8",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:06:00.000Z",
+      "last_edited_time": "2022-10-18T17:06:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "A Network is a collection of interconnected entities. A Computer Network is a set of computers sharing resources on network nodes. The computers use a common communication protocol over digital interconnection to communicate with each other. Perhaps the best example of a Computer Network is the present-day ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "A Network is a collection of interconnected entities. A Computer Network is a set of computers sharing resources on network nodes. The computers use a common communication protocol over digital interconnection to communicate with each other. Perhaps the best example of a Computer Network is the present-day ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "Internet",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Internet",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " with billions of nodes, all sharing data with each other!",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " with billions of nodes, all sharing data with each other!",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1b64c576-e758-406f-bcae-0f9eb085d60f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:06:00.000Z",
+      "last_edited_time": "2022-10-18T17:06:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "In this post, let's brush up on the basics of Computer Networks!",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "In this post, let's brush up on the basics of Computer Networks!",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "39c92d03-711c-4a36-86da-39648aa29b04",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:06:00.000Z",
+      "last_edited_time": "2022-10-18T17:06:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Before we begin, you should have a clear understanding of the major components of a Networking System -",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Before we begin, you should have a clear understanding of the major components of a Networking System -",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "820fc357-ac6e-4608-ac71-6fc7fdd02d3c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:06:00.000Z",
+      "last_edited_time": "2022-10-18T17:06:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Message",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Message",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " - It is the information/data that needs to be delivered.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " - It is the information/data that needs to be delivered.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "de9fe179-535f-4e18-a8aa-e2d32eb20d3f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:06:00.000Z",
+      "last_edited_time": "2022-10-18T17:06:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Sender",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Sender",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " - The source where the message originates from.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " - The source where the message originates from.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "df7916a4-fe63-4381-b9b3-1b69fb6f49ad",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:06:00.000Z",
+      "last_edited_time": "2022-10-18T17:06:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Receiver",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Receiver",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " - The recipient of the message.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " - The recipient of the message.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "6ecae939-f7cd-431d-a099-4acac41e5e62",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:06:00.000Z",
+      "last_edited_time": "2022-10-18T17:06:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Medium",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Medium",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " - The tangible/non-tangible mass the message propagates through.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " - The tangible/non-tangible mass the message propagates through.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "6f180dc1-6922-4435-b23a-0198149b637c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:06:00.000Z",
+      "last_edited_time": "2022-10-18T17:06:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Protocol",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Protocol",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " - Set of rules that govern the communication to maintain coherence.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " - Set of rules that govern the communication to maintain coherence.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "d6062cb9-6d7c-4538-8c3d-83ded1b0cc34",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:06:00.000Z",
+      "last_edited_time": "2022-10-18T17:06:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Network Topologies",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Network Topologies",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "d3c1aa7d-301e-4194-ac40-4a70a1c6ecd0",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:06:00.000Z",
+      "last_edited_time": "2022-10-18T17:06:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Network Topologies are how the links and nodes of a network are arranged to communicate with each other. It can be both physical and virtual(Software-defined Networks are virtual topologies)!",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Network Topologies are how the links and nodes of a network are arranged to communicate with each other. It can be both physical and virtual(Software-defined Networks are virtual topologies)!",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "5a698f18-9362-41e3-9ebd-7bd665148609",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:06:00.000Z",
+      "last_edited_time": "2022-10-18T17:06:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Today the most commonly used topologies are -",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Today the most commonly used topologies are -",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "07436cb6-ecb9-4ae1-8d0d-fdeb7c0113de",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:06:00.000Z",
+      "last_edited_time": "2022-10-18T17:06:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "BUS Topology",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "BUS Topology",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "a3641979-7b51-4bef-890e-3ddac89b1796",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:06:00.000Z",
+      "last_edited_time": "2022-10-18T17:06:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "In this topology, every network device is connected to a single cable and it transmits data only in one direction.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "In this topology, every network device is connected to a single cable and it transmits data only in one direction.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "238df748-14a6-4171-ba53-7d0c84593832",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:06:00.000Z",
+      "last_edited_time": "2025-01-21T05:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "image",
+      "image": {
+        "caption": [],
+        "type": "external",
+        "external": {
+          "url": "https://res.cloudinary.com/dft5dlcya/image/upload/v1676800956/limosyn.com/blog/images/8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7/sqavymtq5lucjmwjz1jn.png"
+        }
+      }
+    },
+    {
+      "object": "block",
+      "id": "fd1762c7-f82f-4234-a5e0-d791ee31f70b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:06:00.000Z",
+      "last_edited_time": "2022-10-18T17:06:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "RING Topology",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "RING Topology",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "b73fb135-6250-4139-8456-13c33622bda3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:06:00.000Z",
+      "last_edited_time": "2022-10-18T17:06:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "In this topology, each computer is connected to another computer in the form of a ring with the last computer connected to the first one.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "In this topology, each computer is connected to another computer in the form of a ring with the last computer connected to the first one.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "94677f20-a95a-4cbb-942e-a700f8ffbd39",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:06:00.000Z",
+      "last_edited_time": "2023-02-19T10:02:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "494b1805-8cfa-459c-b906-5ddb6f1f98c9"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "image",
+      "image": {
+        "caption": [],
+        "type": "external",
+        "external": {
+          "url": "https://res.cloudinary.com/dft5dlcya/image/upload/v1676800961/limosyn.com/blog/images/8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7/goizsxqlkspqydqv5gle.png"
+        }
+      }
+    },
+    {
+      "object": "block",
+      "id": "6ce3a32c-1fca-4f1f-b4b3-f089a5070ab6",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:06:00.000Z",
+      "last_edited_time": "2022-10-18T17:06:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "STAR Topology",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "STAR Topology",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "0856c841-5426-44e4-a720-378272541434",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:06:00.000Z",
+      "last_edited_time": "2022-10-18T17:06:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "In this type of topology, all the nodes are connected to a single network device through a cable.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "In this type of topology, all the nodes are connected to a single network device through a cable.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "81ddac66-742a-4f45-8e7b-d023f2247493",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:06:00.000Z",
+      "last_edited_time": "2023-02-19T10:02:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "494b1805-8cfa-459c-b906-5ddb6f1f98c9"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "image",
+      "image": {
+        "caption": [],
+        "type": "external",
+        "external": {
+          "url": "https://res.cloudinary.com/dft5dlcya/image/upload/v1676800964/limosyn.com/blog/images/8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7/ejkrc4oi3inl7mhvwqmb.png"
+        }
+      }
+    },
+    {
+      "object": "block",
+      "id": "3c0abd9d-7456-43d6-b306-9b6b1b4df804",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:06:00.000Z",
+      "last_edited_time": "2022-10-18T17:06:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "MESH Topology",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "MESH Topology",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "cb0770c9-3a51-4183-9236-91b156f02b40",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:06:00.000Z",
+      "last_edited_time": "2022-10-18T17:06:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Every node is connected to another one with a point-to-point topology and every node is connected.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Every node is connected to another one with a point-to-point topology and every node is connected.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "14581c00-6f0d-4066-b14e-c2ee7b8b8c1a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:07:00.000Z",
+      "last_edited_time": "2023-02-19T10:02:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "494b1805-8cfa-459c-b906-5ddb6f1f98c9"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "image",
+      "image": {
+        "caption": [],
+        "type": "external",
+        "external": {
+          "url": "https://res.cloudinary.com/dft5dlcya/image/upload/v1676800967/limosyn.com/blog/images/8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7/nukytxwq9g2zjvhyiiao.png"
+        }
+      }
+    },
+    {
+      "object": "block",
+      "id": "cbb6a5fd-8df9-4898-93dd-e4c962268008",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:07:00.000Z",
+      "last_edited_time": "2022-10-18T17:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "TREE Topology",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "TREE Topology",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "71a33bd4-c1fe-42ef-ab5f-b9a9eabd6809",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:07:00.000Z",
+      "last_edited_time": "2022-10-18T17:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "It has a root node and all the sub-nodes are connected to the root node in the form of the tree, thereby making a hierarchy. Normally, it has three levels of hierarchy and it can be expanded according to the need of the network.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "It has a root node and all the sub-nodes are connected to the root node in the form of the tree, thereby making a hierarchy. Normally, it has three levels of hierarchy and it can be expanded according to the need of the network.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "8bd3f6f4-313a-4c41-bccc-5a2a130a1356",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:07:00.000Z",
+      "last_edited_time": "2025-01-21T05:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "image",
+      "image": {
+        "caption": [],
+        "type": "external",
+        "external": {
+          "url": "https://res.cloudinary.com/dft5dlcya/image/upload/v1676800971/limosyn.com/blog/images/8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7/uwkbuuingw6r0kz1tf5o.png"
+        }
+      }
+    },
+    {
+      "object": "block",
+      "id": "0af149d9-eb73-42f2-b324-1e9cceca6477",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:07:00.000Z",
+      "last_edited_time": "2022-10-18T17:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Usually, star, bus, or ring topologies are used for networking and the modes used are half-duplex, full-duplex, or simplex.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Usually, star, bus, or ring topologies are used for networking and the modes used are half-duplex, full-duplex, or simplex.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "e5f88f73-513e-4c6d-9d5f-32235e09b019",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:07:00.000Z",
+      "last_edited_time": "2022-10-18T17:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Network Models",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Network Models",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2de56e25-4abe-4112-bcd6-aa964205df39",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:07:00.000Z",
+      "last_edited_time": "2022-10-18T17:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Network Engineering is a highly complex task that involves both Software as well as hardware components. To ease the designing, testing, and maintaining process, the whole concept is divided into multiple layers. Each layer has a particular function and is independent of other layers. They depend on each other only to take input and send output.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Network Engineering is a highly complex task that involves both Software as well as hardware components. To ease the designing, testing, and maintaining process, the whole concept is divided into multiple layers. Each layer has a particular function and is independent of other layers. They depend on each other only to take input and send output.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "5c3075fe-2f17-4e16-b67d-95408e7929e8",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:07:00.000Z",
+      "last_edited_time": "2022-10-18T17:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The Industry has adopted below two models for Network Engineering. All the hardware and software standards are derived using the below models.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The Industry has adopted below two models for Network Engineering. All the hardware and software standards are derived using the below models.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "ee371005-a7ff-408a-934d-251c33e2550a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:07:00.000Z",
+      "last_edited_time": "2022-10-18T17:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "OSI Model",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "OSI Model",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "e7f2faad-dc1b-465b-940d-681a0da85b33",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:07:00.000Z",
+      "last_edited_time": "2025-01-21T05:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "image",
+      "image": {
+        "caption": [],
+        "type": "external",
+        "external": {
+          "url": "https://res.cloudinary.com/dft5dlcya/image/upload/v1676800975/limosyn.com/blog/images/8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7/vdonrhxkfftuh8ahfxkp.png"
+        }
+      }
+    },
+    {
+      "object": "block",
+      "id": "b1cfc236-e114-4ff1-ab98-523ba21a27c2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:08:00.000Z",
+      "last_edited_time": "2025-01-21T05:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "image",
+      "image": {
+        "caption": [],
+        "type": "external",
+        "external": {
+          "url": "https://res.cloudinary.com/dft5dlcya/image/upload/v1676800981/limosyn.com/blog/images/8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7/zyzfi81rswttphpnpjbq.png"
+        }
+      }
+    },
+    {
+      "object": "block",
+      "id": "149698a5-a9ca-4aa5-80e9-72689ac4a657",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:07:00.000Z",
+      "last_edited_time": "2022-10-18T17:08:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "OSI or Open System Interconnect is an open Standard for all communication Systems. It was established by International Standard Organization(ISO). It consists of the below layers -",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "OSI or Open System Interconnect is an open Standard for all communication Systems. It was established by International Standard Organization(ISO). It consists of the below layers -",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "d8d087a2-409a-4008-b951-4be4684e06f7",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:07:00.000Z",
+      "last_edited_time": "2022-10-18T17:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Application Layer",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Application Layer",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "20f9f17b-212a-4cc9-913e-a150ae5c327f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:07:00.000Z",
+      "last_edited_time": "2022-10-18T17:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Used by end-user Software (web browsers, email, etc.)",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Used by end-user Software (web browsers, email, etc.)",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "0c2c8352-94c5-4597-adf8-d911ea934fc6",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:07:00.000Z",
+      "last_edited_time": "2022-10-18T17:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Provides protocols to send and receive information",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Provides protocols to send and receive information",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "d3eb435c-623d-4b4b-bd8e-48b2b4a68c5c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:07:00.000Z",
+      "last_edited_time": "2022-10-18T17:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Ex: HTTP, FTP, POP, DNS",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Ex: HTTP, FTP, POP, DNS",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "78443ad7-5299-49c2-9aff-f1df5b38e0c1",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:07:00.000Z",
+      "last_edited_time": "2022-10-18T17:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Presentation Layer",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Presentation Layer",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "db71b63a-d24a-4d1c-bf7a-7a112d4ecaa9",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:07:00.000Z",
+      "last_edited_time": "2022-10-18T17:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Prepares data for Application Layer",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Prepares data for Application Layer",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "aa7c5149-19db-491e-8e51-7baab2104e22",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:07:00.000Z",
+      "last_edited_time": "2022-10-18T17:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Defines how two devices should encode encrypt and compress data",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Defines how two devices should encode encrypt and compress data",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "32ffb740-a6ac-48db-8360-52e9770387fc",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:07:00.000Z",
+      "last_edited_time": "2022-10-18T17:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "prepares data for transmission over session layer",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "prepares data for transmission over session layer",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "198269db-9724-4714-bd9f-8183b39d5ede",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:07:00.000Z",
+      "last_edited_time": "2022-10-18T17:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Session Layer",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Session Layer",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "336ffbdc-3abb-4aa8-9818-c23c1c06ffa0",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:07:00.000Z",
+      "last_edited_time": "2022-10-18T17:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "creates communication channels called Sessions",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "creates communication channels called Sessions",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "95862d1a-a0cd-4cc0-8c05-0dc55396b0f2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:07:00.000Z",
+      "last_edited_time": "2022-10-18T17:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Responsible for opening and maintaining sessions.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Responsible for opening and maintaining sessions.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "d80a2342-6739-477c-a0f8-92882e276175",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:07:00.000Z",
+      "last_edited_time": "2022-10-18T17:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Can also set checkpoints to resume data transfer from the last checkpoint",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Can also set checkpoints to resume data transfer from the last checkpoint",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "682d992e-210d-4fd4-a413-f739869373f3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:07:00.000Z",
+      "last_edited_time": "2022-10-18T17:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Transport Layer",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Transport Layer",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "aa8a0fa0-0020-47c0-a3cb-c60d6009b4a2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:07:00.000Z",
+      "last_edited_time": "2022-10-18T17:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Breaks data into segments and then reassembling them",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Breaks data into segments and then reassembling them",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "74fa3e32-ff39-4e2c-b6ab-af8707600661",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:07:00.000Z",
+      "last_edited_time": "2022-10-18T17:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "It carries outflow control, sending data at a connection speed of receiving device",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "It carries outflow control, sending data at a connection speed of receiving device",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "df0bf0dc-33ec-43f2-8812-c26345009f4b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:07:00.000Z",
+      "last_edited_time": "2022-10-18T17:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "It also serves as error control and requests again if the data is corrupted",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "It also serves as error control and requests again if the data is corrupted",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "575f1d15-1b03-44ad-bf35-83b4a08b9164",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:07:00.000Z",
+      "last_edited_time": "2022-10-18T17:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Network Layer",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Network Layer",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "10f257b8-9bc5-4e78-84ca-19d5e7cc9523",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:07:00.000Z",
+      "last_edited_time": "2022-10-18T17:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "This layer has the accountability to accomplish the routing of data packets from the source to destination host between the inter and intra networks operating on the same or different protocols.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "This layer has the accountability to accomplish the routing of data packets from the source to destination host between the inter and intra networks operating on the same or different protocols.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "e6dfb0e9-e5f7-4287-aad0-118a15b67f70",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:07:00.000Z",
+      "last_edited_time": "2022-10-18T17:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Routing packets - discovering the best path",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Routing packets - discovering the best path",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "e66f3da7-3a67-44bb-bf41-7892f5e1fd61",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:07:00.000Z",
+      "last_edited_time": "2022-10-18T17:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "uses network addresses(IPs) to route to the destination node",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "uses network addresses(IPs) to route to the destination node",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "ea440f40-3c82-4241-a6c8-b844bd4ab98b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:07:00.000Z",
+      "last_edited_time": "2022-10-18T17:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "IP Addressing: ",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "IP Addressing: ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "The IP address is a logical network address and is a 32-bit number that is globally unique for each network host. It principally consists of two parts i.e. network address & host address.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The IP address is a logical network address and is a 32-bit number that is globally unique for each network host. It principally consists of two parts i.e. network address & host address.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "38ee9252-2c2a-4010-b155-0e5d364a1de1",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:07:00.000Z",
+      "last_edited_time": "2022-10-18T17:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Data Link Layer",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Data Link Layer",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "079b8cfd-7995-4c4b-8830-5ec6ef569d03",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:07:00.000Z",
+      "last_edited_time": "2022-10-18T17:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Establishes and terminates the connection between two physical nodes",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Establishes and terminates the connection between two physical nodes",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "b39a02ce-7603-4253-b9c8-186a621559cd",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:07:00.000Z",
+      "last_edited_time": "2022-10-18T17:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Breaks packets into frames",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Breaks packets into frames",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "6d9ce257-2dd0-4261-a0f6-3f8a8789b82b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:07:00.000Z",
+      "last_edited_time": "2022-10-18T17:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Performs Error detection",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Performs Error detection",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "44b8bc1c-88f2-481f-95e8-357d3ad3d775",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:07:00.000Z",
+      "last_edited_time": "2022-10-18T17:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "It has two parts -",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "It has two parts -",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "9772077a-24a9-4a00-8f60-f8a3f5518763",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:07:00.000Z",
+      "last_edited_time": "2022-10-18T17:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Logical Link Control(LLC) - Identifies network protocol and error checking and synchronizes control",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Logical Link Control(LLC) - Identifies network protocol and error checking and synchronizes control",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "396a3002-6776-40d0-8397-cde8788da9d1",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:07:00.000Z",
+      "last_edited_time": "2022-10-18T17:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Media Access control(MAC) - Defines permissions to transmit and receive. It is a unique device address and each device or component in a network has a MAC address based on which we can uniquely identify a device of the network. It is a 12 digit unique address.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Media Access control(MAC) - Defines permissions to transmit and receive. It is a unique device address and each device or component in a network has a MAC address based on which we can uniquely identify a device of the network. It is a 12 digit unique address.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1a36c4c3-02f5-4a95-b9a7-245be0b21eff",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:07:00.000Z",
+      "last_edited_time": "2022-10-18T17:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Physical Layer",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Physical Layer",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "f8a3dc82-88a7-4686-bfd8-d9b799759e78",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:07:00.000Z",
+      "last_edited_time": "2022-10-18T17:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Physical entities such as routers, cables, wireless nodes",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Physical entities such as routers, cables, wireless nodes",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "b34a3901-a903-4b16-9c20-019cecb6b140",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:07:00.000Z",
+      "last_edited_time": "2022-10-18T17:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Transfers raw data - 0s and 1s",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Transfers raw data - 0s and 1s",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "976935a6-faae-4efc-b71e-a80361f39ab8",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:07:00.000Z",
+      "last_edited_time": "2022-10-18T17:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Takes care of bit rate.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Takes care of bit rate.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "508c393e-37ca-4cfb-ace8-a70a2d5b226d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:07:00.000Z",
+      "last_edited_time": "2022-10-18T17:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "TCP/IP Model",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "TCP/IP Model",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "c65d0466-d29e-43ba-be83-8eb35341dea8",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:07:00.000Z",
+      "last_edited_time": "2022-10-18T17:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "TCP/IP Model is a practical and simplified version of the OSI Model wherein a few of the layers have been squashed into a single layer -",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "TCP/IP Model is a practical and simplified version of the OSI Model wherein a few of the layers have been squashed into a single layer -",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "17afddaa-919a-4ead-8583-3119ee397f85",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:07:00.000Z",
+      "last_edited_time": "2022-10-18T17:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Application, Presentation, and Session Layers have been squashed into a single layer collectively known as ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Application, Presentation, and Session Layers have been squashed into a single layer collectively known as ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "Application Layer",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Application Layer",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ".",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ".",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "f7046e82-02bb-4c7f-afff-1b5be3d210a5",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:07:00.000Z",
+      "last_edited_time": "2022-10-18T17:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Physical and Data link Layer have been combined into what is known as ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Physical and Data link Layer have been combined into what is known as ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "Network Access Layer",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Network Access Layer",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ".",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ".",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "72e46c44-4ce4-4866-9c5f-d5fba0d49538",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:07:00.000Z",
+      "last_edited_time": "2022-10-18T17:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Summarising the function of each layer -",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Summarising the function of each layer -",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "5eb15ec8-cd6b-4f2a-ad59-11f6cc341125",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:07:00.000Z",
+      "last_edited_time": "2022-10-18T17:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Application Layer",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Application Layer",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "b5bb8ce3-c656-4374-8b70-f86653948b6f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:07:00.000Z",
+      "last_edited_time": "2022-10-18T17:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "It performs all the functions of the Application, Presentation, and Session layers in the OSI model.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "It performs all the functions of the Application, Presentation, and Session layers in the OSI model.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "23d78746-f0f8-4ad4-b114-4b375db4cacf",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:07:00.000Z",
+      "last_edited_time": "2022-10-18T17:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The most common application layer protocols are defined below:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The most common application layer protocols are defined below:",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "9a9ec4f9-a953-4f50-8081-fe25427494a9",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:07:00.000Z",
+      "last_edited_time": "2022-10-18T17:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "TELNET",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "TELNET",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " - It stands for Terminal Emulation Protocol. It is usually used for accessing remote end applications. The telnet server which acts as the host initiates a telnet server application to establish a connection with the remote end host known as the telnet client.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " - It stands for Terminal Emulation Protocol. It is usually used for accessing remote end applications. The telnet server which acts as the host initiates a telnet server application to establish a connection with the remote end host known as the telnet client.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "8dac3dc0-1686-4a9c-a5a1-684eb206c129",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:07:00.000Z",
+      "last_edited_time": "2022-10-18T17:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "HTTP",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "HTTP",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " - It stands for hypertext transfer protocol. It is the base of the World Wide Web (WWW). This protocol is used to exchange the hypertext among different systems. It is a type of request-response protocol. HTTP resources are located on the internet using URLs.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " - It stands for hypertext transfer protocol. It is the base of the World Wide Web (WWW). This protocol is used to exchange the hypertext among different systems. It is a type of request-response protocol. HTTP resources are located on the internet using URLs.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "c053f380-a126-4df5-b774-d427835cea9e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:07:00.000Z",
+      "last_edited_time": "2022-10-18T17:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "FTP",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "FTP",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " - File Transfer Protocol. It is used for sharing or transferring files among two hosts.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " - File Transfer Protocol. It is used for sharing or transferring files among two hosts.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "a2d16cbc-364d-46d5-bf5a-4b4d58dcbea9",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:07:00.000Z",
+      "last_edited_time": "2022-10-18T17:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "DNS",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "DNS",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " - Domain name system is an ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " - Domain name system is an ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "alias",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "alias",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " for IP Addresses. Image having to type ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " for IP Addresses. Image having to type ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "142.251.16.99",
+              "link": {
+                "url": "https://mxtoolbox.com/SuperTool.aspx?action=a%3Awww.google.com&run=toolpage#"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "142.251.16.99",
+            "href": "https://mxtoolbox.com/SuperTool.aspx?action=a%3Awww.google.com&run=toolpage#"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " for google.com. DNS resolving is usually provided by your ISP.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " for google.com. DNS resolving is usually provided by your ISP.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "b66b7266-742e-4988-a4eb-6ec87cefa73c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:07:00.000Z",
+      "last_edited_time": "2022-10-18T17:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "DHCP",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "DHCP",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " - Every device in a network requires an IP address. This could be configured manually or is provided by DHCP - Dynamic Host configuration protocol.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " - Every device in a network requires an IP address. This could be configured manually or is provided by DHCP - Dynamic Host configuration protocol.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "c97ad20e-f703-4ea5-83cb-a2599d9bdb02",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:07:00.000Z",
+      "last_edited_time": "2022-10-18T17:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Transport Layer",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Transport Layer",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "eb78edca-e6cf-46f0-a78f-2814b3ebe3c8",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:07:00.000Z",
+      "last_edited_time": "2022-10-18T17:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "This layer is responsible for the overall transfer of data. It helps in establishing end-to-end logical connectivity between the server and client host in a network.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "This layer is responsible for the overall transfer of data. It helps in establishing end-to-end logical connectivity between the server and client host in a network.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "7f2ef8cc-cf51-4f09-bdc2-a0c7a9cbb9b4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:07:00.000Z",
+      "last_edited_time": "2022-10-18T17:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The transport layer uses below two widely used protocols -",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The transport layer uses below two widely used protocols -",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "150aacdb-172b-498d-87c3-bc6208f3df8d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:07:00.000Z",
+      "last_edited_time": "2022-10-18T17:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "TCP",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "TCP",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " - Or Transmission control protocol is a connection-based and reliable protocol. This protocol is the most widely used for exchanging data between servers and clients. TCP used a three-way-handshake to establish a connection between the parties by generating ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " - Or Transmission control protocol is a connection-based and reliable protocol. This protocol is the most widely used for exchanging data between servers and clients. TCP used a three-way-handshake to establish a connection between the parties by generating ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "SYN",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "SYN",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " and ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " and ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "ACK",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "ACK",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " flags.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " flags.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "e4f3ba94-8370-49e3-b119-4552754adec6",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-18T17:07:00.000Z",
+      "last_edited_time": "2022-10-18T17:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "UDP",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "UDP",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " - Or User datagram protocol is a fairly unreliable connectionless protocol. UDP is used in scenarios where latency matters more than reliability. Hence it is most widely used in gaming, video streaming, etc. In these scenarios, error checking and correction take place at the application layer. Also since it backs the multicast, it is appropriate for broadcast services such as Bluetooth and routing information protocol.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " - Or User datagram protocol is a fairly unreliable connectionless protocol. UDP is used in scenarios where latency matters more than reliability. Hence it is most widely used in gaming, video streaming, etc. In these scenarios, error checking and correction take place at the application layer. Also since it backs the multicast, it is appropriate for broadcast services such as Bluetooth and routing information protocol.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "503c1af0-d5d7-4db6-aa9c-86a5400bcfc0",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-19T13:12:00.000Z",
+      "last_edited_time": "2025-01-21T05:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "image",
+      "image": {
+        "caption": [],
+        "type": "external",
+        "external": {
+          "url": "https://res.cloudinary.com/dft5dlcya/image/upload/v1676800986/limosyn.com/blog/images/8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7/znyoazeehwfvmqwetczm.png"
+        }
+      }
+    },
+    {
+      "object": "block",
+      "id": "32f05e44-f30b-482b-959c-11f91ede8f25",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-19T13:12:00.000Z",
+      "last_edited_time": "2022-10-19T13:12:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bookmark",
+      "bookmark": {
+        "caption": [],
+        "url": "https://networksigma.com/tcp-3-way-handshake/"
+      }
+    },
+    {
+      "object": "block",
+      "id": "6aefe5b2-e56f-4f1d-89e4-fbec54503fa9",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-19T13:13:00.000Z",
+      "last_edited_time": "2022-10-19T13:13:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Connection Ports",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Connection Ports",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "f2beaeae-a44b-4227-8291-a546386dec01",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-19T13:13:00.000Z",
+      "last_edited_time": "2022-10-19T13:13:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Ports are used to forward traffic received from the Network to the respective applications running on a host machine. They are what allow a machine to send and receive traffic from several sources at the same time.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Ports are used to forward traffic received from the Network to the respective applications running on a host machine. They are what allow a machine to send and receive traffic from several sources at the same time.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "029ed0ae-bf05-4b1a-8be1-1d2a22a517e2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-19T13:13:00.000Z",
+      "last_edited_time": "2025-01-21T05:49:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "table",
+      "table": {
+        "table_width": 3,
+        "has_column_header": true,
+        "has_row_header": false
+      }
+    },
+    {
+      "object": "block",
+      "id": "ca8a22ef-64fa-4f1e-960b-3cfca20abf2e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-19T13:13:00.000Z",
+      "last_edited_time": "2022-10-19T13:13:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "IP Address",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "IP Address",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "bafbc48d-8a0a-4ce1-9eca-728c6b171fd0",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-19T13:13:00.000Z",
+      "last_edited_time": "2022-10-19T13:13:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "IP Addressing is used to recognize the host of a network and uniquely identify a particular device in a network. It works on the Layer-3(Network Layer) of the OSI reference model and the network components like routers and switches are the host devices that are most popularly used.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "IP Addressing is used to recognize the host of a network and uniquely identify a particular device in a network. It works on the Layer-3(Network Layer) of the OSI reference model and the network components like routers and switches are the host devices that are most popularly used.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "6e7d1d27-037e-4b49-b333-9be83d9dc13c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-19T13:13:00.000Z",
+      "last_edited_time": "2022-10-19T13:13:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "quote",
+      "quote": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "An IP Address(IPv4) is a 32-bit logical address that distinctively classifies a host of the network.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "An IP Address(IPv4) is a 32-bit logical address that distinctively classifies a host of the network.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "b4a3c19b-49b4-46ee-96bb-a9db64c39580",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-19T13:13:00.000Z",
+      "last_edited_time": "2025-01-21T05:49:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "table",
+      "table": {
+        "table_width": 4,
+        "has_column_header": true,
+        "has_row_header": false
+      }
+    },
+    {
+      "object": "block",
+      "id": "1750b0ff-1540-4b55-8d7a-4bfa32c3de59",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-19T13:13:00.000Z",
+      "last_edited_time": "2022-10-19T13:13:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "IPv4 & IPv6",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "IPv4 & IPv6",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "7ea016ab-3045-4a70-8b3c-8c00f4c6dd41",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-19T13:13:00.000Z",
+      "last_edited_time": "2025-01-21T05:51:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "table",
+      "table": {
+        "table_width": 3,
+        "has_column_header": true,
+        "has_row_header": false
+      }
+    },
+    {
+      "object": "block",
+      "id": "0650d52d-ba12-43d4-806d-8da301420fcd",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-19T13:13:00.000Z",
+      "last_edited_time": "2022-10-19T13:13:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bookmark",
+      "bookmark": {
+        "caption": [
+          {
+            "type": "text",
+            "text": {
+              "content": "For Detailed post on both of the above",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "For Detailed post on both of the above",
+            "href": null
+          }
+        ],
+        "url": "https://www.softwaretestinghelp.com/ipv4-and-ipv6/"
+      }
+    },
+    {
+      "object": "block",
+      "id": "a31df4c7-08bc-487a-a6a3-c4568ce30f19",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-19T13:13:00.000Z",
+      "last_edited_time": "2022-10-19T13:13:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Subnetting(Masks) & Network Classes",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Subnetting(Masks) & Network Classes",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "58d56dea-3d13-4827-ac62-af2ddce62ef6",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-19T13:13:00.000Z",
+      "last_edited_time": "2022-10-19T13:13:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Subnetting enables us to create sub-networks within larger Networks. It helps -",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Subnetting enables us to create sub-networks within larger Networks. It helps -",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "22e3cb87-b1d1-418f-b642-8dc98e69567e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-19T13:13:00.000Z",
+      "last_edited_time": "2022-10-19T13:13:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Preventing unnecessary usage of IPv4 addresses - we don't have a lot of them!",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Preventing unnecessary usage of IPv4 addresses - we don't have a lot of them!",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "9c752ec1-5001-4ca6-af05-0886f4b99d07",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-19T13:13:00.000Z",
+      "last_edited_time": "2022-10-19T13:13:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "In improving network performance and speed by restricting traffic to required 'subnet' and not congestion bandwidth of the whole network.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "In improving network performance and speed by restricting traffic to required 'subnet' and not congestion bandwidth of the whole network.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "aaa70153-b514-4fe3-a3a2-270aa369a888",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-19T13:13:00.000Z",
+      "last_edited_time": "2022-10-19T13:13:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "In improving network security by implementing Access control lists (ACLs) and disallowing external devices to connect to devices within a subnet.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "In improving network security by implementing Access control lists (ACLs) and disallowing external devices to connect to devices within a subnet.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "a64bd3cb-ead2-4b3e-bd88-fd19646ae805",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-19T13:13:00.000Z",
+      "last_edited_time": "2022-10-19T13:13:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "In easier administration under logical splitting of the network.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "In easier administration under logical splitting of the network.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "775feb45-f097-4070-90ff-776d80e37480",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-19T13:13:00.000Z",
+      "last_edited_time": "2022-10-19T13:13:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "URL and its parts",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "URL and its parts",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "63fbfbff-c7d2-448d-9316-329d6e046e52",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-19T13:13:00.000Z",
+      "last_edited_time": "2022-10-19T13:13:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Scheme",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Scheme",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "e8e214a7-e631-4758-b544-a4581bf5b62f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-19T13:13:00.000Z",
+      "last_edited_time": "2022-10-19T13:13:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The scheme tells web servers which protocol to use when it accesses a page on a website. Today HTTPS(Hypertext Transfer Protocol Secure) is the most widely used scheme. This ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The scheme tells web servers which protocol to use when it accesses a page on a website. Today HTTPS(Hypertext Transfer Protocol Secure) is the most widely used scheme. This ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "security protocol",
+              "link": {
+                "url": "https://blog.hubspot.com/marketing/what-is-ssl"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "security protocol",
+            "href": "https://blog.hubspot.com/marketing/what-is-ssl"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " protects your website visitors and implementing it will help your site rank better on Google. That's why implementing SSL is a must-do on any ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " protects your website visitors and implementing it will help your site rank better on Google. That's why implementing SSL is a must-do on any ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "technical SEO guide",
+              "link": {
+                "url": "https://blog.hubspot.com/marketing/technical-seo-guide"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "technical SEO guide",
+            "href": "https://blog.hubspot.com/marketing/technical-seo-guide"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ".",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ".",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "e11b3a0e-3d5d-4254-a1f2-19b66b55cc36",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-19T13:13:00.000Z",
+      "last_edited_time": "2022-10-19T13:13:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Other schemes also include - ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Other schemes also include - ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "mailto://",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "mailto://",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ", ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ", ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "ftp://",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "ftp://",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ".",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ".",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1b9641d4-b531-41bc-bf3a-a9930bc9b102",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-19T13:13:00.000Z",
+      "last_edited_time": "2022-10-19T13:13:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Sub-Domain",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Sub-Domain",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "5af7fd58-05ae-435e-b723-a9f32aaad43c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-19T13:13:00.000Z",
+      "last_edited_time": "2022-10-19T13:13:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Sub Domains are like leaves in a Domain Tree. You can have as many subdomains for a single domain. For example, I use ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Sub Domains are like leaves in a Domain Tree. You can have as many subdomains for a single domain. For example, I use ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "ghost.limosyn.com",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "ghost.limosyn.com",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " a subdomain for hosting my CMS. I could have ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " a subdomain for hosting my CMS. I could have ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "api.limosyn.com",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "api.limosyn.com",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " for hosting any backend Applications.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " for hosting any backend Applications.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "cea2086a-da22-4ea0-bb0b-09a4b40a1d91",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-19T13:13:00.000Z",
+      "last_edited_time": "2022-10-19T13:13:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Second Level Domain",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Second Level Domain",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "c84b9468-e3e7-41a0-a723-32f531a1757a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-19T13:13:00.000Z",
+      "last_edited_time": "2022-10-19T13:13:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The second-level domain(SLD) is the name of the website. It helps people understand which website, they are visiting. For example in this blog, ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The second-level domain(SLD) is the name of the website. It helps people understand which website, they are visiting. For example in this blog, ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "*.limosyn.*",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "*.limosyn.*",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " is the Second Domain Name.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " is the Second Domain Name.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "8369d847-7447-4c71-8dda-7eb15dfc1ebf",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-19T13:13:00.000Z",
+      "last_edited_time": "2022-10-19T13:13:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Top-Level Domain",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Top-Level Domain",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "5bde26b0-a44a-492a-80cb-44d40f72cbcd",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-19T13:13:00.000Z",
+      "last_edited_time": "2022-10-19T13:13:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The Top-Level Domain specifies the type of entity an organization registers as on the internet. Websites usually use ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The Top-Level Domain specifies the type of entity an organization registers as on the internet. Websites usually use ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ".com",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": ".com",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ", ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ", ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ".edu",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": ".edu",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ", `.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ", `.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2a7314c9-5799-44e7-8e24-d30680d6017a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-19T13:13:00.000Z",
+      "last_edited_time": "2022-10-19T13:13:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Subdirectory",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Subdirectory",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "28efe3ec-5790-4e90-99e7-72962c7c0457",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-19T13:13:00.000Z",
+      "last_edited_time": "2022-10-19T13:13:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "It is the subpath after your top-level domain. For example, you are in ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "It is the subpath after your top-level domain. For example, you are in ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "/posts/computer-networks-beginners-guide",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "/posts/computer-networks-beginners-guide",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " subpath on this website.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " subpath on this website.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "d40346c4-d7c5-496f-a790-07488259e2b4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-19T13:13:00.000Z",
+      "last_edited_time": "2022-10-19T13:13:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "A subpath may include parameters that are sent to the server as ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "A subpath may include parameters that are sent to the server as ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "GET",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "GET",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " request.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " request.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "a03bb79c-fbf7-49bd-a3ff-3177544f4e9f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-19T13:13:00.000Z",
+      "last_edited_time": "2022-10-19T13:13:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Conclusion",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Conclusion",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "92ed46cc-85d5-4907-a716-6185711b9900",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-19T13:13:00.000Z",
+      "last_edited_time": "2022-10-19T13:13:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "In this post, I have tried to brush up on some of the very basic concepts in Computer Networks. Check out the below website for in-depth knowledge in Networking.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "In this post, I have tried to brush up on some of the very basic concepts in Computer Networks. Check out the below website for in-depth knowledge in Networking.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "ae81edb6-ce13-4e96-9b0f-0945a4cdebea",
+      "parent": {
+        "type": "page_id",
+        "page_id": "8cc9fea6-ebfc-4d0e-95c8-5d155e6741b7"
+      },
+      "created_time": "2022-10-19T13:13:00.000Z",
+      "last_edited_time": "2022-10-19T13:13:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    }
+  ],
+  "lastModified": "2025-11-05T08:48:00.000Z",
+  "cachedAt": 1765630614348
+}

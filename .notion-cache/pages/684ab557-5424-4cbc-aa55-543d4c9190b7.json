@@ -1,0 +1,3556 @@
+{
+  "page": {
+    "object": "page",
+    "id": "684ab557-5424-4cbc-aa55-543d4c9190b7",
+    "created_time": "2021-07-04T04:56:00.000Z",
+    "last_edited_time": "2025-07-17T10:23:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "cover": {
+      "type": "external",
+      "external": {
+        "url": "https://res.cloudinary.com/dft5dlcya/image/upload/v1676801117/limosyn.com/blog/images/684ab557-5424-4cbc-aa55-543d4c9190b7/kpenf53m2yqmcjifwxgf.jpg"
+      }
+    },
+    "icon": {
+      "type": "external",
+      "external": {
+        "url": "https://res.cloudinary.com/dft5dlcya/image/upload/v1736602815/limosyn.com/blog/svgs/blogging_sqjiu4.png"
+      }
+    },
+    "parent": {
+      "type": "database_id",
+      "database_id": "a07d5f44-fc6a-4251-88a9-b2c21743a868"
+    },
+    "archived": false,
+    "in_trash": false,
+    "is_locked": false,
+    "properties": {
+      "pTags": {
+        "id": "%3AbqM",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "b05c9a2d-be98-4d9e-bc4b-2abcd52bc79e"
+          }
+        ],
+        "has_more": false
+      },
+      "published": {
+        "id": "%3E%60Ov",
+        "type": "checkbox",
+        "checkbox": true
+      },
+      "tags": {
+        "id": "GE%3CU",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "Web Dev, NuxtJS, HTML/CSS, TailwindCSS"
+        }
+      },
+      "description": {
+        "id": "L%5D%3AA",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Let's create a Navbar and Footer in Nuxt or similar web frameworks using TailwindCSS. Also I'll show how to setup Tailwind in VueJS or NuxtJS application",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Let's create a Navbar and Footer in Nuxt or similar web frameworks using TailwindCSS. Also I'll show how to setup Tailwind in VueJS or NuxtJS application",
+            "href": null
+          }
+        ]
+      },
+      "date": {
+        "id": "NW%7Cq",
+        "type": "date",
+        "date": {
+          "start": "2021-05-16",
+          "end": null,
+          "time_zone": null
+        }
+      },
+      "type": {
+        "id": "OtM%60",
+        "type": "select",
+        "select": {
+          "id": "742cd4b7-4726-4ba9-ac72-6f14d35bfd8d",
+          "name": "Article",
+          "color": "blue"
+        }
+      },
+      "sTags": {
+        "id": "UmF%3F",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "5f111d89-93fe-4415-b11e-f05c49150b15"
+          },
+          {
+            "id": "8919fe03-039b-4716-b402-a88ece733ced"
+          },
+          {
+            "id": "6178a70b-2936-4497-a325-ebf59d5a9a56"
+          }
+        ],
+        "has_more": false
+      },
+      "link": {
+        "id": "%5Ds%3CH",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "https://www.limosyn.com/posts/creating-navbar-and-footer-in-nuxtjs-with-tailwindcss"
+        }
+      },
+      "stage": {
+        "id": "fqs%40",
+        "type": "select",
+        "select": {
+          "id": "258ea408-d15a-42ee-9219-5534dde4176c",
+          "name": "Published",
+          "color": "green"
+        }
+      },
+      "created": {
+        "id": "k_jR",
+        "type": "created_time",
+        "created_time": "2021-07-04T04:56:00.000Z"
+      },
+      "slug": {
+        "id": "pTHT",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "creating-navbar-and-footer-in-nuxtjs-with-tailwindcss",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "creating-navbar-and-footer-in-nuxtjs-with-tailwindcss",
+            "href": null
+          }
+        ]
+      },
+      "title": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Creating Navbar and Footer in NuxtJS with TailwindCSS",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Creating Navbar and Footer in NuxtJS with TailwindCSS",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Creating-Navbar-and-Footer-in-NuxtJS-with-TailwindCSS-684ab55754244cbcaa55543d4c9190b7",
+    "public_url": null,
+    "request_id": "023a1d9f-bf63-4923-8599-98bb53b7bf85"
+  },
+  "blocks": [
+    {
+      "object": "block",
+      "id": "8a517e44-ea59-48e5-9136-b5676e495b10",
+      "parent": {
+        "type": "page_id",
+        "page_id": "684ab557-5424-4cbc-aa55-543d4c9190b7"
+      },
+      "created_time": "2022-10-18T13:18:00.000Z",
+      "last_edited_time": "2022-10-18T13:18:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "If you have been following my website series, till now we have:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "If you have been following my website series, till now we have:",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1b159234-7263-42a4-9585-dc6c2c3ea034",
+      "parent": {
+        "type": "page_id",
+        "page_id": "684ab557-5424-4cbc-aa55-543d4c9190b7"
+      },
+      "created_time": "2022-10-18T13:18:00.000Z",
+      "last_edited_time": "2022-10-18T13:18:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Selected the tech stack for our website",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Selected the tech stack for our website",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "61987054-df2c-4455-bde2-9e6d62ec25e0",
+      "parent": {
+        "type": "page_id",
+        "page_id": "684ab557-5424-4cbc-aa55-543d4c9190b7"
+      },
+      "created_time": "2022-10-18T13:18:00.000Z",
+      "last_edited_time": "2022-10-18T13:18:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Created starter code for our project",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Created starter code for our project",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "77127640-ebb8-4e95-bc28-d04a196c1922",
+      "parent": {
+        "type": "page_id",
+        "page_id": "684ab557-5424-4cbc-aa55-543d4c9190b7"
+      },
+      "created_time": "2022-10-18T13:18:00.000Z",
+      "last_edited_time": "2022-10-18T13:18:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Deployed the starter project to Kubernetes",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Deployed the starter project to Kubernetes",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1da984c2-da07-4b2b-8923-bc4a36ef9de2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "684ab557-5424-4cbc-aa55-543d4c9190b7"
+      },
+      "created_time": "2022-10-18T13:18:00.000Z",
+      "last_edited_time": "2022-10-18T13:18:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "In this article, let's create a Navbar and footer for our website. Unlike other components/parts of our website, both Navbar and footer persist on every page of our website.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "In this article, let's create a Navbar and footer for our website. Unlike other components/parts of our website, both Navbar and footer persist on every page of our website.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "97ac0bce-1872-4e99-ac08-b1615d065245",
+      "parent": {
+        "type": "page_id",
+        "page_id": "684ab557-5424-4cbc-aa55-543d4c9190b7"
+      },
+      "created_time": "2022-10-18T13:18:00.000Z",
+      "last_edited_time": "2022-10-18T13:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "callout",
+      "callout": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Unlike the classical HTML/CSS webpages, where the whole page is reloaded whenever a new event is initiated, JavaScript Framework based webpages render only the parts which need to be changed. This is much more efficient and gives a much better user experience.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Unlike the classical HTML/CSS webpages, where the whole page is reloaded whenever a new event is initiated, JavaScript Framework based webpages render only the parts which need to be changed. This is much more efficient and gives a much better user experience.",
+            "href": null
+          }
+        ],
+        "icon": {
+          "type": "emoji",
+          "emoji": "💡"
+        },
+        "color": "gray_background"
+      }
+    },
+    {
+      "object": "block",
+      "id": "fd811862-7c1c-4f6e-9455-b6c3b165eaf9",
+      "parent": {
+        "type": "page_id",
+        "page_id": "684ab557-5424-4cbc-aa55-543d4c9190b7"
+      },
+      "created_time": "2022-10-18T13:18:00.000Z",
+      "last_edited_time": "2022-10-18T13:18:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Prerequisites for this guide",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Prerequisites for this guide",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "e89f7fcb-ca8a-4f8c-ac02-095eb4e48e0a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "684ab557-5424-4cbc-aa55-543d4c9190b7"
+      },
+      "created_time": "2022-10-18T13:18:00.000Z",
+      "last_edited_time": "2022-10-18T13:18:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Make sure:-",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Make sure:-",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "6d88b2b4-dd2a-4d82-89db-163b39f1598b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "684ab557-5424-4cbc-aa55-543d4c9190b7"
+      },
+      "created_time": "2022-10-18T13:18:00.000Z",
+      "last_edited_time": "2022-10-18T13:18:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "You have Tailwind installed - ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "You have Tailwind installed - ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "How to install?",
+              "link": {
+                "url": "https://tailwindcss.com/docs/installation"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "How to install?",
+            "href": "https://tailwindcss.com/docs/installation"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "5c87471f-20ee-49a3-87cc-15d4b37fa308",
+      "parent": {
+        "type": "page_id",
+        "page_id": "684ab557-5424-4cbc-aa55-543d4c9190b7"
+      },
+      "created_time": "2022-10-18T13:18:00.000Z",
+      "last_edited_time": "2022-10-18T13:18:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "You have set up a starter Project. ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "You have set up a starter Project. ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "Visit this article",
+              "link": {
+                "url": "https://www.limosyn.com/posts/setting-up-your-next-nuxtjs-project"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Visit this article",
+            "href": "https://www.limosyn.com/posts/setting-up-your-next-nuxtjs-project"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " to see how to set up one. You don't need to use the exact one. Just adapt the steps according to your stack.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " to see how to set up one. You don't need to use the exact one. Just adapt the steps according to your stack.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "f51b528c-a11f-44d6-82f4-dddb641efd83",
+      "parent": {
+        "type": "page_id",
+        "page_id": "684ab557-5424-4cbc-aa55-543d4c9190b7"
+      },
+      "created_time": "2022-10-18T13:18:00.000Z",
+      "last_edited_time": "2022-10-18T13:18:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Know a bit about TailwindCSS",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Know a bit about TailwindCSS",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "d39ab34a-f843-47e7-b216-52f8c3cc0426",
+      "parent": {
+        "type": "page_id",
+        "page_id": "684ab557-5424-4cbc-aa55-543d4c9190b7"
+      },
+      "created_time": "2022-10-18T13:18:00.000Z",
+      "last_edited_time": "2022-10-18T13:18:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Before we start using Tailwind for our styling needs, let's get to know how it is different from conventional CSS and why you should consider using it in your next project.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Before we start using Tailwind for our styling needs, let's get to know how it is different from conventional CSS and why you should consider using it in your next project.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "a023db83-3537-4895-80fe-a66156f290b7",
+      "parent": {
+        "type": "page_id",
+        "page_id": "684ab557-5424-4cbc-aa55-543d4c9190b7"
+      },
+      "created_time": "2022-10-18T13:18:00.000Z",
+      "last_edited_time": "2022-10-18T13:18:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "What is it?",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "What is it?",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "142d6d32-a540-4b4a-933e-a14214a795d6",
+      "parent": {
+        "type": "page_id",
+        "page_id": "684ab557-5424-4cbc-aa55-543d4c9190b7"
+      },
+      "created_time": "2022-10-18T13:18:00.000Z",
+      "last_edited_time": "2022-10-18T13:18:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Unlike the numerous UI frameworks such as ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Unlike the numerous UI frameworks such as ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "Bootstrap",
+              "link": {
+                "url": "https://getbootstrap.com/"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Bootstrap",
+            "href": "https://getbootstrap.com/"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ", ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ", ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "Vuetify",
+              "link": {
+                "url": "https://vuetifyjs.com/en/"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Vuetify",
+            "href": "https://vuetifyjs.com/en/"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ", ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ", ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "Materialize",
+              "link": {
+                "url": "https://materializecss.com/"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Materialize",
+            "href": "https://materializecss.com/"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ", etc., Tailwind doesn't directly provide pre-built components such as Navbar, Footer, Hero Sections, etc. What it provides is a huge assortment of classes, each applying single or, at times, a few CSS properties. It's you putting short forms of all CSS properties as classes in your HTML element. Tailwind has classes for nearly every property that you will need for styling. It also provides an easy and intuitive way to extend its base classes to add your own.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ", etc., Tailwind doesn't directly provide pre-built components such as Navbar, Footer, Hero Sections, etc. What it provides is a huge assortment of classes, each applying single or, at times, a few CSS properties. It's you putting short forms of all CSS properties as classes in your HTML element. Tailwind has classes for nearly every property that you will need for styling. It also provides an easy and intuitive way to extend its base classes to add your own.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "edaaf4e0-5706-47ea-9d48-12b95c19e96a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "684ab557-5424-4cbc-aa55-543d4c9190b7"
+      },
+      "created_time": "2022-10-18T13:18:00.000Z",
+      "last_edited_time": "2022-10-18T13:18:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Setting up TailwindCSS for your project.",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Setting up TailwindCSS for your project.",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "b6900433-3c4a-4313-8c1f-4a48314510c0",
+      "parent": {
+        "type": "page_id",
+        "page_id": "684ab557-5424-4cbc-aa55-543d4c9190b7"
+      },
+      "created_time": "2022-10-18T13:18:00.000Z",
+      "last_edited_time": "2022-10-18T13:18:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Since this is a post topic in itself, I won't go into much detail. But here is an overview of steps that you need to do:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Since this is a post topic in itself, I won't go into much detail. But here is an overview of steps that you need to do:",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "990b7865-a7b2-44b1-aca3-9f660cead432",
+      "parent": {
+        "type": "page_id",
+        "page_id": "684ab557-5424-4cbc-aa55-543d4c9190b7"
+      },
+      "created_time": "2022-10-18T13:18:00.000Z",
+      "last_edited_time": "2022-10-18T13:18:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Add TailwindCSS to your packages.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Add TailwindCSS to your packages.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "56e57fd9-00aa-4f9f-9676-eb8867a7d204",
+      "parent": {
+        "type": "page_id",
+        "page_id": "684ab557-5424-4cbc-aa55-543d4c9190b7"
+      },
+      "created_time": "2022-10-18T13:18:00.000Z",
+      "last_edited_time": "2022-10-18T13:18:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Configure your Nuxt(or any other framework) to use the Library by configuring the ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Configure your Nuxt(or any other framework) to use the Library by configuring the ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "nuxt.config.js",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "nuxt.config.js",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " file.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " file.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "a92e654d-d1e0-437b-80ee-a1fd76f63b9c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "684ab557-5424-4cbc-aa55-543d4c9190b7"
+      },
+      "created_time": "2022-10-18T13:18:00.000Z",
+      "last_edited_time": "2022-10-18T13:18:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Setting up a ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Setting up a ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "tailwindcss.js",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "tailwindcss.js",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " file in your repository. This will store your Tailwind configurations.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " file in your repository. This will store your Tailwind configurations.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2e8f9722-ce8b-4bae-968e-f46b9dc1453c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "684ab557-5424-4cbc-aa55-543d4c9190b7"
+      },
+      "created_time": "2022-10-18T13:18:00.000Z",
+      "last_edited_time": "2022-10-18T13:18:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "A ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "A ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "tailwindcss.css",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "tailwindcss.css",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " file for adding your custom reusable \"Tailwind mixins.\"",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " file for adding your custom reusable \"Tailwind mixins.\"",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1b9f0cf4-d715-45d5-adaa-c92d35475e45",
+      "parent": {
+        "type": "page_id",
+        "page_id": "684ab557-5424-4cbc-aa55-543d4c9190b7"
+      },
+      "created_time": "2022-10-18T13:18:00.000Z",
+      "last_edited_time": "2022-10-18T13:18:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Say goodbye?? to scratch CSS and use Tailwind classes!",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Say goodbye?? to scratch CSS and use Tailwind classes!",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "a6153604-dba3-4484-839c-37610e1f96ef",
+      "parent": {
+        "type": "page_id",
+        "page_id": "684ab557-5424-4cbc-aa55-543d4c9190b7"
+      },
+      "created_time": "2022-10-18T13:18:00.000Z",
+      "last_edited_time": "2022-10-18T13:18:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "My assessment",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "My assessment",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "b4e88e21-bf4e-405f-a598-0d953ea52209",
+      "parent": {
+        "type": "page_id",
+        "page_id": "684ab557-5424-4cbc-aa55-543d4c9190b7"
+      },
+      "created_time": "2022-10-18T13:18:00.000Z",
+      "last_edited_time": "2022-10-18T13:18:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "At first look, it might look a bit messy with the huge-a*s number of classes like in the below picture.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "At first look, it might look a bit messy with the huge-a*s number of classes like in the below picture.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "92e3c390-79ab-40ff-ab69-b76ff7c07124",
+      "parent": {
+        "type": "page_id",
+        "page_id": "684ab557-5424-4cbc-aa55-543d4c9190b7"
+      },
+      "created_time": "2022-10-18T13:18:00.000Z",
+      "last_edited_time": "2025-07-17T10:19:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "image",
+      "image": {
+        "caption": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Image from ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Image from ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "tailwindcss.com",
+              "link": {
+                "url": "http://tailwindcss.com/"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "tailwindcss.com",
+            "href": "http://tailwindcss.com/"
+          }
+        ],
+        "type": "external",
+        "external": {
+          "url": "https://res.cloudinary.com/dft5dlcya/image/upload/v1676801123/limosyn.com/blog/images/684ab557-5424-4cbc-aa55-543d4c9190b7/image_from_tailwindcss_com.png"
+        }
+      }
+    },
+    {
+      "object": "block",
+      "id": "898760f1-2b55-49f2-9b4d-d2611e924528",
+      "parent": {
+        "type": "page_id",
+        "page_id": "684ab557-5424-4cbc-aa55-543d4c9190b7"
+      },
+      "created_time": "2022-10-18T13:18:00.000Z",
+      "last_edited_time": "2022-10-18T13:18:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "But as you start using it more, you'll realize that it's not intimidating as it looks. In fact! It's quite enjoyable. The classes are predefined, so it helps maintain consistency by limited choices. I have used both Plain CSS and SCSS. They tend to become quite ugly as your component size increases. Here you need not switch between the component and its style as the style is defined inline!!?",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "But as you start using it more, you'll realize that it's not intimidating as it looks. In fact! It's quite enjoyable. The classes are predefined, so it helps maintain consistency by limited choices. I have used both Plain CSS and SCSS. They tend to become quite ugly as your component size increases. Here you need not switch between the component and its style as the style is defined inline!!?",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "dd4c07fb-5283-408a-bdaa-1267e39db9ba",
+      "parent": {
+        "type": "page_id",
+        "page_id": "684ab557-5424-4cbc-aa55-543d4c9190b7"
+      },
+      "created_time": "2022-10-18T13:18:00.000Z",
+      "last_edited_time": "2022-10-18T13:18:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Let's begin!",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Let's begin!",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "ebfa03fc-d7b3-4227-855a-fcf93ca06ae6",
+      "parent": {
+        "type": "page_id",
+        "page_id": "684ab557-5424-4cbc-aa55-543d4c9190b7"
+      },
+      "created_time": "2022-10-18T13:18:00.000Z",
+      "last_edited_time": "2022-10-18T13:18:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The Navbar...",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The Navbar...",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "c78141d1-6bd1-43e7-a811-985e4ec494cf",
+      "parent": {
+        "type": "page_id",
+        "page_id": "684ab557-5424-4cbc-aa55-543d4c9190b7"
+      },
+      "created_time": "2022-10-18T13:18:00.000Z",
+      "last_edited_time": "2022-10-18T13:18:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "I am sure you know what's a Navbar! That ugly-looking strip at the top has links to visit various pages of the website.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "I am sure you know what's a Navbar! That ugly-looking strip at the top has links to visit various pages of the website.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "21721385-c7e6-41bd-983f-5cfd56bb5c0a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "684ab557-5424-4cbc-aa55-543d4c9190b7"
+      },
+      "created_time": "2022-10-18T13:18:00.000Z",
+      "last_edited_time": "2022-10-18T13:18:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Navbars are mainly top positioned(most common) like",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Navbars are mainly top positioned(most common) like",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "6ae07df1-1dff-4469-951d-337a336cec93",
+      "parent": {
+        "type": "page_id",
+        "page_id": "684ab557-5424-4cbc-aa55-543d4c9190b7"
+      },
+      "created_time": "2022-10-18T13:18:00.000Z",
+      "last_edited_time": "2025-07-17T10:19:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "image",
+      "image": {
+        "caption": [],
+        "type": "external",
+        "external": {
+          "url": "https://res.cloudinary.com/dft5dlcya/image/upload/v1676801129/limosyn.com/blog/images/684ab557-5424-4cbc-aa55-543d4c9190b7/eqyshpnu69ighbrgobwl.png"
+        }
+      }
+    },
+    {
+      "object": "block",
+      "id": "a3eb27c3-ae0a-49b5-b225-e2327c2758a5",
+      "parent": {
+        "type": "page_id",
+        "page_id": "684ab557-5424-4cbc-aa55-543d4c9190b7"
+      },
+      "created_time": "2022-10-18T13:18:00.000Z",
+      "last_edited_time": "2022-10-18T13:18:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Or they can be wherever the hell you want.?",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Or they can be wherever the hell you want.?",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "c427ac17-7f9d-4ae1-b464-48698cd4433b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "684ab557-5424-4cbc-aa55-543d4c9190b7"
+      },
+      "created_time": "2022-10-18T13:18:00.000Z",
+      "last_edited_time": "2022-10-18T13:18:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Here is the code for the above fully responsive Navbar. This is only the template part. Read on to see the script part as well.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Here is the code for the above fully responsive Navbar. This is only the template part. Read on to see the script part as well.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "e5ae0628-f123-4223-ae03-e48a3a0eae24",
+      "parent": {
+        "type": "page_id",
+        "page_id": "684ab557-5424-4cbc-aa55-543d4c9190b7"
+      },
+      "created_time": "2022-10-18T13:18:00.000Z",
+      "last_edited_time": "2025-07-17T10:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "<template>\n    <nav id=\"navigation\"\n    class=\"bg-white px-6 py-4 md:py-8 sticky top-0 z-40 font-body shadow-card hover:shadow-cardhover transition-all duration-500\">\n<!-- Container to give Navbar a fixed width -->\n    <div class=\"flex mx-auto items-center justify-between flex-wrap p-4 max-w-7xl\">\n\n      <!-- Logo Icon -->\n      <NuxtLink to=\"/\" class=\"flex items-center flex-no-shrink\">\n        <BrandLogo class=\"h-9\" alt=\"limosyn.com\" title=\"Go Home\" />\n      </NuxtLink>\n\n      <!-- Icons that show up on mobile or when window width is less -->\n      <span class=\"flex md:hidden items-center flex-row\">\n        <a v-for=\"icon in socialItems\" :key=\"item.name\" target=\"_blank\" :href=\"icon.link\" :title=\"icon.name1\" rel=\"noopener\" >\n          <component :is=\"icon.icon\" class=\"h-6 w-6 ml-4 text-gray-200 hover:text-white\" />\n        </a>\n      </span>\n\n      <!-- Collapsable Menu Button - if one is active other is not. -->\n      <div class=\"block md:hidden\">\n        <button type=\"button\" class=\"inline-flex items-center justify-center border p-1 rounded text-gray-400 border-gray-400 hover:border-white focus:border-white hover:text-white focus:text-white focus:outline-none\" aria-controls=\"mobile-menu\" aria-expanded=\"false\" @click=\"toggleVisibility\">\n          <span class=\"sr-only\">Open main menu</span>\n\n          <!-- Burger button svg-->\n          <svg v-if=\"!isVisible\" class=\"block h-6 w-6\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" aria-hidden=\"true\">\n            <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 6h16M4 12h16M4 18h16\" />\n          </svg>\n\n          <!-- Cross button svg -->\n          <svg v-if=\"isVisible\" class=\"block h-6 w-6\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" aria-hidden=\"true\">\n            <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M6 18L18 6M6 6l12 12\" />\n          </svg>\n        </button>\n      </div>\n\n      <!-- Items of collapsible menu -->\n      <div :class=\"{ hidden: !isVisible }\" class=\"w-full text-lg font-medium text-gray-200 hover:text-white flex-grow md:flex md:items-center md:w-auto md:ml-10\">\n        <span v-for=\"menu in navItems\" :key=\"menu.name\" class=\"flex flex-row mt-6 md:mt-0 mr-6\"> <NuxtLink :to=\"menu.link\" class=\"flex items-center no-underline flex-row\" @click.native=\"toggleVisibility\" >\n          <component :is=\"menu.icon\" class=\"w-5 h-5 mr-2 ml-1\" /> \\{\\{ item.name }} </NuxtLink>\n        </span>\n        <!-- Icons that show up when window width > md(768px) -->\n        <span class=\"hidden md:flex flex-row mt-4 md:mt-0 ml-auto\">\n          <a v-for=\"icon in socialItems\" :key=\"icon.name\" target=\"_blank\" :href=\"icon.link\" :title=\"item.name\" rel=\"noopener\" >\n          \t<component :is=\"icon.icon\" class=\"h-6 w-6 ml-4\" />\n          </a>\n        </span>\n      </div>\n    </div>\n  </div>\n</template>",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "<template>\n    <nav id=\"navigation\"\n    class=\"bg-white px-6 py-4 md:py-8 sticky top-0 z-40 font-body shadow-card hover:shadow-cardhover transition-all duration-500\">\n<!-- Container to give Navbar a fixed width -->\n    <div class=\"flex mx-auto items-center justify-between flex-wrap p-4 max-w-7xl\">\n\n      <!-- Logo Icon -->\n      <NuxtLink to=\"/\" class=\"flex items-center flex-no-shrink\">\n        <BrandLogo class=\"h-9\" alt=\"limosyn.com\" title=\"Go Home\" />\n      </NuxtLink>\n\n      <!-- Icons that show up on mobile or when window width is less -->\n      <span class=\"flex md:hidden items-center flex-row\">\n        <a v-for=\"icon in socialItems\" :key=\"item.name\" target=\"_blank\" :href=\"icon.link\" :title=\"icon.name1\" rel=\"noopener\" >\n          <component :is=\"icon.icon\" class=\"h-6 w-6 ml-4 text-gray-200 hover:text-white\" />\n        </a>\n      </span>\n\n      <!-- Collapsable Menu Button - if one is active other is not. -->\n      <div class=\"block md:hidden\">\n        <button type=\"button\" class=\"inline-flex items-center justify-center border p-1 rounded text-gray-400 border-gray-400 hover:border-white focus:border-white hover:text-white focus:text-white focus:outline-none\" aria-controls=\"mobile-menu\" aria-expanded=\"false\" @click=\"toggleVisibility\">\n          <span class=\"sr-only\">Open main menu</span>\n\n          <!-- Burger button svg-->\n          <svg v-if=\"!isVisible\" class=\"block h-6 w-6\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" aria-hidden=\"true\">\n            <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 6h16M4 12h16M4 18h16\" />\n          </svg>\n\n          <!-- Cross button svg -->\n          <svg v-if=\"isVisible\" class=\"block h-6 w-6\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" aria-hidden=\"true\">\n            <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M6 18L18 6M6 6l12 12\" />\n          </svg>\n        </button>\n      </div>\n\n      <!-- Items of collapsible menu -->\n      <div :class=\"{ hidden: !isVisible }\" class=\"w-full text-lg font-medium text-gray-200 hover:text-white flex-grow md:flex md:items-center md:w-auto md:ml-10\">\n        <span v-for=\"menu in navItems\" :key=\"menu.name\" class=\"flex flex-row mt-6 md:mt-0 mr-6\"> <NuxtLink :to=\"menu.link\" class=\"flex items-center no-underline flex-row\" @click.native=\"toggleVisibility\" >\n          <component :is=\"menu.icon\" class=\"w-5 h-5 mr-2 ml-1\" /> \\{\\{ item.name }} </NuxtLink>\n        </span>\n        <!-- Icons that show up when window width > md(768px) -->\n        <span class=\"hidden md:flex flex-row mt-4 md:mt-0 ml-auto\">\n          <a v-for=\"icon in socialItems\" :key=\"icon.name\" target=\"_blank\" :href=\"icon.link\" :title=\"item.name\" rel=\"noopener\" >\n          \t<component :is=\"icon.icon\" class=\"h-6 w-6 ml-4\" />\n          </a>\n        </span>\n      </div>\n    </div>\n  </div>\n</template>",
+            "href": null
+          }
+        ],
+        "language": "javascript"
+      }
+    },
+    {
+      "object": "block",
+      "id": "9e6c913b-7896-4c23-a41b-3dd0255caa42",
+      "parent": {
+        "type": "page_id",
+        "page_id": "684ab557-5424-4cbc-aa55-543d4c9190b7"
+      },
+      "created_time": "2022-10-18T13:18:00.000Z",
+      "last_edited_time": "2022-10-18T13:18:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "I know it looks like a mess! But believe me! Once you get used to it (which is not gonna be a long time), it won't be a problem. Plus, to hell with the constant scrolling up and down!?",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "I know it looks like a mess! But believe me! Once you get used to it (which is not gonna be a long time), it won't be a problem. Plus, to hell with the constant scrolling up and down!?",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "a51198e0-5c5b-4845-92e8-9751d9ae11c2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "684ab557-5424-4cbc-aa55-543d4c9190b7"
+      },
+      "created_time": "2022-10-18T13:18:00.000Z",
+      "last_edited_time": "2022-10-18T13:26:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "callout",
+      "callout": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "As evident from the above code, I haven't hardcoded Names and Links in the HTML code itself. Instead, the data is being passed via an",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "As evident from the above code, I haven't hardcoded Names and Links in the HTML code itself. Instead, the data is being passed via an",
+            "href": null
+          }
+        ],
+        "icon": {
+          "type": "emoji",
+          "emoji": "💡"
+        },
+        "color": "gray_background"
+      }
+    },
+    {
+      "object": "block",
+      "id": "caa45533-a691-4bbe-b9f0-b25cfc089246",
+      "parent": {
+        "type": "page_id",
+        "page_id": "684ab557-5424-4cbc-aa55-543d4c9190b7"
+      },
+      "created_time": "2022-10-18T13:18:00.000Z",
+      "last_edited_time": "2022-10-18T13:18:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "socialItems",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "socialItems",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "5304b678-e5cd-4433-8352-eb77cf4a9599",
+      "parent": {
+        "type": "page_id",
+        "page_id": "684ab557-5424-4cbc-aa55-543d4c9190b7"
+      },
+      "created_time": "2022-10-18T13:18:00.000Z",
+      "last_edited_time": "2022-10-18T13:18:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "data object. This helps in easier addition of new fields.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "data object. This helps in easier addition of new fields.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "18dd4c32-14de-43a1-a527-0198004378f2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "684ab557-5424-4cbc-aa55-543d4c9190b7"
+      },
+      "created_time": "2022-10-18T13:18:00.000Z",
+      "last_edited_time": "2022-10-18T13:18:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Let us first add the toggling logic for the main menu.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Let us first add the toggling logic for the main menu.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "512b1c8e-1fb5-4f58-9ada-045a001afcd6",
+      "parent": {
+        "type": "page_id",
+        "page_id": "684ab557-5424-4cbc-aa55-543d4c9190b7"
+      },
+      "created_time": "2022-10-18T13:18:00.000Z",
+      "last_edited_time": "2025-07-17T10:19:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "\n<script>\nimport { ref, onMounted } from \"@nuxtjs/composition-api\";\nexport default {\n  components: {\n    BrandLogo: () => import(\"Images/logo-symbol.svg\")\n  },\n  setup() {\n    const isVisible = ref(false);\n    const toggleVisibility = () => {\n      isVisible.value = !isVisible.value;\n    };\n\n    return {\n      isVisible,\n      navItems,\n      toggleVisibility,\n      socialItems\n    };\n  }\n};\n</script>",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "\n<script>\nimport { ref, onMounted } from \"@nuxtjs/composition-api\";\nexport default {\n  components: {\n    BrandLogo: () => import(\"Images/logo-symbol.svg\")\n  },\n  setup() {\n    const isVisible = ref(false);\n    const toggleVisibility = () => {\n      isVisible.value = !isVisible.value;\n    };\n\n    return {\n      isVisible,\n      navItems,\n      toggleVisibility,\n      socialItems\n    };\n  }\n};\n</script>",
+            "href": null
+          }
+        ],
+        "language": "javascript"
+      }
+    },
+    {
+      "object": "block",
+      "id": "69bc15e7-6417-439a-92ff-6f60eef7f730",
+      "parent": {
+        "type": "page_id",
+        "page_id": "684ab557-5424-4cbc-aa55-543d4c9190b7"
+      },
+      "created_time": "2022-10-18T13:18:00.000Z",
+      "last_edited_time": "2022-10-18T13:18:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Great! Now let's add the data items to be populated in our HTML code. Here I am using reactive data items - ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Great! Now let's add the data items to be populated in our HTML code. Here I am using reactive data items - ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "socialItems",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "socialItems",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " and ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " and ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "navItems",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "navItems",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ".",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ".",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "f31e0095-aa58-4e34-88ac-a5ade66589a8",
+      "parent": {
+        "type": "page_id",
+        "page_id": "684ab557-5424-4cbc-aa55-543d4c9190b7"
+      },
+      "created_time": "2022-10-18T13:18:00.000Z",
+      "last_edited_time": "2022-10-18T13:20:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "const navItems = [\n    {\n        name: \"Home\",\n        link: \"/\",\n        icon: () => import(\"Images/svgs/home.svg\")\n    },\n    {\n        name: \"Shorts\",\n        link: \"/shorts\",\n        icon: () => import(\"Images/svgs/rocket.svg\"),\n    },\n\t{\n        name: \"About\",\n        link: \"/about\",\n        icon: () => import(\"Images/svgs/about.svg\")\n\t}\n];\nconst socialItems = [\n    {\n        name: \"Twitter\",\n        link: process.env.TwitterUrl,\n        icon: () => import(\"Images/svgs/twitter.svg\")\n    },\n    {\n        name: \"Github\",\n        link: process.env.GitHubUrl,\n        icon: () => import(\"Images/svgs/github.svg\")\n    },\n    {\n        name: \"Linkedin\",\n        link: process.env.LinkedInUrl,\n        icon: () => import(\"Images/svgs/linkedin.svg\")\n    }\n];",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "const navItems = [\n    {\n        name: \"Home\",\n        link: \"/\",\n        icon: () => import(\"Images/svgs/home.svg\")\n    },\n    {\n        name: \"Shorts\",\n        link: \"/shorts\",\n        icon: () => import(\"Images/svgs/rocket.svg\"),\n    },\n\t{\n        name: \"About\",\n        link: \"/about\",\n        icon: () => import(\"Images/svgs/about.svg\")\n\t}\n];\nconst socialItems = [\n    {\n        name: \"Twitter\",\n        link: process.env.TwitterUrl,\n        icon: () => import(\"Images/svgs/twitter.svg\")\n    },\n    {\n        name: \"Github\",\n        link: process.env.GitHubUrl,\n        icon: () => import(\"Images/svgs/github.svg\")\n    },\n    {\n        name: \"Linkedin\",\n        link: process.env.LinkedInUrl,\n        icon: () => import(\"Images/svgs/linkedin.svg\")\n    }\n];",
+            "href": null
+          }
+        ],
+        "language": "javascript"
+      }
+    },
+    {
+      "object": "block",
+      "id": "7e15868e-d45d-436d-b899-48ce4b0a12c3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "684ab557-5424-4cbc-aa55-543d4c9190b7"
+      },
+      "created_time": "2022-10-18T13:18:00.000Z",
+      "last_edited_time": "2022-10-18T13:18:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "quote",
+      "quote": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Constants such as Social Media Urls should be defined as environment variables to avoid redundancy and maintain consistency.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Constants such as Social Media Urls should be defined as environment variables to avoid redundancy and maintain consistency.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "58b07fcb-1e93-493c-9869-ac9809648848",
+      "parent": {
+        "type": "page_id",
+        "page_id": "684ab557-5424-4cbc-aa55-543d4c9190b7"
+      },
+      "created_time": "2022-10-18T13:18:00.000Z",
+      "last_edited_time": "2022-10-18T13:18:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Here's what our script part of our Navbar looks like -",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Here's what our script part of our Navbar looks like -",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "19949703-5061-41b0-93b5-2748bd6f597d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "684ab557-5424-4cbc-aa55-543d4c9190b7"
+      },
+      "created_time": "2022-10-18T13:18:00.000Z",
+      "last_edited_time": "2022-10-18T13:19:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "\n<script>\nimport { ref, onMounted } from \"@nuxtjs/composition-api\";\nexport default {\n  components: {\n    BrandLogo: () => import(\"Images/logo-symbol.svg\")\n  },\n  setup() {\n    const isVisible = ref(false);\n    const toggleVisibility = () => {\n      isVisible.value = !isVisible.value;\n    };\n\n    const navItems = [\n    ....]\n    const socialItems = [\n    ....]\n\n    onMounted(() => // See the next section for this!)\n\n    return {\n      isVisible,\n      navItems,\n      toggleVisibility,\n      socialItems\n    };\n  }\n};\n</script>",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "\n<script>\nimport { ref, onMounted } from \"@nuxtjs/composition-api\";\nexport default {\n  components: {\n    BrandLogo: () => import(\"Images/logo-symbol.svg\")\n  },\n  setup() {\n    const isVisible = ref(false);\n    const toggleVisibility = () => {\n      isVisible.value = !isVisible.value;\n    };\n\n    const navItems = [\n    ....]\n    const socialItems = [\n    ....]\n\n    onMounted(() => // See the next section for this!)\n\n    return {\n      isVisible,\n      navItems,\n      toggleVisibility,\n      socialItems\n    };\n  }\n};\n</script>",
+            "href": null
+          }
+        ],
+        "language": "javascript"
+      }
+    },
+    {
+      "object": "block",
+      "id": "e72609ac-001c-4d6a-9f41-211e346e96ea",
+      "parent": {
+        "type": "page_id",
+        "page_id": "684ab557-5424-4cbc-aa55-543d4c9190b7"
+      },
+      "created_time": "2022-10-18T13:18:00.000Z",
+      "last_edited_time": "2022-10-18T13:18:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Bonus - Scroll Dependent Navbar",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Bonus - Scroll Dependent Navbar",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "8a913eeb-5083-4cab-95db-0c56e3959dc2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "684ab557-5424-4cbc-aa55-543d4c9190b7"
+      },
+      "created_time": "2022-10-18T13:18:00.000Z",
+      "last_edited_time": "2022-10-18T13:18:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Try scrolling on the website down! What do you observe?The Scroll bar hides...",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Try scrolling on the website down! What do you observe?The Scroll bar hides...",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "46dd19ba-988b-48ba-bf17-8c52eb28a99e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "684ab557-5424-4cbc-aa55-543d4c9190b7"
+      },
+      "created_time": "2022-10-18T13:18:00.000Z",
+      "last_edited_time": "2022-10-18T13:18:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Now scrolling up a bit! What do you see?The Scroll bar reappears!",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Now scrolling up a bit! What do you see?The Scroll bar reappears!",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "729bcef1-1ef9-4b84-8176-242cc47f8060",
+      "parent": {
+        "type": "page_id",
+        "page_id": "684ab557-5424-4cbc-aa55-543d4c9190b7"
+      },
+      "created_time": "2022-10-18T13:18:00.000Z",
+      "last_edited_time": "2022-10-18T13:18:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "It took me a bit of time to get this working. But it was worth it.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "It took me a bit of time to get this working. But it was worth it.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "5445602f-c86c-4224-9cda-0688727d18fd",
+      "parent": {
+        "type": "page_id",
+        "page_id": "684ab557-5424-4cbc-aa55-543d4c9190b7"
+      },
+      "created_time": "2022-10-18T13:18:00.000Z",
+      "last_edited_time": "2022-10-18T13:18:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "To add this behavior add this piece of code inside your ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "To add this behavior add this piece of code inside your ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "setup()",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "setup()",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " cycle hook.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " cycle hook.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "01fc07a8-94c1-4c80-8a34-e743cd50b7a3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "684ab557-5424-4cbc-aa55-543d4c9190b7"
+      },
+      "created_time": "2022-10-18T13:18:00.000Z",
+      "last_edited_time": "2022-10-18T13:19:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "\nonMounted(() => {\n    let prevScrollpos = window.pageYOffset;\n    window.onscroll = function() {\n        const currentScrollPos = window.pageYOffset;\n        if ((prevScrollpos > currentScrollPos) || (isVisible.value)) {\n            document.getElementById(\"navigation\").style.top = \"0\";\n        } else {\n            document.getElementById(\"navigation\").style.top = \"-100px\";\n            // isVisible.value = false;\n        }\n        prevScrollpos = currentScrollPos;\n    };\n});",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "\nonMounted(() => {\n    let prevScrollpos = window.pageYOffset;\n    window.onscroll = function() {\n        const currentScrollPos = window.pageYOffset;\n        if ((prevScrollpos > currentScrollPos) || (isVisible.value)) {\n            document.getElementById(\"navigation\").style.top = \"0\";\n        } else {\n            document.getElementById(\"navigation\").style.top = \"-100px\";\n            // isVisible.value = false;\n        }\n        prevScrollpos = currentScrollPos;\n    };\n});",
+            "href": null
+          }
+        ],
+        "language": "javascript"
+      }
+    },
+    {
+      "object": "block",
+      "id": "8973f1c8-86c2-44b4-9298-ec5509d434e5",
+      "parent": {
+        "type": "page_id",
+        "page_id": "684ab557-5424-4cbc-aa55-543d4c9190b7"
+      },
+      "created_time": "2022-10-18T13:18:00.000Z",
+      "last_edited_time": "2022-10-18T13:18:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Now you have a Navbar for your website. You can edit the HTML, the way you like. Refer to ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Now you have a Navbar for your website. You can edit the HTML, the way you like. Refer to ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "TailwindCSS docs",
+              "link": {
+                "url": "https://tailwindcss.com/docs"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "TailwindCSS docs",
+            "href": "https://tailwindcss.com/docs"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " for class names. You can add more objects in ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " for class names. You can add more objects in ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "socialItems",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "socialItems",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " and ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " and ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "navItems",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "navItems",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " data arrays. Do whatever you like, Jose!",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " data arrays. Do whatever you like, Jose!",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "214b10e9-1bb7-4aeb-a938-2d89203f6f2e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "684ab557-5424-4cbc-aa55-543d4c9190b7"
+      },
+      "created_time": "2022-10-18T13:18:00.000Z",
+      "last_edited_time": "2022-10-18T13:18:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "divider",
+      "divider": {}
+    },
+    {
+      "object": "block",
+      "id": "2441d581-5dfd-4507-8acf-658dbbf6b476",
+      "parent": {
+        "type": "page_id",
+        "page_id": "684ab557-5424-4cbc-aa55-543d4c9190b7"
+      },
+      "created_time": "2022-10-18T13:18:00.000Z",
+      "last_edited_time": "2022-10-18T13:18:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The Footer...",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The Footer...",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "b3449bdf-7880-4272-b674-371d4918492c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "684ab557-5424-4cbc-aa55-543d4c9190b7"
+      },
+      "created_time": "2022-10-18T13:19:00.000Z",
+      "last_edited_time": "2025-07-17T10:19:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "image",
+      "image": {
+        "caption": [],
+        "type": "external",
+        "external": {
+          "url": "https://res.cloudinary.com/dft5dlcya/image/upload/v1676801135/limosyn.com/blog/images/684ab557-5424-4cbc-aa55-543d4c9190b7/gcxghavttl33bukwmlvl.png"
+        }
+      }
+    },
+    {
+      "object": "block",
+      "id": "20b16c08-77d7-4bbe-a8f6-2a4aa0b94012",
+      "parent": {
+        "type": "page_id",
+        "page_id": "684ab557-5424-4cbc-aa55-543d4c9190b7"
+      },
+      "created_time": "2022-10-18T13:19:00.000Z",
+      "last_edited_time": "2022-10-18T13:19:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Creating a Footer is a much more straightforward task provided you don't want to put too many shenanigans into it. My suggestion is to keep it as simple as possible. Avoid putting too many navigation items as people seldom use these links.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Creating a Footer is a much more straightforward task provided you don't want to put too many shenanigans into it. My suggestion is to keep it as simple as possible. Avoid putting too many navigation items as people seldom use these links.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "dbf89546-c3c3-471c-b8df-f3a7f2dd162c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "684ab557-5424-4cbc-aa55-543d4c9190b7"
+      },
+      "created_time": "2022-10-18T13:19:00.000Z",
+      "last_edited_time": "2022-10-18T13:19:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Here's the HTML code for this website's footer -",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Here's the HTML code for this website's footer -",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "5bc5a56b-6fd5-41ed-8e4e-c59070d73be2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "684ab557-5424-4cbc-aa55-543d4c9190b7"
+      },
+      "created_time": "2022-10-18T13:19:00.000Z",
+      "last_edited_time": "2022-10-18T13:19:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "<template>\n\t<footer id=\"Footer\" class=\"w-full z-10 font-body bottom-0 bg-gray-700 text-gray-200 flex flex-col\">\n\t\t<div class=\"flex mx-auto items-center px-2 pt-3 pb-8 md:p-6 mb-8 flex-col md:flex-row max-w-7xl\">\n\t\t\t<div class=\"flex flex-row mx-2 md:mx-0\">\n\t\t\t\t<NuxtLink :prefetch=\"false\" to=\"/\" class=\"p-2 my-4 mx-0 flex justify-items-center items-center\">\n\t\t\t\t\t<div class=\"bg-gray-100 rounded-md p-2\">\n\t\t\t\t\t\t<BrandLogo class=\"h-12\" />\n\t\t\t\t\t</div>\n\t\t\t\t</NuxtLink>\n\t\t\t\t<div class=\"m-4 md:mr-36\">\n\t\t\t\t\t<Quotes class=\"w-4 h-4 text-gray-200 my-2\" />\n\t\t\t\t\t<p class=\"\">Hope You learned something here. To stay updated follow me on other social media platforms</p>\n\t\t\t\t\t<Quotes class=\"w-4 h-4 text-gray-200 my-2 transform rotate-180\" />\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"flex flex-col\">\n              <span class=\"flex flex-row m-4 mx-auto flex-wrap\">\n                <a v-for=\"item in socialItems\" :key=\"item.name\" target=\"_blank\" :href=\"item.link\" :title=\"item.name\" rel=\"noopener\" >\n                  <component :is=\"item.icon\" class=\"h-6 w-6 mx-2 md:mx-4 text-gray-400 hover:text-white\"/>\n                </a>\n              </span>\n\t\t\t\t<div class=\"text-center text-gray-300\">\n                    Powered by\n                    <a class=\"text-white hover:text-green-400\" href=\"https://nuxtjs.org\" rel=\"noopener\" target=\"_blank\"> NuxtJS </a>\n                     ,\n                    <a class=\"text-white hover:text-red-500\" href=\"https://ghost.org/\" rel=\"noopener\" target=\"_blank\"> GHOST </a>\n                     & some HARDWORK | Designed by\n\t\t\t\t\t<NuxtLink class=\"text-white hover:text-yellow-400\" to=\"/about/\">Me</NuxtLink>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t\t<div class=\"bg-gray-800 bottom-0 right-0 left-0\">\n\t\t\t<div class=\"flex mx-auto items-center justify-between flex-wrap p-4 md:px-6 max-w-7xl\">\n                <span>\n                    <NuxtLink :prefetch=\"false\" to=\"/legal\" class=\"text-gray-400 hover:text-white mr-2\" >\n                         Legal\n                    </NuxtLink>\n                    <NuxtLink :prefetch=\"false\" to=\"/privacy\" class=\"text-gray-400 hover:text-white ml-2\" >\n                        Privacy\n                    </NuxtLink>\n                </span>\n                <a class=\"text-gray-100\" href=\"/\"> &#169; limosyn.com </a>\n                <span class=\"flex items-center flex-no-shrink\">\n                    <GithubIcon class=\"h-6 w-6 text-gray-100 mr-2\"/>\n                    <span class=\"mr-1\"> v{{$options.version}}</span>\n                </span>\n\t\t\t</div>\n\t\t</div>\n\t</footer>\n</template>\n\n<script>\nimport BrandLogo from \"Images/logo-symbol.svg\";\nimport TwitterIcon from \"Images/svgs/twitter.svg\";\nimport GithubIcon from \"Images/svgs/github.svg\";\nimport LinkedInIcon from \"Images/svgs/linkedin.svg\";\nimport InstagramIcon from \"Images/svgs/instagram.svg\";\nimport Quotes from \"Images/svgs/quotes.svg\";\nimport { version } from \"~/package.json\";\nexport default {\n  name: \"Footer\",\n  version,\n  components: { BrandLogo, GithubIcon, Quotes },\n  setup() {\n    const socialItems = [\n      { name: \"Twitter\", link: \"https://twitter.com/ss18041998\", icon: TwitterIcon },\n      { name: \"Github\", link: \"https://github.com/limosin\", icon: GithubIcon },\n      { name: \"Linkedin\", link: \"https://www.linkedin.com/in/ss1804\", icon: LinkedInIcon },\n      { name: \"Instagram\", link: \"https://www.instagram.com/limosin18/\", icon: InstagramIcon }\n    ];\n    return { socialItems };\n  }\n};\n</script>",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "<template>\n\t<footer id=\"Footer\" class=\"w-full z-10 font-body bottom-0 bg-gray-700 text-gray-200 flex flex-col\">\n\t\t<div class=\"flex mx-auto items-center px-2 pt-3 pb-8 md:p-6 mb-8 flex-col md:flex-row max-w-7xl\">\n\t\t\t<div class=\"flex flex-row mx-2 md:mx-0\">\n\t\t\t\t<NuxtLink :prefetch=\"false\" to=\"/\" class=\"p-2 my-4 mx-0 flex justify-items-center items-center\">\n\t\t\t\t\t<div class=\"bg-gray-100 rounded-md p-2\">\n\t\t\t\t\t\t<BrandLogo class=\"h-12\" />\n\t\t\t\t\t</div>\n\t\t\t\t</NuxtLink>\n\t\t\t\t<div class=\"m-4 md:mr-36\">\n\t\t\t\t\t<Quotes class=\"w-4 h-4 text-gray-200 my-2\" />\n\t\t\t\t\t<p class=\"\">Hope You learned something here. To stay updated follow me on other social media platforms</p>\n\t\t\t\t\t<Quotes class=\"w-4 h-4 text-gray-200 my-2 transform rotate-180\" />\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"flex flex-col\">\n              <span class=\"flex flex-row m-4 mx-auto flex-wrap\">\n                <a v-for=\"item in socialItems\" :key=\"item.name\" target=\"_blank\" :href=\"item.link\" :title=\"item.name\" rel=\"noopener\" >\n                  <component :is=\"item.icon\" class=\"h-6 w-6 mx-2 md:mx-4 text-gray-400 hover:text-white\"/>\n                </a>\n              </span>\n\t\t\t\t<div class=\"text-center text-gray-300\">\n                    Powered by\n                    <a class=\"text-white hover:text-green-400\" href=\"https://nuxtjs.org\" rel=\"noopener\" target=\"_blank\"> NuxtJS </a>\n                     ,\n                    <a class=\"text-white hover:text-red-500\" href=\"https://ghost.org/\" rel=\"noopener\" target=\"_blank\"> GHOST </a>\n                     & some HARDWORK | Designed by\n\t\t\t\t\t<NuxtLink class=\"text-white hover:text-yellow-400\" to=\"/about/\">Me</NuxtLink>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t\t<div class=\"bg-gray-800 bottom-0 right-0 left-0\">\n\t\t\t<div class=\"flex mx-auto items-center justify-between flex-wrap p-4 md:px-6 max-w-7xl\">\n                <span>\n                    <NuxtLink :prefetch=\"false\" to=\"/legal\" class=\"text-gray-400 hover:text-white mr-2\" >\n                         Legal\n                    </NuxtLink>\n                    <NuxtLink :prefetch=\"false\" to=\"/privacy\" class=\"text-gray-400 hover:text-white ml-2\" >\n                        Privacy\n                    </NuxtLink>\n                </span>\n                <a class=\"text-gray-100\" href=\"/\"> &#169; limosyn.com </a>\n                <span class=\"flex items-center flex-no-shrink\">\n                    <GithubIcon class=\"h-6 w-6 text-gray-100 mr-2\"/>\n                    <span class=\"mr-1\"> v{{$options.version}}</span>\n                </span>\n\t\t\t</div>\n\t\t</div>\n\t</footer>\n</template>\n\n<script>\nimport BrandLogo from \"Images/logo-symbol.svg\";\nimport TwitterIcon from \"Images/svgs/twitter.svg\";\nimport GithubIcon from \"Images/svgs/github.svg\";\nimport LinkedInIcon from \"Images/svgs/linkedin.svg\";\nimport InstagramIcon from \"Images/svgs/instagram.svg\";\nimport Quotes from \"Images/svgs/quotes.svg\";\nimport { version } from \"~/package.json\";\nexport default {\n  name: \"Footer\",\n  version,\n  components: { BrandLogo, GithubIcon, Quotes },\n  setup() {\n    const socialItems = [\n      { name: \"Twitter\", link: \"https://twitter.com/ss18041998\", icon: TwitterIcon },\n      { name: \"Github\", link: \"https://github.com/limosin\", icon: GithubIcon },\n      { name: \"Linkedin\", link: \"https://www.linkedin.com/in/ss1804\", icon: LinkedInIcon },\n      { name: \"Instagram\", link: \"https://www.instagram.com/limosin18/\", icon: InstagramIcon }\n    ];\n    return { socialItems };\n  }\n};\n</script>",
+            "href": null
+          }
+        ],
+        "language": "javascript"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2e0b76a3-4134-4bb4-9419-6188cf3eb42f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "684ab557-5424-4cbc-aa55-543d4c9190b7"
+      },
+      "created_time": "2022-10-18T13:19:00.000Z",
+      "last_edited_time": "2022-10-18T13:19:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "You can pass ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "You can pass ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "socialItem",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "socialItem",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " objects similar to what we did in the case of Navbar data objects and have a message of your choice, etc. The sky is the limit to your creativity!",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " objects similar to what we did in the case of Navbar data objects and have a message of your choice, etc. The sky is the limit to your creativity!",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "4c84a2f5-b30d-4367-989c-a2310adff59c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "684ab557-5424-4cbc-aa55-543d4c9190b7"
+      },
+      "created_time": "2022-10-18T13:19:00.000Z",
+      "last_edited_time": "2022-10-18T13:19:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "divider",
+      "divider": {}
+    },
+    {
+      "object": "block",
+      "id": "5ee612af-9a6e-4427-aa77-00fbedcee8d1",
+      "parent": {
+        "type": "page_id",
+        "page_id": "684ab557-5424-4cbc-aa55-543d4c9190b7"
+      },
+      "created_time": "2022-10-18T13:19:00.000Z",
+      "last_edited_time": "2022-10-18T13:19:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "To Sum Up",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "To Sum Up",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "f7b03d8d-5a1a-42ff-8789-7564fc9e2f8b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "684ab557-5424-4cbc-aa55-543d4c9190b7"
+      },
+      "created_time": "2022-10-18T13:19:00.000Z",
+      "last_edited_time": "2022-10-18T13:19:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "I have tried to provide a brief guide to creating a Navbar and footer using TailwindCSS. Although I would love to, it's a bit impractical to write the code step by step for both Navbar and Footer in an article. Hence I have resorted to giving the complete code. In my opinion, your biggest learnings from this article should be -",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "I have tried to provide a brief guide to creating a Navbar and footer using TailwindCSS. Although I would love to, it's a bit impractical to write the code step by step for both Navbar and Footer in an article. Hence I have resorted to giving the complete code. In my opinion, your biggest learnings from this article should be -",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "5afff2cd-7abe-4b3a-b837-670636834364",
+      "parent": {
+        "type": "page_id",
+        "page_id": "684ab557-5424-4cbc-aa55-543d4c9190b7"
+      },
+      "created_time": "2022-10-18T13:19:00.000Z",
+      "last_edited_time": "2022-10-18T13:19:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "To introduce Tailwind for your HTML styling needs.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "To introduce Tailwind for your HTML styling needs.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "c733c125-91cc-43e5-ba73-8a8ac97cb0fb",
+      "parent": {
+        "type": "page_id",
+        "page_id": "684ab557-5424-4cbc-aa55-543d4c9190b7"
+      },
+      "created_time": "2022-10-18T13:19:00.000Z",
+      "last_edited_time": "2022-10-18T13:19:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "How to create an Auto-collapsing navbar.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "How to create an Auto-collapsing navbar.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "1e914e1b-8cbf-48c9-80d7-4aaadf344580",
+      "parent": {
+        "type": "page_id",
+        "page_id": "684ab557-5424-4cbc-aa55-543d4c9190b7"
+      },
+      "created_time": "2022-10-18T13:19:00.000Z",
+      "last_edited_time": "2022-10-18T13:19:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "How to provide data to your DOM other than hardcoding it.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "How to provide data to your DOM other than hardcoding it.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2e97e574-5952-43d5-9001-ac73488956ef",
+      "parent": {
+        "type": "page_id",
+        "page_id": "684ab557-5424-4cbc-aa55-543d4c9190b7"
+      },
+      "created_time": "2022-10-18T13:19:00.000Z",
+      "last_edited_time": "2022-10-18T13:19:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "See you in the next post!!",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "See you in the next post!!",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "e9916750-fd47-47e2-974e-283de124ed4c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "684ab557-5424-4cbc-aa55-543d4c9190b7"
+      },
+      "created_time": "2022-10-18T13:20:00.000Z",
+      "last_edited_time": "2022-10-18T13:20:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    }
+  ],
+  "lastModified": "2025-07-17T10:23:00.000Z",
+  "cachedAt": 1765630631935
+}

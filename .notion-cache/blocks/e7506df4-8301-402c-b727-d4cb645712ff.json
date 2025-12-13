@@ -1,0 +1,3892 @@
+[
+  {
+    "object": "block",
+    "id": "6005f2c4-ea39-48e3-810e-3168be439e83",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:13:00.000Z",
+    "last_edited_time": "2022-10-18T13:13:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "quote",
+    "quote": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "If you have been following my series on creating a Personal Website, you might think this is insane! We haven't even written a single line of code for our website, and we are already deploying it to internet!! Hold your horses!",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "If you have been following my series on creating a Personal Website, you might think this is insane! We haven't even written a single line of code for our website, and we are already deploying it to internet!! Hold your horses!",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "121354ee-d418-44d1-96e1-d3a672e236f5",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:13:00.000Z",
+    "last_edited_time": "2022-10-18T13:13:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "I know this is uncommon. But believe me, this will help you to develop a more reliable and stable codebase. In addition, this article will help you deploy a web application(whether it's a full-fledged Portfolio website or just a shabby page with Grandma quotes) to a Kubernetes Cluster in Cloud(In this case, GCP).",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "I know this is uncommon. But believe me, this will help you to develop a more reliable and stable codebase. In addition, this article will help you deploy a web application(whether it's a full-fledged Portfolio website or just a shabby page with Grandma quotes) to a Kubernetes Cluster in Cloud(In this case, GCP).",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "4316813f-254d-4d44-9402-ee2471cfd19d",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:13:00.000Z",
+    "last_edited_time": "2022-10-18T13:13:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Also, in case you haven't setup a starter project, you can check out this article ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Also, in case you haven't setup a starter project, you can check out this article ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "here",
+            "link": {
+              "url": "https://www.limosyn.com/posts/setting-up-your-next-nuxtjs-project"
+            }
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "here",
+          "href": "https://www.limosyn.com/posts/setting-up-your-next-nuxtjs-project"
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": ".",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": ".",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "362193cd-2d7c-4405-b37e-5d319167f989",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:13:00.000Z",
+    "last_edited_time": "2022-10-18T13:13:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Some of the advantages of deploying a barebone base application to the internet:",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Some of the advantages of deploying a barebone base application to the internet:",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "6896e5cc-7e51-4444-9eb6-92b521c8faf9",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:13:00.000Z",
+    "last_edited_time": "2022-10-18T13:13:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Cross-Device Compatibility checking",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Cross-Device Compatibility checking",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": ": Even after using containerization of application, you might still face issues where the web app works perfectly in Dev environment but has issues in prod. These issues might accumulate over numerous commits. Detecting them early makes our life easier.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": ": Even after using containerization of application, you might still face issues where the web app works perfectly in Dev environment but has issues in prod. These issues might accumulate over numerous commits. Detecting them early makes our life easier.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "dc5209f2-acb5-4fc8-aa9e-3f09611951bd",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:13:00.000Z",
+    "last_edited_time": "2022-10-18T13:13:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Easier to ask for Reviews",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Easier to ask for Reviews",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": ": It's impossible to share your code with your peers for review. But they can always suggest improvements by visiting your deployed website. I have received reviews and incorporated them to improve the user experience.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": ": It's impossible to share your code with your peers for review. But they can always suggest improvements by visiting your deployed website. I have received reviews and incorporated them to improve the user experience.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "12539ab7-9acd-4e4a-9d7f-5b10fec2d583",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:13:00.000Z",
+    "last_edited_time": "2022-10-18T13:13:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Gives an Agile spirit to your Project",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Gives an Agile spirit to your Project",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": ": Large Enterprises don't deploy a 100% developed product to production. They deploy the most miniature usable product and then build upon it. You can follow the same. Use versioning to track changes to your website. You can even create a ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": ": Large Enterprises don't deploy a 100% developed product to production. They deploy the most miniature usable product and then build upon it. You can follow the same. Use versioning to track changes to your website. You can even create a ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Changelog",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "Changelog",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": ".",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": ".",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "60a4f613-fda1-45dc-9829-a2f8021493b3",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:13:00.000Z",
+    "last_edited_time": "2022-10-18T13:13:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Source of Motivation",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Source of Motivation",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": ": A visible product will motivate you to work than a codebase running on Sandbox in your development machine. It feels nice to open your website now and then. ?",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": ": A visible product will motivate you to work than a codebase running on Sandbox in your development machine. It feels nice to open your website now and then. ?",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "5517eeee-8c40-4ebc-9989-75d148da64d9",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:13:00.000Z",
+    "last_edited_time": "2022-10-18T13:13:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_2",
+    "heading_2": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "What is Kubernetes Platform?",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "What is Kubernetes Platform?",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "06c840a5-6098-4e2d-b58d-8674925115e6",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:13:00.000Z",
+    "last_edited_time": "2022-10-18T13:13:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "I won't go into many details here, but Kubernetes is a container orchestration framework. According to an official quote",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "I won't go into many details here, but Kubernetes is a container orchestration framework. According to an official quote",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "f084d1cb-bb84-47cb-87f1-f9525e2d557e",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:13:00.000Z",
+    "last_edited_time": "2022-10-18T13:13:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "quote",
+    "quote": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Kubernetes is a portable, extensible, open-source platform for managing containerized workloads and services that facilitates both declarative configuration and automation. It has a large, rapidly growing ecosystem. Kubernetes services, support, and tools are widely available.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Kubernetes is a portable, extensible, open-source platform for managing containerized workloads and services that facilitates both declarative configuration and automation. It has a large, rapidly growing ecosystem. Kubernetes services, support, and tools are widely available.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "cb6b26bd-0d5b-456e-8ec1-55b8dff414df",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:13:00.000Z",
+    "last_edited_time": "2022-10-18T13:13:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "If you want to learn more, visit these links:",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "If you want to learn more, visit these links:",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "d16c3e8e-a729-4a48-a201-1ee18f9f3bb9",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:13:00.000Z",
+    "last_edited_time": "2022-10-18T13:13:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bookmark",
+    "bookmark": {
+      "caption": [],
+      "url": "https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/"
+    }
+  },
+  {
+    "object": "block",
+    "id": "e94f3972-4259-4fb8-9626-5d1fe7f4eb22",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:14:00.000Z",
+    "last_edited_time": "2022-10-18T13:14:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bookmark",
+    "bookmark": {
+      "caption": [],
+      "url": "https://www.geeksforgeeks.org/introduction-to-kubernetes-k8s/"
+    }
+  },
+  {
+    "object": "block",
+    "id": "b45c51b4-8772-4237-a18b-fffd57d2898b",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:14:00.000Z",
+    "last_edited_time": "2022-10-18T13:14:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_3",
+    "heading_3": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Setting up a Cluster",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Setting up a Cluster",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "d8f20355-c0fb-43b5-8d9f-d1c3a1e81a1a",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:14:00.000Z",
+    "last_edited_time": "2022-10-18T13:14:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Here we'll use the native Google Kubernetes Engine (GKE) Provided by Google Cloud Platform (GCP)  to deploy our nuxt application.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Here we'll use the native Google Kubernetes Engine (GKE) Provided by Google Cloud Platform (GCP)  to deploy our nuxt application.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "fec5b403-9943-4a23-a0cd-7d7c0c99e18a",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:14:00.000Z",
+    "last_edited_time": "2022-10-18T13:14:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Visit this link for steps on how to setup GKE on GCP.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Visit this link for steps on how to setup GKE on GCP.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "035b673f-0427-4579-ac3a-3e7ee505f0fa",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:14:00.000Z",
+    "last_edited_time": "2022-10-18T13:14:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bookmark",
+    "bookmark": {
+      "caption": [],
+      "url": "https://zero-to-jupyterhub.readthedocs.io/en/stable/kubernetes/google/step-zero-gcp.html"
+    }
+  },
+  {
+    "object": "block",
+    "id": "75364712-1b7f-46e4-b2be-10bd74f82f85",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:14:00.000Z",
+    "last_edited_time": "2022-10-18T13:14:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "You can create a ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "You can create a ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "standard",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "standard",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " cluster with the following configuration:",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " cluster with the following configuration:",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "aa7bea26-41db-412e-97ee-833d90681d9b",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:14:00.000Z",
+    "last_edited_time": "2022-10-18T13:14:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Name",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Name",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": ": Give any to your liking",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": ": Give any to your liking",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "c387b357-4f2c-4c2d-a4dc-1f2fe422ebba",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:14:00.000Z",
+    "last_edited_time": "2022-10-18T13:14:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Location ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Location ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Type: Depends on your requirements and budget. If you are low on budget, select zone instead of the region. You are trading redundancy for cost.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Type: Depends on your requirements and budget. If you are low on budget, select zone instead of the region. You are trading redundancy for cost.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "7865292f-fd28-4812-9b7c-a93d8c03c733",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:14:00.000Z",
+    "last_edited_time": "2022-10-18T13:14:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The number of nodes",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The number of nodes",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": ": Two should be more than enough for our use case.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": ": Two should be more than enough for our use case.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "bef0ef1f-aa7d-45f6-997f-f20b67908e25",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:14:00.000Z",
+    "last_edited_time": "2022-10-18T13:14:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Machine configuration",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Machine configuration",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": ": You can choose E2-Medium (2 vCPU, 4 GB Ram). This gives you a total of 4vCPU and 8 GB Ram.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": ": You can choose E2-Medium (2 vCPU, 4 GB Ram). This gives you a total of 4vCPU and 8 GB Ram.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "05f4a916-df57-40a0-87bd-dbebec482e37",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:14:00.000Z",
+    "last_edited_time": "2022-10-18T13:14:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Leave the rest as default.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Leave the rest as default.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "daa6faac-d4c3-436b-a7a8-e1355271169a",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:14:00.000Z",
+    "last_edited_time": "2022-10-18T13:14:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_3",
+    "heading_3": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Setting up Persistent Volumes",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Setting up Persistent Volumes",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "a3a3c4b0-bcc7-4273-a6b0-9a4abd8671ec",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:14:00.000Z",
+    "last_edited_time": "2022-10-18T13:14:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Containers, by definition, are stateless and ephemeral. Hence, to store persistent data, you need persistent storage, which the containers can then connect to store data. You can create a standard PV(persistent volume). But here, I'll create a better, solid-state drive for improved performance.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Containers, by definition, are stateless and ephemeral. Hence, to store persistent data, you need persistent storage, which the containers can then connect to store data. You can create a standard PV(persistent volume). But here, I'll create a better, solid-state drive for improved performance.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "4f11f4f6-b9e8-408d-ad6b-a9d855d56e85",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:14:00.000Z",
+    "last_edited_time": "2022-10-18T13:14:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "1. First, you need to create a Volume class",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "1. First, you need to create a Volume class",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "c1f07a67-cc8b-42f4-9af2-9f3423010c95",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:14:00.000Z",
+    "last_edited_time": "2022-10-18T13:14:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "code",
+    "code": {
+      "caption": [],
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "# ssd-storageclass.yaml\napiVersion: storage.k8s.io/v1\nkind: StorageClass\nmetadata:\n  name: solid-state\nprovisioner: kubernetes.io/gce-pd\nparameters:\n  type: pd-ssd",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "# ssd-storageclass.yaml\napiVersion: storage.k8s.io/v1\nkind: StorageClass\nmetadata:\n  name: solid-state\nprovisioner: kubernetes.io/gce-pd\nparameters:\n  type: pd-ssd",
+          "href": null
+        }
+      ],
+      "language": "yaml"
+    }
+  },
+  {
+    "object": "block",
+    "id": "04d31004-90ed-4898-86ca-c3f8b63cfb49",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:14:00.000Z",
+    "last_edited_time": "2022-10-18T13:14:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "2. Then, you can create a PV Claim.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "2. Then, you can create a PV Claim.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "846e739d-7525-40dd-ba3c-e740ad2bfe2c",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:14:00.000Z",
+    "last_edited_time": "2022-10-18T13:14:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "code",
+    "code": {
+      "caption": [],
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "# PersistentVolumeClaim.yml\napiVersion: v1\nkind: PersistentVolumeClaim\nmetadata:\n  name: limosyn-com-pv-claim\nspec:\n  storageClassName: solid-state\n  accessModes:\n  - ReadWriteOnce\n  resources:\n    requests:\n      storage: 10Gi",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "# PersistentVolumeClaim.yml\napiVersion: v1\nkind: PersistentVolumeClaim\nmetadata:\n  name: limosyn-com-pv-claim\nspec:\n  storageClassName: solid-state\n  accessModes:\n  - ReadWriteOnce\n  resources:\n    requests:\n      storage: 10Gi",
+          "href": null
+        }
+      ],
+      "language": "yaml"
+    }
+  },
+  {
+    "object": "block",
+    "id": "5601534a-0c47-41a5-ab91-00b6df1d2259",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:14:00.000Z",
+    "last_edited_time": "2022-10-18T13:14:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Great! We need to setup Github Actions to directly build and deploy our application from the Repository(CI/CD).",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Great! We need to setup Github Actions to directly build and deploy our application from the Repository(CI/CD).",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "fe198e8e-5e31-4d2f-a4c7-ee702f01e9e4",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:14:00.000Z",
+    "last_edited_time": "2022-10-18T13:14:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_2",
+    "heading_2": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Setting up GitHub Actions",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Setting up GitHub Actions",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "67594ceb-580b-4777-bb86-e78a632cc49e",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:14:00.000Z",
+    "last_edited_time": "2022-10-18T13:14:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "If you are using ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "If you are using ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "GitHub",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "GitHub",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " as your version control, you can use GitHub actions to setup a CI/CD workflow that will directly deploy your application to production. GitHub Actions has good integration with the GKE platform.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " as your version control, you can use GitHub actions to setup a CI/CD workflow that will directly deploy your application to production. GitHub Actions has good integration with the GKE platform.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "1f57ac09-2c8a-4b11-972c-c8bdc57016c0",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:14:00.000Z",
+    "last_edited_time": "2022-10-18T13:14:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_3",
+    "heading_3": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Some Prerequisites",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Some Prerequisites",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "efac071e-022f-4179-a712-f8703f2743a1",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:14:00.000Z",
+    "last_edited_time": "2022-10-18T13:14:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Make sure you have a GCP account and have already setup a cluster following the steps in the previous section.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Make sure you have a GCP account and have already setup a cluster following the steps in the previous section.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "23c0fbf0-d229-4919-bfa3-5782411353c1",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:14:00.000Z",
+    "last_edited_time": "2022-10-18T13:14:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Get a service account with proper access to GKE. ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Get a service account with proper access to GKE. ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Visit this link",
+            "link": {
+              "url": "https://console.cloud.google.com/iam-admin/serviceaccounts?supportedpurview=project"
+            }
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Visit this link",
+          "href": "https://console.cloud.google.com/iam-admin/serviceaccounts?supportedpurview=project"
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " to create one.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " to create one.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "a21469be-eb54-42a7-a350-798d589a3bc3",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:14:00.000Z",
+    "last_edited_time": "2022-10-18T13:14:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Keep your cluster, Information Handy.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Keep your cluster, Information Handy.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "5c834ef9-4f52-492d-a16b-72cc0691b618",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:14:00.000Z",
+    "last_edited_time": "2022-10-18T13:14:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_3",
+    "heading_3": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Adding required files",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Adding required files",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "bbed0f2e-a04c-4059-af4e-99c18f65d284",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:14:00.000Z",
+    "last_edited_time": "2022-10-18T13:14:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Now you need to add four important files. You can add them manually, but I suggest using GitHub itself to add them. These files are:",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Now you need to add four important files. You can add them manually, but I suggest using GitHub itself to add them. These files are:",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "93dea979-e047-4815-8ef8-95b927eb2339",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:14:00.000Z",
+    "last_edited_time": "2022-10-18T13:14:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": ".github/workflows/google.yml",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": ".github/workflows/google.yml",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " : Main configuration used by GitHub to access your Kubernetes cluster and deploy. It also publishes the generated Image to google's Container Registry.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " : Main configuration used by GitHub to access your Kubernetes cluster and deploy. It also publishes the generated Image to google's Container Registry.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "03dab258-2949-4602-b54b-8f6c5fad4bd4",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:14:00.000Z",
+    "last_edited_time": "2022-10-18T13:14:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": ".github/deployment.yml",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": ".github/deployment.yml",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " : Has deployment information such as the number of replicas, deployment strategy, to name a few.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " : Has deployment information such as the number of replicas, deployment strategy, to name a few.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "b4066d5b-08a6-422a-a2f9-31ef585e532f",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:14:00.000Z",
+    "last_edited_time": "2022-10-18T13:14:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": ".github/service.yml",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": ".github/service.yml",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " : Has information required to expose your deployed service to the internet or within your cluster.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " : Has information required to expose your deployed service to the internet or within your cluster.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "0b8b1275-e8c3-4314-a0ea-bc0bdf5ffc32",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:14:00.000Z",
+    "last_edited_time": "2022-10-18T13:14:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "kustomization.yml",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "kustomization.yml",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " : Keeps a record of all the deployment and yml files.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " : Keeps a record of all the deployment and yml files.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "8f1e2154-ccc1-46ed-80db-4fb7b4ed835a",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:14:00.000Z",
+    "last_edited_time": "2022-10-18T13:14:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Dockerfile",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "Dockerfile",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": ": For creating your application container image",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": ": For creating your application container image",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "1a9234e3-e29d-4c95-8008-023d1f9820b1",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:14:00.000Z",
+    "last_edited_time": "2022-10-18T13:14:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "First of all, let's setup a ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "First of all, let's setup a ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Dockerfile",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "Dockerfile",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " which will be used by GA to generate the application image. This image would then be pushed to Google Container Registry.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " which will be used by GA to generate the application image. This image would then be pushed to Google Container Registry.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "38af008c-3361-4150-8957-76108db60602",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:14:00.000Z",
+    "last_edited_time": "2022-10-18T13:14:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "code",
+    "code": {
+      "caption": [],
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "#Dockerfile\n\nFROM node:latest as build-stage\nRUN apt update -y && apt upgrade -y\nWORKDIR /app\nCOPY package.json yarn.lock ./\nRUN yarn install\nCOPY ./ .\nEXPOSE 3000\nENV HOST=0.0.0.0\nENV PORT=3000\nRUN yarn build\nCMD [\"yarn\", \"start\"]",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "#Dockerfile\n\nFROM node:latest as build-stage\nRUN apt update -y && apt upgrade -y\nWORKDIR /app\nCOPY package.json yarn.lock ./\nRUN yarn install\nCOPY ./ .\nEXPOSE 3000\nENV HOST=0.0.0.0\nENV PORT=3000\nRUN yarn build\nCMD [\"yarn\", \"start\"]",
+          "href": null
+        }
+      ],
+      "language": "yaml"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2fe60a35-453b-4d9e-97c6-a16e10061992",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:14:00.000Z",
+    "last_edited_time": "2022-10-18T13:14:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "To setup GA, visit the actions tab on your application Repository:",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "To setup GA, visit the actions tab on your application Repository:",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "32e0748a-dd19-48aa-a770-67485588df0c",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:15:00.000Z",
+    "last_edited_time": "2023-02-19T10:06:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "494b1805-8cfa-459c-b906-5ddb6f1f98c9"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "image",
+    "image": {
+      "caption": [],
+      "type": "external",
+      "external": {
+        "url": "https://res.cloudinary.com/dft5dlcya/image/upload/v1676801164/limosyn.com/blog/images/e7506df4-8301-402c-b727-d4cb645712ff/padqu2ymzez0v8zojhwe.png"
+      }
+    }
+  },
+  {
+    "object": "block",
+    "id": "a6056f08-67b8-46bd-a9e0-031024dc56dd",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:15:00.000Z",
+    "last_edited_time": "2022-10-18T13:15:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Scrolling down, you can find a ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Scrolling down, you can find a ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Build and Deploy to GKE",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "Build and Deploy to GKE",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " workflow among many others. You'll get something similar to this:",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " workflow among many others. You'll get something similar to this:",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "56f723f7-35fe-4174-ae83-5c9d22ceaea7",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:15:00.000Z",
+    "last_edited_time": "2023-02-19T10:06:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "494b1805-8cfa-459c-b906-5ddb6f1f98c9"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "image",
+    "image": {
+      "caption": [],
+      "type": "external",
+      "external": {
+        "url": "https://res.cloudinary.com/dft5dlcya/image/upload/v1676801170/limosyn.com/blog/images/e7506df4-8301-402c-b727-d4cb645712ff/fp4zqscyssjv0syz96of.png"
+      }
+    }
+  },
+  {
+    "object": "block",
+    "id": "1d902d7e-5477-420f-906f-6285ac287c36",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:15:00.000Z",
+    "last_edited_time": "2022-10-18T13:15:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Make changes to the ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Make changes to the ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "google.yml",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "google.yml",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " file, such as:",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " file, such as:",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "8b3cdfff-33dc-4eb3-b80a-1c85cee9f4e2",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:15:00.000Z",
+    "last_edited_time": "2022-10-18T13:15:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "PROJECT_ID",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "PROJECT_ID",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " : The GCP Project ID.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " : The GCP Project ID.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "e952071d-333f-42cc-94f3-169386c547ce",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:15:00.000Z",
+    "last_edited_time": "2022-10-18T13:15:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "GKE_CLUSTER",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "GKE_CLUSTER",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " : Name of the GKE Cluster",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " : Name of the GKE Cluster",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "5fc68e08-d911-4e32-af5a-45ee11fc262e",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:15:00.000Z",
+    "last_edited_time": "2022-10-18T13:15:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "GKE_ZONE",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "GKE_ZONE",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " : Zone where the cluster exists",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " : Zone where the cluster exists",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "43a91eff-fcfd-49ab-a30e-5e0827505bf5",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:15:00.000Z",
+    "last_edited_time": "2022-10-18T13:15:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "DEPLOYMENT_NAME",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "DEPLOYMENT_NAME",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " : Give any to your liking.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " : Give any to your liking.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "1c2c45f7-93b3-4cc1-9a1e-a644d6bb1f3e",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:15:00.000Z",
+    "last_edited_time": "2022-10-18T13:15:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "For adding Secrets, go to ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "For adding Secrets, go to ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Repository Settings > Secrets > New Repository Secret",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "Repository Settings > Secrets > New Repository Secret",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "0a1bedb3-ee14-4830-8c6c-095a4fa8c58c",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:15:00.000Z",
+    "last_edited_time": "2023-02-19T10:06:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "494b1805-8cfa-459c-b906-5ddb6f1f98c9"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "image",
+    "image": {
+      "caption": [],
+      "type": "external",
+      "external": {
+        "url": "https://res.cloudinary.com/dft5dlcya/image/upload/v1676801175/limosyn.com/blog/images/e7506df4-8301-402c-b727-d4cb645712ff/csvs3qwkqchhfo8oeskl.png"
+      }
+    }
+  },
+  {
+    "object": "block",
+    "id": "a98fe9c0-4e1e-4b6e-abf6-b059f1846289",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:15:00.000Z",
+    "last_edited_time": "2022-10-18T13:15:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "GKE_SA_KEY",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "GKE_SA_KEY",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " is the content of your service account ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " is the content of your service account ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "credentials.json",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "credentials.json",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " file.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " file.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "a25acf14-8001-4ea5-92b4-63b75a7bcb44",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:15:00.000Z",
+    "last_edited_time": "2022-10-18T13:15:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Now add ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Now add ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "deployment.yml",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "deployment.yml",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": ", ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": ", ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "kustomization.yml",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "kustomization.yml",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " and ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " and ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "service.yml",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "service.yml",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " files. For reference, they can be:",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " files. For reference, they can be:",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "055b1283-3b3a-4f80-9b1d-6e75ab88cb71",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:15:00.000Z",
+    "last_edited_time": "2022-10-18T13:16:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "code",
+    "code": {
+      "caption": [],
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "# deployment.yml\n\napiVersion: apps/v1\nkind: Deployment\nmetadata:\n  name: nuxt-frontend\n  namespace: \"default\"\nspec:\n  replicas: 2\n  strategy:\n    type: RollingUpdate\n    rollingUpdate:\n      maxSurge: 1\n      maxUnavailable: 0\n  selector:\n    matchLabels:\n      app: nuxt-frontend\n  template:\n    metadata:\n      labels:\n        app: nuxt-frontend\n    spec:\n      containers:\n      - name: app\n        image: gcr.io/PROJECT_ID/IMAGE:TAG\n        imagePullPolicy: Always\n        ports:\n        - containerPort: 3000\n        livenessProbe:\n          tcpSocket:\n            port: 3000\n          initialDelaySeconds: 10\n          timeoutSeconds: 5\n          periodSeconds: 30\n        readinessProbe:\n          tcpSocket:\n            port: 3000\n          initialDelaySeconds: 30\n          timeoutSeconds: 5\n          periodSeconds: 30",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "# deployment.yml\n\napiVersion: apps/v1\nkind: Deployment\nmetadata:\n  name: nuxt-frontend\n  namespace: \"default\"\nspec:\n  replicas: 2\n  strategy:\n    type: RollingUpdate\n    rollingUpdate:\n      maxSurge: 1\n      maxUnavailable: 0\n  selector:\n    matchLabels:\n      app: nuxt-frontend\n  template:\n    metadata:\n      labels:\n        app: nuxt-frontend\n    spec:\n      containers:\n      - name: app\n        image: gcr.io/PROJECT_ID/IMAGE:TAG\n        imagePullPolicy: Always\n        ports:\n        - containerPort: 3000\n        livenessProbe:\n          tcpSocket:\n            port: 3000\n          initialDelaySeconds: 10\n          timeoutSeconds: 5\n          periodSeconds: 30\n        readinessProbe:\n          tcpSocket:\n            port: 3000\n          initialDelaySeconds: 30\n          timeoutSeconds: 5\n          periodSeconds: 30",
+          "href": null
+        }
+      ],
+      "language": "yaml"
+    }
+  },
+  {
+    "object": "block",
+    "id": "34f29448-08e8-4e3f-8983-7ecf780ad966",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:15:00.000Z",
+    "last_edited_time": "2022-10-18T13:16:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "code",
+    "code": {
+      "caption": [],
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "# service.yml\n\napiVersion: v1\nkind: Service\nmetadata:\n  name: nuxt-frontend\n  namespace: default\n  labels:\n    app: nuxt-frontend\n    tier: frontend\nspec:\n  ports:\n  - protocol: TCP\n    port: 80\n    targetPort: 3000\n  selector:\n    app: nuxt-frontend\n  type: LoadBalancer",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "# service.yml\n\napiVersion: v1\nkind: Service\nmetadata:\n  name: nuxt-frontend\n  namespace: default\n  labels:\n    app: nuxt-frontend\n    tier: frontend\nspec:\n  ports:\n  - protocol: TCP\n    port: 80\n    targetPort: 3000\n  selector:\n    app: nuxt-frontend\n  type: LoadBalancer",
+          "href": null
+        }
+      ],
+      "language": "yaml"
+    }
+  },
+  {
+    "object": "block",
+    "id": "39e1242e-0e70-4a89-a75e-56e3ffee9b09",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:15:00.000Z",
+    "last_edited_time": "2022-10-18T13:16:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "code",
+    "code": {
+      "caption": [],
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "# kustomization.yml\n\napiVersion: kustomize.config.k8s.io/v1beta1\nkind: Kustomization\n\nresources:\n  - .github/service.yaml\n  - .github/deployment.yaml",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "# kustomization.yml\n\napiVersion: kustomize.config.k8s.io/v1beta1\nkind: Kustomization\n\nresources:\n  - .github/service.yaml\n  - .github/deployment.yaml",
+          "href": null
+        }
+      ],
+      "language": "yaml"
+    }
+  },
+  {
+    "object": "block",
+    "id": "e89b999e-0471-41f7-a253-abdc489070bc",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:15:00.000Z",
+    "last_edited_time": "2022-10-18T13:15:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Once added, commit your changes!! ??",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Once added, commit your changes!! ??",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "f9ac0f22-c353-4787-9b5a-e64bb10b2dd0",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:15:00.000Z",
+    "last_edited_time": "2022-10-18T13:15:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Provided you did everything right, the next time you push changes to your repository, GitHub actions will deploy your application to your Kubernetes Cluster.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Provided you did everything right, the next time you push changes to your repository, GitHub actions will deploy your application to your Kubernetes Cluster.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "6cf96246-8fa9-4513-bb24-bb62ef51695e",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:16:00.000Z",
+    "last_edited_time": "2023-02-19T10:06:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "494b1805-8cfa-459c-b906-5ddb6f1f98c9"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "image",
+    "image": {
+      "caption": [
+        {
+          "type": "text",
+          "text": {
+            "content": "You should be able to see the created deployments.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "You should be able to see the created deployments.",
+          "href": null
+        }
+      ],
+      "type": "external",
+      "external": {
+        "url": "https://res.cloudinary.com/dft5dlcya/image/upload/v1676801181/limosyn.com/blog/images/e7506df4-8301-402c-b727-d4cb645712ff/you_should_be_able_to_see_the_created_deployments_.png"
+      }
+    }
+  },
+  {
+    "object": "block",
+    "id": "4fdc86e1-bfcc-47f0-8b09-a17cd5a41845",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:15:00.000Z",
+    "last_edited_time": "2022-10-18T13:15:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Also, your application should be accessible via the Load balancer IP address.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Also, your application should be accessible via the Load balancer IP address.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "61c70ef3-cb96-45c9-b177-973bd4803bfa",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:15:00.000Z",
+    "last_edited_time": "2022-10-18T13:15:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_2",
+    "heading_2": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Summing it up...",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Summing it up...",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "43fae7c0-f601-4327-9318-f49b2cc0e3cd",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:15:00.000Z",
+    "last_edited_time": "2022-10-18T13:15:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Following this article, you:",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Following this article, you:",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "4f01f851-650c-4231-9d93-385e69563469",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:15:00.000Z",
+    "last_edited_time": "2022-10-18T13:15:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Created a GCP account with a free trial.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Created a GCP account with a free trial.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "4a5a3021-cd42-415b-b336-3c13fb7bfe2a",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:15:00.000Z",
+    "last_edited_time": "2022-10-18T13:15:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Set up a GKE cluster to deploy your application.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Set up a GKE cluster to deploy your application.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "c9c9532f-b19f-4c80-8d60-28fb9d1692e5",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:15:00.000Z",
+    "last_edited_time": "2022-10-18T13:15:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Created files critical to GitHub Actions integration.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Created files critical to GitHub Actions integration.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "caf08056-7bcb-4d7d-9b53-436aed6b675e",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:15:00.000Z",
+    "last_edited_time": "2022-10-18T13:15:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Created a GitHub actions workflow.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Created a GitHub actions workflow.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "63e6eff6-1fd8-410b-8ba8-f2ee5796e314",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2022-10-18T13:15:00.000Z",
+    "last_edited_time": "2022-10-18T13:15:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "This guide can be used to deploy all types of basic applications. Of course, there will be adaptations, but the soul would remain the same.✌?",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "This guide can be used to deploy all types of basic applications. Of course, there will be adaptations, but the soul would remain the same.✌?",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "1ffb258a-3507-45f5-8024-a5781abb8868",
+    "parent": {
+      "type": "page_id",
+      "page_id": "e7506df4-8301-402c-b727-d4cb645712ff"
+    },
+    "created_time": "2023-02-12T07:14:00.000Z",
+    "last_edited_time": "2023-02-12T07:14:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [],
+      "color": "default"
+    }
+  }
+]

@@ -1,0 +1,2661 @@
+[
+  {
+    "object": "block",
+    "id": "27c46b70-7eac-4e9c-a6a1-b8f7ceb3b7fd",
+    "parent": {
+      "type": "page_id",
+      "page_id": "9dd2ac02-6495-4f87-81c7-b58c2888f077"
+    },
+    "created_time": "2022-10-16T17:38:00.000Z",
+    "last_edited_time": "2023-02-05T08:12:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Spring of 2020! With days left for Corona to become a full-blown pandemic and having been almost unfettered of my academic commitments, that's when the thought of having my personal website came to my mind. But as usual, the thought was hibernated along with the numerous ideas and convictions deep within my mind.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Spring of 2020! With days left for Corona to become a full-blown pandemic and having been almost unfettered of my academic commitments, that's when the thought of having my personal website came to my mind. But as usual, the thought was hibernated along with the numerous ideas and convictions deep within my mind.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2cf77568-df81-4969-b882-b80f5bc2657e",
+    "parent": {
+      "type": "page_id",
+      "page_id": "9dd2ac02-6495-4f87-81c7-b58c2888f077"
+    },
+    "created_time": "2022-10-16T17:38:00.000Z",
+    "last_edited_time": "2022-10-16T17:38:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "divider",
+    "divider": {}
+  },
+  {
+    "object": "block",
+    "id": "5a5b289b-6989-4822-b1ac-0fc0c0057906",
+    "parent": {
+      "type": "page_id",
+      "page_id": "9dd2ac02-6495-4f87-81c7-b58c2888f077"
+    },
+    "created_time": "2022-10-16T17:40:00.000Z",
+    "last_edited_time": "2022-10-16T17:40:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Juggling my time between playing games indoor and shamelessly procrastinating, 8 months passed by, and December was coming to an end. I had a blank slate to show for. That's when it finally hit me!",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Juggling my time between playing games indoor and shamelessly procrastinating, 8 months passed by, and December was coming to an end. I had a blank slate to show for. That's when it finally hit me!",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "46d9b2d3-8ec2-4a44-bb00-edfa4a84d55c",
+    "parent": {
+      "type": "page_id",
+      "page_id": "9dd2ac02-6495-4f87-81c7-b58c2888f077"
+    },
+    "created_time": "2022-10-16T17:40:00.000Z",
+    "last_edited_time": "2022-10-16T17:40:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "You ask, what? Well, that's a topic for another article. Alright enough with the backstory!",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "You ask, what? Well, that's a topic for another article. Alright enough with the backstory!",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "6fc01d9c-70c4-49b2-afa9-209a122bec12",
+    "parent": {
+      "type": "page_id",
+      "page_id": "9dd2ac02-6495-4f87-81c7-b58c2888f077"
+    },
+    "created_time": "2022-10-16T17:40:00.000Z",
+    "last_edited_time": "2022-10-16T17:40:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "So why a website when you already have a presence on Facebook, Twitter, Quora, LinkedIn, Instagram, etc.?",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "So why a website when you already have a presence on Facebook, Twitter, Quora, LinkedIn, Instagram, etc.?",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "f9ed5e21-ced4-4a22-a56d-a9e964b48b81",
+    "parent": {
+      "type": "page_id",
+      "page_id": "9dd2ac02-6495-4f87-81c7-b58c2888f077"
+    },
+    "created_time": "2022-10-16T17:40:00.000Z",
+    "last_edited_time": "2022-10-16T17:40:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Well, Your personal website enacts a pillar of your identity - online. It serves as a single point of contact that others can know about you, your work, and your Interests. Like potential employers and investors, the people who matter professionally aren't going to visit each of your profiles on different social media sources.  Not many people have time to spare for face time to know about you. With a website, you are no longer bound by a platform's UI.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Well, Your personal website enacts a pillar of your identity - online. It serves as a single point of contact that others can know about you, your work, and your Interests. Like potential employers and investors, the people who matter professionally aren't going to visit each of your profiles on different social media sources.  Not many people have time to spare for face time to know about you. With a website, you are no longer bound by a platform's UI.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "f45bc102-bf09-4633-abf0-b4641fd662f6",
+    "parent": {
+      "type": "page_id",
+      "page_id": "9dd2ac02-6495-4f87-81c7-b58c2888f077"
+    },
+    "created_time": "2022-10-16T17:40:00.000Z",
+    "last_edited_time": "2022-10-16T17:40:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Being on a platform like LinkedIn is good, but so are a million more, many with equally good profiles and interests. It's hard to stand out under such circumstances.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Being on a platform like LinkedIn is good, but so are a million more, many with equally good profiles and interests. It's hard to stand out under such circumstances.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "5d9a7e56-d470-46ae-8060-2f8a224fb1c5",
+    "parent": {
+      "type": "page_id",
+      "page_id": "9dd2ac02-6495-4f87-81c7-b58c2888f077"
+    },
+    "created_time": "2022-10-16T17:40:00.000Z",
+    "last_edited_time": "2022-10-16T17:40:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Still not convinced... Read on!",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Still not convinced... Read on!",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "11be3dcb-4a44-48bb-abf4-ce9e72a3a794",
+    "parent": {
+      "type": "page_id",
+      "page_id": "9dd2ac02-6495-4f87-81c7-b58c2888f077"
+    },
+    "created_time": "2022-10-16T17:40:00.000Z",
+    "last_edited_time": "2022-10-16T17:40:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_2",
+    "heading_2": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The Obvious reasons",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The Obvious reasons",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "9d0a5140-6429-4438-83d4-05beb4438697",
+    "parent": {
+      "type": "page_id",
+      "page_id": "9dd2ac02-6495-4f87-81c7-b58c2888f077"
+    },
+    "created_time": "2022-10-16T17:40:00.000Z",
+    "last_edited_time": "2022-10-16T17:40:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_3",
+    "heading_3": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Gives you control over your Image.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Gives you control over your Image.",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "3b194001-24ab-45eb-9322-cc1ff60aa187",
+    "parent": {
+      "type": "page_id",
+      "page_id": "9dd2ac02-6495-4f87-81c7-b58c2888f077"
+    },
+    "created_time": "2022-10-16T17:40:00.000Z",
+    "last_edited_time": "2022-10-16T17:40:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Whether you are looking for a new job or are just a freelancer looking for your next gig, your potential employer or client would most likely search you online - ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Whether you are looking for a new job or are just a freelancer looking for your next gig, your potential employer or client would most likely search you online - ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Google",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " you. In such circumstances having a medium to put out the best in you is, frankly, priceless!",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " you. In such circumstances having a medium to put out the best in you is, frankly, priceless!",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "d7e45bc3-cc45-43ca-a91c-74a46a994e11",
+    "parent": {
+      "type": "page_id",
+      "page_id": "9dd2ac02-6495-4f87-81c7-b58c2888f077"
+    },
+    "created_time": "2022-10-16T17:40:00.000Z",
+    "last_edited_time": "2025-01-21T05:39:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "image",
+    "image": {
+      "caption": [],
+      "type": "external",
+      "external": {
+        "url": "https://res.cloudinary.com/dft5dlcya/image/upload/v1676801293/limosyn.com/blog/images/9dd2ac02-6495-4f87-81c7-b58c2888f077/jvyo7m8r9qunqgvchrxh.png"
+      }
+    }
+  },
+  {
+    "object": "block",
+    "id": "14303652-15de-4c7e-b462-45621a96ca85",
+    "parent": {
+      "type": "page_id",
+      "page_id": "9dd2ac02-6495-4f87-81c7-b58c2888f077"
+    },
+    "created_time": "2022-10-16T17:40:00.000Z",
+    "last_edited_time": "2022-10-16T17:40:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_3",
+    "heading_3": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Helps you connect",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Helps you connect",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "ee36f089-964b-43cf-9cf3-dbd78eef59d7",
+    "parent": {
+      "type": "page_id",
+      "page_id": "9dd2ac02-6495-4f87-81c7-b58c2888f077"
+    },
+    "created_time": "2022-10-16T17:40:00.000Z",
+    "last_edited_time": "2022-10-16T17:40:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The more you put yourself out there, the more people are going to find you. Don't ever think that no one in the world would share your weirdest of interests. I repeat never. Share whatever helps you truly connect with your audience.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The more you put yourself out there, the more people are going to find you. Don't ever think that no one in the world would share your weirdest of interests. I repeat never. Share whatever helps you truly connect with your audience.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "8053ddb1-01b6-4fcb-ab3b-1cf4644ff373",
+    "parent": {
+      "type": "page_id",
+      "page_id": "9dd2ac02-6495-4f87-81c7-b58c2888f077"
+    },
+    "created_time": "2022-10-16T17:40:00.000Z",
+    "last_edited_time": "2025-01-21T05:39:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "image",
+    "image": {
+      "caption": [],
+      "type": "external",
+      "external": {
+        "url": "https://res.cloudinary.com/dft5dlcya/image/upload/v1676801299/limosyn.com/blog/images/9dd2ac02-6495-4f87-81c7-b58c2888f077/uoi16z0vtrvtah45cyvl.png"
+      }
+    }
+  },
+  {
+    "object": "block",
+    "id": "5a830087-2295-48a3-8234-1249eee37997",
+    "parent": {
+      "type": "page_id",
+      "page_id": "9dd2ac02-6495-4f87-81c7-b58c2888f077"
+    },
+    "created_time": "2022-10-16T17:41:00.000Z",
+    "last_edited_time": "2022-10-16T17:41:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_3",
+    "heading_3": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Helps you create your Audience - Standout from the crowd",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Helps you create your Audience - Standout from the crowd",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "160a3898-d713-45cc-99fd-c3a76bc0bfb3",
+    "parent": {
+      "type": "page_id",
+      "page_id": "9dd2ac02-6495-4f87-81c7-b58c2888f077"
+    },
+    "created_time": "2022-10-16T17:41:00.000Z",
+    "last_edited_time": "2022-10-16T17:41:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Now above reasons hold for any website; however, if you convert it to a thoughts publishing machine - aka a Blog. It's a cherry on top. A blog brings about a host of advantages:",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Now above reasons hold for any website; however, if you convert it to a thoughts publishing machine - aka a Blog. It's a cherry on top. A blog brings about a host of advantages:",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "3901372b-1b05-4781-b8be-4037c0039f4f",
+    "parent": {
+      "type": "page_id",
+      "page_id": "9dd2ac02-6495-4f87-81c7-b58c2888f077"
+    },
+    "created_time": "2022-10-16T17:41:00.000Z",
+    "last_edited_time": "2022-10-16T17:41:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Flexibility: ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Flexibility: ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "YOU decide the User interface of your website. You can decide how your viewers are going to consume your content. Whether it's quirky animations in between the text or cheering the visitor on reading your post - you can do anything!",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "YOU decide the User interface of your website. You can decide how your viewers are going to consume your content. Whether it's quirky animations in between the text or cheering the visitor on reading your post - you can do anything!",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "140cb0fc-e1a4-4326-bf7a-6e907392b249",
+    "parent": {
+      "type": "page_id",
+      "page_id": "9dd2ac02-6495-4f87-81c7-b58c2888f077"
+    },
+    "created_time": "2022-10-16T17:41:00.000Z",
+    "last_edited_time": "2022-10-16T17:41:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Support a Cause: ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Support a Cause: ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "When you write about something, you share your beliefs and worldviews. And believe it or not, there is always going to someone with whom your words resonate, always! No matter how niche your subject may seem to you, it could always be something special for someone.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "When you write about something, you share your beliefs and worldviews. And believe it or not, there is always going to someone with whom your words resonate, always! No matter how niche your subject may seem to you, it could always be something special for someone.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "d0ba3f34-fb56-4aba-bd9d-9216423beb03",
+    "parent": {
+      "type": "page_id",
+      "page_id": "9dd2ac02-6495-4f87-81c7-b58c2888f077"
+    },
+    "created_time": "2022-10-16T17:41:00.000Z",
+    "last_edited_time": "2022-10-16T17:41:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Helps you share your ideas: ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Helps you share your ideas: ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "While it's easier to find an audience on public blogging websites like ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "While it's easier to find an audience on public blogging websites like ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Medium",
+            "link": {
+              "url": "https://medium.com/"
+            }
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Medium",
+          "href": "https://medium.com/"
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "; honestly",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "; honestly",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": ", it's altogether a different ball game, writing for your own website. A better mindset leads to better ideas.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": ", it's altogether a different ball game, writing for your own website. A better mindset leads to better ideas.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "bdab27ea-e6a9-4608-9fd1-cf11ff16238e",
+    "parent": {
+      "type": "page_id",
+      "page_id": "9dd2ac02-6495-4f87-81c7-b58c2888f077"
+    },
+    "created_time": "2022-10-16T17:41:00.000Z",
+    "last_edited_time": "2022-10-16T17:41:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Generate Revenue: ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Generate Revenue: ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Getting down to real stuff, blogging allows you to generate passive income. Sometimes even in thousands of ?. But let's not get ahead of ourselves. If your sole motivation to create content is money, you might start but not persist. It might take months or even years even to get a single dollar.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Getting down to real stuff, blogging allows you to generate passive income. Sometimes even in thousands of ?. But let's not get ahead of ourselves. If your sole motivation to create content is money, you might start but not persist. It might take months or even years even to get a single dollar.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "ae10c7ac-aa42-4fea-bfac-9cf0990bff82",
+    "parent": {
+      "type": "page_id",
+      "page_id": "9dd2ac02-6495-4f87-81c7-b58c2888f077"
+    },
+    "created_time": "2022-10-16T17:41:00.000Z",
+    "last_edited_time": "2022-10-16T17:41:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_2",
+    "heading_2": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Not so Obvious reason",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Not so Obvious reason",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "891d43f1-efc6-4e5a-b4f4-9cbec4e1a602",
+    "parent": {
+      "type": "page_id",
+      "page_id": "9dd2ac02-6495-4f87-81c7-b58c2888f077"
+    },
+    "created_time": "2022-10-16T17:41:00.000Z",
+    "last_edited_time": "2022-10-16T17:41:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "(* Skip if not tech-versed)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "(* Skip if not tech-versed)",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "5badca1a-5a8a-4f3b-9c56-1f731d73bcd2",
+    "parent": {
+      "type": "page_id",
+      "page_id": "9dd2ac02-6495-4f87-81c7-b58c2888f077"
+    },
+    "created_time": "2022-10-16T17:41:00.000Z",
+    "last_edited_time": "2022-10-16T17:41:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Alright, Jose! I've got a few more reasons up my sleeves. The above reasons are the ones that motivated me to start, but the following ones kept me going.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Alright, Jose! I've got a few more reasons up my sleeves. The above reasons are the ones that motivated me to start, but the following ones kept me going.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2d930500-ecb2-4511-8a42-97d9805b0b60",
+    "parent": {
+      "type": "page_id",
+      "page_id": "9dd2ac02-6495-4f87-81c7-b58c2888f077"
+    },
+    "created_time": "2022-10-16T17:41:00.000Z",
+    "last_edited_time": "2025-01-21T05:39:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "image",
+    "image": {
+      "caption": [],
+      "type": "external",
+      "external": {
+        "url": "https://res.cloudinary.com/dft5dlcya/image/upload/v1676801306/limosyn.com/blog/images/9dd2ac02-6495-4f87-81c7-b58c2888f077/knrjny3tkmdfus9mjxca.png"
+      }
+    }
+  },
+  {
+    "object": "block",
+    "id": "35c7ec8b-13a7-4d04-a42f-55d123a4fd04",
+    "parent": {
+      "type": "page_id",
+      "page_id": "9dd2ac02-6495-4f87-81c7-b58c2888f077"
+    },
+    "created_time": "2022-10-16T17:42:00.000Z",
+    "last_edited_time": "2022-10-16T17:42:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "For me, the biggest takeaway from this journey has been in terms of learning. This is what I started with(related to Web Development):",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "For me, the biggest takeaway from this journey has been in terms of learning. This is what I started with(related to Web Development):",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "584c8c4e-2e5e-4d5e-b2a0-41ef9dff82ea",
+    "parent": {
+      "type": "page_id",
+      "page_id": "9dd2ac02-6495-4f87-81c7-b58c2888f077"
+    },
+    "created_time": "2022-10-16T17:42:00.000Z",
+    "last_edited_time": "2022-10-16T17:42:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "RESTful APIs in Python Flask and Java.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "RESTful APIs in Python Flask and Java.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2924d295-37c1-437e-94bc-98bd94305d86",
+    "parent": {
+      "type": "page_id",
+      "page_id": "9dd2ac02-6495-4f87-81c7-b58c2888f077"
+    },
+    "created_time": "2022-10-16T17:42:00.000Z",
+    "last_edited_time": "2022-10-16T17:42:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "SpringBoot Web Applications",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "SpringBoot Web Applications",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "ede2a5ff-eba2-4e0b-a559-f30beec952a6",
+    "parent": {
+      "type": "page_id",
+      "page_id": "9dd2ac02-6495-4f87-81c7-b58c2888f077"
+    },
+    "created_time": "2022-10-16T17:42:00.000Z",
+    "last_edited_time": "2022-10-16T17:42:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Cloud Computing Knowledge",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Cloud Computing Knowledge",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "903ad423-8b8e-46db-9a58-c67a0515685b",
+    "parent": {
+      "type": "page_id",
+      "page_id": "9dd2ac02-6495-4f87-81c7-b58c2888f077"
+    },
+    "created_time": "2022-10-16T17:42:00.000Z",
+    "last_edited_time": "2022-10-16T17:42:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "GitHub version controlling",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "GitHub version controlling",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "8890bc0c-fbfd-4b84-aab4-51f7a0d1d0f7",
+    "parent": {
+      "type": "page_id",
+      "page_id": "9dd2ac02-6495-4f87-81c7-b58c2888f077"
+    },
+    "created_time": "2022-10-16T17:42:00.000Z",
+    "last_edited_time": "2022-10-16T17:42:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "By the time I finished, I had added the following tools to my arsenal:",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "By the time I finished, I had added the following tools to my arsenal:",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "23aa8312-b774-4865-8de5-32c888d91dea",
+    "parent": {
+      "type": "page_id",
+      "page_id": "9dd2ac02-6495-4f87-81c7-b58c2888f077"
+    },
+    "created_time": "2022-10-16T17:42:00.000Z",
+    "last_edited_time": "2022-10-16T17:42:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "HTML and CSS",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "HTML and CSS",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "d51471a2-d523-4dde-ba65-e3ca904b17c3",
+    "parent": {
+      "type": "page_id",
+      "page_id": "9dd2ac02-6495-4f87-81c7-b58c2888f077"
+    },
+    "created_time": "2022-10-16T17:42:00.000Z",
+    "last_edited_time": "2022-10-16T17:42:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Javascript and frameworks (VueJS and NuxtJS)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Javascript and frameworks (VueJS and NuxtJS)",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "d59b65d7-0184-49e3-9283-64b6001fc4d7",
+    "parent": {
+      "type": "page_id",
+      "page_id": "9dd2ac02-6495-4f87-81c7-b58c2888f077"
+    },
+    "created_time": "2022-10-16T17:42:00.000Z",
+    "last_edited_time": "2022-10-16T17:42:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Typescript",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Typescript",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "e3957f69-a508-4c91-8036-d63ead040d3c",
+    "parent": {
+      "type": "page_id",
+      "page_id": "9dd2ac02-6495-4f87-81c7-b58c2888f077"
+    },
+    "created_time": "2022-10-16T17:42:00.000Z",
+    "last_edited_time": "2022-10-16T17:42:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Advanced Knowledge in Google Cloud Computing",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Advanced Knowledge in Google Cloud Computing",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "de8f91c2-0912-4807-b379-5995304af8c4",
+    "parent": {
+      "type": "page_id",
+      "page_id": "9dd2ac02-6495-4f87-81c7-b58c2888f077"
+    },
+    "created_time": "2022-10-16T17:42:00.000Z",
+    "last_edited_time": "2022-10-16T17:42:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Kubernetes",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Kubernetes",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "cac15d9c-99fe-4940-ad34-4d825e49b7f5",
+    "parent": {
+      "type": "page_id",
+      "page_id": "9dd2ac02-6495-4f87-81c7-b58c2888f077"
+    },
+    "created_time": "2022-10-16T17:42:00.000Z",
+    "last_edited_time": "2022-10-16T17:42:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Docker",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Docker",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "73bc0d80-3e96-4bf9-b627-1d74181e3290",
+    "parent": {
+      "type": "page_id",
+      "page_id": "9dd2ac02-6495-4f87-81c7-b58c2888f077"
+    },
+    "created_time": "2022-10-16T17:42:00.000Z",
+    "last_edited_time": "2022-10-16T17:42:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Computer Networks basics",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Computer Networks basics",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "deee0bb8-3283-462e-bab6-46ccdc0c42e1",
+    "parent": {
+      "type": "page_id",
+      "page_id": "9dd2ac02-6495-4f87-81c7-b58c2888f077"
+    },
+    "created_time": "2022-10-16T17:42:00.000Z",
+    "last_edited_time": "2022-10-16T17:42:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Asking questions on Stackoverflow (Before it was just reading the already existing ones ?)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Asking questions on Stackoverflow (Before it was just reading the already existing ones ?)",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "23c790af-c89f-47bd-b2b3-aa819a845cf1",
+    "parent": {
+      "type": "page_id",
+      "page_id": "9dd2ac02-6495-4f87-81c7-b58c2888f077"
+    },
+    "created_time": "2022-10-16T17:42:00.000Z",
+    "last_edited_time": "2022-10-16T17:42:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Do note that this is not an exhaustive list. And it's not just the new technologies. I now have a different approach when I'm facing a problem. Before, it was like - work on the problem for a day or two, if it doesn't work - throw the project out of the window. \t\tHowever, this time I didn't abandon. There were times when I was stuck in solving issues. It took me more than a week to deploy the whole stack on Kubernetes. But I finally did it and now have a CI/CD pipeline setup. Just push the changes to GitHub, and it gets deployed automatically. How cool is that!? ? (This might be normal for enterprise software, not for a personal project ?)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Do note that this is not an exhaustive list. And it's not just the new technologies. I now have a different approach when I'm facing a problem. Before, it was like - work on the problem for a day or two, if it doesn't work - throw the project out of the window. \t\tHowever, this time I didn't abandon. There were times when I was stuck in solving issues. It took me more than a week to deploy the whole stack on Kubernetes. But I finally did it and now have a CI/CD pipeline setup. Just push the changes to GitHub, and it gets deployed automatically. How cool is that!? ? (This might be normal for enterprise software, not for a personal project ?)",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "21dd094b-ee17-43c2-b6b9-d48fd7c38273",
+    "parent": {
+      "type": "page_id",
+      "page_id": "9dd2ac02-6495-4f87-81c7-b58c2888f077"
+    },
+    "created_time": "2022-10-16T17:42:00.000Z",
+    "last_edited_time": "2022-10-16T17:42:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_2",
+    "heading_2": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Things to keep in Mind",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Things to keep in Mind",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "318f66a1-74c9-4c6e-9bc9-baa3499eb7e8",
+    "parent": {
+      "type": "page_id",
+      "page_id": "9dd2ac02-6495-4f87-81c7-b58c2888f077"
+    },
+    "created_time": "2022-10-16T17:42:00.000Z",
+    "last_edited_time": "2022-10-16T17:42:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "quote",
+    "quote": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Hope for the Best! Plan for the worst!",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Hope for the Best! Plan for the worst!",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "4798c7d0-27f1-47d5-bb95-bd65c9683a79",
+    "parent": {
+      "type": "page_id",
+      "page_id": "9dd2ac02-6495-4f87-81c7-b58c2888f077"
+    },
+    "created_time": "2022-10-16T17:42:00.000Z",
+    "last_edited_time": "2022-10-16T17:42:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "There are a couple of things that you need to keep in mind if you do plan to create your website, specifically if you are creating some content:",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "There are a couple of things that you need to keep in mind if you do plan to create your website, specifically if you are creating some content:",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "117256bd-ae5f-4a44-815a-6ae16cb1abf3",
+    "parent": {
+      "type": "page_id",
+      "page_id": "9dd2ac02-6495-4f87-81c7-b58c2888f077"
+    },
+    "created_time": "2022-10-16T17:42:00.000Z",
+    "last_edited_time": "2022-10-16T17:42:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Don't expect any visitors",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Don't expect any visitors",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": ": You can wish! But don't expect anyone to visit your website in the initial few months. Do it because you want to share something and not because you want to generate income. If your goal is to earn money, you will definitely give up after a few days. Let's see if I do..?",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": ": You can wish! But don't expect anyone to visit your website in the initial few months. Do it because you want to share something and not because you want to generate income. If your goal is to earn money, you will definitely give up after a few days. Let's see if I do..?",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "0a0f46a7-cbba-49e7-9925-583055bf1617",
+    "parent": {
+      "type": "page_id",
+      "page_id": "9dd2ac02-6495-4f87-81c7-b58c2888f077"
+    },
+    "created_time": "2022-10-16T17:42:00.000Z",
+    "last_edited_time": "2022-10-16T17:42:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Strive for Quantity, aim for Quality",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Strive for Quantity, aim for Quality",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": ": Contrary to popular belief, when you start something new, focus on quantity. Running after quality would basically deter you from even starting the activity.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": ": Contrary to popular belief, when you start something new, focus on quantity. Running after quality would basically deter you from even starting the activity.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "24658597-338a-4112-9856-8e32fd07aed6",
+    "parent": {
+      "type": "page_id",
+      "page_id": "9dd2ac02-6495-4f87-81c7-b58c2888f077"
+    },
+    "created_time": "2022-10-16T17:42:00.000Z",
+    "last_edited_time": "2022-10-16T17:42:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Learn along the journey",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Learn along the journey",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": ": Don't try to learn everything before starting because, believe me, you can't. Get some basic knowledge, and then figure it out on the way. I use the same philosophy while learning any new concept in general. Don't hesitate to dump beliefs and strategies when something better comes along.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": ": Don't try to learn everything before starting because, believe me, you can't. Get some basic knowledge, and then figure it out on the way. I use the same philosophy while learning any new concept in general. Don't hesitate to dump beliefs and strategies when something better comes along.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "be04c28f-a082-4d7b-94d4-d506f537ae6e",
+    "parent": {
+      "type": "page_id",
+      "page_id": "9dd2ac02-6495-4f87-81c7-b58c2888f077"
+    },
+    "created_time": "2022-10-16T17:42:00.000Z",
+    "last_edited_time": "2022-10-16T17:42:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Forget what others will say",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Forget what others will say",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": ": I feel this was the biggest reason which was holding me back. This was until I learned about the Spotlight effect. Simple observation, but liberating. As long as you won't get thrashed to a pulp, I think you can do whatever you like.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": ": I feel this was the biggest reason which was holding me back. This was until I learned about the Spotlight effect. Simple observation, but liberating. As long as you won't get thrashed to a pulp, I think you can do whatever you like.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "d72d8831-b419-4497-b1c9-5a7a5f196744",
+    "parent": {
+      "type": "page_id",
+      "page_id": "9dd2ac02-6495-4f87-81c7-b58c2888f077"
+    },
+    "created_time": "2022-10-16T17:42:00.000Z",
+    "last_edited_time": "2022-10-16T17:44:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "It's not expensive",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "It's not expensive",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": ": It's possible not to pay a penny in the whole process. But of course, you might have to shed some bucks for certain \"luxuries\" like a custom domain, a good hosting service, etc.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": ": It's possible not to pay a penny in the whole process. But of course, you might have to shed some bucks for certain \"luxuries\" like a custom domain, a good hosting service, etc.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "d82722cb-7e88-4671-9c24-ad7d015d1b8e",
+    "parent": {
+      "type": "page_id",
+      "page_id": "9dd2ac02-6495-4f87-81c7-b58c2888f077"
+    },
+    "created_time": "2022-10-16T17:44:00.000Z",
+    "last_edited_time": "2022-10-16T17:45:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": true,
+    "archived": false,
+    "in_trash": false,
+    "type": "callout",
+    "callout": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The Spotlight Effect and Social Anxiety",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The Spotlight Effect and Social Anxiety",
+          "href": null
+        }
+      ],
+      "icon": {
+        "type": "emoji",
+        "emoji": "🔥"
+      },
+      "color": "blue_background"
+    }
+  },
+  {
+    "object": "block",
+    "id": "1e89ee4e-66e2-4ace-845c-cf80693d9597",
+    "parent": {
+      "type": "page_id",
+      "page_id": "9dd2ac02-6495-4f87-81c7-b58c2888f077"
+    },
+    "created_time": "2022-10-16T17:45:00.000Z",
+    "last_edited_time": "2022-10-16T17:45:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_2",
+    "heading_2": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Closing note",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Closing note",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "e793b177-8f85-4210-be2f-5e30c7eec44b",
+    "parent": {
+      "type": "page_id",
+      "page_id": "9dd2ac02-6495-4f87-81c7-b58c2888f077"
+    },
+    "created_time": "2022-10-16T17:45:00.000Z",
+    "last_edited_time": "2022-10-16T17:45:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "I hope I have given you enough reasons to start working on your personal website or at least give it some serious thought. Of course, these are just the reasons that resonate with me. You might find your own along the journey. Remember, it's a long process. Your first draft is going to be crap - and that's perfectly fine. What'll matter is if you persist.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "I hope I have given you enough reasons to start working on your personal website or at least give it some serious thought. Of course, these are just the reasons that resonate with me. You might find your own along the journey. Remember, it's a long process. Your first draft is going to be crap - and that's perfectly fine. What'll matter is if you persist.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "cee4b404-8429-4450-9567-40d469e7c1d1",
+    "parent": {
+      "type": "page_id",
+      "page_id": "9dd2ac02-6495-4f87-81c7-b58c2888f077"
+    },
+    "created_time": "2022-10-16T17:45:00.000Z",
+    "last_edited_time": "2022-10-16T17:45:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_2",
+    "heading_2": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Upcoming Series",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Upcoming Series",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "d7624dfe-db1c-4fa4-9919-e977d33acc01",
+    "parent": {
+      "type": "page_id",
+      "page_id": "9dd2ac02-6495-4f87-81c7-b58c2888f077"
+    },
+    "created_time": "2022-10-16T17:45:00.000Z",
+    "last_edited_time": "2022-10-16T17:45:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "I have a whole lot of topics to write about. However, I'll start from the simplest and most compelling topic - how this website came to be?",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "I have a whole lot of topics to write about. However, I'll start from the simplest and most compelling topic - how this website came to be?",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "de114d94-112b-4072-8e60-f06e400b57e5",
+    "parent": {
+      "type": "page_id",
+      "page_id": "9dd2ac02-6495-4f87-81c7-b58c2888f077"
+    },
+    "created_time": "2022-10-16T17:45:00.000Z",
+    "last_edited_time": "2022-10-16T17:45:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Over the next few articles, I'll discuss the following pertaining to the website:",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Over the next few articles, I'll discuss the following pertaining to the website:",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "503fa3d6-5a7b-48c8-8751-5663becfb7c1",
+    "parent": {
+      "type": "page_id",
+      "page_id": "9dd2ac02-6495-4f87-81c7-b58c2888f077"
+    },
+    "created_time": "2022-10-16T17:47:00.000Z",
+    "last_edited_time": "2025-01-22T08:51:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": true,
+    "archived": false,
+    "in_trash": false,
+    "type": "table",
+    "table": {
+      "table_width": 3,
+      "has_column_header": true,
+      "has_row_header": false
+    }
+  },
+  {
+    "object": "block",
+    "id": "415d7e28-e5c8-4e4a-ad13-d03fcc3684c1",
+    "parent": {
+      "type": "page_id",
+      "page_id": "9dd2ac02-6495-4f87-81c7-b58c2888f077"
+    },
+    "created_time": "2022-10-16T17:45:00.000Z",
+    "last_edited_time": "2022-10-16T17:47:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Cool, See you later! Adios?",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Cool, See you later! Adios?",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "14961874-6c57-41a3-b646-5b3af3b9c5e3",
+    "parent": {
+      "type": "page_id",
+      "page_id": "9dd2ac02-6495-4f87-81c7-b58c2888f077"
+    },
+    "created_time": "2022-10-16T18:02:00.000Z",
+    "last_edited_time": "2022-10-16T18:02:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [],
+      "color": "default"
+    }
+  }
+]
