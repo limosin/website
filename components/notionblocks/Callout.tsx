@@ -1,6 +1,6 @@
 import { SpanText } from "./CommonBlocks"
 
-export const Callout = ({ id, value }) => {
+export const Callout = ({ id, value, children }) => {
   // Get the icon (emoji is still used for the icon display)
   const icon = value.icon?.emoji || "💡"
 
@@ -79,6 +79,7 @@ export const Callout = ({ id, value }) => {
       <div className={`mr-4 flex size-8 shrink-0 items-center justify-center rounded-full ${style.iconBg} text-lg transition-colors duration-200`}>{icon}</div>
       <div className={`flex-1 min-w-0 ${style.text} leading-relaxed transition-colors duration-200`}>
         <SpanText text={value.rich_text} id={id} />
+        {children && <div className="mt-2 text-sm">{children}</div>}
       </div>
     </div>
   )

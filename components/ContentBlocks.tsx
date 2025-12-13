@@ -98,7 +98,11 @@ function RenderBlocksHelper(blocks, index) {
     }
 
     case "callout":
-      output = <Callout id={id} value={value} key={index} />
+      output = (
+        <Callout id={id} value={value} key={index}>
+          {value.children && <RenderBlocks blocks={value.children} />}
+        </Callout>
+      )
       break
 
     case "bookmark":
