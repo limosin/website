@@ -6,18 +6,27 @@ import ThemeToggle from "./ThemeToggle"
 export default function Nav() {
   return (
     <nav className="mx-auto my-0 flex max-w-3xl flex-row items-center justify-between px-4 py-8 md:px-0">
-      <Link href="/" aria-label={siteMetadata.headerTitle}>
-        <div className="flex items-center justify-between">
-          <div className="mr-3">
-            <Image src="/logo/logo-light.png" alt={siteMetadata.headerTitle} width={50} height={50} className="block dark:hidden" priority />
-            <Image src="/logo/logo-dark.png" alt={siteMetadata.headerTitle} width={50} height={50} className="hidden dark:block" priority />
+      <div className="flex items-center gap-6">
+        <Link href="/" aria-label={siteMetadata.headerTitle}>
+          <div className="flex items-center justify-between">
+            <div className="mr-3">
+              <Image src="/logo/logo-light.png" alt={siteMetadata.headerTitle} width={50} height={50} className="block dark:hidden" priority />
+              <Image src="/logo/logo-dark.png" alt={siteMetadata.headerTitle} width={50} height={50} className="hidden dark:block" priority />
+            </div>
           </div>
-        </div>
-      </Link>
+        </Link>
+        <Link href="/about" className="text-gray-900 dark:text-gray-100 font-medium hover:text-teal-600 dark:hover:text-teal-400 transition-colors">
+          About
+        </Link>
+        <Link href="/projects" className="text-gray-900 dark:text-gray-100 font-medium hover:text-teal-600 dark:hover:text-teal-400 transition-colors">
+          Projects
+        </Link>
+      </div>
       <a href="#skip" className="sr-only focus:not-sr-only">
         Skip to content
       </a>
       <div className="flex flex-row items-center justify-around sm:justify-center gap-4">
+
         <a
           href={siteMetadata.linkedin}
           target="_blank"
