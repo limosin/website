@@ -146,7 +146,7 @@ export const Code = ({ value }) => {
   }
 
   return (
-    <div className="my-6 w-full">
+    <div className="my-4 w-full">
       <div className="mx-auto max-w-5xl">
         <div className="group relative overflow-hidden rounded-xl border border-gray-200 dark:border-gray-700 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 dark:from-gray-950 dark:via-gray-900 dark:to-gray-950 shadow-2xl dark:shadow-gray-900/50 transition-all duration-500 hover:shadow-3xl hover:scale-[1.005] code-block-glow">
           {/* Animated gradient border */}
@@ -154,7 +154,7 @@ export const Code = ({ value }) => {
 
           {/* Language label with icon */}
           {language && language !== "text" && (
-            <div className="relative border-b border-gray-700/50 bg-gradient-to-r from-gray-800 to-gray-750 px-3 md:px-6 py-2">
+            <div className="relative border-b border-gray-700/50 bg-gradient-to-r from-gray-800 to-gray-750 px-2 md:px-4 py-2">
               <div className="flex items-center justify-between">
                 <div className="flex items-center space-x-2 md:space-x-3">
                   <div className="flex space-x-1">
@@ -210,13 +210,13 @@ export const Code = ({ value }) => {
             {/* Additional inner glow */}
             <div className="absolute inset-0 bg-gradient-to-r from-transparent via-blue-500/2 to-transparent pointer-events-none"></div>
 
-            <pre className="relative overflow-x-auto p-3 md:p-6 text-xs md:text-sm leading-6 md:leading-7 scrollbar-thin scrollbar-track-gray-800 scrollbar-thumb-gray-600 hover:scrollbar-thumb-gray-500 bg-transparent">
+            <pre className="relative overflow-x-auto p-2 md:p-4 text-sm leading-6 md:leading-7 scrollbar-thin scrollbar-track-gray-800 scrollbar-thumb-gray-600 hover:scrollbar-thumb-gray-500 bg-transparent">
               <code
                 ref={codeBlock}
                 className={`${code_class} block whitespace-pre text-gray-100 bg-transparent font-mono ${jetbrainsMono.className}`}
                 style={{
                   background: "transparent !important",
-                  fontSize: "0.8rem",
+                  fontSize: "0.875rem",
                   lineHeight: "1.6",
                 }}
               >

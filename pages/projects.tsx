@@ -1,7 +1,7 @@
 import Container from "@/components/Container"
 import ProjectCard from "@/components/ProjectCard"
 import projectsData from "@/data/projectsData"
-import { inter } from "@/lib/fonts"
+import { outfit } from "@/lib/fonts"
 
 export default function Projects() {
   return (
@@ -9,7 +9,7 @@ export default function Projects() {
       <div className="mx-auto mb-16 px-4 max-w-3xl">
         <div className="mb-12 text-center">
           <h1
-            className={`mx-auto mb-4 w-full text-4xl font-bold tracking-tight text-black dark:text-white md:text-6xl lg:text-7xl font-sans transition-colors ${inter.className}`}
+            className={`mx-auto mb-4 w-full text-4xl font-bold tracking-tight text-black dark:text-white md:text-6xl lg:text-7xl font-sans transition-colors ${outfit.className}`}
           >
             Projects
           </h1>

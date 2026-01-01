@@ -49,28 +49,28 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  line-height: 1.5; /* Tighter default for UI */
+  line-height: 1.4; /* Tighter default for UI */
 }
 
 /* Mobile-friendly paragraph spacing */
 p {
-  margin-bottom: 1rem;
-  line-height: 1.6;
+  margin-bottom: 0.75rem;
+  line-height: 1.5;
 }
 
 @media (min-width: 768px) {
   p {
-    line-height: 1.6;
-    margin-bottom: 1.25rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
   }
 }
 
-/* 
-  Reading Mode Typography 
+/*
+  Reading Mode Typography
   Scientific Optimization:
-  - Size: 1.25rem (20px) for ideal readability at arm's length.
-  - Line-height: 1.7 (approx 160-180% is golden zone).
-  - Font: Merriweather (Serif) for flow.
+  - Size: Optimized for readability
+  - Line-height: Comfortable for long-form reading
+  - Font: Manrope (Geometric) for modern design
 */
 .prose {
     font-size: 1rem; /* Mobile base */
@@ -86,9 +86,9 @@ p {
 .prose p,
 .prose ul,
 .prose ol {
-  font-family: var(--font-merriweather);
-  line-height: 1.75;
-  margin-bottom: 1.5em; /* Breathing room */
+  font-family: var(--font-manrope);
+  line-height: 1.7;
+  margin-bottom: 1em; /* Breathing room */
   color: var(--color-gray-800);
 }
 
@@ -103,11 +103,11 @@ p {
 .prose h2,
 .prose h3,
 .prose h4 {
-    font-family: var(--font-inter); /* Contrast with body */
+    font-family: var(--font-outfit); /* Contrast with body */
     font-weight: 700;
-    margin-top: 2em;
-    margin-bottom: 0.8em;
-    line-height: 1.3;
+    margin-top: 1.5em;
+    margin-bottom: 0.6em;
+    line-height: 1.25;
 }
 
 /* Custom scrollbar styles for code blocks */

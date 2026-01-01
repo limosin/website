@@ -1,5 +1,5 @@
 import { siteMetadata } from "@/lib/siteMetadata"
-import { inter } from "@/lib/fonts"
+import { outfit } from "@/lib/fonts"
 
 const SocialIcon = ({ href, kind, children }) => {
   if (!href) return null
@@ -17,7 +17,7 @@ export default function Footer() {
       <div className="mx-auto max-w-3xl px-4 py-8 md:px-0 flex flex-col md:flex-row justify-between items-center gap-6">
         {/* Left: Branding & Copyright */}
         <div className="flex flex-col items-center md:items-start gap-2">
-          <div className={`text-sm font-semibold text-gray-900 dark:text-gray-100 ${inter.className}`}>{siteMetadata.author}</div>
+          <div className={`text-sm font-semibold text-gray-900 dark:text-gray-100 ${outfit.className}`}>{siteMetadata.author}</div>
           <div className="text-sm text-gray-500 dark:text-gray-400">
             © {new Date().getFullYear()} • {siteMetadata.headerTitle}
           </div>

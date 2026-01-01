@@ -2,7 +2,7 @@ import Link from "next/link"
 import BlogLayout from "@/layouts/BlogLayout"
 import { getNotionPageWithBlocks, getNotionBlockChildren, getAllPublishedBlogPosts } from "@/lib/notion"
 import { RenderBlocks } from "@/components/ContentBlocks"
-import { inter } from "@/lib/fonts"
+import { outfit } from "@/lib/fonts"
 
 const databaseId = process.env.NOTION_BLOG_DATABASE_ID
 
@@ -27,22 +27,22 @@ export default function Post({ page, blocks }) {
   return (
     <BlogLayout data={page}>
       {/* Back Link */}
-      <div className="w-full max-w-3xl mx-auto mb-8">
-        <Link href="/" className={`text-sm text-gray-500 hover:text-teal-600 dark:text-gray-400 dark:hover:text-teal-400 transition-colors ${inter.className}`}>
+      <div className="w-full max-w-4xl mx-auto mb-8">
+        <Link href="/" className={`text-sm text-gray-500 hover:text-teal-600 dark:text-gray-400 dark:hover:text-teal-400 transition-colors ${outfit.className}`}>
           ← Back to Blog
         </Link>
       </div>
 
       {/* Header */}
-      <div className="w-full max-w-3xl mx-auto text-center mb-12 border-b border-gray-200 dark:border-gray-800 pb-12">
-        <div className={`mb-4 text-sm font-medium text-gray-500 dark:text-gray-400 ${inter.className}`}>{date}</div>
+      <div className="w-full max-w-4xl mx-auto text-center mb-4 md:mb-8">
+        <div className={`mb-3 text-sm font-medium text-gray-500 dark:text-gray-400 ${outfit.className}`}>{date}</div>
 
-        <h1 className={`mb-6 text-3xl md:text-5xl font-bold tracking-tight text-gray-900 dark:text-gray-100 ${inter.className}`}>{title}</h1>
+        <h1 className={`mb-4 text-2xl md:text-4xl font-bold tracking-tight text-gray-900 dark:text-gray-100 ${outfit.className}`}>{title}</h1>
 
         {tags.length > 0 && (
           <div className="flex flex-wrap justify-center gap-2">
             {tags.map((tag) => (
-              <span key={tag.id} className={`px-3 py-1 text-xs font-medium rounded-full bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 uppercase tracking-wider ${inter.className}`}>
+              <span key={tag.id} className={`px-3 py-1 text-xs font-medium rounded-full bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 uppercase tracking-wider ${outfit.className}`}>
                 {tag.name}
               </span>
             ))}
@@ -51,7 +51,7 @@ export default function Post({ page, blocks }) {
       </div>
 
       {/* Content */}
-      <div className="w-full max-w-3xl mx-auto prose dark:prose-invert">
+      <div className="w-full max-w-4xl mx-auto prose dark:prose-invert">
         <RenderBlocks blocks={blocks} />
       </div>
     </BlogLayout>

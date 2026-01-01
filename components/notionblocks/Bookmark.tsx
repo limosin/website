@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import OptimizedImage from "../OptimizedImage"
-import { inter } from "@/lib/fonts"
+import { outfit } from "@/lib/fonts"
 
 export const Bookmark = ({ id, value }) => {
   // Fetch the bookmark preview image using the url meta
@@ -69,7 +69,7 @@ const showBookmark = (value, id, previewTitle, previewDesp, previewImage, hasErr
   return (
     <a href={value.url} target="_blank" rel="noreferrer" className="block w-full" id={id}>
       <div
-        className={`flex flex-col sm:flex-row overflow-hidden rounded-lg border border-gray-200 dark:border-gray-700 shadow-sm dark:shadow-gray-900/20 transition-all duration-200 hover:shadow-md dark:hover:shadow-gray-900/40 hover:border-gray-300 dark:hover:border-gray-600 ${hasImage ? "h-auto sm:h-24 md:h-28" : "h-auto"} ${inter.className}`}
+        className={`flex flex-col sm:flex-row overflow-hidden rounded-lg border border-gray-200 dark:border-gray-700 shadow-sm dark:shadow-gray-900/20 transition-all duration-200 hover:shadow-md dark:hover:shadow-gray-900/40 hover:border-gray-300 dark:hover:border-gray-600 ${hasImage ? "h-auto sm:h-24 md:h-28" : "h-auto"} ${outfit.className}`}
       >
         {/* Content section */}
         <div className={`flex flex-col justify-between p-3 transition-colors hover:bg-gray-50 dark:hover:bg-gray-800/50 ${hasImage ? "w-full sm:w-3/5" : "w-full"} min-h-[80px] sm:min-h-0`}>
@@ -135,7 +135,7 @@ const showBookmark = (value, id, previewTitle, previewDesp, previewImage, hasErr
 const showBookmarkSkeleton = (id) => {
   return (
     <div className="block w-full" id={id}>
-      <div className={`flex flex-col sm:flex-row overflow-hidden rounded-lg border border-gray-200 dark:border-gray-700 h-auto sm:h-24 md:h-28 transition-colors ${inter.className}`}>
+      <div className={`flex flex-col sm:flex-row overflow-hidden rounded-lg border border-gray-200 dark:border-gray-700 h-auto sm:h-24 md:h-28 transition-colors ${outfit.className}`}>
         {/* Content skeleton */}
         <div className="flex w-full sm:w-3/5 animate-pulse flex-col justify-between p-3 min-h-[80px] sm:min-h-0">
           <div className="flex-1 space-y-2">

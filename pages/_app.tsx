@@ -1,5 +1,5 @@
 import "../styles/globals.css"
-import { inter } from "@/lib/fonts"
+import { outfit } from "@/lib/fonts"
 import { AppProps } from "next/app"
 import Head from "next/head"
 import PerformanceMonitor from "@/components/PerformanceMonitor"
@@ -22,7 +22,7 @@ function App({ Component, pageProps }: AppProps) {
       </Head>
       <PerformanceMonitor />
       <div className="min-h-screen bg-white dark:bg-gray-900 transition-colors">
-        <main className={`${inter.className} font-sans`}>
+        <main className={`${outfit.className} font-sans`}>
           <Component {...pageProps} />
         </main>
       </div>

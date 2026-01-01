@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
-import { inter } from "@/lib/fonts"
+import { outfit } from "@/lib/fonts"
 
 interface ProjectProps {
   title: string
@@ -28,7 +28,7 @@ const ProjectCard = ({ title, description, imgSrc, href, github, techStack }: Pr
     )}
     <div className="p-6 md:p-8">
       <div className="flex justify-between items-start mb-4">
-        <h2 className={`text-2xl font-bold leading-8 tracking-tight text-gray-900 dark:text-gray-100 ${inter.className}`}>
+        <h2 className={`text-2xl font-bold leading-8 tracking-tight text-gray-900 dark:text-gray-100 ${outfit.className}`}>
           {href ? (
             <Link href={href} aria-label={`Link to ${title}`} className="hover:text-teal-600 dark:hover:text-teal-400 transition-colors">
               {title}

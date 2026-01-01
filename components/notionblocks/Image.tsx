@@ -44,7 +44,7 @@ export const NotionImage: React.FC<NotionImageProps> = ({ id, value }) => {
 
   if (!imageSrc) {
     return (
-      <div className="my-4 w-full">
+      <div className="my-8 w-full">
         <div className="mx-auto max-w-4xl rounded-lg border border-gray-200 dark:border-gray-700 bg-gray-100 dark:bg-gray-800 p-8 text-center transition-colors">
           <p className="text-gray-500 dark:text-gray-400 transition-colors">Image not available</p>
         </div>
@@ -54,7 +54,7 @@ export const NotionImage: React.FC<NotionImageProps> = ({ id, value }) => {
 
   return (
     <>
-      <figure key={id} className="my-4 w-full">
+      <figure key={id} className="my-8 w-full">
         <div className="relative mx-auto w-full max-w-4xl overflow-hidden rounded-lg border border-gray-200 dark:border-gray-700 shadow-sm dark:shadow-gray-900/20 transition-colors">
           <button
             type="button"
@@ -84,7 +84,7 @@ export const NotionImage: React.FC<NotionImageProps> = ({ id, value }) => {
             </div>
           </button>
         </div>
-        {caption && <figcaption className="mx-auto mt-4 max-w-4xl text-center text-sm leading-relaxed text-gray-600 dark:text-gray-400 transition-colors">{caption}</figcaption>}
+        {caption && <figcaption className="mx-auto mt-3 max-w-4xl text-center text-sm leading-normal text-gray-600 dark:text-gray-400 transition-colors">{caption}</figcaption>}
       </figure>
 
       {zoomedImage && <ImageZoomModal src={zoomedImage.src} alt={zoomedImage.alt} onClose={() => setZoomedImage(null)} />}
