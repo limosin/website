@@ -75,11 +75,11 @@ export const Callout = ({ id, value, children }) => {
   const style = getCalloutStyle(value.color)
 
   return (
-    <div className={`my-2 w-full flex rounded-md border ${style.border} ${style.bg} p-4 shadow-sm transition-colors duration-200`}>
-      <div className={`mr-4 flex size-8 shrink-0 items-center justify-center rounded-full ${style.iconBg} text-lg transition-colors duration-200`}>{icon}</div>
-      <div className={`flex-1 min-w-0 ${style.text} leading-relaxed transition-colors duration-200`}>
+    <div className={`my-8 w-full flex rounded-md border ${style.border} ${style.bg} p-3 shadow-sm transition-colors duration-200`}>
+      <div className={`mr-3 flex size-7 shrink-0 items-center justify-center rounded-full ${style.iconBg} text-base transition-colors duration-200`}>{icon}</div>
+      <div className={`flex-1 min-w-0 ${style.text} leading-7 text-base transition-colors duration-200`}>
         <SpanText text={value.rich_text} id={id} />
-        {children && <div className="mt-2 text-sm">{children}</div>}
+        {children && <div className="mt-1.5">{children}</div>}
       </div>
     </div>
   )

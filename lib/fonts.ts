@@ -1,24 +1,24 @@
-import { Inter } from "next/font/google"
-import { Merriweather } from "next/font/google"
+import { Outfit } from "next/font/google"
+import { Manrope } from "next/font/google"
 import { JetBrains_Mono } from "next/font/google"
 import { NextFont } from "next/dist/compiled/@next/font"
 
 // Primary font for UI elements, navigation, and general content
-export const inter: NextFont = Inter({
+export const outfit: NextFont = Outfit({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700"],
   display: "swap",
   preload: true,
-  variable: "--font-inter",
+  variable: "--font-outfit",
 })
 
 // Secondary font for blog content and reading experience
-export const merriweather: NextFont = Merriweather({
+export const manrope: NextFont = Manrope({
   subsets: ["latin"],
-  weight: ["300", "400", "700"],
+  weight: ["300", "400", "500", "600", "700"],
   display: "swap",
   preload: true,
-  variable: "--font-merriweather",
+  variable: "--font-manrope",
 })
 
 // Monospace font for code blocks and technical content

@@ -9,8 +9,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'sans': ['var(--font-inter)', 'ui-sans-serif', 'system-ui', 'sans-serif'],
-        'serif': ['var(--font-merriweather)', 'ui-serif', 'Georgia', 'serif'],
+        'sans': ['var(--font-outfit)', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+        'serif': ['var(--font-manrope)', 'ui-serif', 'Georgia', 'serif'],
         'mono': ['var(--font-jetbrains-mono)', 'ui-monospace', 'SFMono-Regular', 'monospace'],
       },
     },

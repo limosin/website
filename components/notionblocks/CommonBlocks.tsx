@@ -1,22 +1,22 @@
-import { inter, jetbrainsMono } from "@/lib/fonts"
+import { outfit, jetbrainsMono } from "@/lib/fonts"
 
 export const Heading = ({ text, level, id }) => {
   switch (level) {
     case "heading_1":
       return (
-        <h1 className={`mb-6 mt-8 text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold tracking-tight text-gray-900 dark:text-gray-100 font-sans transition-colors ${inter.className}`}>
+        <h1 className={`mb-4 mt-5 text-xl md:text-2xl lg:text-3xl xl:text-4xl font-bold tracking-tight text-gray-900 dark:text-gray-100 font-sans transition-colors ${outfit.className}`}>
           <SpanText text={text} id={id} />
         </h1>
       )
     case "heading_2":
       return (
-        <h2 className={`mb-4 mt-8 text-xl md:text-2xl lg:text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-100 font-sans transition-colors ${inter.className}`}>
+        <h2 className={`mb-3 mt-5 text-lg md:text-xl lg:text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-100 font-sans transition-colors ${outfit.className}`}>
           <SpanText text={text} id={id} />
         </h2>
       )
     case "heading_3":
       return (
-        <h3 className={`mb-3 mt-6 text-lg md:text-xl lg:text-2xl font-semibold tracking-tight text-gray-900 dark:text-gray-100 font-sans transition-colors ${inter.className}`}>
+        <h3 className={`mb-2 mt-4 text-base md:text-lg lg:text-xl font-semibold tracking-tight text-gray-900 dark:text-gray-100 font-sans transition-colors ${outfit.className}`}>
           <SpanText text={text} id={id} />
         </h3>
       )
@@ -74,7 +74,7 @@ export const ListItem = ({ value, id, clazz = null }) => {
 
 export const Text = ({ text, id }) => {
   return (
-    <p className="mb-6 leading-8 text-gray-700 dark:text-gray-300 text-lg transition-colors">
+    <p className="mb-4 leading-7 text-gray-700 dark:text-gray-300 text-base transition-colors">
       <SpanText text={text} id={id} />
     </p>
   )

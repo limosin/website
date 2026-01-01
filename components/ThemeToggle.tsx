@@ -1,6 +1,6 @@
 import { useTheme } from "next-themes"
 import { useEffect, useState } from "react"
-import { inter } from "@/lib/fonts"
+import { outfit } from "@/lib/fonts"
 
 export default function ThemeToggle() {
   const [mounted, setMounted] = useState(false)
@@ -18,7 +18,7 @@ export default function ThemeToggle() {
   if (!mounted) {
     return (
       <button
-        className={`p-2 rounded-lg bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors ${inter.className}`}
+        className={`p-2 rounded-lg bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors ${outfit.className}`}
         aria-label="Toggle theme"
       >
         <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -36,7 +36,7 @@ export default function ThemeToggle() {
   return (
     <button
       onClick={handleToggle}
-      className={`group relative p-2 rounded-lg bg-gradient-to-br from-gray-100 to-gray-200 dark:from-gray-800 dark:to-gray-900 text-gray-700 dark:text-gray-300 hover:from-gray-200 hover:to-gray-300 dark:hover:from-gray-700 dark:hover:to-gray-800 border border-gray-200 dark:border-gray-700 shadow-sm hover:shadow-md transition-all duration-300 hover:scale-105 ${inter.className}`}
+      className={`group relative p-2 rounded-lg bg-gradient-to-br from-gray-100 to-gray-200 dark:from-gray-800 dark:to-gray-900 text-gray-700 dark:text-gray-300 hover:from-gray-200 hover:to-gray-300 dark:hover:from-gray-700 dark:hover:to-gray-800 border border-gray-200 dark:border-gray-700 shadow-sm hover:shadow-md transition-all duration-300 hover:scale-105 ${outfit.className}`}
       aria-label={`Switch to ${resolvedTheme === "dark" ? "light" : "dark"} mode`}
     >
       <div className="relative w-5 h-5">
