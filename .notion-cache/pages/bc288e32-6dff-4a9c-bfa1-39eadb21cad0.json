@@ -183,7 +183,7 @@
     },
     "url": "https://www.notion.so/CKAD-Guide-A-Roadmap-to-Kubernetes-Certification-bc288e326dff4a9cbfa139eadb21cad0",
     "public_url": null,
-    "request_id": "bb8bb232-e6e1-4fee-bbc2-d75bcd8fac64"
+    "request_id": "d2a22c13-321c-4932-97a7-0e699de29612"
   },
   "blocks": [
     {
@@ -5305,5 +5305,5 @@
     }
   ],
   "lastModified": "2025-01-21T05:41:00.000Z",
-  "cachedAt": 1765630617383
+  "cachedAt": 1767378404709
 }

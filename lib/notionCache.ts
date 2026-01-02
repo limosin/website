@@ -3,7 +3,12 @@ import * as path from "path"
 import { BlockObjectResponse } from "@notionhq/client/build/src/api-endpoints"
 
 // Cache configuration
-export const CACHE_DIR = path.join(process.cwd(), ".notion-cache")
+// On Vercel (serverless), the file system is read-only except for /tmp
+// Use /tmp for cache in serverless environments, project root for local dev
+const isServerless = !!process.env.VERCEL || !!process.env.AWS_LAMBDA_FUNCTION_NAME
+export const CACHE_DIR = isServerless 
+  ? path.join("/tmp", ".notion-cache")
+  : path.join(process.cwd(), ".notion-cache")
 export const PAGES_CACHE_DIR = path.join(CACHE_DIR, "pages")
 export const BLOCKS_CACHE_DIR = path.join(CACHE_DIR, "blocks")
 export const CACHE_INDEX_FILE = path.join(CACHE_DIR, "index.json")
