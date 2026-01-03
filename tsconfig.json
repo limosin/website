@@ -22,22 +22,28 @@
     "baseUrl": ".",
     "paths": {
       "@/components/*": [
-        "components/*"
+        "src/components/*"
       ],
       "@/data/*": [
-        "data/*"
+        "src/data/*"
       ],
       "@/layouts/*": [
-        "layouts/*"
+        "src/layouts/*"
       ],
       "@/lib/*": [
-        "lib/*"
+        "src/lib/*"
       ],
       "@/css/*": [
         "css/*"
       ],
       "@/scripts/*": [
         "scripts/*"
+      ],
+      "@/styles/*": [
+        "src/styles/*"
+      ],
+      "@/types/*": [
+        "src/types/*"
       ]
     }
   },

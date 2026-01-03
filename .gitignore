@@ -34,7 +34,7 @@ yarn-error.log*
 .vercel
 .github
 .idea/**
-.vscode/** */
+.vscode/**
 
 # notion cache
 #.notion-cache/

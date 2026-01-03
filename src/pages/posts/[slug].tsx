@@ -2,7 +2,7 @@ import Link from "next/link"
 import BlogLayout from "@/layouts/BlogLayout"
 import { getNotionPageWithBlocks, getNotionBlockChildren, getAllPublishedBlogPosts } from "@/lib/notion"
 import { RenderBlocks } from "@/components/ContentBlocks"
-import { outfit } from "@/lib/fonts"
+import { outfit, manrope } from "@/lib/fonts"
 
 const databaseId = process.env.NOTION_BLOG_DATABASE_ID
 
@@ -27,31 +27,45 @@ export default function Post({ page, blocks }) {
   return (
     <BlogLayout data={page}>
       {/* Back Link */}
-      <div className="w-full max-w-4xl mx-auto mb-8">
-        <Link href="/" className={`text-sm text-gray-500 hover:text-teal-600 dark:text-gray-400 dark:hover:text-teal-400 transition-colors ${outfit.className}`}>
-          ← Back to Blog
+      <div className="w-full max-w-3xl mx-auto mb-12 animate-fade-in-up stagger-1">
+        <Link 
+          href="/" 
+          className={`group flex items-center text-sm font-medium text-gray-500 hover:text-teal-600 dark:text-gray-400 dark:hover:text-teal-400 transition-colors ${outfit.className}`}
+        >
+          <svg className="w-4 h-4 mr-2 transform group-hover:-translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+          </svg>
+          Back to Blog
         </Link>
       </div>
 
       {/* Header */}
-      <div className="w-full max-w-4xl mx-auto text-center mb-4 md:mb-8">
-        <div className={`mb-3 text-sm font-medium text-gray-500 dark:text-gray-400 ${outfit.className}`}>{date}</div>
+      <div className="w-full max-w-3xl mx-auto mb-4 md:mb-8">
+        <div className="flex items-center gap-4 mb-6 animate-fade-in-up stagger-2">
+           <time className={`text-sm font-medium text-gray-500 dark:text-gray-400 ${manrope.className}`}>
+            {date}
+          </time>
+          <div className="h-px w-12 bg-gray-200 dark:bg-gray-800" />
+           {tags.length > 0 && (
+            <div className="flex flex-wrap gap-2">
+              {tags.map((tag) => (
+                <span key={tag.id} className={`text-xs font-bold uppercase tracking-wider text-teal-600 dark:text-teal-400 ${outfit.className}`}>
+                  {tag.name}
+                </span>
+              ))}
+            </div>
+          )}
+        </div>
 
-        <h1 className={`mb-4 text-2xl md:text-4xl font-bold tracking-tight text-gray-900 dark:text-gray-100 ${outfit.className}`}>{title}</h1>
+        <h1 className={`text-3xl md:text-5xl lg:text-6xl font-extrabold tracking-tight leading-tight ${outfit.className} animate-gradient-text`}>
+          {title}
+        </h1>
 
-        {tags.length > 0 && (
-          <div className="flex flex-wrap justify-center gap-2">
-            {tags.map((tag) => (
-              <span key={tag.id} className={`px-3 py-1 text-xs font-medium rounded-full bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 uppercase tracking-wider ${outfit.className}`}>
-                {tag.name}
-              </span>
-            ))}
-          </div>
-        )}
+        {/* <div className="w-full h-px bg-gradient-to-r from-gray-200 to-transparent dark:from-gray-800 animate-fade-in-up stagger-3" /> */}
       </div>
 
       {/* Content */}
-      <div className="w-full max-w-4xl mx-auto prose dark:prose-invert">
+      <div className={`w-full max-w-3xl mx-auto prose dark:prose-invert prose-lg animate-fade-in-up stagger-4 ${manrope.className}`}>
         <RenderBlocks blocks={blocks} />
       </div>
     </BlogLayout>

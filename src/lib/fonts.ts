@@ -1,7 +1,16 @@
-import { Outfit } from "next/font/google"
+import { Outfit, Syne } from "next/font/google"
 import { Manrope } from "next/font/google"
 import { JetBrains_Mono } from "next/font/google"
 import { NextFont } from "next/dist/compiled/@next/font"
+
+// Display font - Bold geometric typeface for headlines
+export const syne: NextFont = Syne({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "800"],
+  display: "swap",
+  preload: true,
+  variable: "--font-syne",
+})
 
 // Primary font for UI elements, navigation, and general content
 export const outfit: NextFont = Outfit({
