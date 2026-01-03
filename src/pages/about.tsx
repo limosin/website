@@ -12,7 +12,7 @@ const About = () => {
             About Me
           </h1>
           <p className="mx-auto max-w-2xl text-gray-600 dark:text-gray-400 text-lg md:text-xl leading-relaxed transition-colors">
-            Staff Software Engineer with a passion for building scalable systems and solving complex problems.
+            Software Engineer with a passion for building scalable systems and solving complex problems.
           </p>
         </div>
 
@@ -50,23 +50,37 @@ const About = () => {
           </div>
 
           <div className="space-y-8">
-            {/* Simpl */}
             <div className="relative pl-8 border-l-2 border-teal-200 dark:border-teal-800 space-y-8">
+            {/* Agoda */}
               <div className="relative">
-                <div className="absolute -left-[41px] bg-white dark:bg-black border-4 border-teal-500 rounded-full w-5 h-5"></div>
+                <div className="absolute -left-[43px] bg-black dark:bg-black border-4 border-teal-500 rounded-full w-5 h-5 animate-ping"></div>
+                <div className="absolute -left-[43px] bg-white dark:bg-black border-4 border-purple-500 rounded-full w-5 h-5"></div>
+                <div className="mb-2">
+                  <div className="flex flex-col md:flex-row md:items-center justify-between">
+                    <h3 className="text-2xl font-bold text-gray-900 dark:text-white">Agoda</h3>
+                    <span className="text-sm font-medium text-gray-500 dark:text-gray-400 bg-gray-100 dark:bg-gray-800 px-3 py-1 rounded-full mt-2 md:mt-0 w-fit">Jan 2025 – Present</span>
+                  </div>
+                  <div className="text-teal-600 dark:text-teal-400 font-medium mt-1">Senior Software Engineer</div>
+                  <div className="text-gray-500 dark:text-gray-500 text-sm">Bangkok, Thailand</div>
+                </div>
+              </div>
+            
+            {/* Simpl */}
+              <div className="relative">
+                <div className="absolute -left-[43px] bg-white dark:bg-black border-4 border-purple-500 rounded-full w-5 h-5"></div>
                 <div className="mb-2">
                   <div className="flex flex-col md:flex-row md:items-center justify-between">
                     <h3 className="text-2xl font-bold text-gray-900 dark:text-white">Simpl</h3>
                     <span className="text-sm font-medium text-gray-500 dark:text-gray-400 bg-gray-100 dark:bg-gray-800 px-3 py-1 rounded-full mt-2 md:mt-0 w-fit">Aug 2022 – Oct 2025</span>
                   </div>
-                  <div className="text-teal-600 dark:text-teal-400 font-medium mt-1">Staff Software Engineer ← Senior Software Engineer ← Software Engineer</div>
+                  <div className="text-blue-600 dark:text-blue-400 font-medium mt-1">Staff Software Engineer ← Senior Software Engineer ← Software Engineer</div>
                   <div className="text-gray-500 dark:text-gray-500 text-sm">Bengaluru, India</div>
                 </div>
               </div>
 
               {/* HSBC */}
               <div className="relative">
-                <div className="absolute -left-[41px] bg-white dark:bg-black border-4 border-blue-500 rounded-full w-5 h-5"></div>
+                <div className="absolute -left-[43px] bg-white dark:bg-black border-4 border-purple-500 rounded-full w-5 h-5"></div>
                 <div className="mb-2">
                   <div className="flex flex-col md:flex-row md:items-center justify-between">
                     <h3 className="text-2xl font-bold text-gray-900 dark:text-white">HSBC Technology India</h3>
@@ -79,7 +93,7 @@ const About = () => {
 
                {/* IDfy */}
                <div className="relative">
-                <div className="absolute -left-[41px] bg-white dark:bg-black border-4 border-purple-500 rounded-full w-5 h-5"></div>
+                <div className="absolute -left-[43px] bg-white dark:bg-black border-4 border-purple-500 rounded-full w-5 h-5"></div>
                 <div className="mb-2">
                   <div className="flex flex-col md:flex-row md:items-center justify-between">
                     <h3 className="text-2xl font-bold text-gray-900 dark:text-white">IDfy - Baldor Technologies</h3>
