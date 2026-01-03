@@ -15,11 +15,11 @@ export default function Nav() {
             </div>
           </div>
         </Link>
-        <Link href="/about" className="text-gray-900 dark:text-gray-100 font-medium hover:text-teal-600 dark:hover:text-teal-400 transition-colors">
-          About
-        </Link>
         <Link href="/projects" className="text-gray-900 dark:text-gray-100 font-medium hover:text-teal-600 dark:hover:text-teal-400 transition-colors">
           Projects
+        </Link>
+        <Link href="/about" className="text-gray-900 dark:text-gray-100 font-medium hover:text-teal-600 dark:hover:text-teal-400 transition-colors">
+          About
         </Link>
       </div>
       <a href="#skip" className="sr-only focus:not-sr-only">
