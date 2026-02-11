@@ -947,35 +947,6 @@
   },
   {
     "object": "block",
-    "id": "1a2b7ed0-f532-80cb-a46b-ff8e58de6013",
-    "parent": {
-      "type": "page_id",
-      "page_id": "183b7ed0-f532-80ab-ae70-c335de0d2974"
-    },
-    "created_time": "2025-02-22T12:07:00.000Z",
-    "last_edited_time": "2025-02-22T12:07:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
-    },
-    "has_children": false,
-    "archived": false,
-    "in_trash": false,
-    "type": "image",
-    "image": {
-      "caption": [],
-      "type": "external",
-      "external": {
-        "url": "https://res.cloudinary.com/dft5dlcya/image/upload/v1740226035/limosyn.com/blog/images/builder-pattern/pizza_pjjn9d.png"
-      }
-    }
-  },
-  {
-    "object": "block",
     "id": "1a2b7ed0-f532-8098-83d4-ed7a1086b41b",
     "parent": {
       "type": "page_id",

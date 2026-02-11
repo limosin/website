@@ -25,7 +25,8 @@
       }
     },
     "parent": {
-      "type": "database_id",
+      "type": "data_source_id",
+      "data_source_id": "8f2824aa-6eb8-4458-8d58-d8d77289ba48",
       "database_id": "a07d5f44-fc6a-4251-88a9-b2c21743a868"
     },
     "archived": false,
@@ -183,7 +184,7 @@
     },
     "url": "https://www.notion.so/Creating-Navbar-and-Footer-in-NuxtJS-with-TailwindCSS-684ab55754244cbcaa55543d4c9190b7",
     "public_url": null,
-    "request_id": "5bb48309-7f92-47dd-948a-3253925f4ef6"
+    "request_id": "b6b52fc9-464e-41a9-b5e2-7c0ff9916940"
   },
   "blocks": [
     {
@@ -3552,5 +3553,5 @@
     }
   ],
   "lastModified": "2025-07-17T10:23:00.000Z",
-  "cachedAt": 1767378401597
+  "cachedAt": 1770803939601
 }

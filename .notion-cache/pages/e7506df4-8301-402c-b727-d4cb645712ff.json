@@ -25,7 +25,8 @@
       }
     },
     "parent": {
-      "type": "database_id",
+      "type": "data_source_id",
+      "data_source_id": "8f2824aa-6eb8-4458-8d58-d8d77289ba48",
       "database_id": "a07d5f44-fc6a-4251-88a9-b2c21743a868"
     },
     "archived": false,
@@ -186,7 +187,7 @@
     },
     "url": "https://www.notion.so/Deploying-a-NuxtJS-application-to-a-Kubernetes-Cluster-in-Cloud-e7506df48301402cb727d4cb645712ff",
     "public_url": null,
-    "request_id": "3b5be71b-7d82-4d04-a245-8f8cd9235990"
+    "request_id": "c6f4fde0-54e9-49db-87aa-109047007b95"
   },
   "blocks": [
     {
@@ -4081,5 +4082,5 @@
     }
   ],
   "lastModified": "2025-01-11T13:42:00.000Z",
-  "cachedAt": 1767378399710
+  "cachedAt": 1770803940193
 }
