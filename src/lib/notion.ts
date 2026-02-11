@@ -72,8 +72,8 @@ export const getAllPublishedBlogPosts = async (databaseId: string): Promise<Blog
   }
 
   console.log("**Notion Database Query API Called**")
-  const response = await notion.databases.query({
-    database_id: databaseId,
+  const response = await notion.dataSources.query({
+    data_source_id: databaseId,
     filter: {
       property: "stage",
       select: {

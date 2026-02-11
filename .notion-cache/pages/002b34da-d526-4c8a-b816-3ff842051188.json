@@ -25,7 +25,8 @@
       }
     },
     "parent": {
-      "type": "database_id",
+      "type": "data_source_id",
+      "data_source_id": "8f2824aa-6eb8-4458-8d58-d8d77289ba48",
       "database_id": "a07d5f44-fc6a-4251-88a9-b2c21743a868"
     },
     "archived": false,
@@ -180,7 +181,7 @@
     },
     "url": "https://www.notion.so/NuxtJS-state-management-with-Vuex-002b34dad5264c8ab8163ff842051188",
     "public_url": null,
-    "request_id": "252b7a6e-85eb-49dc-9008-236d26081e43"
+    "request_id": "c926bcb7-a4b0-46bb-b308-20c525f2980d"
   },
   "blocks": [
     {
@@ -7507,5 +7508,5 @@
     }
   ],
   "lastModified": "2025-01-11T13:42:00.000Z",
-  "cachedAt": 1767378400070
+  "cachedAt": 1770803939256
 }

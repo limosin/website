@@ -3,7 +3,7 @@
     "object": "page",
     "id": "183b7ed0-f532-80ab-ae70-c335de0d2974",
     "created_time": "2025-01-22T09:03:00.000Z",
-    "last_edited_time": "2025-07-12T10:39:00.000Z",
+    "last_edited_time": "2026-01-08T14:09:00.000Z",
     "created_by": {
       "object": "user",
       "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
@@ -25,7 +25,8 @@
       }
     },
     "parent": {
-      "type": "database_id",
+      "type": "data_source_id",
+      "data_source_id": "8f2824aa-6eb8-4458-8d58-d8d77289ba48",
       "database_id": "a07d5f44-fc6a-4251-88a9-b2c21743a868"
     },
     "archived": false,
@@ -177,7 +178,7 @@
     },
     "url": "https://www.notion.so/Builder-Design-Pattern-183b7ed0f53280abae70c335de0d2974",
     "public_url": null,
-    "request_id": "0d7b0536-3bfe-4e25-b604-112f6bc07a2d"
+    "request_id": "e6d002ac-dd8e-4d5e-b0b8-d2cd7ae16012"
   },
   "blocks": [
     {
@@ -1124,35 +1125,6 @@
           "emoji": "🔥"
         },
         "color": "gray_background"
-      }
-    },
-    {
-      "object": "block",
-      "id": "1a2b7ed0-f532-80cb-a46b-ff8e58de6013",
-      "parent": {
-        "type": "page_id",
-        "page_id": "183b7ed0-f532-80ab-ae70-c335de0d2974"
-      },
-      "created_time": "2025-02-22T12:07:00.000Z",
-      "last_edited_time": "2025-02-22T12:07:00.000Z",
-      "created_by": {
-        "object": "user",
-        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
-      },
-      "last_edited_by": {
-        "object": "user",
-        "id": "ffb743d6-74f8-48ca-9323-cb3fe0313989"
-      },
-      "has_children": false,
-      "archived": false,
-      "in_trash": false,
-      "type": "image",
-      "image": {
-        "caption": [],
-        "type": "external",
-        "external": {
-          "url": "https://res.cloudinary.com/dft5dlcya/image/upload/v1740226035/limosyn.com/blog/images/builder-pattern/pizza_pjjn9d.png"
-        }
       }
     },
     {
@@ -2492,6 +2464,6 @@
       }
     }
   ],
-  "lastModified": "2025-07-12T10:39:00.000Z",
-  "cachedAt": 1767378399336
+  "lastModified": "2026-01-08T14:09:00.000Z",
+  "cachedAt": 1770803939308
 }

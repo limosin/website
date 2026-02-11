@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "@next/bundle-analyzer": "^16.0.10",
-    "@notionhq/client": "^4.0.1",
+    "@notionhq/client": "^5.9.0",
     "@radix-ui/react-separator": "^1.1.8",
     "@radix-ui/react-tooltip": "^1.2.8",
     "@tailwindcss/forms": "^0.5.3",
@@ -49,6 +49,7 @@
     "@types/react": "^19.2.7",
     "@typescript-eslint/eslint-plugin": "^8.36.0",
     "@typescript-eslint/parser": "^8.36.0",
+    "baseline-browser-mapping": "^2.9.19",
     "eslint": "^9.31.0",
     "eslint-config-next": "^16.0.10",
     "eslint-config-prettier": "^10.1.5",

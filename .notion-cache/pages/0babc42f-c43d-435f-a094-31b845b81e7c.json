@@ -25,7 +25,8 @@
       }
     },
     "parent": {
-      "type": "database_id",
+      "type": "data_source_id",
+      "data_source_id": "8f2824aa-6eb8-4458-8d58-d8d77289ba48",
       "database_id": "a07d5f44-fc6a-4251-88a9-b2c21743a868"
     },
     "archived": false,
@@ -180,7 +181,7 @@
     },
     "url": "https://www.notion.so/A-NuxtJS-Starter-Project-that-you-can-actually-use-0babc42fc43d435fa09431b845b81e7c",
     "public_url": null,
-    "request_id": "e960479f-0fed-412b-b887-5181d54e6853"
+    "request_id": "e4a8d872-bda2-4645-af47-a592e6f15885"
   },
   "blocks": [
     {
@@ -7315,5 +7316,5 @@
     }
   ],
   "lastModified": "2025-07-12T19:17:00.000Z",
-  "cachedAt": 1767378406634
+  "cachedAt": 1770803940521
 }
