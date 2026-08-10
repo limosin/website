@@ -37,4 +37,7 @@ yarn-error.log*
 .vscode/**
 
 # notion cache
-#.notion-cache/
+.notion-cache/
+
+# TypeScript incremental build metadata
+*.tsbuildinfo
