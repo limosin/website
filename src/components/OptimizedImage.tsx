@@ -14,8 +14,8 @@ export const OptimizedImage = ({ src, alt, fallbackSrc = "/logo.png", ...props }
   const isTrustedDomain = (url: string) => {
     try {
       const hostname = new URL(url).hostname
-      const trustedDomains = ["res.cloudinary.com", "images.unsplash.com", "www.notion.so", "s3.us-west-2.amazonaws.com", "cdn.sanity.io", "images.pexels.com", "picsum.photos"]
-      return trustedDomains.some((domain) => hostname.includes(domain))
+      const trustedDomains = new Set(["res.cloudinary.com", "images.unsplash.com", "www.notion.so", "prod-files-secure.s3.us-west-2.amazonaws.com", "s3.us-west-2.amazonaws.com"])
+      return trustedDomains.has(hostname)
     } catch {
       return false
     }

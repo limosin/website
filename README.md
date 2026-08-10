@@ -9,7 +9,7 @@ This is an open-source starter blog template that is statically generated with N
 ## Getting Started
 
 1. Clone this repo `git clone https://github.com/luciovilla/notion-nextjs-blog.git`
-2. Install its dependencies `npm install`
+2. Install its dependencies with `yarn install --frozen-lockfile`
 3. Copy or rename the `.env.example` file to `.env.local`
 4. Personalize the page meta data in `Container.tsx`
 
@@ -43,7 +43,7 @@ View this sample template table in [Notion](https://vast-rifle-eed.notion.site/8
 
 ## Running Locally
 
-Run `npm run dev`
+Run `yarn dev`
 
 ## Deploy your own
 

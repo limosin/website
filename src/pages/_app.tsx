@@ -1,5 +1,5 @@
 import "../styles/globals.css"
-import { outfit } from "@/lib/fonts"
+import { jetbrainsMono, manrope, outfit, sourceSerif } from "@/lib/fonts"
 import { AppProps } from "next/app"
 import Head from "next/head"
 import PerformanceMonitor from "@/components/PerformanceMonitor"
@@ -21,10 +21,10 @@ function App({ Component, pageProps }: AppProps) {
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
       </Head>
       <PerformanceMonitor />
-      <div className="min-h-screen bg-white dark:bg-gray-900 transition-colors">
-        <main className={`${outfit.className} font-sans`}>
+      <div className="min-h-screen atlas-page transition-colors">
+        <div className={`${outfit.variable} ${manrope.variable} ${sourceSerif.variable} ${jetbrainsMono.variable} font-sans`}>
           <Component {...pageProps} />
-        </main>
+        </div>
       </div>
     </ThemeProvider>
   )

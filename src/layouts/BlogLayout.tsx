@@ -1,19 +1,17 @@
 import Container from "@/components/Container"
 import { manrope } from "@/lib/fonts"
+import type { BlogPost } from "@/lib/notion"
+import type { ReactNode } from "react"
 
-export default function BlogLayout({ children, data }) {
-  const postImage = data.properties.cover
-  const postImageUrl = postImage?.type === "file" ? postImage.file.url : postImage?.external.url
+interface BlogLayoutProps {
+  children: ReactNode
+  post: BlogPost
+}
 
+export default function BlogLayout({ children, post }: BlogLayoutProps) {
   return (
-    <Container
-      title={data.properties.title.title[0].plain_text}
-      description={data.properties.description.rich_text[0].plain_text}
-      date={new Date(data.properties.date.date.start)}
-      type="article"
-      image={postImageUrl}
-    >
-      <article className={`mx-auto mb-16 flex w-full max-w-3xl px-4 md:px-0 flex-col items-start justify-center ${manrope.className}`}>{children}</article>
+    <Container title={post.title} description={post.description} date={post.date} type="article" image={post.cover}>
+      <article className={`atlas-article ${manrope.className}`}>{children}</article>
     </Container>
   )
 }

@@ -1,9 +1,8 @@
 import { GetServerSideProps } from "next"
+
 import { siteMetadata } from "@/lib/siteMetadata"
 
-const Robots = () => {
-  return null
-}
+const Robots = () => null
 
 export const getServerSideProps: GetServerSideProps = async ({ res }) => {
   const robots = `User-agent: *

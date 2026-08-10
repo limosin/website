@@ -33,13 +33,12 @@ export const YouTube: FC<{ url: string }> = ({ url }) => {
       className="group relative overflow-hidden rounded-xl border border-gray-200 dark:border-gray-700 bg-gradient-to-br from-gray-900 to-gray-800 dark:from-gray-950 dark:to-gray-900 shadow-2xl dark:shadow-gray-900/50 transition-all duration-300 hover:shadow-3xl hover:scale-[1.02]"
     >
       {!hasLoaded && isIntersecting && (
-        <div
-          className="flex cursor-pointer items-center justify-center bg-gradient-to-br from-red-600 to-red-700"
+        <button
+          type="button"
+          className="flex w-full cursor-pointer items-center justify-center bg-gradient-to-br from-red-600 to-red-700"
           style={{ aspectRatio: "16/9" }}
           onClick={handleLoadVideo}
-          onKeyDown={(e) => e.key === "Enter" && handleLoadVideo()}
-          role="button"
-          tabIndex={0}
+          aria-label="Load YouTube video"
         >
           <div className="text-center transition-transform group-hover:scale-110">
             <div className="mb-4">
@@ -50,7 +49,7 @@ export const YouTube: FC<{ url: string }> = ({ url }) => {
             <p className="text-lg font-bold text-white drop-shadow-md">Load YouTube Video</p>
             <p className="text-sm text-red-100">Click to play</p>
           </div>
-        </div>
+        </button>
       )}
 
       {hasLoaded && (
@@ -86,13 +85,12 @@ export const Vimeo: FC<{ url: string }> = ({ url }) => {
       className="group relative overflow-hidden rounded-xl border border-gray-200 dark:border-gray-700 bg-gradient-to-br from-gray-900 to-gray-800 dark:from-gray-950 dark:to-gray-900 shadow-2xl dark:shadow-gray-900/50 transition-all duration-300 hover:shadow-3xl hover:scale-[1.02]"
     >
       {!hasLoaded && isIntersecting && (
-        <div
-          className="flex cursor-pointer items-center justify-center bg-gradient-to-br from-blue-500 to-blue-600"
+        <button
+          type="button"
+          className="flex w-full cursor-pointer items-center justify-center bg-gradient-to-br from-blue-500 to-blue-600"
           style={{ aspectRatio: "16/9" }}
           onClick={handleLoadVideo}
-          onKeyDown={(e) => e.key === "Enter" && handleLoadVideo()}
-          role="button"
-          tabIndex={0}
+          aria-label="Load Vimeo video"
         >
           <div className="text-center transition-transform group-hover:scale-110">
             <div className="mb-4">
@@ -103,7 +101,7 @@ export const Vimeo: FC<{ url: string }> = ({ url }) => {
             <p className="text-lg font-bold text-white drop-shadow-md">Load Vimeo Video</p>
             <p className="text-sm text-blue-100">Click to play</p>
           </div>
-        </div>
+        </button>
       )}
 
       {hasLoaded && (
@@ -181,13 +179,12 @@ export const DirectVideo: FC<{ url: string }> = ({ url }) => {
       className="group relative overflow-hidden rounded-xl border border-gray-200 dark:border-gray-700 bg-gradient-to-br from-gray-900 to-gray-800 dark:from-gray-950 dark:to-gray-900 shadow-2xl dark:shadow-gray-900/50 transition-all duration-300 hover:shadow-3xl hover:scale-[1.02]"
     >
       {!hasLoaded && isIntersecting && (
-        <div
-          className="relative flex cursor-pointer items-center justify-center overflow-hidden bg-gradient-to-br from-slate-800 via-slate-700 to-slate-900"
+        <button
+          type="button"
+          className="relative flex w-full cursor-pointer items-center justify-center overflow-hidden bg-gradient-to-br from-slate-800 via-slate-700 to-slate-900"
           style={{ aspectRatio: "16/9" }}
           onClick={handleLoadVideo}
-          onKeyDown={(e) => e.key === "Enter" && handleLoadVideo()}
-          role="button"
-          tabIndex={0}
+          aria-label="Load video"
         >
           {/* Video preview */}
           <div className="text-center">
@@ -224,7 +221,7 @@ export const DirectVideo: FC<{ url: string }> = ({ url }) => {
               <p className="text-sm text-gray-200">Click to play</p>
             </div>
           </div>
-        </div>
+        </button>
       )}
 
       {hasLoaded && (

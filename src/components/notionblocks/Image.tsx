@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useRef, useState } from "react"
 import OptimizedImage from "../OptimizedImage"
 
 // Types
@@ -94,31 +94,55 @@ export const NotionImage: React.FC<NotionImageProps> = ({ id, value }) => {
 
 // Image Zoom Modal Component
 const ImageZoomModal: React.FC<ImageZoomModalProps> = ({ src, alt, onClose }) => {
-  // Close modal on escape key
+  const dialogRef = useRef<HTMLDivElement>(null)
+  const closeButtonRef = useRef<HTMLButtonElement>(null)
+
   React.useEffect(() => {
-    const handleEscape = (e: KeyboardEvent) => {
+    const previousFocus = document.activeElement instanceof HTMLElement ? document.activeElement : null
+    const previousOverflow = document.body.style.overflow
+
+    const handleKeyDown = (e: KeyboardEvent) => {
       if (e.key === "Escape") {
         onClose()
+        return
+      }
+
+      if (e.key === "Tab") {
+        const focusable = dialogRef.current?.querySelectorAll<HTMLElement>('button:not([disabled]), [href], [tabindex]:not([tabindex="-1"])')
+        if (!focusable?.length) return
+
+        const first = focusable[0]
+        const last = focusable[focusable.length - 1]
+        if (e.shiftKey && document.activeElement === first) {
+          e.preventDefault()
+          last.focus()
+        } else if (!e.shiftKey && document.activeElement === last) {
+          e.preventDefault()
+          first.focus()
+        }
       }
     }
 
-    document.addEventListener("keydown", handleEscape)
-    document.body.style.overflow = "hidden" // Prevent background scroll
+    document.addEventListener("keydown", handleKeyDown)
+    document.body.style.overflow = "hidden"
+    closeButtonRef.current?.focus()
 
     return () => {
-      document.removeEventListener("keydown", handleEscape)
-      document.body.style.overflow = "unset"
+      document.removeEventListener("keydown", handleKeyDown)
+      document.body.style.overflow = previousOverflow
+      previousFocus?.focus()
     }
   }, [onClose])
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 backdrop-blur-sm animate-fade-in" role="dialog" aria-modal="true" aria-label="Image zoom modal">
+    <div ref={dialogRef} className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 backdrop-blur-sm animate-fade-in" role="dialog" aria-modal="true" aria-label="Image zoom modal">
       {/* Backdrop - clickable to close */}
-      <button type="button" className="absolute inset-0 w-full h-full cursor-default" onClick={onClose} aria-label="Close modal by clicking backdrop" />
+      <button type="button" tabIndex={-1} className="absolute inset-0 w-full h-full cursor-default" onClick={onClose} aria-label="Close modal by clicking backdrop" />
 
       {/* Close button */}
       <button
         type="button"
+        ref={closeButtonRef}
         onClick={onClose}
         className="absolute top-4 right-4 z-10 rounded-full bg-black/50 p-2 text-white transition-colors hover:bg-black/70 focus:outline-none focus:ring-2 focus:ring-white"
         aria-label="Close image"

@@ -6,14 +6,24 @@ import { BlockObjectResponse } from "@notionhq/client/build/src/api-endpoints"
 // On Vercel (serverless), the file system is read-only except for /tmp
 // Use /tmp for cache in serverless environments, project root for local dev
 const isServerless = !!process.env.VERCEL || !!process.env.AWS_LAMBDA_FUNCTION_NAME
-export const CACHE_DIR = isServerless 
-  ? path.join("/tmp", ".notion-cache")
-  : path.join(process.cwd(), ".notion-cache")
+export const CACHE_DIR = isServerless ? path.join("/tmp", ".notion-cache") : path.join(process.cwd(), ".notion-cache")
 export const PAGES_CACHE_DIR = path.join(CACHE_DIR, "pages")
 export const BLOCKS_CACHE_DIR = path.join(CACHE_DIR, "blocks")
 export const CACHE_INDEX_FILE = path.join(CACHE_DIR, "index.json")
 export const BLOCKS_INDEX_FILE = path.join(CACHE_DIR, "blocks-index.json")
 export const CACHE_TTL_MS = 24 * 60 * 60 * 1000 // 24 hours
+
+export const writeCacheFileAtomically = async (filePath: string, data: string): Promise<void> => {
+  const temporaryFile = `${filePath}.${process.pid}.${Date.now()}.${Math.random().toString(36).slice(2)}.tmp`
+
+  try {
+    await fs.writeFile(temporaryFile, data)
+    await fs.rename(temporaryFile, filePath)
+  } catch (error) {
+    await fs.unlink(temporaryFile).catch(() => undefined)
+    throw error
+  }
+}
 
 export interface CacheIndex {
   [pageId: string]: {
@@ -87,7 +97,7 @@ export const loadCacheIndex = async (): Promise<CacheIndex> => {
  * Save cache index to disk
  */
 export const saveCacheIndex = async (index: CacheIndex): Promise<void> => {
-  await fs.writeFile(CACHE_INDEX_FILE, JSON.stringify(index, null, 2))
+  await writeCacheFileAtomically(CACHE_INDEX_FILE, JSON.stringify(index, null, 2))
 }
 
 /**
@@ -106,7 +116,7 @@ export const loadBlocksCacheIndex = async (): Promise<BlocksCacheIndex> => {
  * Save blocks cache index to disk
  */
 export const saveBlocksCacheIndex = async (index: BlocksCacheIndex): Promise<void> => {
-  await fs.writeFile(BLOCKS_INDEX_FILE, JSON.stringify(index, null, 2))
+  await writeCacheFileAtomically(BLOCKS_INDEX_FILE, JSON.stringify(index, null, 2))
 }
 
 /**
@@ -342,7 +352,7 @@ export const getCachedBlocksData = async (blockId: string): Promise<BlockObjectR
 export const saveCachedBlocksData = async (blockId: string, blocks: BlockObjectResponse[], parentId?: string): Promise<void> => {
   const cacheFile = path.join(BLOCKS_CACHE_DIR, `${blockId}.json`)
   const dataString = JSON.stringify(blocks, null, 2)
-  await fs.writeFile(cacheFile, dataString)
+  await writeCacheFileAtomically(cacheFile, dataString)
 
   // Update blocks index with file size and parent reference
   const index = await loadBlocksCacheIndex()

@@ -27,11 +27,11 @@ function RenderBlocksHelper(blocks, index) {
   const { type, id } = blocks[index]
   let output
   if (type === "bulleted_list_item") {
-    const item = BulletedList(blocks, index, id)
+    const item = BulletedList(blocks, index, id, (children) => <RenderBlocks blocks={children} />)
     output = item.output
     index = item.index
   } else if (type === "numbered_list_item") {
-    const item = NumberedList(blocks, index, id)
+    const item = NumberedList(blocks, index, id, (children) => <RenderBlocks blocks={children} />)
     output = item.output
     index = item.index
   }
@@ -157,13 +157,7 @@ const Toggle = ({ value }) => {
   return (
     <details className="my-3 rounded-lg border border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-800">
       <summary className="cursor-pointer p-3 font-medium text-gray-900 dark:text-gray-100 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors">{value.rich_text[0].text.content}</summary>
-      <div className="border-t border-gray-200 dark:border-gray-700 p-3">
-        {value.children?.map((block) => {
-          if (block.type === "paragraph") {
-            return <Text key={block.id} text={block.paragraph.rich_text} id={block.id} />
-          }
-        })}
-      </div>
+      <div className="border-t border-gray-200 dark:border-gray-700 p-3">{value.children?.length ? <RenderBlocks blocks={value.children} /> : null}</div>
     </details>
   )
 }
