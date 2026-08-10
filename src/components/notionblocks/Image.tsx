@@ -1,4 +1,5 @@
 import React, { useRef, useState } from "react"
+import { createPortal } from "react-dom"
 import OptimizedImage from "../OptimizedImage"
 
 // Types
@@ -134,7 +135,11 @@ const ImageZoomModal: React.FC<ImageZoomModalProps> = ({ src, alt, onClose }) =>
     }
   }, [onClose])
 
-  return (
+  if (typeof document === "undefined") {
+    return null
+  }
+
+  return createPortal(
     <div ref={dialogRef} className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 backdrop-blur-sm animate-fade-in" role="dialog" aria-modal="true" aria-label="Image zoom modal">
       {/* Backdrop - clickable to close */}
       <button type="button" tabIndex={-1} className="absolute inset-0 w-full h-full cursor-default" onClick={onClose} aria-label="Close modal by clicking backdrop" />
@@ -170,6 +175,7 @@ const ImageZoomModal: React.FC<ImageZoomModalProps> = ({ src, alt, onClose }) =>
           }}
         />
       </div>
-    </div>
+    </div>,
+    document.body
   )
 }
