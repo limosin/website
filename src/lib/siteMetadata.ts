@@ -1,5 +1,5 @@
 export const siteMetadata = {
-  title: "Next.js Starter Blog",
+  title: "Limosyn — The Knowledge Atlas",
   author: "Somil Singhai",
   headerTitle: "Building bits, bytes, and better worlds.",
   description: "A digital garden exploring software engineering, system design, and the art of code.",

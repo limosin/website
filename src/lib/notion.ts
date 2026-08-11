@@ -2,17 +2,27 @@ import { Client } from "@notionhq/client"
 import { PageObjectResponse, BlockObjectResponse } from "@notionhq/client/build/src/api-endpoints"
 import * as fs from "fs/promises"
 import * as path from "path"
-import { PAGES_CACHE_DIR, initializeCache, loadCacheIndex, saveCacheIndex, isCacheEntryValid, getCachedBlocksData, saveCachedBlocksData, isBlocksCacheEntryValid } from "./notionCache"
+import {
+  CACHE_TTL_MS,
+  PAGES_CACHE_DIR,
+  initializeCache,
+  loadCacheIndex,
+  saveCacheIndex,
+  getCachedBlocksData,
+  saveCachedBlocksData,
+  isBlocksCacheEntryValid,
+  writeCacheFileAtomically,
+} from "./notionCache"
 
 // Types for better code structure
 export interface BlogPost {
   id: string
   cover?: string
-  title?: string
-  date?: string
-  description?: string
-  tags?: string[]
-  slug?: string
+  title: string
+  date: string
+  description: string
+  tags: string[]
+  slug: string
 }
 
 interface CachedPageData {
@@ -22,9 +32,17 @@ interface CachedPageData {
   cachedAt: number
 }
 
-const notion: Client = new Client({
-  auth: process.env.NOTION_API_TOKEN,
-})
+let notionClient: Client | null = null
+
+const getNotionClient = (): Client => {
+  const token = process.env.NOTION_API_TOKEN
+  if (!token) {
+    throw new Error("NOTION_API_TOKEN environment variable is required")
+  }
+
+  notionClient ??= new Client({ auth: token })
+  return notionClient
+}
 
 // In-memory cache for database queries (resets on app restart)
 let cachedBlogPosts: BlogPost[] | null = null
@@ -46,7 +64,7 @@ const getCachedPageData = async (pageId: string): Promise<CachedPageData | null>
 const saveCachedPageData = async (pageId: string, data: CachedPageData): Promise<void> => {
   const cacheFile = path.join(PAGES_CACHE_DIR, `${pageId}.json`)
   const dataString = JSON.stringify(data, null, 2)
-  await fs.writeFile(cacheFile, dataString)
+  await writeCacheFileAtomically(cacheFile, dataString)
 
   // Update index with file size
   const index = await loadCacheIndex()
@@ -64,6 +82,10 @@ const saveCachedPageData = async (pageId: string, data: CachedPageData): Promise
  * @returns Array of parsed blog post objects
  */
 export const getAllPublishedBlogPosts = async (databaseId: string): Promise<BlogPost[]> => {
+  if (!databaseId) {
+    throw new Error("NOTION_BLOG_DATABASE_ID environment variable is required")
+  }
+
   // Check if we have valid cached data
   const now = Date.now()
   if (cachedBlogPosts && cacheTimestamp && now - cacheTimestamp < MEMORY_CACHE_TTL_MS) {
@@ -72,13 +94,23 @@ export const getAllPublishedBlogPosts = async (databaseId: string): Promise<Blog
   }
 
   console.log("**Notion Database Query API Called**")
-  const response = await notion.dataSources.query({
+  const response = await getNotionClient().dataSources.query({
     data_source_id: databaseId,
     filter: {
-      property: "stage",
-      select: {
-        equals: "Published",
-      },
+      and: [
+        {
+          property: "stage",
+          select: {
+            equals: "Published",
+          },
+        },
+        {
+          property: "published",
+          checkbox: {
+            equals: true,
+          },
+        },
+      ],
     },
     sorts: [
       {
@@ -88,7 +120,7 @@ export const getAllPublishedBlogPosts = async (databaseId: string): Promise<Blog
     ],
   })
   const publishedPages = response.results.filter((obj): obj is PageObjectResponse => (obj as PageObjectResponse).properties !== undefined)
-  const blogPosts = publishedPages.map(transformNotionPageToBlogPost)
+  const blogPosts = publishedPages.map(transformNotionPageToBlogPost).filter((post): post is BlogPost => post !== null)
 
   // Cache the results in memory
   cachedBlogPosts = blogPosts
@@ -103,18 +135,33 @@ export const getAllPublishedBlogPosts = async (databaseId: string): Promise<Blog
  * @param page - Notion page object
  * @returns Structured blog post object
  */
-const transformNotionPageToBlogPost = (page: PageObjectResponse): BlogPost => {
+export const transformNotionPageToBlogPost = (page: PageObjectResponse): BlogPost | null => {
   const { id, cover, properties } = page
   const { title, date, description, tags, slug } = properties
 
+  const postTitle = title?.type === "title" ? title.title[0]?.plain_text?.trim() : undefined
+  const postDate = date?.type === "date" ? date.date?.start : undefined
+  const postSlug = slug?.type === "rich_text" ? slug.rich_text[0]?.plain_text?.trim() : undefined
+
+  if (!postTitle || !postDate || !postSlug) {
+    console.warn(`Skipping Notion page ${id}: title, date, and slug are required`)
+    return null
+  }
+
   return {
     id,
-    cover: cover?.type === "external" ? cover.external?.url : undefined,
-    title: title?.type === "title" ? title.title[0]?.plain_text : undefined,
-    date: date?.type === "date" ? date.date?.start : undefined,
-    description: description?.type === "rich_text" ? description.rich_text[0]?.plain_text : undefined,
-    tags: tags?.type === "formula" && tags.formula?.type === "string" ? tags.formula?.string?.split(",").map((tag) => tag.trim()) : undefined,
-    slug: slug?.type === "rich_text" ? slug.rich_text[0]?.plain_text : undefined,
+    cover: cover?.type === "external" ? cover.external.url : cover?.type === "file" ? cover.file.url : undefined,
+    title: postTitle,
+    date: postDate,
+    description: description?.type === "rich_text" ? description.rich_text[0]?.plain_text || "" : "",
+    tags:
+      tags?.type === "formula" && tags.formula?.type === "string"
+        ? (tags.formula.string || "")
+            .split(",")
+            .map((tag) => tag.trim())
+            .filter(Boolean)
+        : [],
+    slug: postSlug,
   }
 }
 
@@ -136,19 +183,21 @@ export const getNotionPageBlocksWithCache = async (pageId: string): Promise<Bloc
 export const getNotionPageWithBlocks = async (pageId: string): Promise<{ page: PageObjectResponse; blocks: BlockObjectResponse[] }> => {
   await initializeCache()
 
-  // Get page metadata to check last_edited_time
+  const cachedData = await getCachedPageData(pageId)
+  if (cachedData && Date.now() - cachedData.cachedAt < CACHE_TTL_MS) {
+    console.log(`**Using cached data for page and blocks ${pageId}**`)
+    return { page: cachedData.page, blocks: cachedData.blocks }
+  }
+
+  // The TTL expired, so check Notion before refreshing the full block tree.
   console.log("**Notion Page Metadata API Called**")
-  const pageMetadata = (await notion.pages.retrieve({ page_id: pageId })) as PageObjectResponse
+  const pageMetadata = (await getNotionClient().pages.retrieve({ page_id: pageId })) as PageObjectResponse
   const currentLastModified = pageMetadata.last_edited_time
 
-  // Check if we have valid cached data
-  const isValid = await isCacheEntryValid(pageId, currentLastModified)
-  if (isValid) {
-    const cachedData = await getCachedPageData(pageId)
-    if (cachedData) {
-      console.log(`**Using cached data for page and blocks ${pageId}**`)
-      return { page: cachedData.page, blocks: cachedData.blocks }
-    }
+  if (cachedData?.lastModified === currentLastModified) {
+    const refreshedData = { ...cachedData, page: pageMetadata, cachedAt: Date.now() }
+    await saveCachedPageData(pageId, refreshedData)
+    return { page: refreshedData.page, blocks: refreshedData.blocks }
   }
 
   // Cache miss or stale data - fetch fresh blocks
@@ -201,6 +250,47 @@ export const getNotionBlockChildren = async (blockId: string, parentId?: string)
   return freshBlocks
 }
 
+const MAX_BLOCK_DEPTH = 12
+
+const attachChildren = (block: BlockObjectResponse, children: BlockObjectResponse[]): BlockObjectResponse => {
+  const blockRecord = block as unknown as Record<string, unknown>
+  const blockValue = blockRecord[block.type]
+  const valueRecord = typeof blockValue === "object" && blockValue !== null ? (blockValue as Record<string, unknown>) : {}
+
+  return {
+    ...block,
+    [block.type]: {
+      ...valueRecord,
+      children,
+    },
+  } as BlockObjectResponse
+}
+
+export const hydrateNotionBlockTree = async (blocks: BlockObjectResponse[], pageId: string, depth = 0, ancestors: ReadonlySet<string> = new Set()): Promise<BlockObjectResponse[]> => {
+  if (depth >= MAX_BLOCK_DEPTH) return blocks
+
+  return Promise.all(
+    blocks.map(async (block) => {
+      if (!block.has_children || ancestors.has(block.id)) return block
+
+      const children = await getNotionBlockChildren(block.id, pageId)
+      const nextAncestors = new Set(ancestors)
+      nextAncestors.add(block.id)
+      const hydratedChildren = await hydrateNotionBlockTree(children, pageId, depth + 1, nextAncestors)
+
+      return attachChildren(block, hydratedChildren)
+    })
+  )
+}
+
+export const getNotionPageWithBlockTree = async (pageId: string): Promise<{ page: PageObjectResponse; blocks: BlockObjectResponse[] }> => {
+  const { page, blocks } = await getNotionPageWithBlocks(pageId)
+  return {
+    page,
+    blocks: await hydrateNotionBlockTree(blocks, pageId),
+  }
+}
+
 /**
  * Fetches all blocks from a Notion page with pagination support and caching
  * @param blockId - The Notion block/page ID
@@ -224,9 +314,8 @@ const fetchAllBlocksFromPage = async (blockId: string, useCache: boolean = true,
   const blocks: BlockObjectResponse[] = []
   let cursor: string | undefined = undefined
 
-  // eslint-disable-next-line no-constant-condition
   while (true) {
-    const { results, next_cursor } = await notion.blocks.children.list({
+    const { results, next_cursor } = await getNotionClient().blocks.children.list({
       start_cursor: cursor,
       block_id: blockId,
     })

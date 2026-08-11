@@ -1,10 +1,15 @@
 import { ListItem } from "@/components/notionblocks/CommonBlocks"
 
-export const NumberedList = (blocks, index, parentId) => {
+export const NumberedList = (blocks, index, parentId, renderChildren) => {
   const numberedList = []
   while (index < blocks.length && blocks[index].type === "numbered_list_item") {
     const id = blocks[index].id
-    numberedList.push(<ListItem value={blocks[index]["numbered_list_item"]} id={id} key={id} />)
+    const value = blocks[index]["numbered_list_item"]
+    numberedList.push(
+      <ListItem value={value} id={id} key={id}>
+        {value.children?.length ? renderChildren(value.children) : null}
+      </ListItem>
+    )
     index++
   }
   index--
@@ -19,11 +24,16 @@ export const NumberedList = (blocks, index, parentId) => {
   }
 }
 
-export const BulletedList = (blocks, index, parentId) => {
+export const BulletedList = (blocks, index, parentId, renderChildren) => {
   const bulletedList = []
   while (index < blocks.length && blocks[index].type === "bulleted_list_item") {
     const id = blocks[index].id
-    bulletedList.push(<ListItem value={blocks[index]["bulleted_list_item"]} id={id} key={id} />)
+    const value = blocks[index]["bulleted_list_item"]
+    bulletedList.push(
+      <ListItem value={value} id={id} key={id}>
+        {value.children?.length ? renderChildren(value.children) : null}
+      </ListItem>
+    )
     index++
   }
   index--
