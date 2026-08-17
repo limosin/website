@@ -1,5 +1,4 @@
 import React, { useEffect, useRef, useState } from "react"
-import "prismjs/themes/prism-tomorrow.css"
 import { jetbrainsMono } from "@/lib/fonts"
 
 export const Code = ({ value }) => {
@@ -146,190 +145,48 @@ export const Code = ({ value }) => {
   }
 
   return (
-    <div className="my-4 w-full">
-      <div className="mx-auto max-w-5xl">
-        <div className="group relative overflow-hidden rounded-xl border border-gray-200 dark:border-gray-700 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 dark:from-gray-950 dark:via-gray-900 dark:to-gray-950 shadow-2xl dark:shadow-gray-900/50 transition-all duration-500 hover:shadow-3xl hover:scale-[1.005] code-block-glow">
-          {/* Animated gradient border */}
-          <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-purple-500 via-blue-500 to-teal-500 opacity-0 transition-opacity duration-500 group-hover:opacity-10 blur-sm"></div>
-
-          {/* Language label with icon */}
-          {language && language !== "text" && (
-            <div className="relative border-b border-gray-700/50 bg-gradient-to-r from-gray-800 to-gray-750 px-2 md:px-4 py-2">
-              <div className="flex items-center justify-between">
-                <div className="flex items-center space-x-2 md:space-x-3">
-                  <div className="flex space-x-1">
-                    <div className="h-2.5 w-2.5 md:h-3 md:w-3 rounded-full bg-red-500"></div>
-                    <div className="h-2.5 w-2.5 md:h-3 md:w-3 rounded-full bg-yellow-500"></div>
-                    <div className="h-2.5 w-2.5 md:h-3 md:w-3 rounded-full bg-green-500"></div>
-                  </div>
-                  <span className="text-xs md:text-sm font-semibold text-gray-300 uppercase tracking-wider">{language}</span>
-                </div>
-
-                {/* Copy button */}
-                <button
-                  onClick={handleCopy}
-                  className="group/copy flex items-center space-x-1 md:space-x-2 rounded-lg bg-gray-700/50 px-2 md:px-3 py-1 md:py-2 text-xs text-gray-300 transition-all duration-200 hover:bg-gray-600/70 hover:text-white hover:scale-105"
-                  title={copied ? "Copied!" : "Copy code"}
-                >
-                  <svg
-                    width="16"
-                    height="16"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    className={`transition-all duration-200 ${copied ? "text-green-400 scale-110" : "text-gray-400 group-hover/copy:text-white"}`}
-                  >
-                    {copied ? (
-                      <path d="M20 6L9 17L4 12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                    ) : (
-                      <>
-                        <path
-                          d="M6 11C6 8.17157 6 6.75736 6.87868 5.87868C7.75736 5 9.17157 5 12 5H15C17.8284 5 19.2426 5 20.1213 5.87868C21 6.75736 21 8.17157 21 11V16C21 18.8284 21 20.2426 20.1213 21.1213C19.2426 22 17.8284 22 15 22H12C9.17157 22 7.75736 22 6.87868 21.1213C6 20.2426 6 18.8284 6 16V11Z"
-                          stroke="currentColor"
-                          strokeWidth="1.5"
-                        />
-                        <path
-                          opacity="0.5"
-                          d="M6 19C4.34315 19 3 17.6569 3 16V10C3 6.22876 3 4.34315 4.17157 3.17157C5.34315 2 7.22876 2 11 2H15C16.6569 2 18 3.34315 18 5"
-                          stroke="currentColor"
-                          strokeWidth="1.5"
-                        />
-                      </>
-                    )}
-                  </svg>
-                  <span className="font-medium">{copied ? "Copied!" : "Copy"}</span>
-                </button>
-              </div>
-            </div>
-          )}
-
-          {/* Code content with enhanced styling */}
-          <div className="relative">
-            {/* Subtle glow effect */}
-            <div className="absolute inset-0 bg-gradient-to-b from-transparent via-blue-900/3 to-purple-900/5 pointer-events-none"></div>
-
-            {/* Additional inner glow */}
-            <div className="absolute inset-0 bg-gradient-to-r from-transparent via-blue-500/2 to-transparent pointer-events-none"></div>
-
-            <pre className="relative overflow-x-auto p-2 md:p-4 text-sm leading-6 md:leading-7 scrollbar-thin scrollbar-track-gray-800 scrollbar-thumb-gray-600 hover:scrollbar-thumb-gray-500 bg-transparent">
-              <code
-                ref={codeBlock}
-                className={`${code_class} block whitespace-pre text-gray-100 bg-transparent font-mono ${jetbrainsMono.className}`}
-                style={{
-                  background: "transparent !important",
-                  fontSize: "0.875rem",
-                  lineHeight: "1.6",
-                }}
-              >
-                {code}
-              </code>
-            </pre>
-
-            {/* Loading indicator */}
-            {isLoading && (
-              <div className="absolute inset-0 flex items-center justify-center bg-gray-900/80">
-                <div className="flex items-center space-x-2 text-gray-400">
-                  <div className="h-4 w-4 animate-spin rounded-full border-2 border-gray-600 border-t-blue-500"></div>
-                  <span className="text-sm">Loading syntax highlighting...</span>
-                </div>
-              </div>
-            )}
-          </div>
+    <figure className={`atlas-code ${jetbrainsMono.className}`}>
+      <figcaption className="atlas-code__header">
+        <div className="atlas-code__identity">
+          <span className="atlas-code__mark" aria-hidden="true">
+            <i />
+            <i />
+            <i />
+          </span>
+          <span className="atlas-code__label">Code specimen</span>
+          <span className="atlas-code__divider" aria-hidden="true" />
+          <span className="atlas-code__language">{language === "text" ? "plain text" : language}</span>
         </div>
+
+        <button type="button" onClick={handleCopy} className="atlas-code__copy" title={copied ? "Copied" : "Copy code"} aria-label={copied ? "Code copied" : "Copy code to clipboard"}>
+          {copied ? (
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M20 6L9 17L4 12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+          ) : (
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <rect x="8" y="8" width="11" height="11" rx="1" stroke="currentColor" strokeWidth="1.5" />
+              <path d="M16 8V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h3" stroke="currentColor" strokeWidth="1.5" />
+            </svg>
+          )}
+          <span aria-live="polite">{copied ? "Copied" : "Copy"}</span>
+        </button>
+      </figcaption>
+
+      <div className="atlas-code__body">
+        <pre className="atlas-code__scroll">
+          <code ref={codeBlock} className={`${code_class} ${jetbrainsMono.className}`}>
+            {code}
+          </code>
+        </pre>
+
+        {isLoading && (
+          <div className="atlas-code__loading" role="status">
+            <span aria-hidden="true" />
+            Preparing syntax
+          </div>
+        )}
       </div>
-
-      {/* Custom styles for enhanced Prism theme */}
-      <style jsx>{`
-        .token.comment,
-        .token.prolog,
-        .token.doctype,
-        .token.cdata {
-          color: #6b7280;
-        }
-
-        .token.punctuation {
-          color: #d1d5db;
-        }
-
-        .token.property,
-        .token.tag,
-        .token.boolean,
-        .token.number,
-        .token.constant,
-        .token.symbol,
-        .token.deleted {
-          color: #f87171;
-        }
-
-        .token.selector,
-        .token.attr-name,
-        .token.string,
-        .token.char,
-        .token.builtin,
-        .token.inserted {
-          color: #34d399;
-        }
-
-        .token.operator,
-        .token.entity,
-        .token.url,
-        .language-css .token.string,
-        .style .token.string {
-          color: #60a5fa;
-        }
-
-        .token.atrule,
-        .token.attr-value,
-        .token.keyword {
-          color: #a78bfa;
-        }
-
-        .token.function,
-        .token.class-name {
-          color: #fbbf24;
-        }
-
-        .token.regex,
-        .token.important,
-        .token.variable {
-          color: #f472b6;
-        }
-
-        /* Override Prism theme background */
-        pre,
-        code {
-          background: transparent !important;
-        }
-
-        pre[class*="language-"],
-        code[class*="language-"] {
-          background: transparent !important;
-        }
-
-        /* Ensure the glow effect is visible */
-        .code-block-glow {
-          position: relative;
-        }
-
-        .code-block-glow::before {
-          content: "";
-          position: absolute;
-          inset: -1px;
-          padding: 1px;
-          background: linear-gradient(45deg, rgba(139, 92, 246, 0.05), rgba(59, 130, 246, 0.05), rgba(16, 185, 129, 0.05));
-          border-radius: inherit;
-          mask:
-            linear-gradient(#fff 0 0) content-box,
-            linear-gradient(#fff 0 0);
-          mask-composite: xor;
-          opacity: 0;
-          transition: opacity 0.5s ease;
-          pointer-events: none;
-        }
-
-        .code-block-glow:hover::before {
-          opacity: 1;
-        }
-      `}</style>
-    </div>
+    </figure>
   )
 }
