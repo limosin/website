@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react"
+import { useEffect, useMemo, useRef, useState } from "react"
 import { InferGetStaticPropsType } from "next"
 import Link from "next/link"
 
@@ -16,6 +16,8 @@ export const getStaticProps = async () => {
 }
 
 type TopicKey = "all" | "distributed" | "patterns" | "ml" | "infrastructure" | "craft"
+type RouteLine = { key: TopicKey; x1: number; y1: number; x2: number; y2: number }
+type RouteNetwork = { width: number; height: number; lines: RouteLine[] }
 
 type TopicDefinition = {
   key: TopicKey
@@ -88,6 +90,58 @@ const postMatchesSearch = (post: BlogPost, query: string) => {
 export default function Home({ posts }: InferGetStaticPropsType<typeof getStaticProps>) {
   const [activeTopic, setActiveTopic] = useState<TopicKey>("all")
   const [query, setQuery] = useState("")
+  const [routeNetwork, setRouteNetwork] = useState<RouteNetwork>({ width: 0, height: 0, lines: [] })
+  const mapRef = useRef<HTMLDivElement>(null)
+  const hubRef = useRef<HTMLButtonElement>(null)
+  const topicOrbitRefs = useRef(new Map<TopicKey, HTMLSpanElement>())
+
+  useEffect(() => {
+    const map = mapRef.current
+    const hub = hubRef.current
+    if (!map || !hub) return
+
+    let animationFrame = 0
+    const updateRoutes = () => {
+      const mapRect = map.getBoundingClientRect()
+      const hubRect = hub.getBoundingClientRect()
+      const hubCenter = { x: hubRect.left - mapRect.left + hubRect.width / 2, y: hubRect.top - mapRect.top + hubRect.height / 2 }
+      const hubRadius = hubRect.width / 2 + 9
+      const lines = topics.flatMap((topic) => {
+        const orbit = topicOrbitRefs.current.get(topic.key)
+        if (!orbit) return []
+
+        const orbitRect = orbit.getBoundingClientRect()
+        const target = { x: orbitRect.left - mapRect.left + orbitRect.width / 2, y: orbitRect.top - mapRect.top + orbitRect.height / 2 }
+        const distance = Math.hypot(target.x - hubCenter.x, target.y - hubCenter.y)
+        if (!distance) return []
+
+        const x = (target.x - hubCenter.x) / distance
+        const y = (target.y - hubCenter.y) / distance
+        const targetRadius = orbitRect.width / 2 + 8
+        return [{ key: topic.key, x1: hubCenter.x + x * hubRadius, y1: hubCenter.y + y * hubRadius, x2: target.x - x * targetRadius, y2: target.y - y * targetRadius }]
+      })
+
+      setRouteNetwork({ width: mapRect.width, height: mapRect.height, lines })
+    }
+
+    const scheduleRouteUpdate = () => {
+      cancelAnimationFrame(animationFrame)
+      animationFrame = requestAnimationFrame(updateRoutes)
+    }
+
+    const observer = new ResizeObserver(scheduleRouteUpdate)
+    observer.observe(map)
+    observer.observe(hub)
+    topicOrbitRefs.current.forEach((orbit) => observer.observe(orbit))
+    window.addEventListener("resize", scheduleRouteUpdate)
+    scheduleRouteUpdate()
+
+    return () => {
+      cancelAnimationFrame(animationFrame)
+      observer.disconnect()
+      window.removeEventListener("resize", scheduleRouteUpdate)
+    }
+  }, [])
 
   const filteredPosts = useMemo(() => {
     const activeDefinition = topics.find((topic) => topic.key === activeTopic)
@@ -111,7 +165,7 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
     <Container title="The Knowledge Atlas — Limosyn" description={siteMetadata.description} image="/logo.png">
       <div className="atlas-shell">
         <section className="atlas-stage" aria-labelledby="atlas-title">
-          <div className="atlas-map">
+          <div className="atlas-map" ref={mapRef}>
             <div className="atlas-intro">
               <p className="atlas-kicker">A field guide to building software</p>
               <h1 id="atlas-title">The Knowledge Atlas</h1>
@@ -136,13 +190,15 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
               </span>
             </div>
 
-            <div className="atlas-route atlas-route--north" aria-hidden="true" />
-            <div className="atlas-route atlas-route--west" aria-hidden="true" />
-            <div className="atlas-route atlas-route--east" aria-hidden="true" />
-            <div className="atlas-route atlas-route--south-west" aria-hidden="true" />
-            <div className="atlas-route atlas-route--south-east" aria-hidden="true" />
+            {routeNetwork.width > 0 && (
+              <svg className="atlas-route-network" viewBox={`0 0 ${routeNetwork.width} ${routeNetwork.height}`} preserveAspectRatio="none" aria-hidden="true">
+                {routeNetwork.lines.map((line) => (
+                  <line key={line.key} x1={line.x1} y1={line.y1} x2={line.x2} y2={line.y2} />
+                ))}
+              </svg>
+            )}
 
-            <button className={`atlas-hub ${activeTopic === "all" ? "is-active" : ""}`} type="button" onClick={() => setActiveTopic("all")} aria-pressed={activeTopic === "all"}>
+            <button ref={hubRef} className={`atlas-hub ${activeTopic === "all" ? "is-active" : ""}`} type="button" onClick={() => setActiveTopic("all")} aria-pressed={activeTopic === "all"}>
               <span className="atlas-hub-icon" aria-hidden="true">
                 ◈
               </span>
@@ -162,7 +218,14 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
                   onClick={() => setActiveTopic(topic.key)}
                   aria-pressed={activeTopic === topic.key}
                 >
-                  <span className="atlas-node-orbit" aria-hidden="true">
+                  <span
+                    ref={(element) => {
+                      if (element) topicOrbitRefs.current.set(topic.key, element)
+                      else topicOrbitRefs.current.delete(topic.key)
+                    }}
+                    className="atlas-node-orbit"
+                    aria-hidden="true"
+                  >
                     {topic.icon}
                   </span>
                   <span className="atlas-node-copy">

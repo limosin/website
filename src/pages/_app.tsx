@@ -2,6 +2,7 @@ import "../styles/globals.css"
 import { jetbrainsMono, manrope, outfit, sourceSerif } from "@/lib/fonts"
 import { AppProps } from "next/app"
 import Head from "next/head"
+import { Analytics } from "@vercel/analytics/next"
 import PerformanceMonitor from "@/components/PerformanceMonitor"
 import { ThemeProvider } from "@/components/ThemeProvider"
 
@@ -21,6 +22,7 @@ function App({ Component, pageProps }: AppProps) {
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
       </Head>
       <PerformanceMonitor />
+      <Analytics />
       <div className="min-h-screen atlas-page transition-colors">
         <div className={`${outfit.variable} ${manrope.variable} ${sourceSerif.variable} ${jetbrainsMono.variable} font-sans`}>
           <Component {...pageProps} />
