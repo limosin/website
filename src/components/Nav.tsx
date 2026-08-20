@@ -28,7 +28,7 @@ export default function Nav() {
             <Image src="/logo/logo-dark.png" alt="" width={54} height={54} className="hidden dark:block" priority />
           </span>
           <span className="atlas-brand-divider" aria-hidden="true" />
-          <span className="atlas-brand-name">Limosyn</span>
+          <span className="atlas-brand-name">Limosyn.com</span>
         </Link>
 
         <div className="atlas-nav-links">
@@ -46,10 +46,6 @@ export default function Nav() {
         </div>
 
         <div className="atlas-nav-tools">
-          <Link href="/#essay-search" className="atlas-nav-search">
-            <span aria-hidden="true">⌕</span>
-            <span>Search atlas</span>
-          </Link>
           <ThemeToggle />
         </div>
       </nav>
